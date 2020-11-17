@@ -32,7 +32,7 @@ const HomeScreenHome = () => {
                                 <Link to='/home/all_products'><div>
                                     <img className='home-card-image' src={product.heroImage} alt='home_1'/>
                                     <div className='home-card-title'>{product.productName}</div>
-                                <div className='home-card-text'>add to bag &#x20B9;{product.price}</div>
+                                <div className='home-card-text'>View Details - &#x20B9;{product.price}</div>
                                 </div></Link>
                                 
                             </Col>
