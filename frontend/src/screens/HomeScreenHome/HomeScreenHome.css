@@ -1,0 +1,170 @@
+/* .home-button {
+  margin-right: 65px;
+  margin-top: 120px;
+  padding: 18px 75px;
+  width: 240px;
+  background-color: #6e4e37;
+  color: #fff;
+  font-size: 17px;
+  border: 1px solid #6e4e37;
+}
+
+.home-wrapper {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.home-title {
+  font-family: 'rutanLight';
+  color: #3a2f2d;
+  font-size: 82px;
+  letter-spacing: 13px;
+}
+
+.home-hero-image img {
+  width: 480px;
+  height: 750px;
+}
+
+.home-card-head {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.home-card-items {
+  flex-basis: 230px;
+  justify-content: space-between;
+}
+
+.home-card-wrapper {
+  margin-left: 0px;
+}
+
+.home-card-image {
+  height: 230px;
+  width: 230px;
+  border: 1px solid #36353541;
+}
+
+.home-card-text {
+  white-space: nowrap;
+  width: 230px;
+  text-align: left;
+  padding: 15px;
+  font-size: 15px;
+  background-color: #f6f1ea;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.home-card-title {
+  width: 230px;
+  background-color: #fefaef;
+  text-transform: uppercase;
+  font-family: 'rutan';
+  font-size: 16px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+} */
+
+.home-button {
+  margin-right: 65px;
+  margin-top: 120px;
+  padding: 18px 75px;
+  width: 240px;
+  background-color: #6e4e37;
+  color: #fff;
+  font-size: 17px;
+  border: 1px solid #6e4e37;
+}
+
+.home-wrapper {
+  text-align: right;
+  margin-bottom: 2em;
+  padding-right: 0px;
+}
+.home-text {
+  padding-right: 15px;
+}
+.home-title {
+  font-family: 'rutanLight';
+  color: #3a2f2d;
+  font-size: 82px;
+  letter-spacing: 3px;
+  padding-right: 15px;
+}
+
+.home-hero-image img {
+  width: 480px;
+  height: 750px;
+}
+
+.home-card-head {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.home-card-items {
+  flex-basis: 230px;
+  justify-content: space-between;
+}
+
+.women-shop-bag-container {
+  margin-bottom: 1%;
+}
+
+.home-card-wrapper {
+  margin-left: 0px;
+}
+
+.home-card-image {
+  height: 230px;
+  width: 230px;
+}
+
+.home-card-text {
+  white-space: nowrap;
+  width: 230px;
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #f6f1ea;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.home-card-title {
+  width: 230px;
+  background-color: #fefaef;
+  text-transform: uppercase;
+  font-family: 'rutan';
+  font-size: 16px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.home-card-items a {
+  color: #3a2f2d;
+}
+
+.home-card-items a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 683px) {
+  .abc {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .women-card-text {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
