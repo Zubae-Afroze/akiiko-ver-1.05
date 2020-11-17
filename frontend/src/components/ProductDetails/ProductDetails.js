@@ -39,7 +39,7 @@ const ProductDetails = (props) => {
             <Col className='material-det'>
                 <Dropdown>
                     <Dropdown.Toggle className='product-details-button' variant="default" id="dropdown-basic">
-                        <div className='material-div'>MATERIAL:</div> <div className='material-dum'>{dropMaterial}</div>
+                        <div className='material-div'>MATERIAL:</div> <div className='material-dum'>{product.material}</div>
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
@@ -50,7 +50,7 @@ const ProductDetails = (props) => {
             <Col className='material-det'>
             <Dropdown>
                 <Dropdown.Toggle className='product-details-button' variant="default" id="dropdown-basic">
-                    <div className='thickness-div'>THICKNESS:</div> <div className='thickness-dum'>{dropThickness}</div>
+                    <div className='thickness-div'>THICKNESS:</div> <div className='thickness-dum'>{product.thickness}</div>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
