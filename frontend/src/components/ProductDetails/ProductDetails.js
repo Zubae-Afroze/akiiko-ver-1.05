@@ -19,7 +19,7 @@ const ProductDetails = (props) => {
     return (
         <Container className='product-details-wrapper'>
         <Row>
-            <Col xs={1} className='alt-img-list'>
+            <Col xs={1} className='alt-img-list'> {/*hi*/}
             <ul>
                 {product.images.map((prod, index) => (
                     <li key={index}><img onClick={() => setImageSrc(prod)} src={prod} alt='alt_image' /></li>
