@@ -1,5 +1,6 @@
 .nav {
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .navbar-wrapper {
@@ -23,6 +24,8 @@
   text-transform: uppercase;
   letter-spacing: 2.08px;
   cursor: pointer;
+  padding: 0px;
+  margin: 0px 20px;
 }
 
 .navbar-li a {
@@ -125,11 +128,5 @@
   }
   100% {
     opacity: 1;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .navbar-ul {
-    display: none;
   }
 }

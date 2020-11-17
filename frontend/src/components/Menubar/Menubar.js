@@ -136,7 +136,8 @@ export default class Menubar extends Component {
     render() {
         return (
             <>
-            <Container className='navbar-wrapper'>          
+            <Container>
+                <div className='navbar-wrapper'>
                 <Nav fill as="ul" className='navbar-ul'>
                     <Nav.Item as="li">
                         <Nav className='navbar-li'><div onMouseEnter={this.toggleWomenDropDiv} onClick={this.toggleWomenDropDiv}>BAGS</div></Nav>
@@ -394,6 +395,7 @@ export default class Menubar extends Component {
                         <Nav className='navbar-li'>Garden</Nav>
                     </Nav.Item> */}
                 </Nav>
+                </div>          
             </Container>  
             </>
         )

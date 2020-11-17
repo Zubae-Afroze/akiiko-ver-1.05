@@ -155,7 +155,10 @@
 
 .w-100 {
   width: 100% !important;
-  height: 83vh;
+}
+
+.carousel-inner {
+  width: 100%;
 }
 
 @media (max-width: 320px) {
