@@ -31,7 +31,7 @@ const HomeScreen = () => {
                 </Col>
                 <Col sm={8} className='carousel-wrapper'>
                 <Carousel className='carousel-fade'>
-                    <Carousel.Item interval={1300}>
+                    <Carousel.Item interval={3200}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_2.jpg'}
@@ -41,7 +41,7 @@ const HomeScreen = () => {
                             <h3 className='carousel-slide-1'>Introducing Akiiko</h3>
                         </Carousel.Caption> */}
                     </Carousel.Item>
-                    <Carousel.Item interval={1300}>
+                    <Carousel.Item interval={3200}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_1.jpg'}
@@ -55,7 +55,7 @@ const HomeScreen = () => {
                         </Row > */}
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={1300}>
+                    <Carousel.Item interval={3200}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_3.jpg'}
@@ -69,7 +69,7 @@ const HomeScreen = () => {
                         </Row> */}
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={1300}>
+                    <Carousel.Item interval={3200}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_4.jpg'}

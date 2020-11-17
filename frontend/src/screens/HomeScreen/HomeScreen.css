@@ -153,6 +153,11 @@
   width: 100%;
 }
 
+.w-100 {
+  width: 100% !important;
+  height: 83vh;
+}
+
 @media (max-width: 320px) {
   .hero-logo {
     font-size: 3.5em !important;

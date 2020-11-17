@@ -21,7 +21,7 @@ const HomeScreenWomen = () => {
             </Row>
             <Row className='women-card-wrapper'>
                 {HomeScreenWomenProducts.map(product => (
-                    <Col lg={2.4} key={product.productId} className='women-shop-bag-container'> {/*class name added */}
+                    <Col lg={2.6} key={product.productId} className='women-shop-bag-container'> {/*class name added */}
                     <Link to='/bags/all_products'><div className='women-card-image'>
                         <img src={product.heroImage} alt='women_1'/>
                         <div className='women-card-title'>{product.productName}</div>
