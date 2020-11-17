@@ -12,9 +12,9 @@ const ProductDetails = (props) => {
 
     let [itemQuantity, setItemQuantity] = useState(1);
 
-    const [dropMaterial, setDropMaterial] = useState('');
+    // const [dropMaterial, setDropMaterial] = useState('');
 
-    const [dropThickness, setDropThickness] = useState('');
+    // const [dropThickness, setDropThickness] = useState('');
 
     return (
         <Container className='product-details-wrapper'>
@@ -43,7 +43,7 @@ const ProductDetails = (props) => {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" onClick={() => setDropMaterial('Cotton Canvas')}>{product.material}</Dropdown.Item>
+                    <Dropdown.Item href="#/action-1" /*onClick={() => setDropMaterial('Cotton Canvas')}*/>{product.material}</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Col>
@@ -54,7 +54,7 @@ const ProductDetails = (props) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" onClick={() => setDropThickness('9 Ounce')}>{product.thickness}</Dropdown.Item>
+                    <Dropdown.Item href="#/action-1" /*onClick={() => setDropThickness('9 Ounce')}*/>{product.thickness}</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             </Col>
