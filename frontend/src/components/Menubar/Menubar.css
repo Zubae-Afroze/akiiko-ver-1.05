@@ -1,7 +1,15 @@
 .nav {
-  justify-content: center;
   flex-wrap: nowrap;
   overflow: auto;
+  padding-bottom: 10px;
+}
+
+.nav li:first-child {
+  margin-left: auto;
+}
+
+.nav li:last-child {
+  margin-right: auto;
 }
 
 .navbar-wrapper {
