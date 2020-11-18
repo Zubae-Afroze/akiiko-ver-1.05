@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import HomeScreenWomen from '../HomeScreenWomen/HomeScreenWomen';
 import HomeScreenHome from '../HomeScreenHome/HomeScreenHome';
 import './HomeScreen.css';
@@ -23,9 +24,9 @@ const HomeScreen = () => {
                             All Utility bag
                         </div>
                         <div className='hero-button'>
-                        <button>
+                        <Link to='/bags/all_products'><button>
                             Shop Now
-                        </button>
+                        </button></Link>
                         </div>
                     </div>
                 </Col>
