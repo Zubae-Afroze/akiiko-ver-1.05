@@ -29,9 +29,9 @@ const HomeScreen = () => {
                         </div>
                     </div>
                 </Col>
-                <Col sm={8} className='carousel-wrapper'>
-                <Carousel className='carousel-fade'>
-                    <Carousel.Item interval={3200}>
+                <Col sm={8} className='carousel-wrapper' style={{'marginBottom':'80px'}}>
+                <Carousel className='carousel-fade' pause={false} controls={false}>
+                    <Carousel.Item interval={4000} style={{'height':'660px'}}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_2.jpg'}
@@ -41,11 +41,11 @@ const HomeScreen = () => {
                             <h3 className='carousel-slide-1'>Introducing Akiiko</h3>
                         </Carousel.Caption> */}
                     </Carousel.Item>
-                    <Carousel.Item interval={3200}>
+                    <Carousel.Item interval={4000} style={{'height':'660px'}}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_1.jpg'}
-                        alt="Third slide"
+                        alt="Second slide"
                         />
                         <Carousel.Caption className='carousel-slide-2'>
                         {/* <Row className='footer-image-row'>
@@ -55,7 +55,7 @@ const HomeScreen = () => {
                         </Row > */}
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={3200}>
+                    <Carousel.Item interval={4000} style={{'height':'660px'}}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_3.jpg'}
@@ -69,11 +69,11 @@ const HomeScreen = () => {
                         </Row> */}
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={3200}>
+                    <Carousel.Item interval={4000} style={{'height':'660px'}}>
                         <img
                         className="d-block w-100"
                         src={'/images/carousel_images/carousel_4.jpg'}
-                        alt="Third slide"
+                        alt="Fourth slide"
                         />
                         {/* <Carousel.Caption className='carousel-slide-4'>
                         <h3>akiiko</h3>

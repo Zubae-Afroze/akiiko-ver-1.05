@@ -145,7 +145,7 @@ export default class Menubar extends Component {
                             this.state.dropWomenDiv ? 
                             <Collapse in={true}>
                                 <Row className='navbar-dropdown' onMouseLeave={this.toggleWomenDropDiv}>
-                                    <Col className='navbar-drop-list' sm={8}>
+                                    <Col className='navbar-drop-list' sm={6}>
                                         <ul onClick={this.toggleWomenDropDiv}>
                                             <li>
                                                 <Link to='/bags/women'><img src='/images/nav_drop/home_drop/laundry.png' alt='laundry_img'/>

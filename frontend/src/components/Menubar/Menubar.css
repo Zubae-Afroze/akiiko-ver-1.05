@@ -139,3 +139,49 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 940px) {
+  .navbar-drop-hero img {
+    display: none;
+  }
+  .navbar-drop-link {
+    margin-left: 60%;
+    color: #2e2614;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: fadeIn 2300ms;
+  }
+}
+
+@media (max-width: 650px) {
+  .navbar-drop-list li {
+    margin-bottom: 30px;
+  }
+
+  .navbar-drop-list ul {
+  }
+
+  .navbar-dropdown {
+    height: auto;
+    animation: growdown 850ms;
+  }
+
+  .navbar-drop-link {
+    margin-left: 60%;
+    color: #2e2614;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: fadeIn 2300ms;
+  }
+}
+
+@keyframes growdown {
+  from {
+    height: 0px;
+  }
+  to {
+    height: auto;
+  }
+}

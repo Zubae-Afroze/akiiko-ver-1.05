@@ -149,18 +149,6 @@
   color: #000;
 }
 
-.empty-div {
-  width: 100%;
-}
-
-.w-100 {
-  width: 100% !important;
-}
-
-.carousel-inner {
-  width: 100%;
-}
-
 @media (max-width: 320px) {
   .hero-logo {
     font-size: 3.5em !important;
