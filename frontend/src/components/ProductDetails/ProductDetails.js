@@ -57,7 +57,7 @@ const ProductDetails = (props) => {
                     </ul>
                 </div>
 
-                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price}</span><button className='modal-check-button'>CHECK OUT</button>
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button className='modal-check-button'>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
