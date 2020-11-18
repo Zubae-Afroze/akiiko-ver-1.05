@@ -8,12 +8,13 @@ const HomeScreenWomen = () => {
     return (
         <Container>
                  <Row className='women-wrapper'>
-                <Col sm={9}>
-                    <div className='home-title'>BAGS</div>
+                <Col sm={9} className='women-wrap'>
+                    <div className='home-title'>BAGS </div>
                     <div className='women-text'>A delightful range of sustainable bags that are designed 
                         to perfection. Minimal, yet classic silhouettes to 
                         compliment just about every look, 
                         multipurpose & eye-catching.</div>
+                    
                 </Col>
                 <Col sm={3} className='women-button-placement'>
                     <button className='women-button'>SHOP ALL</button>

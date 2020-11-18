@@ -138,7 +138,7 @@ export default class Menubar extends Component {
             <>
             <Container>
                 <div className='navbar-wrapper'>
-                <Nav fill as="ul" className='navbar-ul'>
+                <Nav fill as="ul" className='navbar-ul nav-test'>
                     <Nav.Item as="li">
                         <Nav className='navbar-li'><div onMouseEnter={this.toggleWomenDropDiv} onClick={this.toggleWomenDropDiv}>BAGS</div></Nav>
                         {

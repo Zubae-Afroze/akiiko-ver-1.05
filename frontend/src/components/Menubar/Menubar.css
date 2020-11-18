@@ -4,11 +4,11 @@
   padding-bottom: 10px;
 }
 
-.nav li:first-child {
+.nav-item:first-child {
   margin-left: auto;
 }
 
-.nav li:last-child {
+.nav-item:last-child {
   margin-right: auto;
 }
 

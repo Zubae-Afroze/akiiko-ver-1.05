@@ -2,6 +2,10 @@
   margin-top: 30px;
 }
 
+.women-wrap {
+  padding: 0;
+}
+
 .women-title {
   font-family: 'rutanLight';
   color: #3a2f2d;
@@ -99,7 +103,7 @@
 .womenshop-bag-container {
   padding: 0px 6px 6px 0px;
 }
-/*                 responsive*/
+/*responsive*/
 
 @media (max-width: 1366px) {
   .women-card-wrapper {
