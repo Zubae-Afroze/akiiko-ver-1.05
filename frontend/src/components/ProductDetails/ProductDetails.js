@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Dropdown, Modal } from 'react-bootstrap';
 
+import ReactImageMagnify from 'react-image-magnify';
+
 import './ProductDetails.css';
 
 
@@ -84,7 +86,22 @@ const ProductDetails = (props) => {
             </Col>
             <Col xs={5} className='alt-img-hero-container'>
             <div className='alt-img-hero'>
-                <img src={bigImageSrc} alt='alt_img'/>
+            <ReactImageMagnify {...{
+                smallImage: {
+                    alt: 'Wristwatch by Ted Baker London',
+                    src: bigImageSrc,
+                    height: 600,
+                    width: 520,
+                },
+                largeImage: {
+                    src: bigImageSrc,
+                    width: 1600,
+                    height: 1600
+                },
+                enlargedImageContainerClassName	: 'mag-img-cont',
+                enlargedImageClassName: 'mag-img',
+                imageClassName: 'alt-img-hero'
+            }} />
             </div>
             </Col>
             <Col xs={6} className='product-det'> {/* cls name added*/}

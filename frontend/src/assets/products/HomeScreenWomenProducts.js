@@ -37,7 +37,7 @@ const HomeScreenWomenProducts = [
     },
     {
         productId: 'SS003',
-        productName: 'Mini Classic Canvas Shopper',
+        productName: 'Mini Canvas Shopper',
         heroImage: '/images/home_screen_women_products/SS003/hero.jpg',
         images: 
             ['/images/home_screen_women_products/SS003/1.jpg',
