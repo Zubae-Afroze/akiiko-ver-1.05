@@ -17,13 +17,13 @@ const HomeScreenWomen = () => {
                     
                 </Col>
                 <Col sm={3} className='women-button-placement'>
-                    <button className='women-button'>SHOP ALL</button>
+                    <Link to='/bags/all_products'><button className='women-button'>SHOP ALL</button></Link>
                 </Col>
             </Row>
             <Row className='women-card-wrapper'>
                 {HomeScreenWomenProducts.map(product => (
                     <Col lg={2.6} key={product.productId} className='women-shop-bag-container'> {/*class name added */}
-                    <Link to='/bags/all_products'><div className='women-card-image'>
+                    <Link to={`/product/${product.productId}`}><div className='women-card-image'>
                         <img src={product.heroImage} alt='women_1'/>
                         <div className='women-card-title'>{product.productName}</div>
                     <div className='women-card-text'>View Details - &#x20B9;{product.price}</div>

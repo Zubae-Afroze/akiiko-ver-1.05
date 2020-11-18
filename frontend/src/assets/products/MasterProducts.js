@@ -754,7 +754,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA004',
-        productName: 'Multi-purpose pouches ( set of 3)',
+        productName: 'Multi-purpose pouches',
         heroImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg',
         images: 
             ['/images/p_images/Storage/Organisers/TA004/1.jpg',

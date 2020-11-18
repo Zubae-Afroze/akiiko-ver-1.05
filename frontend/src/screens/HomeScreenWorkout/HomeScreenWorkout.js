@@ -9,7 +9,7 @@ const HomeScreenWorkout = () => {
         <Container>
             <Row className='home-wrapper workout-cont'> {/* workout cls name changes as home*/}
                 <Col sm={3} className='home-button-placement'> {/* workout cls name changes as home*/}
-                    <button className='home-button'>SHOP ALL</button> {/* workout cls name changes as home*/}
+                    <Link to='/storage/all_products'><button className='home-button'>SHOP ALL</button></Link> {/* workout cls name changes as home*/}
                 </Col>
                 <Col sm={9} className='home-wrapper'>{/* workout cls name changes as home*/}
                     <div className='home-title'>STORAGE</div>{/* workout cls name changes as home*/}
@@ -28,7 +28,7 @@ const HomeScreenWorkout = () => {
                     <Row className='workout-card-wrapper'> {/* changes                      added class name*/}
                         {HomeScreenWorkoutProducts.map(product => (
                             <Col className='home-card-items ' key={product.productId}>
-                                <Link to='/storage/all_products'><div>
+                                <Link to={`/product/${product.productId}`}><div>
                                     <img className='home-card-image' src={product.heroImage} alt='home_1'/>
                                     <div className='home-card-title'>{product.productName}</div>
                                 <div className='home-card-text'>View Details - &#x20B9;{product.price}</div>

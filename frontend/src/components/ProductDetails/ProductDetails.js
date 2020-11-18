@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Dropdown } from 'react-bootstrap';
+import { Container, Row, Col, Dropdown, Modal } from 'react-bootstrap';
 
 import './ProductDetails.css';
 
@@ -11,6 +11,62 @@ const ProductDetails = (props) => {
     const [bigImageSrc, setImageSrc] = useState(product.heroImage);
 
     let [itemQuantity, setItemQuantity] = useState(1);
+
+    function MyVerticallyCenteredModal(props) {
+        return (
+          <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+          >
+            <Modal.Header closeButton>
+              {/* <Modal.Title id="contained-modal-title-vcenter">
+                Modal heading
+              </Modal.Title> */}
+              <Modal.Title>
+                {product.productName}
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+            <Row>
+                <Col className='modal-wrapper'>
+                    <from className='modal-from'>
+                        <input type='text' placeholder='First Name' className='modal-input modal-first'></input>
+                        <input type='text' placeholder='Last Name' className='modal-input modal-last'></input><br></br>
+                        <input type='text' placeholder='Email Address' className='modal-input modal-email'></input><br></br>
+                        <input type='text' placeholder='Phone Number' className='modal-input modal-phone'></input><br></br>
+                        <textarea type='text' id='madd' name='madd' placeholder='Address' className='modal-input modal-address'></textarea><br></br>
+
+                        <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
+                        <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
+                        <div className='modal-prd-det'><span className='target-bold'>Item Quantity:</span> {itemQuantity}</div>
+                    </from>
+                </Col>
+                <Col className='modal-img'>
+                    <img src={product.heroImage} alt='modal_img' style={{'marginBottom':'20px'}}/>
+                    <div>
+                    <div className='product-details-label'>Details</div>
+                    <ul className='product-details-text'>
+                    <li><span className='target-bold'>Item Code: </span> {product.productId}</li>
+                    <li><span className='target-bold'>Size:</span> {product.measurement}</li>
+                    <li><span className='target-bold'>Material:</span> {product.material}</li>
+                    {/* <li>Care Instruction: {product.washingCare}</li> */}
+                    </ul>
+                </div>
+
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price}</span><button className='modal-check-button'>CHECK OUT</button>
+                </Col>
+            </Row>
+            </Modal.Body>
+            {/* <Modal.Footer>
+              <button className='modal-close-button' onClick={props.onHide}>Close</button>
+            </Modal.Footer> */}
+          </Modal>
+        );
+      }
+      
+    const [modalShow, setModalShow] = useState(false);
 
     // const [dropMaterial, setDropMaterial] = useState('');
 
@@ -82,7 +138,7 @@ const ProductDetails = (props) => {
                 </div>
                 </Col>
                 </Row>
-                <button className='product-purchase-button'>PURCHASE</button>
+                <button className='product-purchase-button' onClick={() => setModalShow(true)}>PURCHASE</button>
                 <div className='product-description-label'>PRODUCT DESCRIPTION</div>
                 <div className='product-description-text'>{product.description}</div>
 
@@ -102,8 +158,12 @@ const ProductDetails = (props) => {
                 </div>
                 
             </Col>
+            <MyVerticallyCenteredModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
         </Row>
-        {product.addOns !== '' ? 
+            {product.addOns !== '' ? 
         <Row>
             <Col>
                     
