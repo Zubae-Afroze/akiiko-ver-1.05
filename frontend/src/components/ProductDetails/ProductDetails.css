@@ -235,6 +235,7 @@
 }
 
 .modal-img img {
+  margin-left: 10px;
   height: auto;
   width: 350px;
 }
@@ -289,6 +290,27 @@
   color: #fff;
   background-color: #6e4e37;
   border: none;
+}
+
+.modal-det-text {
+  margin-left: 10px;
+  list-style: none;
+  font-size: 14px;
+  font-family: 'rutanLight';
+  margin-bottom: 30px;
+}
+
+.modal-det-label {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 17px;
+  letter-spacing: 3.8px;
+  font-family: 'rutanMedium';
+  text-transform: uppercase;
+}
+
+.modal-price {
+  margin-left: 10px;
 }
 
 @media (max-width: 1290px) {

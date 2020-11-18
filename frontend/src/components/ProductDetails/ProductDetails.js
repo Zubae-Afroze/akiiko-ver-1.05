@@ -46,8 +46,8 @@ const ProductDetails = (props) => {
                 <Col className='modal-img'>
                     <img src={product.heroImage} alt='modal_img' style={{'marginBottom':'20px'}}/>
                     <div>
-                    <div className='product-details-label'>Details</div>
-                    <ul className='product-details-text'>
+                    <div className='modal-det-label'>Details</div>
+                    <ul className='modal-det-text'>
                     <li><span className='target-bold'>Item Code: </span> {product.productId}</li>
                     <li><span className='target-bold'>Size:</span> {product.measurement}</li>
                     <li><span className='target-bold'>Material:</span> {product.material}</li>
