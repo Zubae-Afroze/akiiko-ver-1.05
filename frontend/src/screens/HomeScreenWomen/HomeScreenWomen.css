@@ -12,6 +12,7 @@
   text-align: left;
   font-size: 82px;
   letter-spacing: 13px;
+  padding-left: 15px;
 }
 
 .women-title-sub {
@@ -23,10 +24,11 @@
 }
 
 .women-text {
-  font-family: 'rutan';
+  font-family: 'rutanLight';
   text-align: left;
   font-size: 16px;
   margin-bottom: 60px;
+  padding-left: 15px;
 }
 
 .women-button {
@@ -89,16 +91,15 @@
 }
 
 .women-button-placement {
-  margin-top: 115px;
+  margin-top: 85px;
   text-align: right;
-  padding-right: 0px;
 }
 .women-card-wrapper {
   display: flex;
   flex-direction: row;
   margin-bottom: 25px;
   justify-content: space-between;
-  padding: 0px !important;
+  padding: 0px 15px;
 }
 .womenshop-bag-container {
   padding: 0px 6px 6px 0px;

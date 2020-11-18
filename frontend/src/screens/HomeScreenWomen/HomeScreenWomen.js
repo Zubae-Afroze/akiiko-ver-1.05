@@ -1,15 +1,15 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
+import { div, Row, Col } from 'react-bootstrap';
 import HomeScreenWomenProducts from '../../assets/products/HomeScreenWomenProducts';
 import { Link } from 'react-router-dom';
 import './HomeScreenWomen.css';
 
 const HomeScreenWomen = () => {
     return (
-        <Container>
+        <div> {/**container class changed as div*/}
                  <Row className='women-wrapper'>
                 <Col sm={9} className='women-wrap'>
-                    <div className='home-title'>BAGS </div>
+                    <div className='home-title women-title'>BAGS </div>
                     <div className='women-text'>A delightful range of sustainable bags that are designed 
                         to perfection. Minimal, yet classic silhouettes to 
                         compliment just about every look, 
@@ -57,7 +57,7 @@ const HomeScreenWomen = () => {
                     </Col>
                 ))}
             </Row> */}
-        </Container>
+        </div>
     )
 }
 

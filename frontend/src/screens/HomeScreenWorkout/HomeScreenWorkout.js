@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { div, Row, Col } from 'react-bootstrap';
 import HomeScreenWorkoutProducts from '../../assets/products/HomeScreenWorkoutProducts';
 import { Link } from 'react-router-dom';
 import './HomeScreenWorkout.css';
 
 const HomeScreenWorkout = () => {
     return (
-        <Container>
+        <div>{/**container class changed as div*/}
             <Row className='home-wrapper workout-cont'> {/* workout cls name changes as home*/}
                 <Col sm={3} className='home-button-placement'> {/* workout cls name changes as home*/}
                     <button className='home-button'>SHOP ALL</button> {/* workout cls name changes as home*/}
@@ -72,7 +72,7 @@ const HomeScreenWorkout = () => {
                 </Col>
             </Row> */}
 
-        </Container>
+        </div>
     )
 }
 

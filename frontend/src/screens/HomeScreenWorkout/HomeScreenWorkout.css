@@ -22,8 +22,12 @@
 }
 
 .workout-hero-image img {
-  width: 100%;
+  width: 490px;
   height: 42.2em;
+}
+.hero-image-workout.col-sm-5 {
+  max-width: 490px;
+  margin-right: 30px;
 }
 
 .workout-card-wrapper {
@@ -64,7 +68,7 @@
 }
 
 .workout-container {
-  padding-right: 0px;
+  padding: 0px;
 }
 .HCT {
   margin-right: 0px !important;
