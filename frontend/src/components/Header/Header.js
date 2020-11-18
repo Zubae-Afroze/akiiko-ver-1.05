@@ -19,7 +19,7 @@ export default class Header extends Component {
         return (
         <>
             <Container>
-            <Navbar>
+            <Navbar fixed="top">
                 <span className='hamburger-wrapper' onClick={this.toggleSidebarDiv}>
                     <img src='/images/font_images/hamburger.svg' alt='ham_img' className='hamburger-menu'></img>
                     {
@@ -36,8 +36,8 @@ export default class Header extends Component {
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>
-            </Container> 
-            <Menubar />  
+                <Menubar /> 
+            </Container>  
         </>
         )
     }

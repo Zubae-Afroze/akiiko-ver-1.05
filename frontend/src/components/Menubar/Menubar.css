@@ -16,7 +16,7 @@
   position: relative;
   margin: auto;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 .nav-fill .nav-item {
@@ -158,10 +158,6 @@
   .navbar-drop-list li {
     margin-bottom: 30px;
   }
-
-  .navbar-drop-list ul {
-  }
-
   .navbar-dropdown {
     height: auto;
     animation: growdown 850ms;

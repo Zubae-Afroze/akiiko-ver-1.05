@@ -38,6 +38,7 @@ import AccessoriesAllProducts from './components/AccessoriesAllProducts/Accessor
 import MasterProducts from './assets/products/MasterProducts';
 import GiftAllProducts from './components/GiftAllProducts/GiftAllProducts';
 import StorageAllProducts from './components/StorageAllProducts/StorageAllProducts';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 export default class App extends Component {
   // constructor(props){
@@ -47,6 +48,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
+          <ScrollToTop />
           <Header/>
           <Switch>
             <Route path='/' component={HomeScreen} exact />
