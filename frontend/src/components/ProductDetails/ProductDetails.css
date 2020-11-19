@@ -330,6 +330,16 @@
   margin-left: 10px;
 }
 
+.modal-cont-button {
+  margin-left: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 65%;
+  color: #fff;
+  background-color: #6e4e37;
+  border: none;
+}
+
 .alt-img-hero-container {
   padding: 0px;
 }

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Dropdown, Modal } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+import emailjs from 'emailjs-com';
 
 import ReactImageMagnify from 'react-image-magnify';
 
 import './ProductDetails.css';
-
 
 const ProductDetails = (props) => {
 
@@ -13,6 +15,42 @@ const ProductDetails = (props) => {
     const [bigImageSrc, setImageSrc] = useState(product.heroImage);
 
     let [itemQuantity, setItemQuantity] = useState(1);
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_0gyrynb', 'template_1sohpy9', e.target, 'user_MWfMIz4lhzaCvONbRdLAM')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
+
+      function NextModal(props) {
+        return (
+          <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+          >
+            <Modal.Header closeButton>
+              {/* <Modal.Title id="contained-modal-title-vcenter">
+                Modal heading
+              </Modal.Title> */}
+            </Modal.Header>
+            <Modal.Body>
+              <p>
+                Thank you for your Purchase, our team will get in touch with you shortly.
+              </p>
+            </Modal.Body>
+            <Modal.Footer>
+                <Link to='/'><button type='reset' className='modal-cont-button' onClick={props.onHide}>CONTINUE SHOPPING</button></Link>
+            </Modal.Footer>
+          </Modal>
+        );
+      }
 
     function MyVerticallyCenteredModal(props) {
         return (
@@ -33,9 +71,9 @@ const ProductDetails = (props) => {
             <Modal.Body>
             <Row>
                 <Col className='modal-wrapper'>
-                    <from className='modal-from'>
-                        <input type='text' placeholder='First Name' name='first-name' className='modal-input modal-first'></input>
-                        <input type='text' placeholder='Last Name' name='last-name' className='modal-input modal-last'></input><br></br>
+                    <form className='modal-form' onSubmit={sendEmail}>
+                        <input type='text' placeholder='First Name' name='fname' className='modal-input modal-first'></input>
+                        <input type='text' placeholder='Last Name' name='lname' className='modal-input modal-last'></input><br></br>
                         <input type='text' placeholder='Email Address' name='email' className='modal-input modal-email'></input><br></br>
                         <input type='text' placeholder='Phone Number' name='phone' className='modal-input modal-phone'></input><br></br>
                         <textarea type='text' id='madd' placeholder='Address' name='address' className='modal-input modal-address'></textarea><br></br>
@@ -43,7 +81,7 @@ const ProductDetails = (props) => {
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
                         <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
                         <div name={itemQuantity} className='modal-prd-det'><span className='target-bold'>Item Quantity:</span> {itemQuantity}</div>
-                    </from>
+                    </form>
                 </Col>
                 <Col className='modal-img'>
                     <img src={product.heroImage} alt='modal_img' style={{'marginBottom':'20px'}}/>
@@ -57,7 +95,7 @@ const ProductDetails = (props) => {
                     </ul>
                 </div>
 
-                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button type='submit' className='modal-check-button' onClick={props.onHide}>CHECK OUT</button>
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button type='submit' className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}}>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
@@ -69,6 +107,8 @@ const ProductDetails = (props) => {
       }
       
     const [modalShow, setModalShow] = useState(false);
+
+    const [nextModalShow, setNextModalShow] = useState(false);
 
     // const [dropMaterial, setDropMaterial] = useState('');
 
@@ -177,6 +217,11 @@ const ProductDetails = (props) => {
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
+            />
+
+            <NextModal
+                show={nextModalShow}
+                onHide={() => setNextModalShow(false)}
             />
         </Row>
             {product.addOns !== '' ? 
