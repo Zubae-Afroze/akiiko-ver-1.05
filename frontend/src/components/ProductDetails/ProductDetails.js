@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Dropdown, Modal } from 'react-bootstrap';
 
+import emailjs from 'emailjs-com';
+
 import ReactImageMagnify from 'react-image-magnify';
 
 import './ProductDetails.css';
-
 
 const ProductDetails = (props) => {
 
@@ -13,6 +14,17 @@ const ProductDetails = (props) => {
     const [bigImageSrc, setImageSrc] = useState(product.heroImage);
 
     let [itemQuantity, setItemQuantity] = useState(1);
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'template_1sohpy9', e.target, 'user_MWfMIz4lhzaCvONbRdLAM')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
 
     function MyVerticallyCenteredModal(props) {
         return (
@@ -33,7 +45,7 @@ const ProductDetails = (props) => {
             <Modal.Body>
             <Row>
                 <Col className='modal-wrapper'>
-                    <from className='modal-from'>
+                    <form className='modal-form' onSubmit={sendEmail}>
                         <input type='text' placeholder='First Name' name='first-name' className='modal-input modal-first'></input>
                         <input type='text' placeholder='Last Name' name='last-name' className='modal-input modal-last'></input><br></br>
                         <input type='text' placeholder='Email Address' name='email' className='modal-input modal-email'></input><br></br>
@@ -43,7 +55,7 @@ const ProductDetails = (props) => {
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
                         <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
                         <div name={itemQuantity} className='modal-prd-det'><span className='target-bold'>Item Quantity:</span> {itemQuantity}</div>
-                    </from>
+                    </form>
                 </Col>
                 <Col className='modal-img'>
                     <img src={product.heroImage} alt='modal_img' style={{'marginBottom':'20px'}}/>
@@ -57,7 +69,7 @@ const ProductDetails = (props) => {
                     </ul>
                 </div>
 
-                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button type='submit' className='modal-check-button' onClick={props.onHide}>CHECK OUT</button>
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button type='submit' className='modal-check-button'>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
@@ -90,6 +102,7 @@ const ProductDetails = (props) => {
                 smallImage: {
                     alt: 'big_img',
                     src: bigImageSrc,
+                    isFluidWidth: true,
                 },
                 largeImage: {
                     src: bigImageSrc,
