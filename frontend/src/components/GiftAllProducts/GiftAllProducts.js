@@ -10,7 +10,7 @@ const GiftAllProducts = (props) => {
         <Link to='/' className='product-list-back-button'><img src='/images/font_images/back_arrow.svg' alt='back_arrow'></img>BACK</Link>
         <div className='product-list-label'>{props.giftboxProductListLabel}</div>
         <div className='product-list-text'>{props.giftboxProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.giftboxProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -22,10 +22,10 @@ const GiftAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.giftbagProductListLabel}</div>
         <div className='product-list-text'>{props.giftbagProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.giftbagProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -37,10 +37,10 @@ const GiftAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.accessoriesProductListLabel}</div>
         <div className='product-list-text'>{props.accessoriesProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.accessoriesProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -52,7 +52,7 @@ const GiftAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         {/* <div className='product-list-label'>{props.travelProductListLabel}</div>
         <div className='product-list-text'>{props.travelProductListText}</div>
         <Container>

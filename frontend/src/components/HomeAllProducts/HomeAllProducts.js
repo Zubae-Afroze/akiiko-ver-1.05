@@ -10,7 +10,7 @@ const HomeAllProducts = (props) => {
         <Link to='/' className='product-list-back-button'><img src='/images/font_images/back_arrow.svg' alt='back_arrow'></img>BACK</Link>
         <div className='product-list-label'>{props.tablewareProductListLabel}</div>
         <div className='product-list-text'>{props.tablewareProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.tablewareProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -22,10 +22,10 @@ const HomeAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.kitchenProductListLabel}</div>
         <div className='product-list-text'>{props.kitchenProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.kitchenProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -37,10 +37,10 @@ const HomeAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.laundryProductListLabel}</div>
         <div className='product-list-text'>{props.laundryProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.laundryProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -52,10 +52,10 @@ const HomeAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.gardenProductListLabel}</div>
         <div className='product-list-text'>{props.gardenProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.gardenProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -68,7 +68,7 @@ const HomeAllProducts = (props) => {
                 ))}
             </Row>
             
-        </Container>
+        </div>
         {/* <Container>
                 <div className='product-list-label'>{props.similarProductListLabel}</div>
                 <div className='product-list-text'>{props.similarProductListText}</div>

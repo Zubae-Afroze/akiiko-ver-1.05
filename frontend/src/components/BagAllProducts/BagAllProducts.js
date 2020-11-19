@@ -10,7 +10,7 @@ const BagAllProducts = (props) => {
         <Link to='/' className='product-list-back-button'><img src='/images/font_images/back_arrow.svg' alt='back_arrow'></img>BACK</Link>
         <div className='product-list-label'>{props.womenProductListLabel}</div>
         <div className='product-list-text'>{props.womenProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.womenProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -22,10 +22,10 @@ const BagAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.toteProductListLabel}</div>
         <div className='product-list-text'>{props.toteProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.toteProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -37,10 +37,10 @@ const BagAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.officeProductListLabel}</div>
         <div className='product-list-text'>{props.officeProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.officeProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -52,10 +52,10 @@ const BagAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.travelProductListLabel}</div>
         <div className='product-list-text'>{props.travelProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.travelProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -67,7 +67,7 @@ const BagAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         {/* <Container>
                 <div className='product-list-label'>{props.similarProductListLabel}</div>
                 <div className='product-list-text'>{props.similarProductListText}</div>

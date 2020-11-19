@@ -74,6 +74,15 @@
   margin-right: 0px !important;
 }
 /* RESPONSIVE  MEDIA QUERIES */
+@media (max-width: 1318px) {
+  .hero-image-workout {
+    margin-right: 0px;
+    max-width: 485px;
+  }
+  .workout-hero-image img {
+    width: 472px;
+  }
+}
 @media (max-width: 1266px) {
   .hero-image-workout {
     max-width: 463px;
