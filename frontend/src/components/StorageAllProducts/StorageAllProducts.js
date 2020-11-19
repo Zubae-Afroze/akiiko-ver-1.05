@@ -1,16 +1,16 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap';
+import { div, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../ProductList/ProductList.css';
 
 const StorageAllProducts = (props) => {
     return (
-    <Container>
+    <div> {/*container changed to div */}
         <div className='product-list-wrapper'>
         <Link to='/' className='product-list-back-button'><img src='/images/font_images/back_arrow.svg' alt='back_arrow'></img>BACK</Link>
         <div className='product-list-label'>{props.organisersProductListLabel}</div>
         <div className='product-list-text'>{props.organisersProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.organisersProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -22,10 +22,10 @@ const StorageAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.homeProductListLabel}</div>
         <div className='product-list-text'>{props.homeProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.homeProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -37,7 +37,7 @@ const StorageAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         {/* <div className='product-list-label'>{props.accessoriesProductListLabel}</div>
         <div className='product-list-text'>{props.accessoriesProductListText}</div>
         <Container>
@@ -85,7 +85,7 @@ const StorageAllProducts = (props) => {
                 </Container>
         </Container> */}
         </div>
-    </Container>
+    </div>
     )
 }
 

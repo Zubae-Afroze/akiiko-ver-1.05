@@ -17,6 +17,7 @@
 .alt-img-hero {
   width: 522px;
   height: 600px;
+  padding-left: 0px;
 }
 
 .alt-img-hero img {
@@ -339,6 +340,9 @@
   border: none;
 }
 
+.alt-img-hero-container {
+  padding: 0px;
+}
 @media (max-width: 1290px) {
   .alt-img-hero img {
     width: 482px;

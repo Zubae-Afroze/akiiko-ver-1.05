@@ -24,7 +24,7 @@ const ProductList = (props) => {
                     ))}
                 </Row>
             </div>
-            {/* <Container/>
+             {/* <Container/>
                 <div className='product-list-label'>{props.similarProductListLabel}</div>
                 <div className='product-list-text'>{props.similarProductListText}</div>
                 <Container>
@@ -39,7 +39,7 @@ const ProductList = (props) => {
                     ))}
                 </Row>
                 </Container> */}
-            <Container/>
+            
             </div>
         </Container>
     )

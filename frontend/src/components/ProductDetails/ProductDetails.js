@@ -134,8 +134,8 @@ const ProductDetails = (props) => {
                 },
                 largeImage: {
                     src: bigImageSrc,
-                    width: 1600,
-                    height: 1600
+                    width: 520,
+                    height: 600
                 },
                 enlargedImageContainerClassName	: 'mag-img-cont',
                 enlargedImageClassName: 'mag-img',
