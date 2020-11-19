@@ -17,7 +17,7 @@ const ProductDetails = (props) => {
     // let emailParams = {
     //     productId: product.productId,
     //     productName: product.productName,
-    // };````-
+    // };
     
     // emailjs.send('service_0gyrynb', 'template_1sohpy9', emailParams, 'user_MWfMIz4lhzaCvONbRdLAM')
     //     .then(function(response) {
@@ -71,7 +71,7 @@ const ProductDetails = (props) => {
             <Row>
                 <Col className='modal-wrapper'>
                     <p className='modal-intro-text'>Please fill out your information, to continue with the purchase</p>
-                    <form className='modal-form' onSubmit={console.log('One')}>
+                    <form className='modal-form'>
                         <input type='text' placeholder='First Name' name='fname' className='modal-input modal-first'></input>
                         <input type='text' placeholder='Last Name' name='lname' className='modal-input modal-last'></input><br></br>
                         <input type='text' placeholder='Email Address' name='email' className='modal-input modal-email'></input><br></br>
