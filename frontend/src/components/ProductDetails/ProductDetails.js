@@ -90,11 +90,12 @@ const ProductDetails = (props) => {
                 smallImage: {
                     alt: 'big_img',
                     src: bigImageSrc,
+                    isFluidWidth: true,
                 },
                 largeImage: {
                     src: bigImageSrc,
-                    width: 520,
-                    height: 600
+                    width: 1200,
+                    height: 1200
                 },
                 enlargedImageContainerClassName	: 'mag-img-cont',
                 enlargedImageClassName: 'mag-img',
