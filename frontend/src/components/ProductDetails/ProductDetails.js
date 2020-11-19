@@ -95,7 +95,8 @@ const ProductDetails = (props) => {
                     </ul>
                 </div>
 
-                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}}>CHECK OUT</button>
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span>
+                <button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}}>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
