@@ -26,7 +26,7 @@ const ProductDetails = (props) => {
               {/* <Modal.Title id="contained-modal-title-vcenter">
                 Modal heading
               </Modal.Title> */}
-              <Modal.Title>
+              <Modal.Title name={product.productName}>
                 {product.productName}
               </Modal.Title>
             </Modal.Header>
@@ -34,15 +34,15 @@ const ProductDetails = (props) => {
             <Row>
                 <Col className='modal-wrapper'>
                     <from className='modal-from'>
-                        <input type='text' placeholder='First Name' className='modal-input modal-first'></input>
-                        <input type='text' placeholder='Last Name' className='modal-input modal-last'></input><br></br>
-                        <input type='text' placeholder='Email Address' className='modal-input modal-email'></input><br></br>
-                        <input type='text' placeholder='Phone Number' className='modal-input modal-phone'></input><br></br>
-                        <textarea type='text' id='madd' name='madd' placeholder='Address' className='modal-input modal-address'></textarea><br></br>
+                        <input type='text' placeholder='First Name' name='first-name' className='modal-input modal-first'></input>
+                        <input type='text' placeholder='Last Name' name='last-name' className='modal-input modal-last'></input><br></br>
+                        <input type='text' placeholder='Email Address' name='email' className='modal-input modal-email'></input><br></br>
+                        <input type='text' placeholder='Phone Number' name='phone' className='modal-input modal-phone'></input><br></br>
+                        <textarea type='text' id='madd' placeholder='Address' name='address' className='modal-input modal-address'></textarea><br></br>
 
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
                         <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
-                        <div className='modal-prd-det'><span className='target-bold'>Item Quantity:</span> {itemQuantity}</div>
+                        <div name={itemQuantity} className='modal-prd-det'><span className='target-bold'>Item Quantity:</span> {itemQuantity}</div>
                     </from>
                 </Col>
                 <Col className='modal-img'>
@@ -50,14 +50,14 @@ const ProductDetails = (props) => {
                     <div>
                     <div className='modal-det-label'>Details</div>
                     <ul className='modal-det-text'>
-                    <li><span className='target-bold'>Item Code: </span> {product.productId}</li>
+                    <li><span name={product.productId} className='target-bold'>Item Code: </span> {product.productId}</li>
                     <li><span className='target-bold'>Size:</span> {product.measurement}</li>
                     <li><span className='target-bold'>Material:</span> {product.material}</li>
                     {/* <li>Care Instruction: {product.washingCare}</li> */}
                     </ul>
                 </div>
 
-                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button className='modal-check-button'>CHECK OUT</button>
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button type='submit' className='modal-check-button' onClick={props.onHide}>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
@@ -88,10 +88,8 @@ const ProductDetails = (props) => {
             <div className='alt-img-hero'>
             <ReactImageMagnify {...{
                 smallImage: {
-                    alt: 'Wristwatch by Ted Baker London',
+                    alt: 'big_img',
                     src: bigImageSrc,
-                    height: 600,
-                    width: 520,
                 },
                 largeImage: {
                     src: bigImageSrc,
@@ -100,7 +98,7 @@ const ProductDetails = (props) => {
                 },
                 enlargedImageContainerClassName	: 'mag-img-cont',
                 enlargedImageClassName: 'mag-img',
-                imageClassName: 'alt-img-hero'
+                imageClassName: 'img-hero-wrap',
             }} />
             </div>
             </Col>
