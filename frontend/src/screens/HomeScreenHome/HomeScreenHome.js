@@ -6,7 +6,7 @@ import './HomeScreenHome.css';
 
 const HomeScreenHome = () => { 
     return (
-        <div>{/*container changed into div*/}
+        <div className='home-screen-component'>{/*container changed into div*/}
                <Row className='home-wrapper workout-cont'> {/*CLASS NAME*/}
                 <Col sm={3} className='home-button-placement'>
                     <Link to='/home/all_products'><button className='home-button'>SHOP ALL</button></Link>

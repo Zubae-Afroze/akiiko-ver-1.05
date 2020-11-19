@@ -6,7 +6,7 @@ import './HomeScreenWorkout.css';
 
 const HomeScreenWorkout = () => {
     return (
-        <div>{/**container class changed as div*/}
+        <div className='home-screen-component'>{/**container class changed as div*/}
             <Row className='home-wrapper workout-cont'> {/* workout cls name changes as home*/}
                 <Col sm={3} className='home-button-placement'> {/* workout cls name changes as home*/}
                     <Link to='/storage/all_products'><button className='home-button'>SHOP ALL</button></Link> {/* workout cls name changes as home*/}
