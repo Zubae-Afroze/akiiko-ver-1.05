@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap';
+import { div, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './ProductList.css';
 
 
 const ProductList = (props) => {
     return (
-        <Container>
+        <div>
             <div className='product-list-wrapper'> {/* container changed as div*/}
             <Link to='/' className='product-list-back-button'><img src='/images/font_images/back_arrow.svg' alt='back_arrow'></img>BACK</Link>
             <div className='product-list-label'>{props.productListLabel}</div>
@@ -23,8 +23,8 @@ const ProductList = (props) => {
                         </div>
                     ))}
                 </Row>
-            </div>
-            {/* <Container/>
+             </div>
+             {/* <Container/>
                 <div className='product-list-label'>{props.similarProductListLabel}</div>
                 <div className='product-list-text'>{props.similarProductListText}</div>
                 <Container>
@@ -39,9 +39,9 @@ const ProductList = (props) => {
                     ))}
                 </Row>
                 </Container> */}
-            <Container/>
+            
             </div>
-        </Container>
+        </div>
     )
 }
 
