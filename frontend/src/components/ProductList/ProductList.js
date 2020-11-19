@@ -7,11 +7,11 @@ import './ProductList.css';
 const ProductList = (props) => {
     return (
         <Container>
-            <div className='product-list-wrapper'>
+            <div className='product-list-wrapper'> {/* container changed as div*/}
             <Link to='/' className='product-list-back-button'><img src='/images/font_images/back_arrow.svg' alt='back_arrow'></img>BACK</Link>
             <div className='product-list-label'>{props.productListLabel}</div>
             <div className='product-list-text'>{props.productListText}</div>
-            <Container>
+            <div>
                 <Row className='product-list-card-wrapper'>
                     {props.productDetails.map(product => (
                         <div className='product-list-card-wrapper' key={product.productId}>
@@ -23,7 +23,7 @@ const ProductList = (props) => {
                         </div>
                     ))}
                 </Row>
-            </Container>
+            </div>
             {/* <Container/>
                 <div className='product-list-label'>{props.similarProductListLabel}</div>
                 <div className='product-list-text'>{props.similarProductListText}</div>
