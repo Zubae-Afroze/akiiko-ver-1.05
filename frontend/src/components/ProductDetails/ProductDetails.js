@@ -46,7 +46,7 @@ const ProductDetails = (props) => {
               </p>
             </Modal.Body>
             <Modal.Footer>
-                <Link to='/'><button type='reset' className='modal-cont-button' onClick={props.onHide}>Continue Shopping</button></Link>
+                <Link to='/'><button type='reset' className='modal-cont-button' onClick={props.onHide}>CONTINUE SHOPPING</button></Link>
             </Modal.Footer>
           </Modal>
         );
