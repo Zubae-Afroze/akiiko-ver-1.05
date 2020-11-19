@@ -1,7 +1,7 @@
 const MasterProducts = [
     {
         productId: 'BE001',
-        productName: 'Circle bag',
+        productName: 'Circle Bag',
         heroImage: '/images/p_images/Bags/Women/BE001/hero.jpg',
         images: 
             ['/images/p_images/Bags/Women/BE001/1.jpg',
