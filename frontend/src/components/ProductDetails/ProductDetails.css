@@ -331,10 +331,8 @@
 }
 
 .modal-cont-button {
-  margin-left: 50px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  width: 65%;
+  padding: 7px;
+  width: 100%;
   color: #fff;
   background-color: #6e4e37;
   border: none;
