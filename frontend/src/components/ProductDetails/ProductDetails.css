@@ -329,6 +329,16 @@
   margin-left: 10px;
 }
 
+.modal-cont-button {
+  margin-left: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 65%;
+  color: #fff;
+  background-color: #6e4e37;
+  border: none;
+}
+
 @media (max-width: 1290px) {
   .alt-img-hero img {
     width: 482px;
