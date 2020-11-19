@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Dropdown, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import emailjs from 'emailjs-com';
-
 import ReactImageMagnify from 'react-image-magnify';
 
 import './ProductDetails.css';
@@ -16,18 +14,19 @@ const ProductDetails = (props) => {
 
     let [itemQuantity, setItemQuantity] = useState(1);
 
-    function sendEmail(e) {
-        e.preventDefault();
+    // let emailParams = {
+    //     productId: product.productId,
+    //     productName: product.productName,
+    // };````-
     
-        emailjs.sendForm('service_0gyrynb', 'template_1sohpy9', e.target, 'user_MWfMIz4lhzaCvONbRdLAM')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      }
+    // emailjs.send('service_0gyrynb', 'template_1sohpy9', emailParams, 'user_MWfMIz4lhzaCvONbRdLAM')
+    //     .then(function(response) {
+    //         console.log('SUCCESS!', response.status, response.text);
+    //     }, function(error) {
+    //         console.log('FAILED!', error);
+    //     })
 
-      function NextModal(props) {
+    function NextModal(props) {
         return (
           <Modal
             {...props}
@@ -50,7 +49,7 @@ const ProductDetails = (props) => {
             </Modal.Footer>
           </Modal>
         );
-      }
+    }
 
     function MyVerticallyCenteredModal(props) {
         return (
@@ -71,7 +70,8 @@ const ProductDetails = (props) => {
             <Modal.Body>
             <Row>
                 <Col className='modal-wrapper'>
-                    <form className='modal-form' onSubmit={sendEmail}>
+                    <p className='modal-intro-text'>Please fill out your information, to continue with the purchase</p>
+                    <form className='modal-form' onSubmit={console.log('One')}>
                         <input type='text' placeholder='First Name' name='fname' className='modal-input modal-first'></input>
                         <input type='text' placeholder='Last Name' name='lname' className='modal-input modal-last'></input><br></br>
                         <input type='text' placeholder='Email Address' name='email' className='modal-input modal-email'></input><br></br>
@@ -95,7 +95,7 @@ const ProductDetails = (props) => {
                     </ul>
                 </div>
 
-                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button type='submit' className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}}>CHECK OUT</button>
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span><button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}}>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
@@ -194,7 +194,7 @@ const ProductDetails = (props) => {
                 </div>
                 </Col>
                 </Row>
-                <button className='product-purchase-button' onClick={() => setModalShow(true)}>PURCHASE</button>
+                <button className='product-purchase-button' type='reset' onClick={() => setModalShow(true)}>PURCHASE</button>
                 <div className='product-description-label'>PRODUCT DESCRIPTION</div>
                 <div className='product-description-text'>{product.description}</div>
 
