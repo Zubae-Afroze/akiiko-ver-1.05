@@ -136,10 +136,10 @@ export default class Menubar extends Component {
     render() {
         return (
             <>
-            <Container>
+            <Container className='navbar-wrapper'>
                 <div className='navbar-wrapper'>
-                <Nav fill as="ul" className='navbar-ul nav-test'>
-                    <Nav.Item as="li">
+                <Nav fill as="ul" className='navbar-ul'>
+                    <Nav.Item as="li" className='nav-test'>
                         <Nav className='navbar-li'><div onMouseEnter={this.toggleWomenDropDiv} onClick={this.toggleWomenDropDiv}>BAGS</div></Nav>
                         {
                             this.state.dropWomenDiv ? 
@@ -279,7 +279,7 @@ export default class Menubar extends Component {
                             </Collapse> : null
                         }
                     </Nav.Item>
-                    <Nav.Item as="li">
+                    <Nav.Item as="li" className='nav-test'>
                         <Nav className='navbar-li' onMouseEnter={this.toggleShoppingDiv} onClick={this.toggleShoppingDiv}>Accessories</Nav>
                         {
                             this.state.dropShoppingDiv ? 
