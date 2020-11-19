@@ -10,7 +10,7 @@ const AccessoriesAllProducts = (props) => {
         <Link to='/' className='product-list-back-button'><img src='/images/font_images/back_arrow.svg' alt='back_arrow'></img>BACK</Link>
         <div className='product-list-label'>{props.onthegoProductListLabel}</div>
         <div className='product-list-text'>{props.onthegoProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.onthegoProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -22,10 +22,10 @@ const AccessoriesAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         <div className='product-list-label'>{props.walletProductListLabel}</div>
         <div className='product-list-text'>{props.walletProductListText}</div>
-        <Container>
+        <div>
             <Row className='product-list-card-wrapper'>
                 {props.walletProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
@@ -37,7 +37,7 @@ const AccessoriesAllProducts = (props) => {
                     </div>
                 ))}
             </Row>
-        </Container>
+        </div>
         {/* <div className='product-list-label'>{props.accessoriesProductListLabel}</div>
         <div className='product-list-text'>{props.accessoriesProductListText}</div>
         <Container>

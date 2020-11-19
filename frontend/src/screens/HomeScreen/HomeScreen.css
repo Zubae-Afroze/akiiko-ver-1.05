@@ -149,6 +149,12 @@
   color: #000;
 }
 
+@media (max-width: 1266px) {
+  .hero-image-workout {
+    max-width: 463px;
+    margin-right: 0px;
+  }
+}
 @media (max-width: 320px) {
   .hero-logo {
     font-size: 3.5em !important;
