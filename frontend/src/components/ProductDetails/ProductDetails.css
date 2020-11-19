@@ -237,6 +237,7 @@
 
 .modal-wrapper {
   border-right: 1px solid #36353541;
+  font-family: 'rutanLight';
 }
 
 .modal-img img {
@@ -316,6 +317,7 @@
 
 .mag-img-cont {
   z-index: 5000;
+  box-shadow: 4px 4px 10px #c5c5c58a;
 }
 
 .mag-img {
