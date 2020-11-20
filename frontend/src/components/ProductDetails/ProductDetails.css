@@ -546,6 +546,14 @@
   }
 }
 @media (max-width: 472px) {
+  .alt-img-list {
+    display: none;
+  }
+
+  .alt-img-hero-container {
+    display: none;
+  }
+
   .products-details-label {
     font-size: 24px;
   }

@@ -111,12 +111,13 @@ const ProductDetails = (props) => {
 
     const [nextModalShow, setNextModalShow] = useState(false);
 
-    // const [dropMaterial, setDropMaterial] = useState('');
+    const [dropMaterial, setDropMaterial] = useState(<i class="lni lni-chevron-down"></i>);
 
-    // const [dropThickness, setDropThickness] = useState('');
+    const [dropThickness, setDropThickness] = useState(<i class="lni lni-chevron-down"></i>);
 
     return (
-        <Container className='product-details-wrapper'>
+        <Container>
+        <div className='product-details-wrapper'>
         <Row>
             <Col xs={1} className='alt-img-list'> {/*hi*/}
             <ul>
@@ -152,22 +153,22 @@ const ProductDetails = (props) => {
             <Col className='material-det'>
                 <Dropdown>
                     <Dropdown.Toggle className='product-details-button' variant="default" id="dropdown-basic">
-                        <div className='material-div'>MATERIAL:</div> <div className='material-dum'>{product.material}</div>
+                        <div className='material-div'>MATERIAL:</div> <div className='material-dum'>{dropMaterial}</div>
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" /*onClick={() => setDropMaterial('Cotton Canvas')}*/>{product.material}</Dropdown.Item>
+                    <Dropdown.Item href="#/action-1" onClick={() => setDropMaterial('Cotton Canvas')}>{product.material}</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Col>
             <Col className='material-det'>
             <Dropdown>
                 <Dropdown.Toggle className='product-details-button' variant="default" id="dropdown-basic">
-                    <div className='thickness-div'>THICKNESS:</div> <div className='thickness-dum'>{product.thickness}</div>
+                    <div className='thickness-div'>THICKNESS:</div> <div className='thickness-dum'>{dropThickness}</div>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" /*onClick={() => setDropThickness('9 Ounce')}*/>{product.thickness}</Dropdown.Item>
+                    <Dropdown.Item href="#/action-1" onClick={() => setDropThickness('9 Ounce')}>{product.thickness}</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             </Col>
@@ -236,6 +237,7 @@ const ProductDetails = (props) => {
         <Row>
             {/* Similar Products */}
         </Row>
+        </div>
         </Container>
     )
 }

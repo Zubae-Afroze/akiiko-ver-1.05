@@ -66,7 +66,6 @@
   padding-bottom: 10px;
   padding-left: 15px;
   text-align: left;
-  height: 56px;
 }
 
 .women-shop-bag-container {
@@ -85,7 +84,6 @@
   width: 100%;
   padding: 15px;
   font-size: 15px;
-  height: 50px;
   background-color: #f6f1ea;
   text-transform: uppercase;
 }
@@ -122,6 +120,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .women-card-text {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 991px) {
   .women-button-placement {
     margin-top: 5px;
@@ -147,10 +151,10 @@
     width: 100%;
     background-color: #6e4e37;
     color: #fff;
-    font-size: 14px;
     border: 1px solid #6e4e37;
   }
 }
+
 @media (max-width: 768px) {
   .women-wrapper {
     display: grid;
@@ -179,16 +183,9 @@
     margin: 10px 0px;
     text-align: right;
   }
-}
-@media (max-width: 575px) {
-  .women-button-placement {
-    width: 37%;
+  .women-card-title {
+    font-size: 10px;
   }
-  .women-text {
-    width: 76%;
-  }
-}
-@media (max-width: 768px) {
   .women-button {
     margin-top: 0px !important;
   }
@@ -196,6 +193,14 @@
   .women-button-placement {
     text-align: left;
     width: 20%;
+  }
+}
+@media (max-width: 575px) {
+  .women-button-placement {
+    width: 37%;
+  }
+  .women-text {
+    width: 76%;
   }
 }
 @media (max-width: 991px) {
@@ -223,6 +228,7 @@
 @media (max-width: 769px) {
   .women-text {
     margin-bottom: 20px;
+    width: 97%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -317,12 +323,13 @@
   }
   .women-card-title {
     width: 140px;
-    font-size: 12px;
+    font-size: 10px;
+    padding-left: 8px;
   }
   .women-card-text {
     width: 140px;
-    height: 60px;
-    font-size: 11px;
+    font-size: 10px;
+    padding-left: 8px;
   }
 }
 @media (max-width: 759px) {
@@ -331,12 +338,11 @@
   }
   .women-card-title {
     width: 120px;
-    font-size: 11px;
+    font-size: 10px;
   }
   .women-card-text {
     width: 120px;
-    height: 60px;
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 

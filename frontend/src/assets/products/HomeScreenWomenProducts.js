@@ -19,7 +19,7 @@ const HomeScreenWomenProducts = [
     },
     {
         productId: 'SS002',
-        productName: 'Classic canvas Shopper',
+        productName: 'Canvas Shopper',
         heroImage: '/images/home_screen_women_products/SS002/hero.jpg',
         images: 
             ['/images/home_screen_women_products/SS002/1.jpg',

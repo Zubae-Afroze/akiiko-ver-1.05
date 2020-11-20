@@ -149,6 +149,22 @@
   color: #000;
 }
 
+.w-100 {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.form-inline {
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+@media (max-width: 1024px) {
+  .w-100 {
+    height: 600px;
+  }
+}
+
 @media (max-width: 320px) {
   .hero-logo {
     font-size: 3.5em !important;
