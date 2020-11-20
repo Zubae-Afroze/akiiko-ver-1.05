@@ -96,9 +96,11 @@
 }
 
 .navbar-drop-hero img {
+  position: absolute;
   width: 340px;
   padding: 30px;
   margin-right: 0;
+  right: 0;
   animation: fadeIn 2300ms;
 }
 

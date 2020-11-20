@@ -74,7 +74,7 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: 'This eco-friendly tote is wider in shape, accompanied with thin handles. This organic bag effectively holds all your shopping, and also helps segregate your shopping in an organised manner using the various sized pockets on the inside of the vegan shopping bag.',
         thickness: '9 Ounce',
-        measurement: 'L36.5cm x W18cm x H36',
+        measurement: 'L36.5cm x W18cm x H36cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',

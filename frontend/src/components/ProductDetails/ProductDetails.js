@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Dropdown, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+import emailjs from 'emailjs-com';
+
 import ReactImageMagnify from 'react-image-magnify';
 
 import './ProductDetails.css';
@@ -12,19 +14,49 @@ const ProductDetails = (props) => {
 
     const [bigImageSrc, setImageSrc] = useState(product.heroImage);
 
+    // const initialFormData = Object.freeze({
+    //     fname: '',
+    //     lname: '',
+    //     email: '',
+    //     phone: '',
+    //     address: ''
+    // });
+
+    
+    // const [formData, updateFormData] = useState(initialFormData);
+        
+    // const handleChange = (e) => {
+    //     updateFormData({
+    //         ...formData,
+    
+    //         // Trimming any whitespace
+    //         [e.target.name]: e.target.value.trim()
+    //     });
+    // };
+
+    // const handleSubmit = (e) => {
+    //     e.preventDefault()
+    //     console.log(formData);
+    //     // ... submit to API or something
+    // };
+
+        
+    
     let [itemQuantity, setItemQuantity] = useState(1);
 
-    // let emailParams = {
-    //     productId: product.productId,
-    //     productName: product.productName,
-    // };
+    let emailParams = {
+        productId: product.productId,
+        productName: product.productName,
+    };
     
-    // emailjs.send('service_0gyrynb', 'template_1sohpy9', emailParams, 'user_MWfMIz4lhzaCvONbRdLAM')
-    //     .then(function(response) {
-    //         console.log('SUCCESS!', response.status, response.text);
-    //     }, function(error) {
-    //         console.log('FAILED!', error);
-    //     })
+    function emailTest() {
+    emailjs.send('service_0gyrynb', 'template_1sohpy9', emailParams, 'user_MWfMIz4lhzaCvONbRdLAM')
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+            console.log('FAILED!', error);
+        })
+    }
 
     function NextModal(props) {
         return (
@@ -45,7 +77,7 @@ const ProductDetails = (props) => {
               </p>
             </Modal.Body>
             <Modal.Footer>
-                <Link to='/'><button type='reset' className='modal-cont-button' onClick={props.onHide}>CONTINUE SHOPPING</button></Link>
+                <Link to={`/product/${product.productId}`}><button type='reset' className='modal-cont-button' onClick={props.onHide}>CONTINUE SHOPPING</button></Link>
             </Modal.Footer>
           </Modal>
         );
@@ -75,7 +107,7 @@ const ProductDetails = (props) => {
                         <input type='text' placeholder='First Name' name='fname' className='modal-input modal-first'></input>
                         <input type='text' placeholder='Last Name' name='lname' className='modal-input modal-last'></input><br></br>
                         <input type='text' placeholder='Email Address' name='email' className='modal-input modal-email'></input><br></br>
-                        <input type='text' placeholder='Phone Number' name='phone' className='modal-input modal-phone'></input><br></br>
+                        <input type='number' placeholder='Phone Number' name='phone' className='modal-input modal-phone'></input><br></br>
                         <textarea type='text' id='madd' placeholder='Address' name='address' className='modal-input modal-address'></textarea><br></br>
 
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
@@ -96,7 +128,7 @@ const ProductDetails = (props) => {
                 </div>
 
                 <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span>
-                <button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}}>CHECK OUT</button>
+                <button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}} onMouseDown={"mouse down"}>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
@@ -111,9 +143,9 @@ const ProductDetails = (props) => {
 
     const [nextModalShow, setNextModalShow] = useState(false);
 
-    const [dropMaterial, setDropMaterial] = useState(<i class="lni lni-chevron-down"></i>);
+    const [dropMaterial, setDropMaterial] = useState(<i className="lni lni-chevron-down"></i>);
 
-    const [dropThickness, setDropThickness] = useState(<i class="lni lni-chevron-down"></i>);
+    const [dropThickness, setDropThickness] = useState(<i className="lni lni-chevron-down"></i>);
 
     return (
         <Container>
