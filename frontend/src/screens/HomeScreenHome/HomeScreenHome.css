@@ -137,7 +137,8 @@
   white-space: nowrap;
   width: 230px;
   text-align: left;
-  padding: 6px;
+  padding: 10px;
+  padding-left: 6px;
   font-size: 14px;
   background-color: #f6f1ea;
   text-transform: uppercase;
