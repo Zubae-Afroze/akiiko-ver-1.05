@@ -71,7 +71,11 @@ const HomeScreenHome = () => {
                         ))}
                     </Row>
                 </Col>
-            </Row> */}
+            </Row> */} <div className='hero-button mobile-view-button'>{/*button added*/}
+                        <Link to='/home/all_products'><button>
+                            Shop Now
+                        </button></Link>
+                        </div>
         </div>
     )
 }

@@ -306,7 +306,7 @@
     font-size: 3.5em !important;
   }
   .hero-text {
-    font-size: 24px !important;
+    font-size: 24px;
   }
   .hero-button button {
     width: 34%;
@@ -325,18 +325,29 @@
     display: none;
   }
   .hero-text {
-    font-size: 24px;
-  }
-  .hero-button button {
-    width: 35%;
-    height: 40px;
-    font-size: 87%;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -50px;
+    font-weight: 500;
   }
   .hero-button {
-    margin: 10px 0px 20px 0px;
+    text-align: center;
+  }
+  .hero-button button {
+    width: 55% !important;
+    height: 55px;
+    font-size: 87%;
+    text-align: center;
+  }
+  .hero-button {
+    margin: 1 0px 0px 20px 0px;
   }
   .carousel-slide-1 {
     font-size: 15px;
+  }
+  .hero-sub-text {
+    font-size: 20px;
+    text-align: center;
   }
   .home-screen-container {
     flex-wrap: wrap-reverse;

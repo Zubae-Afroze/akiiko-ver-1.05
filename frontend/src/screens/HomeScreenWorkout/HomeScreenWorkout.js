@@ -16,6 +16,7 @@ const HomeScreenWorkout = () => {
                     <div className='home-text'>A thoughtful range of organisers and storage bags to compliment and increase the functionality of your home. 
                     Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy decluttering. </div>
                 </Col>
+                
             </Row>
             <Row>
                 <Col sm={5}  className='hero-image-workout'>               {/* changes                      added class name*/}
@@ -70,7 +71,11 @@ const HomeScreenWorkout = () => {
                         ))}
                     </Row>
                 </Col>
-            </Row> */}
+            </Row> */} <div className='hero-button mobile-view-button'>{/*button added*/}
+                        <Link to='/storage/all_products'><button>
+                            Shop Now
+                        </button></Link>
+                        </div>
 
         </div>
     )
