@@ -271,11 +271,11 @@
   }
 }
 
-/* @media (max-width: 575px) {
+@media (max-width: 575px) {
   .women-button-placement {
     width: 31%;
   }
-} */
+}
 @media (max-width: 726px) {
   .women-card-wrapper {
     justify-content: space-around;

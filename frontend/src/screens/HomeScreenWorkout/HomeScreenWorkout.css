@@ -346,18 +346,7 @@
     padding: 0px;
   }
 }
-
-@media (max-width: 550px) {
-  .home-title {
-    font-size: 70px;
-  }
-}
-@media (max-width: 458px) {
-  .home-title {
-    font-size: 250%;
-  }
-}
-/* @media (max-width: 575px) {
+@media (max-width: 575px) {
   .home-button-placement {
     width: 31%;
   }
@@ -368,6 +357,18 @@
   .hero-image-workout {
     display: none;
   }
+}
+@media (max-width: 550px) {
+  .home-title {
+    font-size: 70px;
+  }
+}
+@media (max-width: 458px) {
+  .home-title {
+    font-size: 250%;
+  }
+}
+/* 
 } */
 /* .workout-button {
   margin-right: 65px;
