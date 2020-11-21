@@ -85,6 +85,7 @@
 }
 .home-text {
   font-family: 'rutanLight';
+  padding-left: 35px;
 }
 .home-wrapper {
   text-align: right;
@@ -162,12 +163,12 @@
 .home-card-items a:hover {
   text-decoration: none;
 }
-
-@media (max-width: 683px) {
-  .abc {
+/* 
+@media (max-width: 929px) {
+  .hero-image-workout {
     display: none;
   }
-}
+} */
 @media (max-width: 320px) {
   .women-card-text {
     padding-right: 0px;
