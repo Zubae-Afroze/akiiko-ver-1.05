@@ -241,7 +241,7 @@
     height: 33px;
   }
   .home-card-items {
-    flex-basis: 130px;
+    flex-basis: 120px;
     margin: 5px;
     padding: 0px;
   }
@@ -267,11 +267,28 @@
   }
   .home-title {
     text-align: left;
+    margin: 50px 0px 20px 0px;
   }
 
   .home-button-placement {
     text-align: left;
     width: 20%;
+  }
+}
+@media (max-width: 737px) {
+  .workout-hero-image img {
+    width: 259px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 478px;
+  }
+}
+@media (max-width: 710px) {
+  .workout-hero-image img {
+    width: 245px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 465px;
   }
 }
 /*     ---------------                   MOBILE 320PX TO 767PX         -------------*/
@@ -305,6 +322,7 @@
     padding: 0px;
   }
 }
+
 @media (max-width: 575px) {
   .workout-container {
     padding-right: 15px !important;
@@ -325,23 +343,12 @@
     width: 100%;
   }
   .home-card-items {
-    flex-basis: 123px;
+    flex-basis: 134px;
     margin: 5px;
     padding: 0px;
   }
 }
-
-@media (max-width: 550px) {
-  .home-title {
-    font-size: 70px;
-  }
-}
-@media (max-width: 458px) {
-  .home-title {
-    font-size: 250%;
-  }
-}
-/* @media (max-width: 575px) {
+@media (max-width: 575px) {
   .home-button-placement {
     width: 31%;
   }
@@ -352,6 +359,41 @@
   .hero-image-workout {
     display: none;
   }
+}
+@media (max-width: 550px) {
+  .home-title {
+    font-size: 70px;
+  }
+}
+@media (max-width: 458px) {
+  .home-title {
+    font-size: 250%;
+  }
+}
+@media (min-width: 426px) {
+  .mobile-view-button {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .home-button-placement {
+    display: none;
+  }
+  .women-button-placement {
+    display: none;
+  }
+  .home-title {
+    text-align: left;
+    margin: 50px 0px -10px 0px;
+  }
+  .home-card-title {
+    font-size: 13px;
+  }
+  .home-card-text {
+    font-size: 12px;
+  }
+}
+/* 
 } */
 /* .workout-button {
   margin-right: 65px;

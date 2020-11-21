@@ -130,7 +130,7 @@
 .very-end-blyat-list li:first-child {
   padding-left: 0;
 }
-
+/* ----------------------LAPTOP 1024PX AND ABOVE------------------------------ */
 @media (max-width: 1226px) {
   .footer-main-label-2 {
     margin-left: 150px;
@@ -141,7 +141,23 @@
     width: 60%;
   }
 }
+/* resposive*/
+@media (min-width: 1200px) {
+  .footer-social-icons-wrapper {
+    float: left;
+  }
+  .enquire {
+    padding-right: 0px;
+  }
+}
 
+/* responsive*/
+
+@media (max-width: 1200px) {
+  .enquire {
+    padding-right: 0px;
+  }
+}
 @media (max-width: 1146px) {
   .footer-main-label-2 {
     margin-left: 130px;
@@ -172,6 +188,11 @@
     width: 60%;
   }
 }
+@media (max-width: 1024px) {
+  .footer-brand-logo {
+    font-size: 100px;
+  }
+}
 @media (max-width: 969px) {
   .footer-main-label-2 {
     margin-left: 90px;
@@ -182,30 +203,9 @@
     width: 60%;
   }
 }
-/* resposive*/
-@media (min-width: 1200px) {
-  .footer-social-icons-wrapper {
-    float: left;
-  }
-  .enquire {
-    padding-right: 0px;
-  }
-}
 
 /* responsive*/
 
-@media (max-width: 1200px) {
-  .enquire {
-    padding-right: 0px;
-  }
-}
-/* responsive*/
-
-@media (max-width: 1024px) {
-  .footer-brand-logo {
-    font-size: 100px;
-  }
-}
 /* responsive*/
 
 @media (max-width: 969px) {
@@ -267,9 +267,24 @@
   }
 }
 
-@media (max-width: 575px) {
-  .footer-main-form {
-    width: 50%;
+@media (min-width: 689px) and (max-width: 768px) {
+  .footer-brand-logo {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 769px) {
+  .footer-social-icons {
+    margin-right: -10px;
+  }
+  .enquire {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-social-icons {
+    margin-right: 10px;
   }
 }
 
@@ -341,10 +356,9 @@
     font-size: 25px;
   }
 }
-
-@media (min-width: 689px) and (max-width: 768px) {
-  .footer-brand-logo {
-    margin-top: 60px;
+@media (max-width: 575px) {
+  .footer-main-form {
+    width: 50%;
   }
 }
 
@@ -389,21 +403,6 @@
 @media (max-width: 409px) {
   .very-end-blyat {
     font-size: 13px;
-  }
-}
-
-@media (min-width: 769px) {
-  .footer-social-icons {
-    margin-right: -10px;
-  }
-  .enquire {
-    padding-right: 0px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-social-icons {
-    margin-right: 10px;
   }
 }
 
@@ -475,6 +474,11 @@
   .footer-brand-button {
     margin-bottom: 0px;
     text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  .footer-brand-section-one {
+    display: none;
   }
 }
 @media (max-width: 320px) {
