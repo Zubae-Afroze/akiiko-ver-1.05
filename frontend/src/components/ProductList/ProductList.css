@@ -71,9 +71,10 @@
   text-align: left;
   width: 220px;
   height: 50px;
-  font-size: 12px;
+  font-size: 14px;
   background-color: #fefaef;
   padding: 10px 15px;
+  padding-left: 8px;
   text-transform: uppercase;
   word-wrap: break-word;
   font-family: 'rutan';
@@ -85,8 +86,9 @@
   text-transform: uppercase;
   margin-bottom: 20px;
   padding: 10px 15px;
-  font-family: 'rutan';
-  font-size: 12px;
+  padding-left: 8px;
+  font-family: 'rutanMedium';
+  font-size: 14px;
   color: #3a2f2d;
 }
 
