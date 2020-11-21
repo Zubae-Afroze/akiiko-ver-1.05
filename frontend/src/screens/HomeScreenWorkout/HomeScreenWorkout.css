@@ -241,7 +241,7 @@
     height: 33px;
   }
   .home-card-items {
-    flex-basis: 130px;
+    flex-basis: 120px;
     margin: 5px;
     padding: 0px;
   }
@@ -272,6 +272,22 @@
   .home-button-placement {
     text-align: left;
     width: 20%;
+  }
+}
+@media (max-width: 737px) {
+  .workout-hero-image img {
+    width: 259px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 478px;
+  }
+}
+@media (max-width: 710px) {
+  .workout-hero-image img {
+    width: 245px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 465px;
   }
 }
 /*     ---------------                   MOBILE 320PX TO 767PX         -------------*/
@@ -325,7 +341,7 @@
     width: 100%;
   }
   .home-card-items {
-    flex-basis: 123px;
+    flex-basis: 134px;
     margin: 5px;
     padding: 0px;
   }
