@@ -267,6 +267,7 @@
   }
   .home-title {
     text-align: left;
+    margin: 50px 0px 20px 0px;
   }
 
   .home-button-placement {
@@ -367,6 +368,18 @@
 @media (max-width: 458px) {
   .home-title {
     font-size: 250%;
+  }
+}
+@media (max-width: 425px) {
+  .home-title {
+    text-align: left;
+    margin: 30px 0px -10px 0px;
+  }
+  .home-card-title {
+    font-size: 13px;
+  }
+  .home-card-text {
+    font-size: 12px;
   }
 }
 /* 

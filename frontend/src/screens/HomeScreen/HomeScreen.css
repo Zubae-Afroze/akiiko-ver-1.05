@@ -223,6 +223,9 @@
   .carousel-slide-1 {
     font-size: 15px;
   }
+  .home-screen-container {
+    flex-wrap: wrap-reverse;
+  }
 }
 
 @media (max-width: 768px) {

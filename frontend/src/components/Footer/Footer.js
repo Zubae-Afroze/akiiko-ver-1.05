@@ -9,7 +9,7 @@ export default class Footer extends Component {
             <div className='footer-brand-wrapper'> 
                 <Container className='footer-brand-container'>
                     <Row className='footer-brand'>
-                        <Col sm={5}>
+                        <Col sm={5} className='footer-brand-section-one'>
                             <div className='footer-brand-logo'>
                                 akiiko
                             </div>
@@ -22,7 +22,7 @@ export default class Footer extends Component {
                                 </button>
                             </div>
                         </Col>
-                        <Col sm={7} className='font-wrapper'>  {/* class name is given to adjust the width of the container*/}
+                        <Col sm={7} className='font-wrapper footer-brand-section-two'>  {/* class name is given to adjust the width of the container*/}
                         <Row className='footer-image-row'>
                             <Col className='footer-image-col-1 col-sm-4 footer-icons' sm><div><img src={'/images/font_images/nature.svg'} alt='natural'/></div>NATURAL</Col>
                             <Col className='footer-image-col-4 col-sm-4 footer-icons' sm><div><img src={'/images/font_images/organic.svg'} alt='natural'/></div>ORGANIC</Col>

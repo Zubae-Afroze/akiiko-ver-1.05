@@ -392,7 +392,7 @@
     height: fit-content;
   }
 }
-/* @media (max-width: 439px) {
+@media (max-width: 439px) {
   .women-card-image img {
     width: 170px;
   }
@@ -405,7 +405,7 @@
     font-size: 11px;
     height: fit-content;
   }
-} */
+}
 @media (max-width: 439px) {
   .women-card-image img {
     width: 100%;
@@ -420,27 +420,41 @@
     height: fit-content;
   }
 }
-/* @media (max-width: 375px) {
+@media (max-width: 425px) {
+  .women-shop-bag-container {
+    flex-basis: 50%;
+  }
+  .women-card-wrapper {
+    padding: 0px;
+  }
+  .women-card-title {
+    font-size: 13px;
+  }
+  .women-card-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
   .women-card-image img {
-    width: 150px;
+    width: 100%;
     height: auto;
   }
   .women-card-title {
-    width: 150px;
+    width: 100%;
     font-size: 11px;
   }
   .women-card-text {
-    width: 150px;
+    width: 100%;
     font-size: 11px;
     height: fit-content;
   }
-} */
+}
 @media (max-width: 375px) {
   .women-shop-bag-container {
     margin-bottom: 30px;
   }
   .women-card-image img {
-    height: 100px;
+    height: 100%;
     width: 100%;
   }
   .women-card-title {
