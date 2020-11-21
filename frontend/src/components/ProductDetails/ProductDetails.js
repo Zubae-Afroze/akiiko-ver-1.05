@@ -13,47 +13,8 @@ const ProductDetails = (props) => {
     const product = props.productInfo.find(p => p.productId === props.match.params.id);
 
     const [bigImageSrc, setImageSrc] = useState(product.heroImage);
-    
-    // const [formData, updateFormData] = useState(initialFormData);
-        
-    // const handleChange = (e) => {
-    //     updateFormData({
-    //         ...formData,
-    
-    //         // Trimming any whitespace
-    //         [e.target.name]: e.target.value.trim()
-    //     });
-    // };
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault()
-    //     console.log(formData);
-    //     // ... submit to API or something
-    // };
-
-        
-    
     let [itemQuantity, setItemQuantity] = useState(1);
-
-    let emailParams = {
-        productId: product.productId,
-        productName: product.productName,
-        // fname: fnameRef,
-        // lname: lnameRef,
-        // email: emailRef,
-        // phone: phoneRef,
-        // address: addressRef,
-        // quantity: itemQuantity,
-    };
-    
-    function emailTest() {
-    emailjs.send('service_0gyrynb', 'template_1sohpy9', emailParams, 'user_MWfMIz4lhzaCvONbRdLAM')
-        .then(function(response) {
-            console.log('SUCCESS!', response.status, response.text);
-        }, function(error) {
-            console.log('FAILED!', error);
-        })
-    }
 
     function NextModal(props) {
         return (
@@ -74,13 +35,59 @@ const ProductDetails = (props) => {
               </p>
             </Modal.Body>
             <Modal.Footer>
-                <Link to={`/product/${product.productId}`}><button type='reset' className='modal-cont-button' onClick={props.onHide}>CONTINUE SHOPPING</button></Link>
+                <Link to={`/product/${product.productId}`}><button className='modal-cont-button' onClick={props.onHide}>CONTINUE SHOPPING</button></Link>
             </Modal.Footer>
           </Modal>
         );
     }
 
     function MyVerticallyCenteredModal(props) {
+        const initialFormData = {
+            fname: '',
+            lname: '',
+            email: '',
+            phone: '',
+            address: ''
+        };    
+        
+        const [formData, updateFormData] = useState(initialFormData);
+            
+        const handleChange = (e) => {
+            updateFormData({
+                ...formData,
+                // Trimming any whitespace
+                [e.target.name]: e.target.value.trim()
+            });
+        };
+    
+        const handleSubmit = (e) => {
+            e.preventDefault()
+            //console.log(formData);
+            // ... submit to API or something
+
+            let eParams = {
+                productId: product.productId,
+                productName: product.productName,
+                fname: formData.fname,
+                lname: formData.lname,
+                email: formData.email,
+                phone: formData.phone,
+                address: formData.address,
+            };
+            emailTest(eParams)
+        };
+
+        const emailTest = (eParams) => {
+        //console.log(eParams)
+        emailjs.send('service_0gyrynb', 'template_1sohpy9', eParams, 'user_MWfMIz4lhzaCvONbRdLAM')
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                setNextModalShow(true); setModalShow(false);
+            }, function(error) {
+                console.log('FAILED!', error);
+            })
+        }
+
         return (
           <Modal
             {...props}
@@ -101,11 +108,11 @@ const ProductDetails = (props) => {
                 <Col className='modal-wrapper'>
                     <p className='modal-intro-text'>Please fill out your information, to continue with the purchase</p>
                     <form className='modal-form'>
-                        <input type='text' placeholder='First Name' name='fname' className='modal-input modal-first'></input>
-                        <input type='text' placeholder='Last Name' name='lname' className='modal-input modal-last'></input><br></br>
-                        <input type='text' placeholder='Email Address' name='email' className='modal-input modal-email'></input><br></br>
-                        <input type='number' placeholder='Phone Number' name='phone' className='modal-input modal-phone'></input><br></br>
-                        <textarea type='text' id='madd' placeholder='Address' name='address' className='modal-input modal-address'></textarea><br></br>
+                        <input type='text' placeholder='First Name' name='fname' autocomplete="off" className='modal-input modal-first' onChange={handleChange}></input>
+                        <input type='text' placeholder='Last Name' name='lname' autocomplete="off" className='modal-input modal-last' onChange={handleChange}></input><br></br>
+                        <input type='text' placeholder='Email Address' name='email' autocomplete="off" className='modal-input modal-email' onChange={handleChange}></input><br></br>
+                        <input type='number' placeholder='Phone Number' name='phone' autocomplete="off" className='modal-input modal-phone' onChange={handleChange}></input><br></br>
+                        <textarea type='text' id='madd' placeholder='Address' name='address' autocomplete="off" className='modal-input modal-address' onChange={handleChange}></textarea><br></br>
 
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
                         <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
@@ -125,13 +132,13 @@ const ProductDetails = (props) => {
                 </div>
 
                 <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span>
-                <button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false); console.log('emailTest');}}>CHECK OUT</button>
+                <button className='modal-check-button' onClick={handleSubmit}>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
             {/* <Modal.Footer>
               <button className='modal-close-button' onClick={props.onHide}>Close</button>
-            </Modal.Footer> */}
+            </Modal.Footer>  () => {setNextModalShow(true); setModalShow(false);*/}
           </Modal>
         );
       }
@@ -225,7 +232,7 @@ const ProductDetails = (props) => {
                 </div>
                 </Col>
                 </Row>
-                <button className='product-purchase-button' type='reset' onClick={() => setModalShow(true)}>PURCHASE</button>
+                <button className='product-purchase-button' onClick={() => setModalShow(true)}>PURCHASE</button>
                 <div className='product-description-label'>PRODUCT DESCRIPTION</div>
                 <div className='product-description-text'>{product.description}</div>
 
