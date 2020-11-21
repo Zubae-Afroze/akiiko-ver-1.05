@@ -20,7 +20,7 @@ const HomeScreenWomen = () => {
                     <Link to='/bags/all_products'><button className='women-button'>SHOP ALL</button></Link>
                 </Col>
             </Row>
-            <Row className='women-card-wrapper'>
+            <Row className='women-card-wrapper '>
                 {HomeScreenWomenProducts.map(product => (
                     <Col lg={2.6} key={product.productId} className='women-shop-bag-container'> {/*class name added */}
                     <Link to={`/product/${product.productId}`}><div className='women-card-image'>

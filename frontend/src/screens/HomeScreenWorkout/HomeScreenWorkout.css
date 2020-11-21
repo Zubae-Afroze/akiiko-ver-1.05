@@ -321,6 +321,7 @@
     padding: 0px;
   }
 }
+
 @media (max-width: 575px) {
   .workout-container {
     padding-right: 15px !important;
