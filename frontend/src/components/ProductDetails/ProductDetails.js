@@ -13,15 +13,6 @@ const ProductDetails = (props) => {
     const product = props.productInfo.find(p => p.productId === props.match.params.id);
 
     const [bigImageSrc, setImageSrc] = useState(product.heroImage);
-
-    // const initialFormData = Object.freeze({
-    //     fname: '',
-    //     lname: '',
-    //     email: '',
-    //     phone: '',
-    //     address: ''
-    // });
-
     
     // const [formData, updateFormData] = useState(initialFormData);
         
@@ -47,6 +38,12 @@ const ProductDetails = (props) => {
     let emailParams = {
         productId: product.productId,
         productName: product.productName,
+        // fname: fnameRef,
+        // lname: lnameRef,
+        // email: emailRef,
+        // phone: phoneRef,
+        // address: addressRef,
+        // quantity: itemQuantity,
     };
     
     function emailTest() {
@@ -128,7 +125,7 @@ const ProductDetails = (props) => {
                 </div>
 
                 <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span>
-                <button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false);}} onMouseDown={"mouse down"}>CHECK OUT</button>
+                <button className='modal-check-button' onClick={() => {setNextModalShow(true); setModalShow(false); console.log('emailTest');}}>CHECK OUT</button>
                 </Col>
             </Row>
             </Modal.Body>
