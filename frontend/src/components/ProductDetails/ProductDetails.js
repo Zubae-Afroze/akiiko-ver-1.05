@@ -194,7 +194,7 @@ const ProductDetails = (props) => {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" onClick={() => setDropMaterial('Cotton Canvas')}>{product.material}</Dropdown.Item>
+                    <Dropdown.Item onClick={() => setDropMaterial('Cotton Canvas')}>{product.material}</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Col>
@@ -205,7 +205,7 @@ const ProductDetails = (props) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" onClick={() => setDropThickness('9 Ounce')}>{product.thickness}</Dropdown.Item>
+                    <Dropdown.Item onClick={() => setDropThickness('9 Ounce')}>{product.thickness}</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             </Col>
@@ -219,7 +219,7 @@ const ProductDetails = (props) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Natural<div className='color-pick'></div></Dropdown.Item>
+                    <Dropdown.Item>Natural<div className='color-pick'></div></Dropdown.Item>
                 </Dropdown.Menu>
                 </Dropdown>
             </Col>
