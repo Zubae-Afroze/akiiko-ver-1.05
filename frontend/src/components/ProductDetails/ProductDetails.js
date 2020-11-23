@@ -148,9 +148,9 @@ const ProductDetails = (props) => {
 
     const [nextModalShow, setNextModalShow] = useState(false);
 
-    const [dropMaterial, setDropMaterial] = useState(<i className="lni lni-chevron-down"></i>);
+    const [dropMaterial, setDropMaterial] = useState('');
 
-    const [dropThickness, setDropThickness] = useState(<i className="lni lni-chevron-down"></i>);
+    const [dropThickness, setDropThickness] = useState('');
 
     return (
         <Container>
@@ -190,7 +190,7 @@ const ProductDetails = (props) => {
             <Col className='material-det'>
                 <Dropdown>
                     <Dropdown.Toggle className='product-details-button' variant="default" id="dropdown-basic">
-                        <div className='material-div'>MATERIAL:</div> <div className='material-dum'>{dropMaterial}</div>
+                        <div className='material-div'>MATERIAL:</div> <div className='material-dum'>Cotton Canvas <i className="lni lni-chevron-down"></i></div>
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
@@ -201,7 +201,7 @@ const ProductDetails = (props) => {
             <Col className='material-det'>
             <Dropdown>
                 <Dropdown.Toggle className='product-details-button' variant="default" id="dropdown-basic">
-                    <div className='thickness-div'>THICKNESS:</div> <div className='thickness-dum'>{dropThickness}</div>
+                    <div className='thickness-div'>THICKNESS:</div> <div className='thickness-dum'>9 Ounce <i className="lni lni-chevron-down"></i></div>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
