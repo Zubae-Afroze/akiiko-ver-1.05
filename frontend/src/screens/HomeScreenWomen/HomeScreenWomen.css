@@ -423,15 +423,24 @@
 @media (max-width: 425px) {
   .women-shop-bag-container {
     flex-basis: 50%;
+    margin-bottom: 25px !important;
   }
   .women-card-wrapper {
     padding: 0px;
+    margin-bottom: 0px !important;
   }
   .women-card-title {
     font-size: 13px;
   }
   .women-card-text {
     font-size: 12px;
+    height: 33px;
+    padding: 10px;
+  }
+  .women-text {
+    margin-bottom: 0px;
+    font-size: 14px;
+    padding: 0px 15px;
   }
 }
 @media (max-width: 375px) {
@@ -459,6 +468,7 @@
   }
   .women-card-title {
     width: 100%;
+    font-size: 12px;
   }
   .women-card-text {
     width: 100%;

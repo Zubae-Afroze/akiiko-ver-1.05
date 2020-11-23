@@ -346,6 +346,7 @@
   }
   .footer-main-label-2 {
     margin-left: 5px;
+    margin-top: 10px;
   }
   .footer-main-form {
     margin-left: 5px;
@@ -359,6 +360,9 @@
 @media (max-width: 575px) {
   .footer-main-form {
     width: 50%;
+  }
+  .form-inline {
+    justify-content: left !important;
   }
 }
 
