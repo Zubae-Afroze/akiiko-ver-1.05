@@ -356,15 +356,7 @@
 .alt-img-hero-container {
   padding: 0px;
 }
-<<<<<<< HEAD
-
-.image-style {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-=======
 /* -----------------------------------------LAPTOP  UPTO 1440PX------------------------------------------- */
->>>>>>> 9fdb970b0f77f6239d0cf4486c431cc6c8375dcf
 @media (max-width: 1290px) {
   .alt-img-hero {
     width: 470px;
