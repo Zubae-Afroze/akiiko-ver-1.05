@@ -2,15 +2,14 @@ const MasterProducts = [
     {
         productId: 'BE001',
         productName: 'Circle Bag',
-        heroImage: '/images/p_images/Bags/Women/BE001/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Women/BE001/1.jpg',
+            ['/images/p_images/Bags/Women/BE001/hero.jpg',  
+            '/images/p_images/Bags/Women/BE001/1.jpg',
             '/images/p_images/Bags/Women/BE001/2.jpg',
             '/images/p_images/Bags/Women/BE001/3.jpg',
-            '/images/p_images/Bags/Women/BE001/4.jpg',
-            '/images/p_images/Bags/Women/BE001/5.jpg',
-            '/images/p_images/Bags/Women/BE001/6.jpg',
-            '/images/p_images/Bags/Women/BE001/7.jpg',],
+            '/images/p_images/Bags/Women/BE001/4.jpg',],
         group: 'Bag',
         subGroup: 'Women',
         description: 'This natural Cotton Canvas circle bag is an essential for those looking for something eye catching yet practical. The light toned bag comes with long & wide straps, making it a convenient summer companion.',
@@ -24,14 +23,14 @@ const MasterProducts = [
     {
         productId: 'WB003',
         productName: 'Bucket Bag with Drawstring',
-        heroImage: '/images/p_images/Bags/Women/WB003/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+        heroImage: '/images/p_images/Bags/Women/WB003/hero.jpg', 
         images:
-        ['/images/p_images/Bags/Women/WB003/1.jpg',
+        ['/images/p_images/Bags/Women/WB003/hero.jpg',
+        '/images/p_images/Bags/Women/WB003/1.jpg',
         '/images/p_images/Bags/Women/WB003/2.jpg',
         '/images/p_images/Bags/Women/WB003/3.jpg',
-        '/images/p_images/Bags/Women/WB003/4.jpg',
-        '/images/p_images/Bags/Women/WB003/5.jpg',
-        '/images/p_images/Bags/Women/WB003/6.jpg'],
+        '/images/p_images/Bags/Women/WB003/4.jpg',],
         group: 'Bag',
         subGroup: 'Women',
         description: ' Its unique silhouette makes the bucket bag, a must have. Not only is it ethically designed with 100% natural fibres, this organic cloth bag also creates a style statement. An eco-friendly bag perfect for the confident, stylish & environmentally conscious wearer.',
@@ -45,9 +44,11 @@ const MasterProducts = [
     {
         productId: 'SS001',
         productName: 'Original Shopping bag',
-        heroImage: '/images/p_images/Bags/Tote/SS001/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS001/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/SS001/1.jpg',
+            ['/images/p_images/Bags/Tote/SS001/hero.jpg',
+            '/images/p_images/Bags/Tote/SS001/1.jpg',
             '/images/p_images/Bags/Tote/SS001/2.jpg',
             '/images/p_images/Bags/Tote/SS001/3.jpg',
             '/images/p_images/Bags/Tote/SS001/4.jpg',],
@@ -64,9 +65,11 @@ const MasterProducts = [
     {
         productId: 'SS002',
         productName: 'Classic canvas Shopper',
-        heroImage: '/images/p_images/Bags/Tote/SS002/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS002/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/SS002/1.jpg',
+            ['/images/p_images/Bags/Tote/SS002/hero.jpg',
+            '/images/p_images/Bags/Tote/SS002/1.jpg',
             '/images/p_images/Bags/Tote/SS002/2.jpg',
             '/images/p_images/Bags/Tote/SS002/3.jpg',
             '/images/p_images/Bags/Tote/SS002/4.jpg',],
@@ -83,9 +86,11 @@ const MasterProducts = [
     {
         productId: 'SS003',
         productName: 'Mini Classic Canvas Shopper',
-        heroImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS003/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/SS003/1.jpg',
+            ['/images/p_images/Bags/Tote/SS003/hero.jpg',
+            '/images/p_images/Bags/Tote/SS003/1.jpg',
             '/images/p_images/Bags/Tote/SS003/2.jpg',
             '/images/p_images/Bags/Tote/SS003/3.jpg',
             '/images/p_images/Bags/Tote/SS003/4.jpg',],
@@ -99,35 +104,36 @@ const MasterProducts = [
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
         price: '799'
     },
-    {
-        productId: 'SS004',
-        productName: 'Practical Shopping Tote',
-        heroImage: '/images/p_images/Bags/Tote/SS004/hero.jpg',
-        images: 
-            ['/images/p_images/Bags/Tote/SS004/1.jpg',
-            '/images/p_images/Bags/Tote/SS004/2.jpg',
-            '/images/p_images/Bags/Tote/SS004/3.jpg',
-            '/images/p_images/Bags/Tote/SS004/4.jpg',],
-        group: 'Bag',
-        subGroup: 'Tote',
-        description: 'This practical tote is eco-friendly & light on the eyes with its neutral colour palette.Wide, medium length straps make it easy to carry. The bag is made more functional with two large pockets on the outside. This organic shopper is easy to use, and even easier to carry.',
-        thickness: '9 Ounce',
-        measurement: 'L35cm x W6.5cm x H36cm',
-        material: 'Cotton Canvas',
-        color: 'Raw White',
-        washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '799'
-    },
+    // {
+    //     productId: 'SS004',
+    //     productName: 'Practical Shopping Tote',
+    //     lifestyleImage: '/images/p_images/Bags/Tote/SS004/hero.jpg',
+    //     heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
+    //     images: 
+    //         ['/images/p_images/Bags/Tote/SS004/1.jpg',
+    //         '/images/p_images/Bags/Tote/SS004/2.jpg',
+    //         '/images/p_images/Bags/Tote/SS004/3.jpg',
+    //         '/images/p_images/Bags/Tote/SS004/4.jpg',],
+    //     group: 'Bag',
+    //     subGroup: 'Tote',
+    //     description: 'This practical tote is eco-friendly & light on the eyes with its neutral colour palette.Wide, medium length straps make it easy to carry. The bag is made more functional with two large pockets on the outside. This organic shopper is easy to use, and even easier to carry.',
+    //     thickness: '9 Ounce',
+    //     measurement: 'L35cm x W6.5cm x H36cm',
+    //     material: 'Cotton Canvas',
+    //     color: 'Raw White',
+    //     washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
+    //     price: '799'
+    // },
     {
         productId: 'SS006',
         productName: 'The large Shopper',
+        lifestyleImage: '/images/p_images/Bags/Tote/SS006/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS006/hero.jpg',
         images: 
-            ['/images/p_images/Bags/Tote/SS006/1.jpg',
+            ['/images/p_images/Bags/Tote/SS006/hero.jpg',
+            '/images/p_images/Bags/Tote/SS006/1.jpg',
             '/images/p_images/Bags/Tote/SS006/2.jpg',
-            '/images/p_images/Bags/Tote/SS006/3.jpg',
-            '/images/p_images/Bags/Tote/SS006/4.jpg',
-            '/images/p_images/Bags/Tote/SS006/5.jpg'],
+            '/images/p_images/Bags/Tote/SS006/3.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: ' This large organic fabric tote is a must-have from the shopping collection. The wide and long fabric straps make shopping light and comfortable. The deep and spacious nature of the bag fits all your shopping efficiently and keeps is secure with a zip closure. Clean & minimal, this large eco-friendly tote bag can be used for a multitude of purposes beyond shopping too.',
@@ -141,12 +147,13 @@ const MasterProducts = [
     {
         productId: 'SS007',
         productName: 'Conventional Canvas Shopper',
-        heroImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS007/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/SS007/1.jpg',
+            ['/images/p_images/Bags/Tote/SS007/hero.jpg', 
+            '/images/p_images/Bags/Tote/SS007/1.jpg',
             '/images/p_images/Bags/Tote/SS007/2.jpg',
-            '/images/p_images/Bags/Tote/SS007/3.jpg',
-            '/images/p_images/Bags/Tote/SS007/4.jpg',],
+            '/images/p_images/Bags/Tote/SS007/3.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'The organic shopping tote is extremely practical with its long broad fabric straps and spacious structure. Secured with a zip, the vegan shopping bag is made from eco-friendly fabric for a distinguished purpose and look.',
@@ -160,9 +167,11 @@ const MasterProducts = [
     {
         productId: 'SS008',
         productName: 'Large Shopping Bag with Sling',
-        heroImage: '/images/p_images/Bags/Tote/SS008/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/SS008/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS008/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/SS008/1.jpg',
+            ['/images/p_images/Bags/Tote/SS008/hero.jpg',
+            '/images/p_images/Bags/Tote/SS008/1.jpg',
             '/images/p_images/Bags/Tote/SS008/2.jpg',
             '/images/p_images/Bags/Tote/SS008/3.jpg',
             '/images/p_images/Bags/Tote/SS008/4.jpg',],
@@ -179,14 +188,14 @@ const MasterProducts = [
     {
         productId: 'WB001',
         productName: 'WOMEN BAG',
-        heroImage: '/images/p_images/Bags/Tote/WB001/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Tote/WB001/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/WB001/1.jpg',
+            ['/images/p_images/Bags/Tote/WB001/hero.jpg',
+            '/images/p_images/Bags/Tote/WB001/1.jpg',
             '/images/p_images/Bags/Tote/WB001/2.jpg',
             '/images/p_images/Bags/Tote/WB001/3.jpg',
-            '/images/p_images/Bags/Tote/WB001/5.jpg',
-            '/images/p_images/Bags/Tote/WB001/6.jpg',
-            '/images/p_images/Bags/Tote/WB001/7.jpg',],
+            '/images/p_images/Bags/Tote/WB001/4.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'Simple but efficient, this organic fabric tote bag is a great fit for every practical user. The thick strapped design makes the eco-friendly bag easy to carry. Made from natural fibres, this bag will be perfect for running everyday errands & a useful companion for every hustler.',
@@ -200,14 +209,14 @@ const MasterProducts = [
     {
         productId: 'WB002',
         productName: 'Everyday Tote',
-        heroImage: '/images/p_images/Bags/Tote/WB002/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/WB002/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Tote/WB002/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/WB002/1.jpg',
+            ['/images/p_images/Bags/Tote/WB002/hero.jpg',
+            '/images/p_images/Bags/Tote/WB002/1.jpg',
             '/images/p_images/Bags/Tote/WB002/2.jpg',
             '/images/p_images/Bags/Tote/WB002/3.jpg',
-            '/images/p_images/Bags/Tote/WB002/5.jpg',
-            '/images/p_images/Bags/Tote/WB002/6.jpg',
-            '/images/p_images/Bags/Tote/WB002/7.jpg',],
+            '/images/p_images/Bags/Tote/WB002/4.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'Spacious and usable, this vegan tote bag is designed for convenience & effortless style. Made from natural cotton fabric, the eco-friendly tote bag is equipped with long and broad handles, making it light on your shoulders. Your perfect companion on busy days at work, relaxing holidays, weekend shopping trips and more',
@@ -221,12 +230,13 @@ const MasterProducts = [
     {
         productId: 'BE002',
         productName: 'Summer Tote',
-        heroImage: '/images/p_images/Bags/Tote/BE002/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/BE002/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Tote/BE002/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/BE002/1.jpg',
+            ['/images/p_images/Bags/Tote/BE002/hero.jpg',
+            '/images/p_images/Bags/Tote/BE002/1.jpg',
             '/images/p_images/Bags/Tote/BE002/2.jpg',
-            '/images/p_images/Bags/Tote/BE002/3.jpg',
-            '/images/p_images/Bags/Tote/BE002/5.jpg',],
+            '/images/p_images/Bags/Tote/BE002/3.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'A spacious, convenient and effortlessly stylish tote bag designed especially for the beach. An essential for summer days, the beach bag is airy & light, accompanied with an attached pouch. The neutral colour tone compliments every look and is 100% eco-friendly.',
@@ -240,14 +250,13 @@ const MasterProducts = [
     {
         productId: 'BE003',
         productName: 'The Conventional Handbag',
-        heroImage: '/images/p_images/Bags/Tote/BE003/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Tote/BE003/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Tote/BE003/1.jpg',
+            ['/images/p_images/Bags/Tote/BE003/hero.jpg',
+            '/images/p_images/Bags/Tote/BE003/1.jpg',
             '/images/p_images/Bags/Tote/BE003/2.jpg',
-            '/images/p_images/Bags/Tote/BE003/3.jpg',
-            '/images/p_images/Bags/Tote/BE003/5.jpg',
-            '/images/p_images/Bags/Tote/BE003/6.jpg',
-            '/images/p_images/Bags/Tote/BE003/7.jpg',],
+            '/images/p_images/Bags/Tote/BE003/3.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: ' This large beach tote is breathable, handy & light. The eco-friendly bag stores all your beach accessories with ease and convenience. Making the eco-friendly bag, an essential for carefree sunny days.',
@@ -261,14 +270,15 @@ const MasterProducts = [
     {
         productId: 'OL002',
         productName: 'Daily Laptop bag',
-        heroImage: '/images/p_images/Bags/Office/OL002/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Office/OL002/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Office/OL002/1.jpg',
+            ['/images/p_images/Bags/Office/OL002/hero.jpg',
+            '/images/p_images/Bags/Office/OL002/1.jpg',
             '/images/p_images/Bags/Office/OL002/2.jpg',
             '/images/p_images/Bags/Office/OL002/3.jpg',
             '/images/p_images/Bags/Office/OL002/4.jpg',
-            '/images/p_images/Bags/Office/OL002/5.jpg',
-            '/images/p_images/Bags/Office/OL002/6.jpg',],
+            '/images/p_images/Bags/Office/OL002/5.jpg',],
         group: 'Bag',
         subGroup: 'Office',
         description: 'Practical & light toned organic fabric laptop bag. An ideal companion in casual meetings and relaxed office settings. The vegan office bag is designed with a long adjustable strap, convenient handles and pockets for efficient organisation.',
@@ -282,13 +292,14 @@ const MasterProducts = [
     {
         productId: 'TD001',
         productName: 'Orignal Travel Carry On',
-        heroImage: '/images/p_images/Bags/Travel/TD001/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Travel/TD001/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Travel/TD001/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Travel/TD001/1.jpg',
+            ['/images/p_images/Bags/Travel/TD001/hero.jpg',
+            '/images/p_images/Bags/Travel/TD001/1.jpg',
             '/images/p_images/Bags/Travel/TD001/2.jpg',
             '/images/p_images/Bags/Travel/TD001/3.jpg',
-            '/images/p_images/Bags/Travel/TD001/4.jpg',
-            '/images/p_images/Bags/Travel/TD001/5.jpg',],
+            '/images/p_images/Bags/Travel/TD001/4.jpg',],
         group: 'Bag',
         subGroup: 'Travel',
         description: ' Eco-friendly & stylish, this vegan fabric duffel bag makes for a perfect travel companion. Designed with both short handles and a long strap, you can carry the bag as you wish and with ease. This organic fabric duffel bag can also be used on a daily, for short trips, weekend getaways or to carry as a cabin bag when flying.',
@@ -302,14 +313,14 @@ const MasterProducts = [
     {
         productId: 'TD002',
         productName: 'Classic Duffel',
-        heroImage: '/images/p_images/Bags/Travel/TD002/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Travel/TD002/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Travel/TD002/1.jpg',
+            ['/images/p_images/Bags/Travel/TD002/hero.jpg',
+            '/images/p_images/Bags/Travel/TD002/1.jpg',
             '/images/p_images/Bags/Travel/TD002/2.jpg',
             '/images/p_images/Bags/Travel/TD002/3.jpg',
-            '/images/p_images/Bags/Travel/TD002/4.jpg',
-            '/images/p_images/Bags/Travel/TD002/5.jpg',
-            '/images/p_images/Bags/Travel/TD002/6.jpg',],
+            '/images/p_images/Bags/Travel/TD002/4.jpg',],
         group: 'Bag',
         subGroup: 'Travel',
         description: ' Eco-friendly & stylish, this vegan fabric duffel bag makes for a perfect travel companion. Designed with both short handles and a long strap, you can carry the bag as you wish and with ease. This organic fabric duffel bag can also be used on a daily, for short trips, weekend getaways or to carry as a cabin bag when flying.',
@@ -323,15 +334,15 @@ const MasterProducts = [
     {
         productId: 'TD003',
         productName: 'Workout Duffel',
-        heroImage: '/images/p_images/Bags/Travel/TD003/hero.jpg',
+        lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+        heroImage: '/images/p_images/Bags/Travel/TD003/hero.jpg', 
         images: 
-            ['/images/p_images/Bags/Travel/TD003/1.jpg',
+            ['/images/p_images/Bags/Travel/TD003/hero.jpg', 
+            '/images/p_images/Bags/Travel/TD003/1.jpg',
             '/images/p_images/Bags/Travel/TD003/2.jpg',
             '/images/p_images/Bags/Travel/TD003/3.jpg',
             '/images/p_images/Bags/Travel/TD003/4.jpg',
-            '/images/p_images/Bags/Travel/TD003/5.jpg',
-            '/images/p_images/Bags/Travel/TD003/6.jpg',
-            '/images/p_images/Bags/Travel/TD003/7.jpg',],
+            '/images/p_images/Bags/Travel/TD003/5.jpg',],
         group: 'Bag',
         subGroup: 'Travel',
         description: 'Functional yet minimal, this vegan fabric small duffel bag makes for a perfect gym/travel companion. Designed with broad handles, spacious pockets, the eco-friendly duffel bag is structured to retain its shape. This organic fabric duffel bag can be used for short trips, weekend getaways or as a carry as a cabin bag when flying. ',
@@ -344,16 +355,15 @@ const MasterProducts = [
     },
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET - Set of 3',
-        heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg',
+        productName: 'BREAD BASKET',
+        lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
+        heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg', 
         images: 
-            ['/images/p_images/Home/Tableware/HT002/1.jpg',
+            ['/images/p_images/Home/Tableware/HT002/hero.jpg', 
+            '/images/p_images/Home/Tableware/HT002/1.jpg',
             '/images/p_images/Home/Tableware/HT002/2.jpg',
             '/images/p_images/Home/Tableware/HT002/3.jpg',
-            '/images/p_images/Home/Tableware/HT002/4.jpg',
-            '/images/p_images/Home/Tableware/HT002/5.jpg',
-            '/images/p_images/Home/Tableware/HT002/6.jpg',
-            '/images/p_images/Home/Tableware/HT002/7.jpg',],
+            '/images/p_images/Home/Tableware/HT002/4.jpg',],
         group: 'Home',
         subGroup: 'Tableware',
         description: 'A set of 3 organic fabric bread baskets to adorn your tables. Use the beige toned natural fabric bags to serve bread, dried fruits, nuts, granola and more. Vegan & ethical, these utility bags will complement your table and allow your food to remain fresh.',
@@ -367,15 +377,13 @@ const MasterProducts = [
     {
         productId: 'HK002',
         productName: 'Original Sandwich Bag',
-        heroImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg',
+        lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
+        heroImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg', 
         images: 
-            ['/images/p_images/Home/Kitchen/HK002/1.jpg',
+            ['/images/p_images/Home/Kitchen/HK002/hero.jpg', 
+            '/images/p_images/Home/Kitchen/HK002/1.jpg',
             '/images/p_images/Home/Kitchen/HK002/2.jpg',
-            '/images/p_images/Home/Kitchen/HK002/3.jpg',
-            '/images/p_images/Home/Kitchen/HK002/4.jpg',
-            '/images/p_images/Home/Kitchen/HK002/5.jpg',
-            '/images/p_images/Home/Kitchen/HK002/6.jpg',
-            '/images/p_images/Home/Kitchen/HK002/7.jpg',],
+            '/images/p_images/Home/Kitchen/HK002/3.jpg',],
         group: 'Home',
         subGroup: 'Kitchen',
         description: 'Minimal & elegant mini square shaped lunch bag. Ideal for sandwiches, breads & flatbreads. The square shaped organic fabric sandwich bag is eye-catching & practical. The breathable eco bag promises freshness.',
@@ -389,13 +397,13 @@ const MasterProducts = [
     {
         productId: 'HK008',
         productName: 'Original Cutlery Case',
-        heroImage: '/images/p_images/Home/Kitchen/HK008/hero.jpg',
+        lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
+        heroImage: '/images/p_images/Home/Kitchen/HK008/hero.jpg', 
         images: 
-            ['/images/p_images/Home/Kitchen/HK008/1.jpg',
+            ['/images/p_images/Home/Kitchen/HK008/hero.jpg',
+            '/images/p_images/Home/Kitchen/HK008/1.jpg',
             '/images/p_images/Home/Kitchen/HK008/2.jpg',
-            '/images/p_images/Home/Kitchen/HK008/3.jpg',
-            '/images/p_images/Home/Kitchen/HK008/4.jpg',
-            '/images/p_images/Home/Kitchen/HK008/5.jpg',],
+            '/images/p_images/Home/Kitchen/HK008/3.jpg',],
         group: 'Home',
         subGroup: 'Kitchen',
         description: 'Usable & handy, the elegant vegan fabric cutlery case is ideal to always keep handy. Use yours to always have in your bag or when packing lunch. Protected with a button, the simple fabric cutlery case will ensure that you can enjoy your food anywhere and anytime.',
@@ -409,9 +417,11 @@ const MasterProducts = [
     {
         productId: 'HL005',
         productName: 'Laundry Hang Bag',
-        heroImage: '/images/p_images/Home/Laundry/HL005/hero.jpg',
+        lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+        heroImage: '/images/p_images/Home/Laundry/HL005/hero.jpg',  
         images: 
-            ['/images/p_images/Home/Laundry/HL005/1.jpg',
+            ['/images/p_images/Home/Laundry/HL005/hero.jpg',
+            '/images/p_images/Home/Laundry/HL005/1.jpg',
             '/images/p_images/Home/Laundry/HL005/2.jpg',
             '/images/p_images/Home/Laundry/HL005/3.jpg',
             '/images/p_images/Home/Laundry/HL005/4.jpg',],
@@ -428,7 +438,8 @@ const MasterProducts = [
     {
         productId: 'HL006',
         productName: '3 Part Laundry Organiser',
-        heroImage: '/images/p_images/Home/Laundry/HL006/hero.jpg',
+        lifestyleImage: '/images/p_images/Home/Laundry/HL006/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Home/Laundry/HL006/1.jpg',
             '/images/p_images/Home/Laundry/HL006/2.jpg',],
@@ -445,7 +456,8 @@ const MasterProducts = [
     {
         productId: 'HL008',
         productName: '3 Part Laundry Organiser',
-        heroImage: '/images/p_images/Home/Laundry/HL008/hero.jpg',
+        lifestyleImage: '/images/p_images/Home/Laundry/HL008/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Home/Laundry/HL008/1.jpg',
             '/images/p_images/Home/Laundry/HL008/2.jpg',
@@ -465,7 +477,8 @@ const MasterProducts = [
     {
         productId: 'PG004',
         productName: 'Small Planters (set of 3)',
-        heroImage: '/images/p_images/Home/Garden/PG004/hero.jpg',
+        lifestyleImage: '/images/p_images/Home/Garden/PG004/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Home/Garden/PG004/1.jpg',
             '/images/p_images/Home/Garden/PG004/2.jpg',
@@ -484,7 +497,8 @@ const MasterProducts = [
     {
         productId: 'WY003',
         productName: 'Conventional Yoga Bag',
-        heroImage: '/images/p_images/Lifestyle/Workout/WY003/hero.jpg',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Lifestyle/Workout/WY003/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY003/2.jpg',],
@@ -501,7 +515,8 @@ const MasterProducts = [
     {
         productId: 'WY004',
         productName: 'Handy yoga bag',
-        heroImage: '/images/p_images/Lifestyle/Workout/WY004/hero.jpg',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY004/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Lifestyle/Workout/WY004/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY004/2.jpg',
@@ -520,7 +535,8 @@ const MasterProducts = [
     {
         productId: 'WY005',
         productName: 'Handy yoga bag',
-        heroImage: '/images/p_images/Lifestyle/Workout/WY005/hero.jpg',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY005/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Lifestyle/Workout/WY005/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY005/2.jpg',
@@ -538,7 +554,8 @@ const MasterProducts = [
     {
         productId: 'WY006',
         productName: 'Yoga Tote',
-        heroImage: '/images/p_images/Lifestyle/Workout/WY006/hero.jpg',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY006/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Lifestyle/Workout/WY006/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY006/2.jpg',
@@ -557,7 +574,8 @@ const MasterProducts = [
     {
         productId: 'GB001',
         productName: 'Drawstring Gift Box',
-        heroImage: '/images/p_images/Gift/Giftbox/GB001/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Giftbox/GB001/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Giftbox/GB001/1.jpg',
             '/images/p_images/Gift/Giftbox/GB001/2.jpg',
@@ -578,7 +596,8 @@ const MasterProducts = [
     {
         productId: 'GB002',
         productName: 'Drawstring Gift Box',
-        heroImage: '/images/p_images/Gift/Giftbox/GB002/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Giftbox/GB002/1.jpg',
             '/images/p_images/Gift/Giftbox/GB002/2.jpg',
@@ -596,7 +615,8 @@ const MasterProducts = [
     {
         productId: 'GB003',
         productName: 'Drawstring Gift Box',
-        heroImage: '/images/p_images/Gift/Giftbox/GB003/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Giftbox/GB003/1.jpg',
             '/images/p_images/Gift/Giftbox/GB003/2.jpg',
@@ -616,7 +636,8 @@ const MasterProducts = [
     {
         productId: 'GB001',
         productName: 'Drawstring Gift Box',
-        heroImage: '/images/p_images/Gift/Giftbox/GB001/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Giftbox/GB001/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Giftbox/GB001/1.jpg',
             '/images/p_images/Gift/Giftbox/GB001/2.jpg',
@@ -637,7 +658,8 @@ const MasterProducts = [
     {
         productId: 'GB002',
         productName: 'Multi-use Gift Box ',
-        heroImage: '/images/p_images/Gift/Giftbox/GB002/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Giftbox/GB002/1.jpg',
             '/images/p_images/Gift/Giftbox/GB002/2.jpg',
@@ -655,7 +677,8 @@ const MasterProducts = [
     {
         productId: 'GB003',
         productName: 'Minimal Gift Box',
-        heroImage: '/images/p_images/Gift/Giftbox/GB003/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Giftbox/GB003/1.jpg',
             '/images/p_images/Gift/Giftbox/GB003/2.jpg',
@@ -676,7 +699,8 @@ const MasterProducts = [
     {
         productId: 'GG006',
         productName: 'Mini Gift Bags',
-        heroImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Giftbag/GG006/1.jpg',
             '/images/p_images/Gift/Giftbag/GG006/2.jpg',
@@ -697,7 +721,8 @@ const MasterProducts = [
     {
         productId: 'GW006',
         productName: 'Mini Gift Bags',
-        heroImage: '/images/p_images/Gift/Accessories/GW006/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Accessories/GW006/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Accessories/GW006/1.jpg',
             '/images/p_images/Gift/Accessories/GW006/2.jpg',
@@ -716,7 +741,8 @@ const MasterProducts = [
     {
         productId: 'GW003',
         productName: 'Message Card Holder',
-        heroImage: '/images/p_images/Gift/Accessories/GW003/hero.jpg',
+        lifestyleImage: '/images/p_images/Gift/Accessories/GW003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Gift/Accessories/GW003/1.jpg',
             '/images/p_images/Gift/Accessories/GW003/2.jpg',],
@@ -733,7 +759,8 @@ const MasterProducts = [
     {
         productId: 'TA003',
         productName: 'Accessory Pouches Set of 3',
-        heroImage: '/images/p_images/Storage/Organisers/TA003/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Organisers/TA003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Organisers/TA003/1.jpg',
             '/images/p_images/Storage/Organisers/TA003/2.jpg',
@@ -755,7 +782,8 @@ const MasterProducts = [
     {
         productId: 'TA004',
         productName: 'Multi-purpose pouches',
-        heroImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Organisers/TA004/1.jpg',
             '/images/p_images/Storage/Organisers/TA004/2.jpg',
@@ -776,7 +804,8 @@ const MasterProducts = [
     {
         productId: 'HS001',
         productName: 'Classic storage tray',
-        heroImage: '/images/p_images/Storage/Home/HS001/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Home/HS001/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Home/HS001/1.jpg',
             '/images/p_images/Storage/Home/HS001/2.jpg',
@@ -797,7 +826,8 @@ const MasterProducts = [
     {
         productId: 'HS002',
         productName: 'Versatile Storage tray',
-        heroImage: '/images/p_images/Storage/Home/HS002/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Home/HS002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Home/HS002/1.jpg',
             '/images/p_images/Storage/Home/HS002/2.jpg',
@@ -821,7 +851,8 @@ const MasterProducts = [
     {
         productId: 'HS003',
         productName: '3 level Storage shelf',
-        heroImage: '/images/p_images/Storage/Home/HS003/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Home/HS003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Home/HS003/1.jpg',
             '/images/p_images/Storage/Home/HS003/2.jpg',
@@ -841,7 +872,8 @@ const MasterProducts = [
     {
         productId: 'HS007',
         productName: 'Broad Storage Bags',
-        heroImage: '/images/p_images/Storage/Home/HS007/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Home/HS007/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Home/HS007/1.jpg',
             '/images/p_images/Storage/Home/HS007/2.jpg',
@@ -861,7 +893,8 @@ const MasterProducts = [
     {
         productId: 'HS008',
         productName: 'Broad Storage Bags',
-        heroImage: '/images/p_images/Storage/Home/HS008/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Home/HS008/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Home/HS008/1.jpg',
             '/images/p_images/Storage/Home/HS008/2.jpg',
@@ -879,7 +912,8 @@ const MasterProducts = [
     {
         productId: 'HS010',
         productName: 'Original storage boxes',
-        heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg',
+        lifestyleImage: '/images/p_images/Storage/Home/HS010/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Storage/Home/HS010/1.jpg',
             '/images/p_images/Storage/Home/HS010/2.jpg',
@@ -899,7 +933,8 @@ const MasterProducts = [
     {
         productId: 'HS012',
         productName: 'Original storage pouch',
-        heroImage: '/images/p_images/Accessories/OnTheGo/HS012/hero.jpg',
+        lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Accessories/OnTheGo/HS012/1.jpg',
             '/images/p_images/Accessories/OnTheGo/HS012/2.jpg',
@@ -919,7 +954,8 @@ const MasterProducts = [
     {
         productId: 'TA001',
         productName: 'Travel Organisers',
-        heroImage: '/images/p_images/Accessories/OnTheGo/TA001/hero.jpg',
+        lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Accessories/OnTheGo/TA001/1.jpg',
             '/images/p_images/Accessories/OnTheGo/TA001/2.jpg',
@@ -939,7 +975,8 @@ const MasterProducts = [
     {
         productId: 'MW001',
         productName: 'Bi fold wallet ',
-        heroImage: '/images/p_images/Accessories/Wallet/MW001/hero.jpg',
+        lifestyleImage: '/images/p_images/Accessories/Wallet/MW001/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Accessories/Wallet/MW001/1.jpg',
             '/images/p_images/Accessories/Wallet/MW001/2.jpg',
@@ -959,7 +996,8 @@ const MasterProducts = [
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
-            heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
+            lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
+            heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             price: '79',
             combinedPrice: '590'
@@ -968,7 +1006,8 @@ const MasterProducts = [
     {
         productId: 'MW002',
         productName: 'Bi fold wallet ',
-        heroImage: '/images/p_images/Accessories/Wallet/MW002/hero.jpg',
+        lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Accessories/Wallet/MW002/1.jpg',
             '/images/p_images/Accessories/Wallet/MW002/2.jpg',
@@ -988,7 +1027,8 @@ const MasterProducts = [
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
-            heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
+            lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
+            heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             price: '79',
             combinedPrice: '590'
@@ -997,7 +1037,8 @@ const MasterProducts = [
     {
         productId: 'MW003',
         productName: 'Classic Card Holder',
-        heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
+        lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Accessories/Wallet/MW003/1.jpg',
             '/images/p_images/Accessories/Wallet/MW003/2.jpg',],
@@ -1014,7 +1055,8 @@ const MasterProducts = [
     {
         productId: 'MW004',
         productName: 'Passport Cover',
-        heroImage: '/images/p_images/Accessories/Wallet/MW004/hero.jpg',
+        lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/hero.jpg',
+        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
         images: 
             ['/images/p_images/Accessories/Wallet/MW004/1.jpg',
             '/images/p_images/Accessories/Wallet/MW004/2.jpg',

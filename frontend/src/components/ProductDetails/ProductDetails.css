@@ -357,6 +357,10 @@
   padding: 0px;
 }
 
+.image-style {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 @media (max-width: 1290px) {
   .alt-img-hero {
     width: 470px;

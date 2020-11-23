@@ -148,21 +148,21 @@ export default class Menubar extends Component {
                                     <Col className='navbar-drop-list' sm={6}>
                                         <ul onClick={this.toggleWomenDropDiv}>
                                             <li>
-                                                <Link to='/bags/women'><img src='/images/nav_drop/home_drop/laundry.png' alt='laundry_img'/>
+                                                <Link to='/bags/women'><img src='/images/nav_drop/home_drop/women.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>WOMEN</div></Link></li>
                                             <li>
-                                                <Link to='/bags/tote'><img src='/images/nav_drop/home_drop/mat.png' alt='laundry_img'/>
+                                                <Link to='/bags/tote'><img src='/images/nav_drop/home_drop/tote.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>TOTE</div></Link></li>
                                             <li>
-                                                <Link to='/bags/office'><img src='/images/nav_drop/home_drop/tableware.png' alt='laundry_img'/>
+                                                <Link to='/bags/office'><img src='/images/nav_drop/home_drop/office.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>OFFICE</div></Link></li>
                                             <li>
-                                                <Link to='/bags/travel'><img src='/images/nav_drop/home_drop/kitchen.png' alt='laundry_img'/>
+                                                <Link to='/bags/travel'><img src='/images/nav_drop/home_drop/travel.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>TRAVEL</div></Link></li>
                                         </ul>
                                         <Link to='/bags/all_products' className='navbar-drop-link' onClick={this.toggleHomeDropDiv}>VIEW ALL BAGS</Link>
                                     </Col>
-                                    <Col sm={4} className='navbar-drop-hero'><img src='/images/nav_drop/home_drop/homeDropHero.png' alt='home_drop_hero'/></Col>
+                                    <Col sm={4} className='navbar-drop-hero'><img src='/images/nav_drop/home_drop/homeDropHero.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
                             </Collapse> : null
                         }
@@ -179,16 +179,16 @@ export default class Menubar extends Component {
                                     <Col className='navbar-drop-list' sm={8}>
                                         <ul>
                                             <li>
-                                                <Link to='/home/tableware'><img src='/images/nav_drop/office_drop/messenger_bag.png' alt='laundry_img'/>
+                                                <Link to='/home/tableware'><img src='/images/nav_drop/office_drop/bread_basket.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>TABLEWARE</div></Link></li>
                                             <li>
-                                                <Link to='/home/kitchen'><img src='/images/nav_drop/office_drop/storage_bag.png' alt='laundry_img'/>
+                                                <Link to='/home/kitchen'><img src='/images/nav_drop/office_drop/bread_bag.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>KITCHEN</div></Link></li>
                                             <li>
                                                 <Link to='/home/laundry'><img src='/images/nav_drop/office_drop/folder_bag.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>LAUNDRY</div></Link></li>
                                             <li>
-                                                <Link to='/home/garden'><img src='/images/nav_drop/office_drop/accessories.png' alt='laundry_img'/>
+                                                <Link to='/home/garden'><img src='/images/nav_drop/office_drop/accessories.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>GARDEN</div></Link></li>
                                         </ul>
                                         <Link to='/home/all_products' className='navbar-drop-link'>VIEW ALL BAGS</Link>

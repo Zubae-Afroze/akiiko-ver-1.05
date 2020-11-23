@@ -2,15 +2,14 @@ const BagOfficeProducts = [
     {
         productId: 'OL002',
         productName: 'Daily Laptop bag',
+        lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Office/OL002/hero.jpg',
         images: 
             ['/images/p_images/Bags/Office/OL002/1.jpg',
             '/images/p_images/Bags/Office/OL002/2.jpg',
             '/images/p_images/Bags/Office/OL002/3.jpg',
             '/images/p_images/Bags/Office/OL002/4.jpg',
-            '/images/p_images/Bags/Office/OL002/5.jpg',
-            '/images/p_images/Bags/Office/OL002/6.jpg',
-            '/images/p_images/Bags/Office/OL002/7.jpg',],
+            '/images/p_images/Bags/Office/OL002/5.jpg',],
         group: 'Bag',
         subGroup: 'Office',
         description: 'Practical & light toned organic fabric laptop bag. An ideal companion in casual meetings and relaxed office settings. The vegan office bag is designed with a long adjustable strap, convenient handles and pockets for efficient organisation.',
