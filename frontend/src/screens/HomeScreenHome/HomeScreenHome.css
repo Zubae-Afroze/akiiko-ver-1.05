@@ -75,7 +75,7 @@
 
 .home-button {
   margin-right: 65px;
-  margin-top: 100px;
+  margin-top: 90px;
   padding: 18px 75px;
   width: 240px;
   background-color: #6e4e37;
@@ -89,7 +89,7 @@
 }
 .home-wrapper {
   text-align: right;
-  margin-bottom: 2em;
+  margin-bottom: 20px;
 }
 .home-title {
   font-family: 'rutanLight';

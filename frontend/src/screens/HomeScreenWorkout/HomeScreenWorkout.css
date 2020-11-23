@@ -8,7 +8,9 @@
   font-size: 17px;
   border: 1px solid #6e4e37;
 }
-
+.home-workout-button {
+  margin-top: 110px;
+}
 .workout-wrapper {
   text-align: right;
   margin-bottom: 50px;

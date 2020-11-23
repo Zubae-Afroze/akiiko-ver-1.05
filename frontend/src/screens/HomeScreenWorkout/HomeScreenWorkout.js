@@ -9,7 +9,7 @@ const HomeScreenWorkout = () => {
         <div className='home-screen-component'>{/**container class changed as div*/}
             <Row className='home-wrapper workout-cont'> {/* workout cls name changes as home*/}
                 <Col sm={3} className='home-button-placement'> {/* workout cls name changes as home*/}
-                    <Link to='/storage/all_products'><button className='home-button'>SHOP ALL</button></Link> {/* workout cls name changes as home*/}
+                    <Link to='/storage/all_products'><button className='home-button home-workout-button'>SHOP ALL</button></Link> {/* workout cls name changes as home*/}
                 </Col>
                 <Col sm={9} className='home-wrapper'>{/* workout cls name changes as home*/}
                     <div className='home-title'>STORAGE</div>{/* workout cls name changes as home*/}
