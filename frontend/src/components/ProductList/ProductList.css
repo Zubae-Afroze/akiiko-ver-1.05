@@ -68,23 +68,28 @@
 
 .product-list-card-title {
   color: #3a2f2d;
-  text-align: center;
+  text-align: left;
   width: 220px;
-  height: 78px;
+  height: 50px;
+  font-size: 14px;
   background-color: #fefaef;
-  padding: 15px 30px;
+  padding: 10px 15px;
+  padding-left: 8px;
   text-transform: uppercase;
   word-wrap: break-word;
   font-family: 'rutan';
 }
 
 .product-list-card-text {
-  text-align: center;
+  text-align: left;
   background-color: #f7f1e6;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding: 18px 18px;
-  font-family: 'rutan';
+  padding: 10px 15px;
+  padding-left: 8px;
+  font-family: 'rutanMedium';
+  font-size: 14px;
+  color: #3a2f2d;
 }
 
 .product-list-wrapper a:hover {

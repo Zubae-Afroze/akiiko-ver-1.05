@@ -59,8 +59,8 @@ export default class Footer extends Component {
                         </Col>
                         <div className='footer-social-icons-wrapper'>
                         <ul className='footer-social-icons'>
-                            <li><a href='/'><i className="lni lni-instagram-filled"></i></a></li> 
-                            <li><a href='/'><i className="lni lni-facebook-filled"></i></a></li>
+                            <li><a href='https://www.instagram.com/akiiko_india/' target='_blank' rel="noreferrer"><i className="lni lni-instagram-filled"></i></a></li> 
+                            <li><a href='https://www.facebook.com/akiikoindia/' target='_blank' rel="noreferrer"><i className="lni lni-facebook-filled"></i></a></li>
                             <li><a href='/'><i className="lni lni-linkedin-original"></i></a></li>
                             <li><a href='/'><i className="lni lni-pinterest"></i></a></li>
                             <li><a href='/'><i className="lni lni-twitter-original"></i></a></li>

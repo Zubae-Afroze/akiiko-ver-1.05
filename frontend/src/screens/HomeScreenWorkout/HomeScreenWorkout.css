@@ -23,7 +23,7 @@
 
 .workout-hero-image img {
   width: 490px;
-  height: 42.2em;
+  height: 41.8em;
 }
 .hero-image-workout {
   max-width: 490px;
@@ -99,16 +99,16 @@
   }
   .workout-hero-image img {
     width: 100%;
-    height: 618px;
+    height: 566px;
     margin-top: 5px;
   }
   .home-card-title {
     width: 180px;
-    height: 60px;
-    font-size: 15px;
+    font-size: 12px;
   }
   .home-card-text {
     width: 180px;
+    font: 12px;
   }
   .home-card-items {
     flex-basis: 173px;
@@ -124,7 +124,7 @@
 }
 @media (max-width: 1024px) {
   .home-card-text {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 /*     ---------------                   TAB 768PX TO 1024PX          -------------*/

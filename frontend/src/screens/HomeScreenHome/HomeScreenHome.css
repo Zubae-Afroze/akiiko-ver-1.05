@@ -138,10 +138,12 @@
   width: 230px;
   text-align: left;
   padding: 10px;
-  font-size: 15px;
+  padding-left: 6px;
+  font-size: 14px;
   background-color: #f6f1ea;
   text-transform: uppercase;
   margin-bottom: 45px;
+  font-family: 'rutanMedium';
 }
 
 .home-card-title {
@@ -149,11 +151,11 @@
   background-color: #fefaef;
   text-transform: uppercase;
   font-family: 'rutan';
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 6px;
 }
 
 .home-card-items a {

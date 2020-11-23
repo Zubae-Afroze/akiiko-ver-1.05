@@ -50,11 +50,11 @@
 .women-card-image img {
   height: 100%;
   width: 100%;
-  border: 2px solid #fefaef;
+  border: 1px solid #36353541;
 }
 
 .home-card-image {
-  border: 2px solid #fefaef;
+  border: 1px solid #36353541;
 }
 
 .women-card-title {
@@ -65,7 +65,7 @@
   font-size: 14px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 15px;
+  padding-left: 6px;
   text-align: left;
 }
 
@@ -84,7 +84,8 @@
   text-align: left;
   width: 100%;
   padding: 15px;
-  font-size: 15px;
+  padding-left: 6px;
+  font-size: 14px;
   background-color: #f6f1ea;
   text-transform: uppercase;
 }

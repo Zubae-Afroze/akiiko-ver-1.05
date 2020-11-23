@@ -73,6 +73,7 @@ const ProductDetails = (props) => {
                 email: formData.email,
                 phone: formData.phone,
                 address: formData.address,
+                itemQuantity: itemQuantity
             };
             emailTest(eParams)
         };
@@ -108,11 +109,11 @@ const ProductDetails = (props) => {
                 <Col className='modal-wrapper'>
                     <p className='modal-intro-text'>Please fill out your information, to continue with the purchase</p>
                     <form className='modal-form'>
-                        <input type='text' placeholder='First Name' name='fname' autocomplete="off" className='modal-input modal-first' onChange={handleChange}></input>
-                        <input type='text' placeholder='Last Name' name='lname' autocomplete="off" className='modal-input modal-last' onChange={handleChange}></input><br></br>
-                        <input type='text' placeholder='Email Address' name='email' autocomplete="off" className='modal-input modal-email' onChange={handleChange}></input><br></br>
-                        <input type='number' placeholder='Phone Number' name='phone' autocomplete="off" className='modal-input modal-phone' onChange={handleChange}></input><br></br>
-                        <textarea type='text' id='madd' placeholder='Address' name='address' autocomplete="off" className='modal-input modal-address' onChange={handleChange}></textarea><br></br>
+                        <input type='text' placeholder='First Name' name='fname' autoComplete="off" className='modal-input modal-first' onChange={handleChange}></input>
+                        <input type='text' placeholder='Last Name' name='lname' autoComplete="off" className='modal-input modal-last' onChange={handleChange}></input><br></br>
+                        <input type='text' placeholder='Email Address' name='email' autoComplete="off" className='modal-input modal-email' onChange={handleChange}></input><br></br>
+                        <input type='number' placeholder='Phone Number' name='phone' autoComplete="off" className='modal-input modal-phone' onChange={handleChange}></input><br></br>
+                        <textarea type='text' id='madd' placeholder='Address' name='address' autoComplete="off" className='modal-input modal-address' onChange={handleChange}></textarea><br></br>
 
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
                         <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
@@ -193,7 +194,7 @@ const ProductDetails = (props) => {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" onClick={() => setDropMaterial('Cotton Canvas')}>{product.material}</Dropdown.Item>
+                    <Dropdown.Item onClick={() => setDropMaterial('Cotton Canvas')}>{product.material}</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Col>
@@ -204,7 +205,7 @@ const ProductDetails = (props) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" onClick={() => setDropThickness('9 Ounce')}>{product.thickness}</Dropdown.Item>
+                    <Dropdown.Item onClick={() => setDropThickness('9 Ounce')}>{product.thickness}</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             </Col>
@@ -218,7 +219,7 @@ const ProductDetails = (props) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Natural<div className='color-pick'></div></Dropdown.Item>
+                    <Dropdown.Item>Natural<div className='color-pick'></div></Dropdown.Item>
                 </Dropdown.Menu>
                 </Dropdown>
             </Col>
