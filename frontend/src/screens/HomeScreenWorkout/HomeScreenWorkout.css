@@ -8,7 +8,9 @@
   font-size: 17px;
   border: 1px solid #6e4e37;
 }
-
+.home-workout-button {
+  margin-top: 110px;
+}
 .workout-wrapper {
   text-align: right;
   margin-bottom: 50px;
@@ -376,6 +378,13 @@
   }
 }
 @media (max-width: 425px) {
+  .hero-button.mobile-view-button {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .home-wrapper {
+    margin-bottom: 15px;
+  }
   .home-button-placement {
     display: none;
   }
@@ -391,6 +400,7 @@
   }
   .home-card-text {
     font-size: 12px;
+    margin-bottom: 20px !important;
   }
 }
 /* 

@@ -60,10 +60,9 @@
 
 .product-list-card-wrapper {
   flex-wrap: wrap;
+  flex-basis: 230px;
   position: relative;
-  margin-right: 30px;
-  margin-bottom: 40px;
-  margin-left: 0px;
+  padding: 0px 10px;
 }
 
 .product-list-card-title {
@@ -82,6 +81,7 @@
 
 .product-list-card-text {
   text-align: left;
+  width: 22 0px;
   background-color: #f7f1e6;
   text-transform: uppercase;
   margin-bottom: 20px;
