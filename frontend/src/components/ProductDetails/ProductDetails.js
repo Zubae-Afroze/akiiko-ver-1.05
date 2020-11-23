@@ -240,9 +240,9 @@ const ProductDetails = (props) => {
                 <div>
                     <div className='product-details-label'>Details</div>
                     <ul className='product-details-text'>
-                    <li><span className='target-bold'>Item Code: </span> {product.productId}</li>
-                    <li><span className='target-bold'>Size:</span> {product.measurement}</li>
-                    <li><span className='target-bold'>Material:</span> {product.material}</li>
+                    <li className='product-details-texts'><span className='target-bold'>Item Code: </span> {product.productId}</li>
+                    <li className='product-details-texts'><span className='target-bold'>Size:</span> {product.measurement}</li>
+                    <li className='product-details-texts'><span className='target-bold'>Material:</span> {product.material}</li>
                     {/* <li>Care Instruction: {product.washingCare}</li> */}
                     </ul>
                 </div>
