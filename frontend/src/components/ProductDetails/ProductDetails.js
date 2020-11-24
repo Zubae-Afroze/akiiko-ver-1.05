@@ -182,10 +182,14 @@ const ProductDetails = (props) => {
             }} />
             </div>
             </Col>
+<<<<<<< HEAD
             <div className='mobile-carousel'>
                 
             </div>
             <Col xs={6} className='product-det'> {/* cls name added*/}
+=======
+            <Col lg={6} className='product-det'> {/* cls name added and xs=6 is changed to lg-6*/}
+>>>>>>> 149b8615091872e01f4e997831035419c85b351d
                 <div className='products-details-head'>{product.group}</div>
                 <div className='products-details-label'>{product.productName}</div>
                 <div className='products-details-price'>&#x20B9; {product.price}</div>

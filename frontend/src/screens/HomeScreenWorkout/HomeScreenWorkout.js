@@ -14,7 +14,7 @@ const HomeScreenWorkout = () => {
                 <Col sm={9} className='home-wrapper'>{/* workout cls name changes as home*/}
                     <div className='home-title'>STORAGE</div>{/* workout cls name changes as home*/}
                     <div className='home-text'>A thoughtful range of organisers and storage bags to compliment and increase the functionality of your home. 
-                    Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy decluttering. </div>
+                    Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy declaring. </div>
                 </Col>
                 
             </Row>
@@ -65,7 +65,7 @@ const HomeScreenWorkout = () => {
                                 <div>
                                     <img className='home-card-image' src={product.image} alt='home_1'/>
                                     <div className='home-card-title'>{product.name}</div>
-                                <div className='home-card-text'>View Detials - &#x20B9;{product.price}</div>
+                                <div className='home-card-text'>View Details - &#x20B9;{product.price}</div>
                                 </div>
                             </Col>
                         ))}
