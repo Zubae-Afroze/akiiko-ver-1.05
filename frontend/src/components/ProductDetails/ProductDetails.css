@@ -810,6 +810,15 @@ button.product-purchase-button {
   }
 }
 @media (max-width: 375px) {
+  .modal-input{
+    margin: 5px;
+  }
+  .modal-img img {
+    width: 130px;
+}
+  .modal-content{
+    min-width: 360px;
+  }
   .dropdown-menu {
     transform: translate3d(0px, 26px, 0px) !important;
   }
