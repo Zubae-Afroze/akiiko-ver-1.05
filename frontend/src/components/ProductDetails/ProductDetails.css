@@ -444,6 +444,10 @@
   }
 }
 @media(max-width:991px){
+  .modal-content{
+    min-width: 775px;
+    margin-left: -130px;
+  }
   .alt-img-hero{
     margin-left: 10px;
   }
@@ -513,6 +517,16 @@ button#dropdown-basic {
 /* ----------------------------------------TAB 768px and below ---------------------------------------------- */
 
 @media(max-width:768px){
+  .modal-check-button{
+    font-size: 12px;
+  }
+  .modal-content {
+    min-width: 627px;
+    margin-left: -60px;
+}
+  .modal-img img{
+width: 225px;
+  }
   .alt-img-list{
     max-width: 9%;
   }
@@ -557,6 +571,13 @@ button.product-purchase-button {
   }
 }
 @media (max-width: 653px) {
+  .modal-address{
+    margin-bottom: 5px;
+  }
+  .modal-content {
+    min-width: 590px;
+    margin-left: -38px;
+}
   button.product-purchase-button {
     margin: 10% 30% 5% 26%;
 }
@@ -654,6 +675,40 @@ button.product-purchase-button {
 }
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 @media (max-width: 425px) {
+  .modal-check-button{
+    width: 100%;
+  margin: 0px;
+  }
+
+  .modal-prd-det{
+    font-size: 12px;
+  }
+  .modal-first{
+    font-size: 12px;
+  }
+  .modal-last{
+    font-size: 12px;
+  }
+  .modal-address{
+    font-size: 12px;
+    width: 100%;
+  }
+  .modal-email{
+    font-size: 12px;
+    width: 100%;
+    width: 100%;
+  }
+  .modal-phone{
+    width: 100%;
+    font-size: 12px;
+  }
+  .modal-img img{
+    width: 150px;
+  }
+  .modal-content {
+    min-width: 400px;
+    margin-left: 0px;
+}
   button.product-purchase-button {
     margin: 12% 30% 5% 26%;
 }
