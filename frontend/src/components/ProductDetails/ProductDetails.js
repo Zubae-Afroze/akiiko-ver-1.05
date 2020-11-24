@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Dropdown, Modal } from 'react-bootstrap';
+import { Container, Row, Col, Dropdown, Modal} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import emailjs from 'emailjs-com';
@@ -148,9 +148,9 @@ const ProductDetails = (props) => {
 
     const [nextModalShow, setNextModalShow] = useState(false);
 
-    const [dropMaterial, setDropMaterial] = useState('');
+    // const [dropMaterial, setDropMaterial] = useState('');
 
-    const [dropThickness, setDropThickness] = useState('');
+    // const [dropThickness, setDropThickness] = useState('');
 
     return (
         <Container>
@@ -182,6 +182,9 @@ const ProductDetails = (props) => {
             }} />
             </div>
             </Col>
+            <div className='mobile-carousel'>
+                
+            </div>
             <Col xs={6} className='product-det'> {/* cls name added*/}
                 <div className='products-details-head'>{product.group}</div>
                 <div className='products-details-label'>{product.productName}</div>
@@ -194,7 +197,7 @@ const ProductDetails = (props) => {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                    <Dropdown.Item onClick={() => setDropMaterial('Cotton Canvas')}>{product.material}</Dropdown.Item>
+                    <Dropdown.Item>{product.material}</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Col>
@@ -205,7 +208,7 @@ const ProductDetails = (props) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item onClick={() => setDropThickness('9 Ounce')}>{product.thickness}</Dropdown.Item>
+                    <Dropdown.Item>{product.thickness}</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             </Col>
@@ -224,7 +227,7 @@ const ProductDetails = (props) => {
                 </Dropdown>
             </Col>
 
-                <Col className='product-details-quantity'>
+            <Col className='product-details-quantity'>
                 <div className='details-quantity'>
                 <div className='quantity-div'>Quantity:</div>
                     <div className='quantity-dum'><span className='quantity-decrease' onClick={() => setItemQuantity(itemQuantity <= 1 ? itemQuantity = 1 : itemQuantity - 1)}>-</span>
@@ -263,7 +266,8 @@ const ProductDetails = (props) => {
                 onHide={() => setNextModalShow(false)}
             />
         </Row>
-            {product.addOns !== '' ? 
+        {/* For products with Add ons */}
+            {product.addOns !== '' ?  
         <Row>
             <Col>
                     

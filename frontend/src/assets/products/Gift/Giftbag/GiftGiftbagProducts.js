@@ -2,14 +2,12 @@ const GiftGiftboxProducts = [
     {
         productId: 'GG006',
         productName: 'Mini Gift Bags',
+        lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg',
         images: 
             ['/images/p_images/Gift/Giftbag/GG006/1.jpg',
             '/images/p_images/Gift/Giftbag/GG006/2.jpg',
-            '/images/p_images/Gift/Giftbag/GG006/3.jpg',
-            '/images/p_images/Gift/Giftbag/GG006/4.jpg',
-            '/images/p_images/Gift/Giftbag/GG006/5.jpg',
-            '/images/p_images/Gift/Giftbag/GG006/6.jpg',],  
+            '/images/p_images/Gift/Giftbag/GG006/3.jpg',],
         group: 'Gift',
         subGroup: 'Giftbag',
         description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it a perfect to hold your gift & act as a gift in itself.  It has 2 strings made up of natural fabric and  tied up as a drawstring.',
@@ -17,6 +15,27 @@ const GiftGiftboxProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This small bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        price: '755'
+    },
+    {
+        productId: 'GW006',
+        productName: 'Drawstring Gift Pouch',
+        lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
+        heroImage: '/images/p_images/Gift/Giftbag/GW006/hero.jpg', 
+        images: 
+            ['/images/p_images/Gift/Giftbag/GW006/hero.jpg',
+            '/images/p_images/Gift/Giftbag/GW006/1.jpg',
+            '/images/p_images/Gift/Giftbag/GW006/2.jpg',
+            '/images/p_images/Gift/Giftbag/GW006/3.jpg',
+            '/images/p_images/Gift/Giftbag/GW006/4.jpg',],
+        group: 'Gift',
+        subGroup: 'Giftbag',
+        description: '100% eco friendly fabric drawstring gift bag, especially designed to hold circular objects. The organic gift bag comes with an eco-friendly fibre drawstring. Available in a Pair of 2, to suit every gift.',
+        thickness: '9 Ounce',
+        measurement: 'BIG-L30cm x D15.5 cm SMALL-L21.5cm x D15.5cm',
+        material: 'Cotton Canvas',
+        color: 'Raw White',
+        washingCare: 'This gift pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         price: '755'
     },
 ]

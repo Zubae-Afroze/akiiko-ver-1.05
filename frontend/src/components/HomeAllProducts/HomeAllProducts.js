@@ -15,7 +15,7 @@ const HomeAllProducts = (props) => {
                 {props.tablewareProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <div className='product-list-image'>
-                            <img src={product.heroImage} alt='home_1'/>
+                            <img src={product.lifestyleImage} alt='home_1'/>
                             <div className='product-list-card-title'>{product.productName}</div>
                             <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>
                         </div>
@@ -30,7 +30,7 @@ const HomeAllProducts = (props) => {
                 {props.kitchenProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <div className='product-list-image'>
-                            <img src={product.heroImage} alt='home_1'/>
+                            <img src={product.lifestyleImage} alt='home_1'/>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
                         <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>
@@ -45,7 +45,7 @@ const HomeAllProducts = (props) => {
                 {props.laundryProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <div className='product-list-image'>
-                            <img src={product.heroImage} alt='home_1'/>
+                            <img src={product.lifestyleImage} alt='home_1'/>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
                         <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>
@@ -60,7 +60,7 @@ const HomeAllProducts = (props) => {
                 {props.gardenProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <div className='product-list-image'>
-                            <img src={product.heroImage} alt='home_1'/>
+                            <img src={product.lifestyleImage} alt='home_1'/>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
                         <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>

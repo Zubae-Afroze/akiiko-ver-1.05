@@ -2,9 +2,11 @@ const LifestyleWorkoutProducts= [
     {
         productId: 'WY003',
         productName: 'Conventional Yoga Bag',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY003/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/WY003/hero.jpg',
         images: 
-            ['/images/p_images/Lifestyle/Workout/WY003/1.jpg',
+            ['/images/p_images/Lifestyle/Workout/WY003/hero.jpg',
+            '/images/p_images/Lifestyle/Workout/WY003/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY003/2.jpg',],
         group: 'Lifestyle',
         subGroup: 'Workout',
@@ -17,10 +19,12 @@ const LifestyleWorkoutProducts= [
     },
     {
         productId: 'WY004',
-        productName: 'Handy yoga bag',
+        productName: 'Handy Yoga bag',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY004/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/WY004/hero.jpg',
         images: 
-            ['/images/p_images/Lifestyle/Workout/WY004/1.jpg',
+            ['/images/p_images/Lifestyle/Workout/WY004/hero.jpg',
+            '/images/p_images/Lifestyle/Workout/WY004/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY004/2.jpg',
             '/images/p_images/Lifestyle/Workout/WY004/3.jpg',
             '/images/p_images/Lifestyle/Workout/WY004/4.jpg',],
@@ -36,9 +40,11 @@ const LifestyleWorkoutProducts= [
     {
         productId: 'WY005',
         productName: 'Handy yoga bag',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY005/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/WY005/hero.jpg',
         images: 
-            ['/images/p_images/Lifestyle/Workout/WY005/1.jpg',
+            ['/images/p_images/Lifestyle/Workout/WY005/hero.jpg',
+            '/images/p_images/Lifestyle/Workout/WY005/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY005/2.jpg',
             '/images/p_images/Lifestyle/Workout/WY005/3.jpg',],
         group: 'Lifestyle',
@@ -53,9 +59,11 @@ const LifestyleWorkoutProducts= [
     {
         productId: 'WY006',
         productName: 'Yoga Tote',
+        lifestyleImage: '/images/p_images/Lifestyle/Workout/WY006/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/WY006/hero.jpg',
         images: 
-            ['/images/p_images/Lifestyle/Workout/WY006/1.jpg',
+            ['/images/p_images/Lifestyle/Workout/WY006/hero.jpg',
+            '/images/p_images/Lifestyle/Workout/WY006/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY006/2.jpg',
             '/images/p_images/Lifestyle/Workout/WY006/3.jpg',
             '/images/p_images/Lifestyle/Workout/WY006/4.jpg',],

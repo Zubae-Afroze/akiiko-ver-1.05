@@ -159,7 +159,7 @@ export default class App extends Component {
 
               {/* Accesories */}
               <Route path='/gift/accessories' render={(props) => (<ProductList {...props} 
-              productListLabel={'Giftbox'}
+              productListLabel={'Accessories'}
               productListText={'The manner of giving, is often more important than the gift itself. Present your loved ones, with thoughtful gifts that are adorned with meaningful and charming accessories to carry your message.'}
               productDetails={GiftAccessories}/>)}/>
 

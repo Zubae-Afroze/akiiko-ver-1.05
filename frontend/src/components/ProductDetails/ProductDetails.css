@@ -108,7 +108,7 @@
 }
 
 .product-purchase-button {
-  margin-top: 80px;
+  margin-top: 74px;
   margin-left: 20%;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -468,6 +468,14 @@
 }
 
 @media (max-width: 790px) {
+  .alt-img-list {
+    display: none;
+  }
+
+  .alt-img-hero-container {
+    display: none;
+  }
+
   .dropdown {
     width: 80%;
   }
@@ -508,7 +516,6 @@
   }
 }
 /* ----------------------------------------TAB 768px and below ---------------------------------------------- */
-
 @media (max-width: 653px) {
   .alt-img-hero img {
     width: 420px;
