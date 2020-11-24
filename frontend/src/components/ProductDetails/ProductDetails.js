@@ -169,7 +169,8 @@ const ProductDetails = (props) => {
                 smallImage: {
                     alt: 'big_img',
                     src: bigImageSrc,
-                    isFluidWidth: true,
+                    width: 522,
+                    height: 522
                 },
                 largeImage: {
                     src: bigImageSrc,
