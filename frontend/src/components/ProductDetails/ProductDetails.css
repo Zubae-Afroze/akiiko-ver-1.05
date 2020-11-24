@@ -509,11 +509,20 @@
 }
 /* ----------------------------------------TAB 768px and below ---------------------------------------------- */
 
+@media(max-width:768px){
+  .product-det{
+    margin: 0px;
+    width: 992px;
+
+  }
+}
 @media (max-width: 653px) {
   .alt-img-hero img {
     width: 420px;
     height: 500px;
   }
+  git config --global user.name "Zubae-Afroze"
+
   .cart-det {
     display: block;
   }
