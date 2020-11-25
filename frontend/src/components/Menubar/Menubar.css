@@ -164,6 +164,12 @@
   }
 }
 
+@media (max-width: 550px) {
+  .nav {
+    display: none;
+  }
+}
+
 @media (max-width: 650px) {
   .navbar-drop-list li {
     margin-bottom: 30px;

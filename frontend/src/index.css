@@ -87,6 +87,10 @@ body {
 }
 
 body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
   width: 0.25rem;
 }
 

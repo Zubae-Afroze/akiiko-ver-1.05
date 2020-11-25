@@ -58,7 +58,7 @@ const HomeScreenWomen = () => {
                     </Col>
                 ))}
             </Row> */} <div className='hero-button mobile-view-button'>{/*button added*/}
-                        <Link to='/bags/all_products mobile-view-button'><button>
+                        <Link to='/bags/all_products'><button>
                             Shop Now
                         </button></Link>
                         </div>

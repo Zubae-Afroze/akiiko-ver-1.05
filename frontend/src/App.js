@@ -157,7 +157,7 @@ export default class App extends Component {
               productListText={'Designed with a zero waste mindset, the eco gift bags are made to be cherished. Gift in them and use them forever. The universal colourway makes the bag customisable and timeless.'}
               productDetails={GiftGiftBag}/>)}/>
 
-              {/* Accesories */}
+              {/* Accessories */}
               <Route path='/gift/accessories' render={(props) => (<ProductList {...props} 
               productListLabel={'Accessories'}
               productListText={'The manner of giving, is often more important than the gift itself. Present your loved ones, with thoughtful gifts that are adorned with meaningful and charming accessories to carry your message.'}
