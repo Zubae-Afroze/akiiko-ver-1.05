@@ -14,7 +14,7 @@ export default class Footer extends Component {
                                 akiiko
                             </div>
                             <div className='footer-brand-text'>
-                            Akiiko is an eco-friendly brand. We create wide range of natural fabric utility products for everyday. We value the power of functionality and design to find joy in simplicity. 
+                            Akiiko is an eco-friendly brand. We curate a wide range of natural fabric utility products for everyday use. We value the power of functionality and design to find joy in simplicity. 
                             </div>
                             <div className='footer-brand-button'>
                                 <button className='footer-button'>
