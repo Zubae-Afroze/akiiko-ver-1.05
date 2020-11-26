@@ -104,9 +104,11 @@
   }
   .product-list-card-title {
     width: 100%;
+    font-size: 12px;
   }
   .product-list-card-text {
     width: 100%;
+    font-size: 12px;
   }
   .product-list-card-wrapper {
     flex-basis: 33.333%;
