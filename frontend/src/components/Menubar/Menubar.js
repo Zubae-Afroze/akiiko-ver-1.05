@@ -199,7 +199,7 @@ export default class Menubar extends Component {
                         }
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <Nav className='navbar-li'><div onMouseEnter={this.toggleWorkoutDiv}>Lifestyle</div></Nav>
+                        <Nav className='navbar-li'><div onMouseEnter={this.toggleWorkoutDiv} onClick={this.toggleWorkoutDiv}>Lifestyle</div></Nav>
                         {
                             this.state.dropWorkoutDiv ? 
                             <Collapse in={true} onMouseLeave={this.toggleWorkoutDiv}>

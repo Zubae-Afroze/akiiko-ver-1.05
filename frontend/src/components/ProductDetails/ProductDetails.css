@@ -179,9 +179,17 @@
 }
 
 .color-div {
-  display: inline;
-  float: left;
+  display: inline-block;
   font-family: 'rutanMedium';
+}
+
+.testing {
+  position: absolute;
+  right: 25px;
+}
+
+.color-pick {
+  margin-right: 23px;
 }
 
 .material-div {

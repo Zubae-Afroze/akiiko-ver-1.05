@@ -1,5 +1,5 @@
 import React from 'react'
-import { div, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import HomeScreenWomenProducts from '../../assets/products/HomeScreenWomenProducts';
 import { Link } from 'react-router-dom';
 import './HomeScreenWomen.css';
@@ -26,6 +26,8 @@ const HomeScreenWomen = () => {
                     <Col lg={2.6} key={product.productId} className='women-shop-bag-container'> {/*class name added */}
                     <div className='women-card-image'>
                         <img src={product.heroImage} alt='women_1'/>
+                        {product.bestSeller !== "" ? <span className='label-best'>{product.bestSeller}</span> : null}
+                        {product.quickView !== "" ? <span className='label-view'>{product.quickView}</span> : null}
                         <div className='women-card-title'>{product.productName}</div>
                     <div className='women-card-text'>View Details - &#x20B9;{product.price}</div>
                     </div>
