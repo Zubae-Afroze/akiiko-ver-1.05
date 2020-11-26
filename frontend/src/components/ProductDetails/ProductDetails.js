@@ -180,6 +180,11 @@ const ProductDetails = (props) => {
                 enlargedImageContainerClassName	: 'mag-img-cont',
                 enlargedImageClassName: 'mag-img',
                 imageClassName: 'img-hero-wrap',
+                lensStyle: {
+                    background: 'hsla(0, 0%, 100%, .3)',
+                    border: '1px solid #ccc'
+                },
+                shouldUsePositiveSpaceLens: true
             }} />
             </div>
             </Col>

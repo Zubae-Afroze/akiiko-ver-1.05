@@ -95,6 +95,7 @@ body::-webkit-scrollbar:vertical {
 }
 
 body::-webkit-scrollbar-track {
+  display: block;
   background-color: #e1d5bf;
 }
 
