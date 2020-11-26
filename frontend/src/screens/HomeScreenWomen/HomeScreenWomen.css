@@ -331,9 +331,6 @@
   }
 }
 @media (max-width: 683px) {
-  .women-card-wrapper {
-    display: -webkit-inline-box;
-  }
   .women-shop-bag-container {
     flex-basis: 33.3%;
     padding: 0px 5px;
