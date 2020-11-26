@@ -1,7 +1,7 @@
 const HomeTablewareProducts = [
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET',
+        productName: 'BREAD BASKET (Pack Of 3)',
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg',
         images: 

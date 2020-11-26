@@ -1,7 +1,7 @@
 const HomeKitchenProducts = [
     {
         productId: 'HK002',
-        productName: 'Original Sandwich Bag',
+        productName: 'Original Sandwich Bag (Pack Of 3)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
         heroImage:'/images/p_images/Home/Kitchen/HK002/hero.jpg',
         images: 

@@ -235,7 +235,7 @@ export default class Menubar extends Component {
                                     <Col className='navbar-drop-list' sm={8}>
                                         <ul>
                                             <li>
-                                                <Link to='/gift/giftbox'><img src='/images/nav_drop/organisation_drop/wall_hanging.png' alt='laundry_img'/>
+                                                <Link to='/gift/giftbox'><img src='/images/nav_drop/organisation_drop/giftbag.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>GIFT BOX</div></Link></li>
                                             <li>
                                                 <Link to='/gift/giftbag'><img src='/images/nav_drop/organisation_drop/pouch.jpg' alt='laundry_img'/>

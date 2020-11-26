@@ -9,7 +9,8 @@ const BagToteProducts = [
             '/images/p_images/Bags/Tote/SS001/1.jpg',
             '/images/p_images/Bags/Tote/SS001/2.jpg',
             '/images/p_images/Bags/Tote/SS001/3.jpg',
-            '/images/p_images/Bags/Tote/SS001/4.jpg',],
+            '/images/p_images/Bags/Tote/SS001/4.jpg',
+            '/images/p_images/Bags/Tote/SS001/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'Use this spacious shopper for your groceries or on a daily basis,when you have a lot to haul around. A highly durable, versatile and practical bag. Two deep pockets on either side of the bag, along with broad fabric straps allow for a comfortable & easy shopping experience. The fabric of this eco-friendly bag is thick, secure & soft.',
@@ -41,7 +42,7 @@ const BagToteProducts = [
     },
     {
         productId: 'SS003',
-        productName: 'Mini Classic Canvas Shopper',
+        productName: 'Mini Classic Canvas Shopper (Pack of 3)',
         lifestyleImage: '/images/p_images/Bags/Tote/SS003/lifestyle.jpg',
         herImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
         images: 
@@ -87,7 +88,8 @@ const BagToteProducts = [
             ['/images/p_images/Bags/Tote/SS006/hero.jpg',
             '/images/p_images/Bags/Tote/SS006/1.jpg',
             '/images/p_images/Bags/Tote/SS006/2.jpg',
-            '/images/p_images/Bags/Tote/SS006/3.jpg',],
+            '/images/p_images/Bags/Tote/SS006/3.jpg',
+            '/images/p_images/Bags/Tote/SS006/4.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: ' This large organic fabric tote is a must-have from the shopping collection. The wide and long fabric straps make shopping light and comfortable. The deep and spacious nature of the bag fits all your shopping efficiently and keeps is secure with a zip closure. Clean & minimal, this large eco-friendly tote bag can be used for a multitude of purposes beyond shopping too.',
@@ -127,7 +129,8 @@ const BagToteProducts = [
             '/images/p_images/Bags/Tote/SS008/1.jpg',
             '/images/p_images/Bags/Tote/SS008/2.jpg',
             '/images/p_images/Bags/Tote/SS008/3.jpg',
-            '/images/p_images/Bags/Tote/SS008/4.jpg',],
+            '/images/p_images/Bags/Tote/SS008/4.jpg',
+            '/images/p_images/Bags/Tote/SS008/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'This long handled shopping bag, allows you to do more than just shop. Multipurpose & eco-friendly, the strap can be used to hang the bag from your shoulder or to wear it crossbody. Multiple pockets of various sizes, ensure that you will never run out of space. ',
@@ -139,7 +142,7 @@ const BagToteProducts = [
     },
     {
         productId: 'WB001',
-        productName: 'WOMEN BAG',
+        productName: 'The Everyday Tote',
         lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/WB001/hero.jpg',
         images: 
@@ -159,7 +162,7 @@ const BagToteProducts = [
     },
     {
         productId: 'WB002',
-        productName: 'Everyday Tote',
+        productName: 'Conventional Handbag',
         lifestyleImage: '/images/p_images/Bags/Tote/WB002/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/WB002/lifestyle.jpg',
         images: 
@@ -167,7 +170,7 @@ const BagToteProducts = [
             '/images/p_images/Bags/Tote/WB002/1.jpg',
             '/images/p_images/Bags/Tote/WB002/2.jpg',
             '/images/p_images/Bags/Tote/WB002/3.jpg',
-            '/images/p_images/Bags/Tote/WB002/5.jpg',],
+            '/images/p_images/Bags/Tote/WB002/4.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'Spacious and usable, this vegan tote bag is designed for convenience & effortless style. Made from natural cotton fabric, the eco-friendly tote bag is equipped with long and broad handles, making it light on your shoulders. Your perfect companion on busy days at work, relaxing holidays, weekend shopping trips and more',
@@ -187,6 +190,7 @@ const BagToteProducts = [
             '/images/p_images/Bags/Tote/BE002/1.jpg',
             '/images/p_images/Bags/Tote/BE002/2.jpg',
             '/images/p_images/Bags/Tote/BE002/3.jpg',
+            '/images/p_images/Bags/Tote/BE002/4.jpg',
             '/images/p_images/Bags/Tote/BE002/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',

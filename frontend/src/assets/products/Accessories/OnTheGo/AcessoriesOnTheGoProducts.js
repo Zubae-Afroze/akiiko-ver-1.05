@@ -1,7 +1,7 @@
 const AccessoriesOnTheGoProduct = [
     {
         productId: 'HS012',
-        productName: 'Original storage pouch',
+        productName: 'Original Storage Pouch (Pack of 3)',
         lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
         heroImage:'/images/p_images/Accessories/OnTheGo/HS012/hero.jpg',
         images: 
@@ -20,7 +20,7 @@ const AccessoriesOnTheGoProduct = [
     },
     {
         productId: 'TA001',
-        productName: 'Travel Organisers',
+        productName: 'Travel Organisers (Pack of 3)',
         lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
         heroImage:'/images/p_images/Accessories/OnTheGo/TA001/hero.jpg',
         images: 
