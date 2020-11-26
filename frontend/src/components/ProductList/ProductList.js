@@ -14,8 +14,8 @@ const ProductList = (props) => {
             <div>
                 <Row className='product-list-card-wrapper'>
                     {props.productDetails.map(product => (
-                        <Link to={`/product/${product.productId}`}>
-                        <div className='product-list-card-wrapper' key={product.productId}>
+                        <Link className='product-list-card-wrapper' to={`/product/${product.productId}`}>
+                        <div  key={product.productId}>
                             <div className='product-list-image'>
                                 <img src={product.lifestyleImage} alt='home_1'/>
                             </div>
