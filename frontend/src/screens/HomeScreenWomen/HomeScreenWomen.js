@@ -22,14 +22,15 @@ const HomeScreenWomen = () => {
             </Row>
             <Row className='women-card-wrapper '>
                 {HomeScreenWomenProducts.map(product => (
+                    <Link to={`/product/${product.productId}`}>
                     <Col lg={2.6} key={product.productId} className='women-shop-bag-container'> {/*class name added */}
-                    <Link to={`/product/${product.productId}`}><div className='women-card-image'>
+                    <div className='women-card-image'>
                         <img src={product.heroImage} alt='women_1'/>
                         <div className='women-card-title'>{product.productName}</div>
                     <div className='women-card-text'>View Details - &#x20B9;{product.price}</div>
-                    </div></Link>
-                     
+                    </div>
                     </Col>
+                    </Link>
                 ))} 
             </Row>
             {/* <Row className='women-wrapper'>
@@ -57,7 +58,7 @@ const HomeScreenWomen = () => {
                     </Col>
                 ))}
             </Row> */} <div className='hero-button mobile-view-button'>{/*button added*/}
-                        <Link to='/bags/all_products mobile-view-button'><button>
+                        <Link to='/bags/all_products'><button>
                             Shop Now
                         </button></Link>
                         </div>

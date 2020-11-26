@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar';
 import Menubar  from '../Menubar/Menubar';
 import './Header.css';
+import MobileNav from '../MobileNav/MobileNav';
 
 export default class Header extends Component {
     state = {
@@ -36,7 +37,8 @@ export default class Header extends Component {
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>
-                <Menubar /> 
+                <Menubar />
+                <MobileNav />
             </Container>  
         </>
         )

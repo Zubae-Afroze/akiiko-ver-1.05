@@ -87,10 +87,15 @@ body {
 }
 
 body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
   width: 0.25rem;
 }
 
 body::-webkit-scrollbar-track {
+  display: block;
   background-color: #e1d5bf;
 }
 
