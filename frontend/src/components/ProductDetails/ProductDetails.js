@@ -221,7 +221,7 @@ const ProductDetails = (props) => {
             <Col className='product-details-color'>
             <Dropdown>
                 <Dropdown.Toggle className='product-details-button' variant="default" id="dropdown-basic">
-                    <div className='color-div'>Color:</div><div className='color-pick'></div><i className="lni lni-chevron-down testing"></i>
+                    <div className='color-div'>Color:</div><div className='color-pick'><i className="lni lni-chevron-down testing"></i></div>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
