@@ -21,7 +21,7 @@ const GiftGiftboxProducts = [
     },
     {
         productId: 'GB002',
-        productName: 'Multi-use Gift Box ',
+        productName: 'Multi-Use Gift Box ',
         lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbox/GB002/hero.jpg',
         images: 

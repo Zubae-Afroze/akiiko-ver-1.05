@@ -97,7 +97,7 @@ const StorageHomeProducts = [
     },
     {
         productId: 'HS010',
-        productName: 'Original storage boxes',
+        productName: 'Original Storage Boxes (Pair Of 2)',
         lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg',
         images: 

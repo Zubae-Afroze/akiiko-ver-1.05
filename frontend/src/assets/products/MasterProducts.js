@@ -8,7 +8,8 @@ const MasterProducts = [
             ['/images/p_images/Bags/Women/BE001/hero.jpg',  
             '/images/p_images/Bags/Women/BE001/1.jpg',
             '/images/p_images/Bags/Women/BE001/2.jpg',
-            '/images/p_images/Bags/Women/BE001/3.jpg',],
+            '/images/p_images/Bags/Women/BE001/3.jpg',
+            '/images/p_images/Bags/Women/BE001/4.jpg',],
         group: 'Bag',
         subGroup: 'Women',
         description: 'This natural Cotton Canvas circle bag is an essential for those looking for something eye catching yet practical. The light toned bag comes with long & wide straps, making it a convenient summer companion.',
@@ -50,7 +51,8 @@ const MasterProducts = [
             '/images/p_images/Bags/Tote/SS001/1.jpg',
             '/images/p_images/Bags/Tote/SS001/2.jpg',
             '/images/p_images/Bags/Tote/SS001/3.jpg',
-            '/images/p_images/Bags/Tote/SS001/4.jpg',],
+            '/images/p_images/Bags/Tote/SS001/4.jpg',
+            '/images/p_images/Bags/Tote/SS001/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'Use this spacious shopper for your groceries or on a daily basis,when you have a lot to haul around. A highly durable, versatile and practical bag. Two deep pockets on either side of the bag, along with broad fabric straps allow for a comfortable & easy shopping experience. The fabric of this eco-friendly bag is thick, secure & soft.',
@@ -84,7 +86,7 @@ const MasterProducts = [
     },
     {
         productId: 'SS003',
-        productName: 'Mini Classic Canvas Shopper',
+        productName: 'Mini Classic Canvas Shopper (Pack of 3)',
         lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS003/hero.jpg', 
         images: 
@@ -132,7 +134,8 @@ const MasterProducts = [
             ['/images/p_images/Bags/Tote/SS006/hero.jpg',
             '/images/p_images/Bags/Tote/SS006/1.jpg',
             '/images/p_images/Bags/Tote/SS006/2.jpg',
-            '/images/p_images/Bags/Tote/SS006/3.jpg',],
+            '/images/p_images/Bags/Tote/SS006/3.jpg',
+            '/images/p_images/Bags/Tote/SS006/4.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: ' This large organic fabric tote is a must-have from the shopping collection. The wide and long fabric straps make shopping light and comfortable. The deep and spacious nature of the bag fits all your shopping efficiently and keeps is secure with a zip closure. Clean & minimal, this large eco-friendly tote bag can be used for a multitude of purposes beyond shopping too.',
@@ -173,7 +176,8 @@ const MasterProducts = [
             '/images/p_images/Bags/Tote/SS008/1.jpg',
             '/images/p_images/Bags/Tote/SS008/2.jpg',
             '/images/p_images/Bags/Tote/SS008/3.jpg',
-            '/images/p_images/Bags/Tote/SS008/4.jpg',],
+            '/images/p_images/Bags/Tote/SS008/4.jpg',
+            '/images/p_images/Bags/Tote/SS008/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'This long handled shopping bag, allows you to do more than just shop. Multipurpose & eco-friendly, the strap can be used to hang the bag from your shoulder or to wear it crossbody. Multiple pockets of various sizes, ensure that you will never run out of space. ',
@@ -186,7 +190,7 @@ const MasterProducts = [
     },
     {
         productId: 'WB001',
-        productName: 'WOMEN BAG',
+        productName: 'The Everyday Tote',
         lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/WB001/hero.jpg', 
         images: 
@@ -235,7 +239,9 @@ const MasterProducts = [
             ['/images/p_images/Bags/Tote/BE002/hero.jpg',
             '/images/p_images/Bags/Tote/BE002/1.jpg',
             '/images/p_images/Bags/Tote/BE002/2.jpg',
-            '/images/p_images/Bags/Tote/BE002/3.jpg',],
+            '/images/p_images/Bags/Tote/BE002/3.jpg',
+            '/images/p_images/Bags/Tote/BE002/4.jpg',
+            '/images/p_images/Bags/Tote/BE002/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'A spacious, convenient and effortlessly stylish tote bag designed especially for the beach. An essential for summer days, the beach bag is airy & light, accompanied with an attached pouch. The neutral colour tone compliments every look and is 100% eco-friendly.',
@@ -354,7 +360,7 @@ const MasterProducts = [
     },
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET',
+        productName: 'BREAD BASKET (Pack Of 3)',
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg', 
         images: 
@@ -375,7 +381,7 @@ const MasterProducts = [
     },
     {
         productId: 'HK002',
-        productName: 'Original Sandwich Bag',
+        productName: 'Original Sandwich Bag (Pack Of 3)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg', 
         images: 
@@ -395,7 +401,7 @@ const MasterProducts = [
     },
     {
         productId: 'HK008',
-        productName: 'Original Cutlery Case',
+        productName: 'Original Cutlery Case (Pack Of 6)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK008/hero.jpg', 
         images: 
@@ -477,15 +483,14 @@ const MasterProducts = [
     },
     {
         productId: 'PG004',
-        productName: 'Small Planters (set of 3)',
+        productName: 'Small Planters (Pack of 3)',
         lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Garden/PG004/hero.jpg', 
         images: 
             ['/images/p_images/Home/Garden/PG004/hero.jpg',
             '/images/p_images/Home/Garden/PG004/1.jpg',
             '/images/p_images/Home/Garden/PG004/2.jpg',
-            '/images/p_images/Home/Garden/PG004/3.jpg',
-            '/images/p_images/Home/Garden/PG004/4.jpg',],
+            '/images/p_images/Home/Garden/PG004/3.jpg',],
         group: 'Home',
         subGroup: 'Laundry',
         description: 'A set of mini natural fibre garden planters. The planters are made square shaped for efficient placement. The small garden planter is an essential for all your gardening experiments, grow micro-greens, herbs, flowers and more. The eco-friendly breathable fabric, makes sure you can enjoy your plants outdoors or indoors in the safety of your home. ',
@@ -502,7 +507,7 @@ const MasterProducts = [
         lifestyleImage: '/images/p_images/Lifestyle/Workout/WY003/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/Wy003/hero.jpg', 
         images: 
-            ['/images/p_images/Lifestyle/Workout/Wy003/hero.jpg',
+            ['/images/p_images/Lifestyle/Workout/WY003/hero.jpg',
             '/images/p_images/Lifestyle/Workout/WY003/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY003/2.jpg',],
         group: 'Lifestyle',
@@ -538,7 +543,7 @@ const MasterProducts = [
     },
     {
         productId: 'WY005',
-        productName: 'Handy Yoga bag',
+        productName: 'Yoga Tote',
         lifestyleImage: '/images/p_images/Lifestyle/Workout/WY005/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/Wy005/hero.jpg', 
         images: 
@@ -558,7 +563,7 @@ const MasterProducts = [
     },
     {
         productId: 'WY006',
-        productName: 'Yoga Tote',
+        productName: 'Original Yoga Bag',
         lifestyleImage: '/images/p_images/Lifestyle/Workout/WY006/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/WY006/hero.jpg', 
         images: 
@@ -620,7 +625,7 @@ const MasterProducts = [
     },
     {
         productId: 'GW006',
-        productName: 'Drawstring Gift Pouch',
+        productName: 'Drawstring Gift Pouches (Pair of 2)',
         lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbag/GW006/hero.jpg', 
         images: 
@@ -661,7 +666,7 @@ const MasterProducts = [
     },
     {
         productId: 'GG006',
-        productName: 'Mini Gift Bags',
+        productName: 'Mini Gift Bags (Pack of 3)',
         lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg', 
         images: 
@@ -681,7 +686,7 @@ const MasterProducts = [
     },
     {
         productId: 'GW003',
-        productName: 'Message Card Holder',
+        productName: 'Message Card Holder (Pack Of 5)',
         lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Accessories/GW003/hero.jpg', 
         images: 
@@ -701,7 +706,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA003',
-        productName: 'Accessory Pouches Pack of 3',
+        productName: 'Accessory Pouches (Pack of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA003/hero.jpg', 
         images: 
@@ -709,7 +714,8 @@ const MasterProducts = [
             '/images/p_images/Storage/Organisers/TA003/1.jpg',
             '/images/p_images/Storage/Organisers/TA003/2.jpg',
             '/images/p_images/Storage/Organisers/TA003/3.jpg',
-            '/images/p_images/Storage/Organisers/TA003/4.jpg',],
+            '/images/p_images/Storage/Organisers/TA003/4.jpg',
+            '/images/p_images/Storage/Organisers/TA003/5.jpg',],
         group: 'Storage',
         subGroup: 'Organiser',
         description: 'Eco-friendly wash bag made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bag is a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones. ',
@@ -722,7 +728,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA004',
-        productName: 'Multi-purpose pouches',
+        productName: 'Multi-purpose Pouches (Pack Of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg', 
         images: 
@@ -730,7 +736,8 @@ const MasterProducts = [
             '/images/p_images/Storage/Organisers/TA004/1.jpg',
             '/images/p_images/Storage/Organisers/TA004/2.jpg',
             '/images/p_images/Storage/Organisers/TA004/3.jpg',
-            '/images/p_images/Storage/Organisers/TA004/4.jpg',],
+            '/images/p_images/Storage/Organisers/TA004/4.jpg',
+            '/images/p_images/Storage/Organisers/TA004/5.jpg',],
         group: 'Storage',
         subGroup: 'Organiser',
         description: 'Eco-friendly wash bag made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bag is a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones.',
@@ -844,7 +851,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS010',
-        productName: 'Original storage boxes',
+        productName: 'Original storage boxes (Pair Of 2)',
         lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg', 
         images: 

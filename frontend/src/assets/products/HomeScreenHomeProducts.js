@@ -89,6 +89,8 @@ const HomeScreenHomeProducts = [
         mesurement: 'L46.4cm x W8cm x H89.3cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'Best Seller',
+        quickView: 'Quick View',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         price: '799'
     },

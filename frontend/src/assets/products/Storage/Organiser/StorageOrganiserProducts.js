@@ -1,7 +1,7 @@
 const StorageOrganiserProducts = [
     {
         productId: 'TA003',
-        productName: 'Accessory Pouches Pack of 3',
+        productName: 'Accessory Pouches (Pack of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA003/hero.jpg',
         images: 
@@ -9,7 +9,8 @@ const StorageOrganiserProducts = [
             '/images/p_images/Storage/Organisers/TA003/1.jpg',
             '/images/p_images/Storage/Organisers/TA003/2.jpg',
             '/images/p_images/Storage/Organisers/TA003/3.jpg',
-            '/images/p_images/Storage/Organisers/TA003/4.jpg',],
+            '/images/p_images/Storage/Organisers/TA003/4.jpg',
+            '/images/p_images/Storage/Organisers/TA003/5.jpg',],
         group: 'Storage',
         subGroup: 'Organiser',
         description: 'Eco-friendly wash bag made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bag is a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones. ',
@@ -21,7 +22,7 @@ const StorageOrganiserProducts = [
     },
     {
         productId: 'TA004',
-        productName: 'Multi-purpose Pouches ( Pack of 3)',
+        productName: 'Multi-purpose Pouches (Pack of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg',
         images: 
@@ -29,7 +30,8 @@ const StorageOrganiserProducts = [
             '/images/p_images/Storage/Organisers/TA004/1.jpg',
             '/images/p_images/Storage/Organisers/TA004/2.jpg',
             '/images/p_images/Storage/Organisers/TA004/3.jpg',
-            '/images/p_images/Storage/Organisers/TA004/4.jpg',],
+            '/images/p_images/Storage/Organisers/TA004/4.jpg',
+            '/images/p_images/Storage/Organisers/TA004/5.jpg',],
         group: 'Storage',
         subGroup: 'Organiser',
         description: 'Eco-friendly wash bag made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bag is a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones.',
