@@ -54,7 +54,6 @@
 .product-list-image img {
   height: 220px;
   width: 220px;
-  max-width: 100%;
   border: 1px solid #36353541;
 }
 
@@ -81,7 +80,7 @@
 
 .product-list-card-text {
   text-align: left;
-  width: 22 0px;
+  width: 220px;
   background-color: #f7f1e6;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -95,7 +94,9 @@
 .product-list-wrapper a:hover {
   text-decoration: none;
 }
-
+@media (max-width: 768px) {
+}
+/* 
 @media (max-width: 544px) {
   .product-list-image img {
     width: 150px;
@@ -161,4 +162,4 @@
     padding-right: 0px;
     padding-left: 0px;
   }
-}
+} */
