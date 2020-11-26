@@ -382,6 +382,9 @@
 }
 
 @media (max-width: 1200px) {
+  .testing {
+    right: 0px;
+  }
   .alt-img-hero {
     width: 440px;
     height: 520px;
@@ -406,11 +409,16 @@
 }
 
 @media (max-width: 1024px) {
+  .img-hero-wrap {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
   button#dropdown-basic {
     width: 225px;
   }
   .color-pick {
-    margin-left: 25px;
+    margin-right: 40px;
   }
   .dropdown-item {
     padding: 3px;
@@ -423,11 +431,7 @@
   .product-purchase-button {
     margin: 50px 0 50px 25%;
   }
-  .alt-img-hero {
-    width: 400px;
-    height: 480px;
-    padding-left: 10px;
-  }
+
   .products-details-head {
     font-size: 23px;
   }
@@ -449,14 +453,10 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .alt-img-hero {
-    width: 360px;
-    height: 440px;
-    padding-left: 10px;
-  }
-}
 @media (max-width: 991px) {
+  .testing {
+    right: 55px;
+  }
   .modal-content {
     min-width: 775px;
     margin-left: -130px;
