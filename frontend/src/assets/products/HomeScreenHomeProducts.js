@@ -112,6 +112,7 @@ const HomeScreenHomeProducts = [
         mesurement: 'SMALL:L13cm x W11cm x H9.7cm , BIG:L15.5cm x W20.7cm x H9.7cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'Top Seller',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
         price: '549'
     },

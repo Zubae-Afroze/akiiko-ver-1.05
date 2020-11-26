@@ -13,6 +13,10 @@
   margin-top: 20px;
 }
 
+.footer-brand-text {
+  font-family: 'rutan';
+}
+
 .footer-brand-button button {
   background-color: #fefaef;
   text-align: center;
