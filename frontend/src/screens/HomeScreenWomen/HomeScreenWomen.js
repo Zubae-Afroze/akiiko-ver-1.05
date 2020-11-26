@@ -27,9 +27,11 @@ const HomeScreenWomen = () => {
                     <Col lg={2.6} className='women-shop-bag-container' key={product.productId} > {/*class name added */}
                     <div>
                     <div className='women-card-image'>
+                        <div className='women-img-wrap'>
                         <img src={product.heroImage} alt='women_1'/>
-                        {product.bestSeller !== "" ? <span className='label-best'>{product.bestSeller}</span> : null}
-                        {product.quickView !== "" ? <span className='label-view'>{product.quickView}</span> : null}
+                        {product.bestSeller !== undefined ? <span className='label-best'>{product.bestSeller}</span> : null}
+                        {product.quickView !== undefined ? <span className='label-view'>{product.quickView}</span> : null}
+                        </div>
                         <div className='women-card-title'>{product.productName}</div>
                     <div className='women-card-text'>View Details - &#x20B9;{product.price}</div>
                     </div>

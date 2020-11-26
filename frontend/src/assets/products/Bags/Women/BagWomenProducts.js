@@ -5,7 +5,7 @@ const BagWomenProducts = [
         lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
         heroImage:'/images/p_images/Bags/Women/BE001/hero.jpg',
         images: 
-            ['/images/p_images/Bags/Women/BE001/hero_522.jpg',
+            ['/images/p_images/Bags/Women/BE001/hero.jpg',
             '/images/p_images/Bags/Women/BE001/1.jpg',
             '/images/p_images/Bags/Women/BE001/2.jpg',
             '/images/p_images/Bags/Women/BE001/3.jpg',],

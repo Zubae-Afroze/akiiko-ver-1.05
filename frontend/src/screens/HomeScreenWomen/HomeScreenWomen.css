@@ -47,7 +47,7 @@
   margin-right: 0px;
 }
 
-.women-card-image {
+.women-img-wrap {
   position: relative;
 }
 
@@ -72,7 +72,7 @@
   text-transform: uppercase;
   transform: translate(50%);
   font-family: 'rutan';
-  bottom: 90px;
+  bottom: 0;
   background-color: rgba(255, 255, 255, 0.6);
   width: 100%;
   text-align: center;
@@ -320,6 +320,7 @@
     width: 31%;
   }
 }
+
 @media (max-width: 726px) {
   .women-card-wrapper {
     justify-content: space-around;
@@ -496,6 +497,10 @@
     margin-bottom: 0px;
     font-size: 14px;
     padding: 0px 15px;
+  }
+
+  .women-shop-bag-container-root:last-child {
+    display: none;
   }
 }
 @media (max-width: 375px) {
