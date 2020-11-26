@@ -39,6 +39,7 @@ const HomeScreenWorkoutProducts = [
         mesurement: 'L41cm x W32.2cm x H23cm  , Medium- L36cm x W26cm x H16.5cm , Small- L30cm x W20.5cm x H12.6cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'Best Seller',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
         price: '1999'
     },
