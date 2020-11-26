@@ -692,6 +692,12 @@
 }
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 @media (max-width: 425px) {
+  .dropdown-menu.show {
+    min-width: fit-content;
+  }
+  .dropdown-item {
+    text-align: right;
+  }
   .testing {
     font-size: 10px;
     margin-top: 5px;
@@ -736,6 +742,7 @@
 
   .color-pick {
     margin-bottom: 5px;
+    margin-left: 10px;
   }
   .material-div {
     font-size: 12px;
