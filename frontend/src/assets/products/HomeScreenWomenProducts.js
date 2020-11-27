@@ -2,7 +2,7 @@ const HomeScreenWomenProducts = [
     {
         productId: 'SS001',
         productName: 'Original Shopping Bag',
-        heroImage: '/images/home_screen_women_products/SS001/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS001/hero.jpg',
         images: 
             ['/images/home_screen_women_products/SS001/1.jpg',
             '/images/home_screen_women_products/SS001/2.jpg',
@@ -22,7 +22,7 @@ const HomeScreenWomenProducts = [
     {
         productId: 'SS002',
         productName: 'Canvas Shopper',
-        heroImage: '/images/home_screen_women_products/SS002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS002/hero.jpg',
         images: 
             ['/images/home_screen_women_products/SS002/1.jpg',
             '/images/home_screen_women_products/SS002/2.jpg',
@@ -42,7 +42,7 @@ const HomeScreenWomenProducts = [
     {
         productId: 'SS003',
         productName: 'Mini Canvas Shopper',
-        heroImage: '/images/home_screen_women_products/SS003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
         images: 
             ['/images/home_screen_women_products/SS003/1.jpg',
             '/images/home_screen_women_products/SS003/2.jpg',
@@ -63,7 +63,7 @@ const HomeScreenWomenProducts = [
     {
         productId: 'BE002',
         productName: 'Summer Tote',
-        heroImage: 'images/home_screen_women_products/BE002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/BE002/hero.jpg',
         images: 
             ['images/home_screen_women_products/BE002/1.jpg',
             'images/home_screen_women_products/BE002/2.jpg',
@@ -83,7 +83,7 @@ const HomeScreenWomenProducts = [
     {
         productId: 'BE003',
         productName: 'Conventional Handbag',
-        heroImage: '/images/home_screen_women_products/BE003/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/BE003/hero.jpg',
         images: 
             ['/images/home_screen_women_products/BE003/1.jpg',
             '/images/home_screen_women_products/BE003/2.jpg',

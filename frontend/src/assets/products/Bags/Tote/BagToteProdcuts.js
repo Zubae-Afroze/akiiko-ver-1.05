@@ -25,7 +25,7 @@ const BagToteProducts = [
         productId: 'SS002',
         productName: 'Classic canvas Shopper',
         lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
-        heroImage: '/images/p_images/Bags/Tote/SS002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS001/hero.jpg',
         images: 
             ['/images/p_images/Bags/Tote/SS002/hero.jpg',
             '/images/p_images/Bags/Tote/SS002/1.jpg',
@@ -46,7 +46,7 @@ const BagToteProducts = [
         productId: 'SS003',
         productName: 'Mini Classic Canvas Shopper (Pack of 3)',
         lifestyleImage: '/images/p_images/Bags/Tote/SS003/lifestyle.jpg',
-        herImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+        herImage: '/images/p_images/Bags/Tote/SS001/hero.jpg',
         images: 
             ['/images/p_images/Bags/Tote/SS003/hero.jpg',
             '/images/p_images/Bags/Tote/SS003/1.jpg',
