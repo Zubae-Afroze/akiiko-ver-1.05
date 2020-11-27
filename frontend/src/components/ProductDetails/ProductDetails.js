@@ -287,7 +287,7 @@ const ProductDetails = (props) => {
             {product.addOn !== undefined ? 
         <Row>
             <Col>
-                {product.addOn.productId}
+            
             </Col>
         </Row>
         : null}
