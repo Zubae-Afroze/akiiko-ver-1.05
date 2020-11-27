@@ -94,6 +94,11 @@
 .product-list-wrapper a:hover {
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  .product-list-text {
+    width: 100%;
+  }
+}
 @media (max-width: 755px) {
   .product-list-wrapper {
     margin: 0px;
