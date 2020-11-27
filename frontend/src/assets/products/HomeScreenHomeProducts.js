@@ -96,7 +96,6 @@ const HomeScreenHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         bestSeller: 'Best Seller',
-        quickView: 'Quick View',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '799',
         price: '626'

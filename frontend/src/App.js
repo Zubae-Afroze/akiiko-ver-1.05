@@ -51,7 +51,7 @@ export default class App extends Component {
           <ScrollToTop />
           <Header/>
           <Switch>
-            <Route path='/' component={HomeScreen} exact />
+            <Route path='/' component={HomeScreen} exact/>
             {/* Home */}
             <Route path='/bags/women' render={(props) => (<ProductList {...props} 
               productListLabel={'Women'}
