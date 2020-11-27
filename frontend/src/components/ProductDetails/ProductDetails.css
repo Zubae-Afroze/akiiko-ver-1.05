@@ -653,6 +653,10 @@
   }
 }
 @media (max-width: 555px) {
+  .product-details-carousel {
+    margin-bottom: 100px;
+    padding: 0px;
+  }
   .alt-img-list {
     display: none;
   }
