@@ -284,10 +284,10 @@ const ProductDetails = (props) => {
             />
         </Row>
         {/* For products with Add ons */}
-            {product.addOns !== '' ?  
+            {product.addOn !== undefined ? 
         <Row>
             <Col>
-                    
+                {product.addOn.productId}
             </Col>
         </Row>
         : null}
