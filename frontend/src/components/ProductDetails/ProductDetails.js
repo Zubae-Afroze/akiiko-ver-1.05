@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Dropdown, Modal} from 'react-bootstrap';
+import { Container, Row, Col, Dropdown, Modal, Carousel} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import emailjs from 'emailjs-com';
@@ -155,6 +155,20 @@ const ProductDetails = (props) => {
     return (
         <Container>
         <div className='product-details-wrapper'>
+        <Col sm={12} className='carousel-wrapper product-details-carousel'>
+                <Carousel>
+                {product.images.map((prod, index) => (  <Carousel.Item interval={400000000000}>
+                        <img
+                        className="d-block w-100"
+                        src={prod}
+                        alt="First slide"
+                        /> 
+                        {/* <Carousel.Caption>
+                            <h3 className='carousel-slide-1'>Introducing Akiiko</h3>
+                        </Carousel.Caption> */}
+                    </Carousel.Item>))}
+                    </Carousel>
+         </Col>
         <Row>
             <Col xs={1} className='alt-img-list'> {/*hi*/}
             <ul>
