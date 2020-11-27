@@ -132,7 +132,7 @@ const MasterProducts = [
     // },
     {
         productId: 'SS006',
-        productName: 'The large Shopper',
+        productName: 'The Large Shopper',
         lifestyleImage: '/images/p_images/Bags/Tote/SS006/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS006/hero.jpg',
         images: 
@@ -171,7 +171,7 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This large shopper  bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '749',
-        price: 'Rs.624'
+        price: '624'
     },
     {
         productId: 'SS008',
@@ -220,7 +220,7 @@ const MasterProducts = [
     },
     {
         productId: 'WB002',
-        productName: 'Everyday Tote',
+        productName: 'Conventional Handbag',
         lifestyleImage: '/images/p_images/Bags/Tote/WB002/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/WB002/hero.jpg', 
         images: 
@@ -265,7 +265,7 @@ const MasterProducts = [
     },
     {
         productId: 'BE003',
-        productName: 'Conventional Handbag',
+        productName: 'Classic Wide Beach Tote ',
         lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/BE003/hero.jpg', 
         images: 
@@ -757,7 +757,7 @@ const MasterProducts = [
         color: 'natural',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1299',
-        price: '1,140'
+        price: '1140'
     },
     {
         productId: 'TA004',

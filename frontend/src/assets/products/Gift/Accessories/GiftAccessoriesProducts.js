@@ -15,7 +15,7 @@ const GiftAccessoriesProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: '"This message card can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '755'
+        mrpPrice: '755',
     },
 ]
 

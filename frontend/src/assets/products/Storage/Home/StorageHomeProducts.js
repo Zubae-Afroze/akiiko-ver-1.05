@@ -16,7 +16,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This Storage tray can be wiped with a wet cloth.',
-        price: '899'
+        mrpPrice: '899',
+        price: '675'
     },
     {
         productId: 'HS002',
@@ -36,7 +37,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '1999'
+        mrpPrice: '1999',
+        price: '1459'
     },
     {
         productId: 'HS003',
@@ -55,7 +57,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '1699'
+        mrpPrice: '1699',
+        price: '1260'
     },
     {
         productId: 'HS007',
@@ -74,7 +77,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This broad storage bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '1299'
+        mrpPrice: '1299',
+        price: '1099'
     },
     {
         productId: 'HS008',
@@ -93,7 +97,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This Hanging organiser can be hand washed or machine washed in normal water with a gentle detergent',
-        price: '899'
+        mrpPrice: '899',
+        price: '761'
     },
     {
         productId: 'HS010',
@@ -112,7 +117,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This square Storage box can be wiped with a wet cloth.',
-        price: '1099'
+        mrpPrice: '1099',
+        price: '850'
     },
 ]
 

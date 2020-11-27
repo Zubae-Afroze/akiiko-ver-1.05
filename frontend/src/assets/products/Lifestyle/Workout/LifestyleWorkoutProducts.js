@@ -15,7 +15,8 @@ const LifestyleWorkoutProducts= [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '599'
+        mrpPrice: '1799',
+        price: '1599',
     },
     {
         productId: 'WY004',
@@ -35,7 +36,8 @@ const LifestyleWorkoutProducts= [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '599'
+        mrpPrice: '1649',
+        price: '1449',
     },
     {
         productId: 'WY005',
@@ -54,7 +56,8 @@ const LifestyleWorkoutProducts= [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '599'
+        mrpPrice: '1299',
+        price: '1149',
     },
     {
         productId: 'WY006',
@@ -74,7 +77,8 @@ const LifestyleWorkoutProducts= [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '599'
+        mrpPrice: '1499',
+        price: '1349',
     }
 ]
 
