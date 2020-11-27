@@ -17,7 +17,7 @@ const MasterProducts = [
         measurement: 'D30cm x H6.1cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This circular bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This circular bag can be hand washed or machine washed in normal water with a gentle detergent',
         mrpPrice: '869',
         price: '775',
     },
@@ -39,13 +39,13 @@ const MasterProducts = [
         measurement: 'L35.5cm x W15cm x H30cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This bucket bag can be hand washed or machine washed in normal water with a gentle detergent',
+        washingCare: 'This bucket bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1170',
         price: '1788',
     },
     {
         productId: 'SS001',
-        productName: 'Original Shopping bag',
+        productName: 'Original Shopping Bag',
         lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS001/hero.jpg', 
         images: 
@@ -68,7 +68,7 @@ const MasterProducts = [
     },
     {
         productId: 'SS002',
-        productName: 'Classic canvas Shopper',
+        productName: 'Classic Canvas Shopper',
         lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS002/hero.jpg', 
         images: 
@@ -127,12 +127,12 @@ const MasterProducts = [
     //     measurement: 'L35cm x W6.5cm x H36cm',
     //     material: 'Cotton Canvas',
     //     color: 'Raw White',
-    //     washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
+    //     washingCare: '"This shopper tote can be hand washed or machine washed in normal water with a gentle detergent.',
     //     price: '799'
     // },
     {
         productId: 'SS006',
-        productName: 'The large Shopper',
+        productName: 'The Large Shopper',
         lifestyleImage: '/images/p_images/Bags/Tote/SS006/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS006/hero.jpg',
         images: 
@@ -148,7 +148,7 @@ const MasterProducts = [
         measurement: 'L34cm x W9cm x H28cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This shopper tote can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This large shopper bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '860',
         price: '799'
     },
@@ -169,9 +169,9 @@ const MasterProducts = [
         measurement: 'L38.5cm x W9cm x H39.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This large shopper  bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This Conventional Canvas Shopper  can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '749',
-        price: 'Rs.624'
+        price: '624'
     },
     {
         productId: 'SS008',
@@ -192,7 +192,7 @@ const MasterProducts = [
         measurement: 'L34.5cm x W10cm x H35.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: '"This Conventional Canvas Shopper  can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: '"This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '899',
         price: '752'
     },
@@ -220,7 +220,7 @@ const MasterProducts = [
     },
     {
         productId: 'WB002',
-        productName: 'Everyday Tote',
+        productName: 'Conventional Handbag',
         lifestyleImage: '/images/p_images/Bags/Tote/WB002/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/WB002/hero.jpg', 
         images: 
@@ -259,13 +259,13 @@ const MasterProducts = [
         measurement: 'L37.5cm x W35.5cm, Pouch-L15cm x W10cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This summer tote  can be hand washed or machine washed in normal water with a gentle detergent',
+        washingCare: 'This summer tote  can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '699',
         price: '483'
     },
     {
         productId: 'BE003',
-        productName: 'The Conventional Handbag',
+        productName: 'Classic Wide Beach Tote ',
         lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/BE003/hero.jpg', 
         images: 
@@ -280,7 +280,7 @@ const MasterProducts = [
         measurement: 'L48cm x W30.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This large beach tote is breathable, handy & light. The eco-friendly bag stores all your beach accessories with ease and convenience. Making the eco-friendly bag, an essential for carefree sunny days.',
+        washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '700',
         price: '534'
     },
@@ -303,7 +303,7 @@ const MasterProducts = [
         measurement: 'L38.1cm xW8.9cm x H31.7cm ',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'The office bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
+        washingCare: '"This office bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '999',
         price: '889'
     },
@@ -325,7 +325,7 @@ const MasterProducts = [
         measurement: 'L42 cm x W18.1 x H35.2cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: ' This clasic duffel can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '999',
         price: '872'
     },
@@ -347,7 +347,7 @@ const MasterProducts = [
         measurement: 'L42 cm x W18.1 x H35.2cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'The travel bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
+        washingCare: ' This clasic duffel can be hand washed or machine washed in normal water with a gentle detergent',
         mrpPrice: '1599',
         price: '1487'
     },
@@ -370,7 +370,7 @@ const MasterProducts = [
         measurement: 'L40cm x W21.6cm x H24.7cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'The travel bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
+        washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1399',
         price: '1249'
     },
@@ -482,7 +482,7 @@ const MasterProducts = [
     },
     {
         productId: 'HL008',
-        productName: '3 Part Laundry Organiser',
+        productName: 'Original Laundry Bag',
         lifestyleImage: '/images/p_images/Home/Laundry/HL008/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Laundry/HL008/hero.jpg', 
         images: 
@@ -520,7 +520,7 @@ const MasterProducts = [
         measurement: 'L12.7cm x W11.5cm x H9cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Planters  can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This Planters can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '499',
         price: '367'
     },
@@ -583,7 +583,7 @@ const MasterProducts = [
         measurement: 'D15.5cm x H77.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This yoga tote can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1299',
         price: '1149'
     },
@@ -757,7 +757,7 @@ const MasterProducts = [
         color: 'natural',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1299',
-        price: '1,140'
+        price: '1140'
     },
     {
         productId: 'TA004',
@@ -778,7 +778,7 @@ const MasterProducts = [
         measurement: 'L19cm x W13cm x H8.5 cm, Medium: L19cm x W13cm x H5cm, Small:L19cm x W8.5cm x H6.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: '"This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '899',
         price:'796'
     },
@@ -842,7 +842,7 @@ const MasterProducts = [
         measurement: 'L29cm x W29.5cm x H20.4cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This Storage shelf bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1699',
         price: '1260'
     },
@@ -890,7 +890,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS010',
-        productName: 'Original storage boxes (Pair Of 2)',
+        productName: 'Original Storage boxes (Pair Of 2)',
         lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg', 
         images: 
@@ -947,7 +947,7 @@ const MasterProducts = [
         measurement: 'S- L23cm x W18cm xH8.3cm , M- L31cm xW23cm x H8.3cm , L- L38.5 cm xW28cm x H9cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This travel organiserbe can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This travel organisers can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '2999',
         price: '2480'
     },
@@ -977,7 +977,8 @@ const MasterProducts = [
             heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             mrpPrice: '79',
-            combinedPrice: '590'
+            combinedPrice: '590',
+            washingCare: 'This card holder can be hand wash'
         },
     },
     {
@@ -1006,7 +1007,8 @@ const MasterProducts = [
             heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             mrpPrice: '79',
-            combinedPrice: '590'
+            combinedPrice: '590',
+            washingCare: 'This card holder can be hand wash'
         },
     },
     {

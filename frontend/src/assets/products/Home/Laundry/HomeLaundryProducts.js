@@ -17,7 +17,8 @@ const HomeLaundryProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '599'
+        mrpPrice: '599',
+        price:'471'
     },
     {
         productId: 'HL006',
@@ -35,7 +36,8 @@ const HomeLaundryProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '1099'
+        mrpPrice: '1099',
+        price:'968'
     },
     {
         productId: 'HL008',
@@ -56,7 +58,8 @@ const HomeLaundryProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '799'
+        mrpPrice: '799',
+        price:'626'
     },
 ]
 

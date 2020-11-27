@@ -16,7 +16,8 @@ const AccessoriesOnTheGoProduct = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '699'
+        mrpPrice: '699',
+        price: '400'
     },
     {
         productId: 'TA001',
@@ -35,7 +36,8 @@ const AccessoriesOnTheGoProduct = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This travel organiserbe can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '2999'
+        mrpPrice: '2999',
+        price: '2480'
     },
 ]
 

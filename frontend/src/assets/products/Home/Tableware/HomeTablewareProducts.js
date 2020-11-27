@@ -18,7 +18,8 @@ const HomeTablewareProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '549'
+        mrpPrice: '605',
+        price: '536',
     },
 ]
 

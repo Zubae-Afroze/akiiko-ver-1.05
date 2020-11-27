@@ -147,6 +147,17 @@
   text-decoration: none;
 }
 
+.women-card-image img {
+  width: 230px;
+  height: 230px;
+}
+.women-card-title {
+  width: 230px;
+}
+.women-card-text {
+  width: 230px;
+}
+
 /*responsive*/
 
 @media (max-width: 1366px) {
@@ -183,6 +194,7 @@
 @media (max-width: 1071px) {
   .women-card-image img {
     width: 180px;
+    height: 180px;
   }
   .women-card-title {
     width: 180px;
@@ -242,6 +254,7 @@
 @media (max-width: 964px) {
   .women-card-image img {
     width: 140px;
+    height: 140px;
   }
   .women-card-title {
     width: 140px;
@@ -363,6 +376,7 @@
 @media (max-width: 759px) {
   .women-card-image img {
     width: 120px;
+    width: 120px;
   }
   .women-card-title {
     width: 120px;
@@ -399,6 +413,7 @@
 @media (max-width: 619px) {
   .women-card-image img {
     width: 100%;
+    height: 100%;
   }
   .women-card-title {
     width: 100%;
@@ -413,6 +428,7 @@
 @media (max-width: 514px) {
   .women-card-image img {
     width: 100%;
+    height: 100%;
   }
   .women-card-title {
     width: 100%;
@@ -432,6 +448,7 @@
 @media (max-width: 449px) {
   .women-card-image img {
     width: 100%;
+    height: 100%;
   }
   .women-card-title {
     width: 100%;
@@ -451,6 +468,7 @@
 @media (max-width: 439px) {
   .women-card-image img {
     width: 100%;
+    height: 100%;
   }
   .women-card-title {
     width: 100%;
@@ -465,6 +483,7 @@
 @media (max-width: 439px) {
   .women-card-image img {
     width: 100%;
+    height: 100%;
   }
   .women-card-title {
     width: 100%;

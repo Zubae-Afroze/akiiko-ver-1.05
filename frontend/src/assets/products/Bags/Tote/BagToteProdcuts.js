@@ -18,13 +18,14 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '999'
+        mrpPrice: '999',
+        price: '808',
     },
     {
         productId: 'SS002',
         productName: 'Classic canvas Shopper',
         lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
-        heroImage: '/images/p_images/Bags/Tote/SS002/hero.jpg',
+        heroImage: '/images/p_images/Bags/Tote/SS001/hero.jpg',
         images: 
             ['/images/p_images/Bags/Tote/SS002/hero.jpg',
             '/images/p_images/Bags/Tote/SS002/1.jpg',
@@ -38,13 +39,14 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '999'
+        mrpPrice: '999',
+        price: '879',
     },
     {
         productId: 'SS003',
         productName: 'Mini Classic Canvas Shopper (Pack of 3)',
         lifestyleImage: '/images/p_images/Bags/Tote/SS003/lifestyle.jpg',
-        herImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+        herImage: '/images/p_images/Bags/Tote/SS001/hero.jpg',
         images: 
             ['/images/p_images/Bags/Tote/SS003/hero.jpg',
             '/images/p_images/Bags/Tote/SS003/1.jpg',
@@ -58,7 +60,8 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '799'
+        mrpPrice: '799',
+        price: '762',
     },
     // {
     //     productId: 'SS004',
@@ -77,11 +80,12 @@ const BagToteProducts = [
     //     material: 'cotton canvas',
     //     color: 'natural',
     //     washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-    //     price: '799'
+    //     mrpPrice: '799',
+    //     price: '',
     // },
     {
         productId: 'SS006',
-        productName: 'The large Shopper',
+        productName: 'The Large Shopper',
         lifestyleImage: '/images/p_images/Bags/Tote/SS006/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS006/hero.jpg',
         images: 
@@ -97,7 +101,8 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This large organic fabric tote is a must-have from the shopping collection. The wide and long fabric straps make the bag, light and comfortable. The deep and spacious nature of the eco bag fits all your shopping efficiently and keeps it secure with a zip closure. Clean & minimal, this large eco-friendly tote bag can be used for a multitude of purposes beyond shopping too. ',
-        price: '799'
+        mrpPrice: '799',
+        price: '799',
     },
     {
         productId: 'SS007',
@@ -117,7 +122,8 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '749'
+        mrpPrice: '749',
+        price: '624',
     },
     {
         productId: 'SS008',
@@ -138,7 +144,8 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '899'
+        mrpPrice: '899',
+        price: '752',
     },
     {
         productId: 'WB001',
@@ -158,7 +165,8 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '825'
+        mrpPrice: '825',
+        price: '789',
     },
     {
         productId: 'WB002',
@@ -178,7 +186,8 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '1799'
+        mrpPrice: '1799',
+        price: '1072',
     },
     {
         productId: 'BE002',
@@ -199,19 +208,19 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'A spacious, convenient and effortlessly stylish tote bag designed especially for the beach. An essential for summer days, the beach bag is airy & light, accompanied with an attached pouch. The neutral colour tone compliments every look and is 100% eco-friendly.',
-        price: '699',
+        mrpPrice: '699',
+        price: '483',
     },
     {
         productId: 'BE003',
-        productName: 'Conventional Handbag',
+        productName: 'Classic Wide Beach Tote ',
         lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/BE003/hero.jpg',
         images: 
             ['/images/p_images/Bags/Tote/BE003/hero.jpg',
             '/images/p_images/Bags/Tote/BE003/1.jpg',
             '/images/p_images/Bags/Tote/BE003/2.jpg',
-            '/images/p_images/Bags/Tote/BE003/3.jpg',
-            '/images/p_images/Bags/Tote/BE003/4.jpg',],
+            '/images/p_images/Bags/Tote/BE003/3.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: ' This large beach tote is breathable, handy & light. The eco-friendly bag stores all your beach accessories with ease and convenience. Making the eco-friendly bag, an essential for carefree sunny days.',
@@ -219,7 +228,8 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This large beach tote is breathable, handy & light. The eco-friendly bag stores all your beach accessories with ease and convenience. Making the eco-friendly bag, an essential for carefree sunny days.',
-        price: '700',
+        mrpPrice: '700',
+        price: '534',
     },
 ]
 

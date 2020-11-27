@@ -16,7 +16,7 @@ const AccessoriesWalletProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This Bi fold wallet can be hand wash',
-        price: '511',
+        mrpPrice: '511',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
@@ -44,7 +44,7 @@ const AccessoriesWalletProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This Bi fold wallet can be hand wash',
-        price: '470',
+        mrpPrice: '470',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
@@ -91,7 +91,8 @@ const AccessoriesWalletProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This Passport can be hand washed or machine washed in normal water with a gentle detergent.',
-        price: '499',
+        mrpPrice: '499',
+        price: '419'
     },
 ]
 

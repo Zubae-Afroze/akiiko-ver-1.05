@@ -31,7 +31,7 @@ const HomeScreenHome = () => {
                             <Col className='home-card-items' key={product.productId}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='home-img-wrap'>
-                                    <img className='home-card-image' src={product.heroImage} alt='home_1'/>
+                                    <img className='home-card-image' src={product.lifestyleImage} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best'>{product.bestSeller}</span> : null}
                                     {product.quickView !== undefined ? <span className='label-view'>{product.quickView}</span> : null}
                                     </div>
