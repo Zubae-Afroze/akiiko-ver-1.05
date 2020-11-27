@@ -156,8 +156,8 @@ const ProductDetails = (props) => {
         <Container>
         <div className='product-details-wrapper'>
         <Col sm={12} className='carousel-wrapper product-details-carousel'>
-                <Carousel>
-                {product.images.map((prod, index) => (  <Carousel.Item interval={400000000000}>
+                <Carousel controls={false}>
+                {product.images.map((prod, index) => (  <Carousel.Item interval={null}>
                         <img
                         className="d-block w-100"
                         src={prod}
