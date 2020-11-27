@@ -546,7 +546,7 @@ const MasterProducts = [
     },
     {
         productId: 'WY004',
-        productName: 'Handy yoga bag',
+        productName: 'Handy Yoga bag',
         lifestyleImage: '/images/p_images/Lifestyle/Workout/WY004/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/WY004/hero.jpg', 
         images: 
@@ -570,9 +570,9 @@ const MasterProducts = [
         productId: 'WY005',
         productName: 'Yoga Tote',
         lifestyleImage: '/images/p_images/Lifestyle/Workout/WY005/lifestyle.jpg',
-        heroImage: '/images/p_images/Lifestyle/Workout/Wy005/hero.jpg', 
+        heroImage: '/images/p_images/Lifestyle/Workout/WY005/hero.jpg', 
         images: 
-            ['/images/p_images/Lifestyle/Workout/Wy005/hero.jpg',
+            ['/images/p_images/Lifestyle/Workout/WY005/hero.jpg',
             '/images/p_images/Lifestyle/Workout/WY005/1.jpg',
             '/images/p_images/Lifestyle/Workout/WY005/2.jpg',
             '/images/p_images/Lifestyle/Workout/WY005/3.jpg',],
