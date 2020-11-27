@@ -286,8 +286,17 @@ const ProductDetails = (props) => {
         {/* For products with Add ons */}
             {product.addOn !== undefined ? 
         <Row>
-            <Col>
-                {product.addOn.productId}
+            <Col sm={4}>
+                <div className='addon-img-container'>
+                <h4></h4>
+                <img src={product.addOn.heroImage} alt='summa' />
+                </div>
+            </Col>
+            <Col sm={5}>
+
+            </Col>
+            <Col sm={3}>
+
             </Col>
         </Row>
         : null}
