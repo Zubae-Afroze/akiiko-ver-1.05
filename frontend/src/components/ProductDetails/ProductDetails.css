@@ -860,6 +860,9 @@
   }
 }
 @media (max-width: 375px) {
+  .product-details-carousel {
+    margin-bottom: 0px;
+  }
   .modal-input {
     margin: 5px;
   }
