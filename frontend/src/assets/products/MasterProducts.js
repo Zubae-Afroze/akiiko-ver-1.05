@@ -528,7 +528,7 @@ const MasterProducts = [
         productId: 'WY003',
         productName: 'Conventional Yoga Bag',
         lifestyleImage: '/images/p_images/Lifestyle/Workout/WY003/lifestyle.jpg',
-        heroImage: '/images/p_images/Lifestyle/Workout/Wy003/hero.jpg', 
+        heroImage: '/images/p_images/Lifestyle/Workout/WY003/hero.jpg', 
         images: 
             ['/images/p_images/Lifestyle/Workout/WY003/hero.jpg',
             '/images/p_images/Lifestyle/Workout/WY003/1.jpg',
