@@ -45,7 +45,7 @@ const MasterProducts = [
     },
     {
         productId: 'SS001',
-        productName: 'Original Shopping bag',
+        productName: 'Original Shopping Bag',
         lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS001/hero.jpg', 
         images: 
@@ -68,7 +68,7 @@ const MasterProducts = [
     },
     {
         productId: 'SS002',
-        productName: 'Classic canvas Shopper',
+        productName: 'Classic Canvas Shopper',
         lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/SS002/hero.jpg', 
         images: 
@@ -265,7 +265,7 @@ const MasterProducts = [
     },
     {
         productId: 'BE003',
-        productName: 'The Conventional Handbag',
+        productName: 'Conventional Handbag',
         lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Tote/BE003/hero.jpg', 
         images: 
@@ -482,7 +482,7 @@ const MasterProducts = [
     },
     {
         productId: 'HL008',
-        productName: '3 Part Laundry Organiser',
+        productName: 'Original Laundry Bag',
         lifestyleImage: '/images/p_images/Home/Laundry/HL008/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Laundry/HL008/hero.jpg', 
         images: 
@@ -890,7 +890,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS010',
-        productName: 'Original storage boxes (Pair Of 2)',
+        productName: 'Original Storage boxes (Pair Of 2)',
         lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg', 
         images: 

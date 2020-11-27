@@ -1,7 +1,7 @@
 const HomeScreenWomenProducts = [
     {
         productId: 'SS001',
-        productName: 'Original Shopping bag',
+        productName: 'Original Shopping Bag',
         heroImage: '/images/home_screen_women_products/SS001/hero.jpg',
         images: 
             ['/images/home_screen_women_products/SS001/1.jpg',
@@ -16,7 +16,8 @@ const HomeScreenWomenProducts = [
         color: 'natural',
         quickView: 'Quick View',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '999'
+        mrpPrice: '999',
+        price:'808',
     },
     {
         productId: 'SS002',
@@ -35,7 +36,8 @@ const HomeScreenWomenProducts = [
         color: 'natural',
         bestSeller: 'Best Seller',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '999'
+        mrpPrice: '999',
+        price:'879',
     },
     {
         productId: 'SS003',
@@ -55,7 +57,8 @@ const HomeScreenWomenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        price: '799'
+        mrpPrice: '799',
+        price:'762',
     },
     {
         productId: 'BE002',
@@ -74,7 +77,8 @@ const HomeScreenWomenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'A spacious, convenient and effortlessly stylish tote bag designed especially for the beach. An essential for summer days, the beach bag is airy & light, accompanied with an attached pouch. The neutral colour tone compliments every look and is 100% eco-friendly.',
-        price: '699',
+        mrpPrice: '699',
+        price:'483',
     },
     {
         productId: 'BE003',
@@ -92,7 +96,8 @@ const HomeScreenWomenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This large beach tote is breathable, handy & light. The eco-friendly bag stores all your beach accessories with ease and convenience. Making the eco-friendly bag, an essential for carefree sunny days.',
-        price: '700',
+        mrpPrice: '700',
+        price:'534',
     },
 ]
 
