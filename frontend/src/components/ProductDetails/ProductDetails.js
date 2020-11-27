@@ -109,11 +109,11 @@ const ProductDetails = (props) => {
                 <Col className='modal-wrapper'>
                     <p className='modal-intro-text'>Please fill out your information, to continue with the purchase</p>
                     <form className='modal-form'>
-                        <input type='text' placeholder='First Name' name='fname' autoComplete="off" className='modal-input modal-first' onChange={handleChange}></input>
-                        <input type='text' placeholder='Last Name' name='lname' autoComplete="off" className='modal-input modal-last' onChange={handleChange}></input><br></br>
-                        <input type='text' placeholder='Email Address' name='email' autoComplete="off" className='modal-input modal-email' onChange={handleChange}></input><br></br>
-                        <input type='number' placeholder='Phone Number' name='phone' autoComplete="off" className='modal-input modal-phone' onChange={handleChange}></input><br></br>
-                        <textarea type='text' id='madd' placeholder='Address' name='address' autoComplete="off" className='modal-input modal-address' onChange={handleChange}></textarea><br></br>
+                        <input type='text' placeholder='First Name' name='fname' autoComplete="off" className='modal-input modal-first' onChange={handleChange} required></input>
+                        <input type='text' placeholder='Last Name' name='lname' autoComplete="off" className='modal-input modal-last' onChange={handleChange} required></input><br></br>
+                        <input type='text' placeholder='Email Address' name='email' autoComplete="off" className='modal-input modal-email' onChange={handleChange} required></input><br></br>
+                        <input type='number' placeholder='Phone Number' name='phone' autoComplete="off" className='modal-input modal-phone' onChange={handleChange} required></input><br></br>
+                        <textarea type='text' id='madd' placeholder='Address' name='address' autoComplete="off" className='modal-input modal-address' onChange={handleChange} required></textarea><br></br>
 
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
                         <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
@@ -162,6 +162,7 @@ const ProductDetails = (props) => {
                         className="d-block w-100"
                         src={prod}
                         alt="First slide"
+                        key = {index}
                         /> 
                         {/* <Carousel.Caption>
                             <h3 className='carousel-slide-1'>Introducing Akiiko</h3>
@@ -205,7 +206,7 @@ const ProductDetails = (props) => {
             <Col lg={6} className='product-det'> {/* cls name added and xs=6 is changed to lg-6*/}
                 <div className='products-details-head'>{product.group}</div>
                 <div className='products-details-label'>{product.productName}</div>
-                {product.price !== undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
+                {product.price !==  undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
             <Row className='cart-det'>
             <Col className='material-det'>
                 <Dropdown>
