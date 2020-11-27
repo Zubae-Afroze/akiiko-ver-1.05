@@ -17,6 +17,7 @@ const AccessoriesWalletProducts = [
         color: 'natural',
         washingCare: 'This Bi fold wallet can be hand wash',
         mrpPrice: '511',
+        price: '511',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
@@ -45,6 +46,7 @@ const AccessoriesWalletProducts = [
         color: 'natural',
         washingCare: 'This Bi fold wallet can be hand wash',
         mrpPrice: '470',
+        price: '470',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
