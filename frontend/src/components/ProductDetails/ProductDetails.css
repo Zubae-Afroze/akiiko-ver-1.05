@@ -337,6 +337,7 @@
 .mag-img-cont {
   z-index: 5000;
   box-shadow: 4px 4px 10px #c5c5c58a;
+  margin-left: 0 !important;
 }
 
 .mag-img {
@@ -359,6 +360,10 @@
 .modal-intro-text {
   margin-left: 10px;
   font-size: 12px;
+}
+
+.products-details-price {
+  margin-bottom: 30px;
 }
 
 .alt-img-hero-container {
