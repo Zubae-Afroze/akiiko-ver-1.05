@@ -18,10 +18,10 @@ const HomeScreen = () => {
                         </div>
                         <div className='hero-text'>
                             vegan<br/>
-                            utilitarian
+                            utilitarian<br />
+                            eco-friendly
                         </div>
                         <div className='hero-sub-text'>
-                            eco-friendly
                         </div>
                         <div className='hero-button'>
                         <Link to='/bags/all_products'><button>
