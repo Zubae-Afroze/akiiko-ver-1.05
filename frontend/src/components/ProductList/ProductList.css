@@ -95,7 +95,7 @@
   color: #3a2f2d;
 }
 
-.label-best {
+.pl-label-best {
   position: absolute;
   top: 0;
   font-family: 'rutan';
@@ -111,7 +111,7 @@
   color: #3a2f2d;
 }
 
-.label-view {
+.pl-label-view {
   position: absolute;
   right: 50%;
   text-transform: uppercase;
@@ -119,7 +119,7 @@
   font-family: 'rutan';
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.6);
-  width: 235px;
+  width: 100%;
   text-align: center;
   font-size: 12px;
   letter-spacing: 1.92px;
