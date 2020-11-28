@@ -285,9 +285,9 @@ const ProductDetails = (props) => {
                 onHide={() => setNextModalShow(false)}
             />
         </Row>
-        {/*For products with Add ons*/}
-            {product.addOn !== undefined ? 
-        <Row>
+        
+            {/* {product.addOn !== undefined ? 
+        <Row className=''> 
             <Col sm={3}>
                 <div className='addon-img-container'>
                 <img style={{border: "1px solid #36353541"}} src={product.addOn.heroImage} alt='summa' />
@@ -300,9 +300,8 @@ const ProductDetails = (props) => {
                     <ul className='product-details-text addon-text'>You can also purchase this card holder with {product.productName}
                     <li className='product-details-texts addon-text'><span className='target-bold'>Product Name:</span> {product.addOn.productName}</li>
                     <li className='product-details-texts addon-text' ><span className='target-bold'>Description:</span> {product.addOn.description}</li>
-                    {/* <li>Care Instruction: {product.washingCare}</li> */}
-                     <li className='product-details-texts addon-text'><span className='target-bold'>{product.productName}
-                        </span>&#x20B9;{product.mrpPrice} + <span className='target-bold'> {product.addOn.productName} </span>&#x20B9;{product.addOn.mrpPrice} = &#x20B9;{parseInt(product.mrpPrice) + parseInt(product.addOn.mrpPrice)}</li>
+                    {/* <li>Care Instruction: {product.washingCare}</li>
+                     <li className='product-details-texts addon-text'><span className='target-bold'>{product.productName}</span> &#x20B9;{product.price} +<span className='target-bold'> {product.addOn.productName} </span>&#x20B9;{product.addOn.mrpPrice} = &#x20B9;{parseInt(product.price) + parseInt(product.addOn.mrpPrice)}</li>
                     </ul>
                 
 
@@ -313,7 +312,7 @@ const ProductDetails = (props) => {
 
             </Col>
         </Row>
-        : null}
+        : null} */}
 
         <Row>
             {/* Similar Products */}
