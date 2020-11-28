@@ -38,6 +38,7 @@
 .products-details-label {
   font-size: 43px;
   text-transform: uppercase;
+  height: 230px;
 }
 
 .products-details-price {
@@ -345,8 +346,8 @@
 }
 
 .mag-img {
-  width: 720px;
-  height: 800px;
+  width: 522px;
+  height: 522px;
 }
 
 .modal-price {
@@ -371,6 +372,9 @@
 }
 /* -----------------------------------------LAPTOP  UPTO 1440PX------------------------------------------- */
 @media (max-width: 1290px) {
+  .products-details-label {
+    height: 190px;
+  }
   .img-hero-wrap {
     width: 480px !important;
     height: 480px !important;
@@ -414,7 +418,11 @@
 }
 
 @media (max-width: 1024px) {
-  .img-hero-wrap {
+  .products-details-label {
+    height: 145px;
+  }
+  .img-hero-wrap,
+  .test-magnify {
     width: 400px !important;
     height: 400px !important;
   }
@@ -459,6 +467,9 @@
 }
 
 @media (max-width: 991px) {
+  .products-details-label {
+    height: auto;
+  }
   .testing {
     right: 55px;
   }
