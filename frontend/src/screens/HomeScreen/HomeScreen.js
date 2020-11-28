@@ -17,9 +17,9 @@ const HomeScreen = () => {
                             akiiko
                         </div>
                         <div className='hero-text'>
-                            vegan<br/>
+                            eco-friendly<br/>
                             utilitarian<br />
-                            eco-friendly
+                            vegan
                         </div>
                         <div className='hero-sub-text'>
                         </div>

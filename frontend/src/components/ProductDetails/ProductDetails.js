@@ -132,7 +132,7 @@ const ProductDetails = (props) => {
                     </ul>
                 </div>
 
-                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price * itemQuantity}</span>
+                <span className='modal-price'><span className='target-bold'>Price:</span> &#x20B9;{product.price !== undefined ? product.price * itemQuantity : product.mrpPrice * itemQuantity}</span>
                 <button className='modal-check-button' onClick={handleSubmit}>CHECK OUT</button>
                 </Col>
             </Row>
@@ -207,7 +207,7 @@ const ProductDetails = (props) => {
             <Col lg={6} className='product-det'> {/* cls name added and xs=6 is changed to lg-6*/}
                 <div className='products-details-head'>{product.group}</div>
                 <div className='products-details-label'> {product.productName}{product.price !== undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
- </div>
+            </div>
             <Row className='cart-det'>
             <Col className='material-det'>
                 <Dropdown>
