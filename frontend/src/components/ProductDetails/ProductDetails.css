@@ -337,12 +337,6 @@
 .mag-img-cont {
   z-index: 5000;
   box-shadow: 4px 4px 10px #c5c5c58a;
-  margin-left: 0 !important;
-}
-
-.mag-img {
-  width: 720px;
-  height: 800px;
 }
 
 .modal-price {
@@ -453,8 +447,9 @@
     width: 225px;
   }
   .alt-img-list ul li img {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 13.5px;
   }
 }
 
