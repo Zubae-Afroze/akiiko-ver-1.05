@@ -8,7 +8,7 @@ import HomeScreenWorkout from '../HomeScreenWorkout/HomeScreenWorkout';
 
 const HomeScreen = () => {
     return (
-        <Container >
+        <Container>
             <Row className='home-screen-container'> {/* class name added here */}
                 <Col sm={4}>
                     <div className='hero-container'>
