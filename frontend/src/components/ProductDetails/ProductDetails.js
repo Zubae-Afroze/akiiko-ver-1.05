@@ -191,6 +191,7 @@ const ProductDetails = (props) => {
                     width: 1600,
                     height: 1600
                 },
+                className: 'test-magnify', 
                 enlargedImageContainerClassName	: 'mag-img-cont',
                 enlargedImageClassName: 'mag-img',
                 imageClassName: 'img-hero-wrap',
@@ -283,7 +284,7 @@ const ProductDetails = (props) => {
                 onHide={() => setNextModalShow(false)}
             />
         </Row>
-        {/* For products with Add ons */}
+        For products with Add ons
             {product.addOn !== undefined ? 
         <Row>
             <Col sm={3}>

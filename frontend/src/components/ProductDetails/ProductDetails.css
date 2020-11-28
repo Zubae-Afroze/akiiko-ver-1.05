@@ -421,8 +421,7 @@
   .products-details-label {
     height: 145px;
   }
-  .img-hero-wrap,
-  .test-magnify {
+  .img-hero-wrap {
     width: 400px !important;
     height: 400px !important;
   }
