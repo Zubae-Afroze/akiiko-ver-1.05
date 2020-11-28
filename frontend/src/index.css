@@ -63,6 +63,13 @@
   font-size: normal;
 }
 
+@font-face {
+  font-family: 'caudex';
+  src: url('./assets/fonts/caudex/caudexRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
 /* Global settings */
 * {
   margin: 0;

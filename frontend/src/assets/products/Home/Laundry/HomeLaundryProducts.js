@@ -16,6 +16,7 @@ const HomeLaundryProducts = [
         mesurement: 'L37.2cm x W10cm x H46.5cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'New Arrival',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '599',
         price:'471'
@@ -57,6 +58,7 @@ const HomeLaundryProducts = [
         mesurement: 'L46.4cm x W8cm x H89.3cm',
         material: 'cotton canvas',
         color: 'natural',
+        quickView: 'Quick View',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '799',
         price:'626'

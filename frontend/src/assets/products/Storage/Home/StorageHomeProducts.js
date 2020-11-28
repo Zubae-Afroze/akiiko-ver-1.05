@@ -15,6 +15,7 @@ const StorageHomeProducts = [
         mesurement: 'L37cm x W24.5cm x H10.2cm',
         material: 'cotton canvas',
         color: 'natural',
+        quickView: 'quick view',
         washingCare: 'This Storage tray can be wiped with a wet cloth.',
         mrpPrice: '899',
         price: '675'
@@ -96,6 +97,7 @@ const StorageHomeProducts = [
         mesurement: 'L51.6cm XW40.2cm',
         material: 'cotton canvas',
         color: 'natural',
+        quickView: 'quick View',
         washingCare: 'This Hanging organiser can be hand washed or machine washed in normal water with a gentle detergent',
         mrpPrice: '899',
         price: '761'

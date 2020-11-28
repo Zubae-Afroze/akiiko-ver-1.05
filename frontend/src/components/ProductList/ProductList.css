@@ -51,6 +51,10 @@
   width: 100%;
 }
 
+.product-list-image {
+  position: relative;
+}
+
 .product-list-image img {
   height: 210px;
   width: 210px;
@@ -98,7 +102,7 @@
   right: 2%;
   font-size: 12px;
   margin-top: 6px;
-  margin-right: 2px;
+  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 1px 15px;
   align-self: center;

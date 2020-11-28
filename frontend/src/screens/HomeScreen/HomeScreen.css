@@ -85,19 +85,17 @@
 
 .hero-text {
   text-align: right;
-  text-transform: uppercase;
   color: #3e3331;
   font-size: 35px;
-  font-family: 'dekiru';
+  font-family: 'caudex';
   margin-bottom: 10px;
 }
 
 .hero-sub-text {
   text-align: right;
-  text-transform: uppercase;
   color: #3e3331;
-  font-size: 20px;
-  font-family: 'rutan';
+  font-size: 35px;
+  font-family: 'caudex';
   letter-spacing: 3.2px;
 }
 

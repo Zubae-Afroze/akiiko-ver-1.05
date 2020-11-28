@@ -15,6 +15,7 @@ const AccessoriesOnTheGoProduct = [
         mesurement: 'L16cm x W23cm , Medium- L13.6cm x W20.8cm , Small- L11.1cm x w15.5cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'Best Seller',
         washingCare: 'This pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '699',
         price: '400'
@@ -35,6 +36,7 @@ const AccessoriesOnTheGoProduct = [
         mesurement: 'S- L23cm x W18cm xH8.3cm , M- L31cm xW23cm x H8.3cm , L- L38.5 cm xW28cm x H9cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'New Arrival',
         washingCare: 'This travel organiserbe can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '2999',
         price: '2480'
