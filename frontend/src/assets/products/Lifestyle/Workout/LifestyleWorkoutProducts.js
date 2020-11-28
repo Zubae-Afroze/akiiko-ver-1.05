@@ -76,6 +76,7 @@ const LifestyleWorkoutProducts= [
         mesurement: 'D15.5cm x H77.5cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'New Arrival',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1499',
         price: '1349',

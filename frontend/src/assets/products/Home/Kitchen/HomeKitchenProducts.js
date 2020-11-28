@@ -38,6 +38,7 @@ const HomeKitchenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         bestSeller: 'Best Seller',
+        quickView: 'quick view',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '650',
         price: '540'

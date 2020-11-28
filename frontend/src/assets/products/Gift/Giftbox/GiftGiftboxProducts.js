@@ -36,6 +36,7 @@ const GiftGiftboxProducts = [
         mesurement: 'L24.2cm x W20.5cm x H8.5cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'New Arrival',
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '1135',
         price: '1012'

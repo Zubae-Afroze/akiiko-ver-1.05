@@ -17,11 +17,11 @@ const HomeScreen = () => {
                             akiiko
                         </div>
                         <div className='hero-text'>
-                            Natural<br/>
-                            Eco Friendly
+                            vegan<br/>
+                            utilitarian
                         </div>
                         <div className='hero-sub-text'>
-                            All Utility bag
+                            eco-friendly
                         </div>
                         <div className='hero-button'>
                         <Link to='/bags/all_products'><button>

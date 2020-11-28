@@ -285,7 +285,7 @@ const ProductDetails = (props) => {
                 onHide={() => setNextModalShow(false)}
             />
         </Row>
-        For products with Add ons
+        {/*For products with Add ons*/}
             {product.addOn !== undefined ? 
         <Row>
             <Col sm={3}>
