@@ -235,7 +235,7 @@
     width: 270px;
     margin-top: 5px;
     margin-right: 5px;
-    height: 490px;
+    height: 472px;
   }
   .home-card-title {
     width: 100%;
@@ -255,6 +255,9 @@
 }
 
 @media (max-width: 768px) {
+  .workout-hero-image img{
+    height: 465px;
+  }
   .home-wrapper {
     display: grid;
     grid-row-end: none;
@@ -287,7 +290,7 @@
     width: 259px;
     margin-top: 5px;
     margin-right: 5px;
-    height: 478px;
+    height: 454px;
   }
 }
 @media (max-width: 710px) {
@@ -295,7 +298,7 @@
     width: 245px;
     margin-top: 5px;
     margin-right: 5px;
-    height: 465px;
+    height: 442px;
   }
 }
 /*     ---------------                   MOBILE 320PX TO 767PX         -------------*/
