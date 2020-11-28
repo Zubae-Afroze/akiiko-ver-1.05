@@ -192,6 +192,7 @@ const ProductDetails = (props) => {
                     width: 1600,
                     height: 1600
                 },
+                className: 'test-magnify', 
                 enlargedImageContainerClassName	: 'mag-img-cont',
                 enlargedImageClassName: 'mag-img',
                 imageClassName: 'img-hero-wrap',
@@ -205,8 +206,13 @@ const ProductDetails = (props) => {
             </Col>
             <Col lg={6} className='product-det'> {/* cls name added and xs=6 is changed to lg-6*/}
                 <div className='products-details-head'>{product.group}</div>
+<<<<<<< HEAD
+                <div className='products-details-label'> {product.productName}                {product.price !== undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
+ </div>
+=======
                 <div className='products-details-label'>{product.productName}</div>
                 {product.price !==  undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
+>>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
             <Row className='cart-det'>
             <Col className='material-det'>
                 <Dropdown>
@@ -284,11 +290,36 @@ const ProductDetails = (props) => {
                 onHide={() => setNextModalShow(false)}
             />
         </Row>
-        {/* For products with Add ons */}
+        For products with Add ons
             {product.addOn !== undefined ? 
         <Row>
+<<<<<<< HEAD
+            <Col sm={3}>
+                <div className='addon-img-container'>
+                <img style={{border: "1px solid #36353541"}} src={product.addOn.heroImage} alt='summa' />
+                </div>
+            </Col>
+            <Col sm={5}>
+                <div className='addon-container'>
+                    
+                    <div >Add On</div>
+                    <ul className='product-details-text addon-text'>You can also purchase this card holder with {product.productName}
+                    <li className='product-details-texts addon-text'><span className='target-bold'>Product Name:</span> {product.addOn.productName}</li>
+                    <li className='product-details-texts addon-text' ><span className='target-bold'>Description:</span> {product.addOn.description}</li>
+                    {/* <li>Care Instruction: {product.washingCare}</li> */}
+                     <li className='product-details-texts addon-text'><span className='target-bold'>{product.productName}</span> &#x20B9;{product.price} +<span className='target-bold'> {product.addOn.productName} </span>&#x20B9;{product.addOn.mrpPrice} = &#x20B9;{parseInt(product.price) + parseInt(product.addOn.mrpPrice)}</li>
+                    </ul>
+                
+
+                </div>
+            </Col>
+            <Col sm={3}>
+            <button className='product-purchase-button'>PURCHASE</button>
+
+=======
             <Col>
             
+>>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
             </Col>
         </Row>
         : null}

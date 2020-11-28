@@ -974,7 +974,7 @@ const MasterProducts = [
             productId: 'MW003',
             productName: 'Classic Card Holder',
             lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
-            heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
+            heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg', 
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             mrpPrice: '79',
             combinedPrice: '590',
@@ -1004,7 +1004,11 @@ const MasterProducts = [
             productId: 'MW003',
             productName: 'Classic Card Holder',
             lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
+<<<<<<< HEAD
+            heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg', 
+=======
             heroImage: '/images/p_images/Bags/Women/BE001/hero.jpg', 
+>>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             mrpPrice: '79',
             combinedPrice: '590',
