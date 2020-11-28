@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {Route, Switch, HashRouter} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomeScreen from './screens/HomeScreen/HomeScreen';
@@ -47,7 +47,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <Router>
+      <HashRouter>
           <ScrollToTop />
           <Header/>
           <Switch>
@@ -229,7 +229,7 @@ export default class App extends Component {
               productInfo={MasterProducts}/>)}/>
           </Switch>
           <Footer/>
-      </Router>
+      </HashRouter>
     )
   }
 }

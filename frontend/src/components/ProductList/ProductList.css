@@ -91,6 +91,38 @@
   color: #3a2f2d;
 }
 
+.label-best {
+  position: absolute;
+  top: 0;
+  font-family: 'rutan';
+  right: 2%;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-right: 2px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1px 15px;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 1.92px;
+  color: #3a2f2d;
+}
+
+.label-view {
+  position: absolute;
+  right: 50%;
+  text-transform: uppercase;
+  transform: translate(50%);
+  font-family: 'rutan';
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 235px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1.92px;
+  padding: 3px 0;
+  color: #3a2f2d;
+}
+
 .product-list-wrapper a:hover {
   text-decoration: none;
 }

@@ -1,7 +1,7 @@
 const HomeScreenHomeProducts = [
     {
         productId: 'HK002',
-        productName: 'Original Sandwich Bag',
+        productName: 'Original Sandwich Bag (Pack Of 3)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg',
         images: 
@@ -14,14 +14,13 @@ const HomeScreenHomeProducts = [
         mesurement: 'L18cm x W20cm',
         material: 'cotton canvas',
         color: 'natural',
-        quickView: 'Pack of 3',
         washingCare: ' The organic lunch bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '569',
         price: '361'
     },
     {
         productId: 'HK008',
-        productName: 'Original Cutlery Case',
+        productName: 'Original Cutlery Case (Pack of 6)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK008/hero.jpg',
         images: 
@@ -34,7 +33,8 @@ const HomeScreenHomeProducts = [
         mesurement: 'L7cm x W26cm',
         material: 'cotton canvas',
         color: 'natural',
-        quickView: 'Pack of 6',
+        quickView: 'quick view',
+        bestSeller: 'Best Seller',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '650',
         price: '540'
@@ -55,6 +55,7 @@ const HomeScreenHomeProducts = [
         mesurement: 'L37.2cm x W10cm x H46.5cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'New Arrival',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '599',
         price: '471'
@@ -95,6 +96,7 @@ const HomeScreenHomeProducts = [
         mesurement: 'L46.4cm x W8cm x H89.3cm',
         material: 'cotton canvas',
         color: 'natural',
+        quickView: 'quick view',
         bestSeller: 'Best Seller',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '799',
@@ -102,7 +104,7 @@ const HomeScreenHomeProducts = [
     },
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET',
+        productName: 'BREAD BASKET (Pack of 3)',
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg',
         images: 
@@ -116,7 +118,7 @@ const HomeScreenHomeProducts = [
         mesurement: 'SMALL:L13cm x W11cm x H9.7cm , BIG:L15.5cm x W20.7cm x H9.7cm',
         material: 'cotton canvas',
         color: 'natural',
-        quickView: 'Pack of 3',
+        bestSeller: 'New Arrival',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '549',
         price: '536'

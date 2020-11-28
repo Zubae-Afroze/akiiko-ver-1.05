@@ -109,11 +109,11 @@ const ProductDetails = (props) => {
                 <Col className='modal-wrapper'>
                     <p className='modal-intro-text'>Please fill out your information, to continue with the purchase</p>
                     <form className='modal-form'>
-                        <input type='text' placeholder='First Name' name='fname' autoComplete="off" className='modal-input modal-first' onChange={handleChange}></input>
-                        <input type='text' placeholder='Last Name' name='lname' autoComplete="off" className='modal-input modal-last' onChange={handleChange}></input><br></br>
-                        <input type='text' placeholder='Email Address' name='email' autoComplete="off" className='modal-input modal-email' onChange={handleChange}></input><br></br>
-                        <input type='number' placeholder='Phone Number' name='phone' autoComplete="off" className='modal-input modal-phone' onChange={handleChange}></input><br></br>
-                        <textarea type='text' id='madd' placeholder='Address' name='address' autoComplete="off" className='modal-input modal-address' onChange={handleChange}></textarea><br></br>
+                        <input type='text' placeholder='First Name' name='fname' autoComplete="off" className='modal-input modal-first' onChange={handleChange} required></input>
+                        <input type='text' placeholder='Last Name' name='lname' autoComplete="off" className='modal-input modal-last' onChange={handleChange} required></input><br></br>
+                        <input type='text' placeholder='Email Address' name='email' autoComplete="off" className='modal-input modal-email' onChange={handleChange} required></input><br></br>
+                        <input type='number' placeholder='Phone Number' name='phone' autoComplete="off" className='modal-input modal-phone' onChange={handleChange} required></input><br></br>
+                        <textarea type='text' id='madd' placeholder='Address' name='address' autoComplete="off" className='modal-input modal-address' onChange={handleChange} required></textarea><br></br>
 
                         <div className='modal-prd-det'><span className='target-bold'>Product Material:</span> {product.material}</div>
                         <div className='modal-prd-det'><span className='target-bold'>Product Thickness:</span> {product.thickness}</div>
@@ -162,6 +162,7 @@ const ProductDetails = (props) => {
                         className="d-block w-100"
                         src={prod}
                         alt="First slide"
+                        key = {index}
                         /> 
                         {/* <Carousel.Caption>
                             <h3 className='carousel-slide-1'>Introducing Akiiko</h3>
@@ -205,8 +206,13 @@ const ProductDetails = (props) => {
             </Col>
             <Col lg={6} className='product-det'> {/* cls name added and xs=6 is changed to lg-6*/}
                 <div className='products-details-head'>{product.group}</div>
+<<<<<<< HEAD
                 <div className='products-details-label'> {product.productName}                {product.price !== undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
  </div>
+=======
+                <div className='products-details-label'>{product.productName}</div>
+                {product.price !==  undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
+>>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
             <Row className='cart-det'>
             <Col className='material-det'>
                 <Dropdown>
@@ -287,6 +293,7 @@ const ProductDetails = (props) => {
         For products with Add ons
             {product.addOn !== undefined ? 
         <Row>
+<<<<<<< HEAD
             <Col sm={3}>
                 <div className='addon-img-container'>
                 <img style={{border: "1px solid #36353541"}} src={product.addOn.heroImage} alt='summa' />
@@ -309,6 +316,10 @@ const ProductDetails = (props) => {
             <Col sm={3}>
             <button className='product-purchase-button'>PURCHASE</button>
 
+=======
+            <Col>
+            
+>>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
             </Col>
         </Row>
         : null}

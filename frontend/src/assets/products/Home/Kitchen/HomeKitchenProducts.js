@@ -37,6 +37,7 @@ const HomeKitchenProducts = [
         mesurement: 'L7cm x W26cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'Best Seller',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '650',
         price: '540'

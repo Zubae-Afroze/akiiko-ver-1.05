@@ -36,6 +36,7 @@ const GiftGiftboxProducts = [
         measurement: 'BIG-L30cm x D15.5 cm SMALL-L21.5cm x D15.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
+        bestSeller: 'Best Seller',
         washingCare: 'This gift pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '989',
         price: '914'

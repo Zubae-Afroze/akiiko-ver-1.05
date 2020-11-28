@@ -27,6 +27,10 @@
   margin-left: 0;
 }
 
+.nav:hover {
+  color: #8c745e;
+}
+
 .navbar-li {
   color: #2e2614;
   font-family: 'rutan';

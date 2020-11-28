@@ -17,6 +17,7 @@ const StorageOrganiserProducts = [
         mesurement: 'L16.5cm x W6cm x H19cm ,MEDIUM- L18cm x W10.7cm x H10.5cm , SMALL-L18.5cm x W6cm x H6cm',
         material: 'cotton canvas',
         color: 'natural',
+        bestSeller: 'Best Seller',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1299',
         price: '1140',

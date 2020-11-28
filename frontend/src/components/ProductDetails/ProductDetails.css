@@ -345,11 +345,14 @@
   box-shadow: 4px 4px 10px #c5c5c58a;
 }
 
+<<<<<<< HEAD
 .mag-img {
   width: 522px;
   height: 522px;
 }
 
+=======
+>>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
 .modal-price {
   margin-left: 10px;
 }
@@ -365,6 +368,10 @@
 .modal-intro-text {
   margin-left: 10px;
   font-size: 12px;
+}
+
+.products-details-price {
+  margin-bottom: 30px;
 }
 
 .alt-img-hero-container {
@@ -460,8 +467,9 @@
     width: 225px;
   }
   .alt-img-list ul li img {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 13.5px;
   }
 }
 
