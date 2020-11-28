@@ -44,9 +44,10 @@ export default class Footer extends Component {
                             <div className='footer-main-label'>Available At</div>
                             <div className='footer-main-text'>
                                 <p>
-                                Level 15, 26-1 <br/>
-                                Sakuragaoka-cho Shibuya-ku,  <br/>
-                                Tokyo, 150-8512 <br/>
+                                Preciso Fashion <br/>
+                                CORPORATE & DESIGN OFFICE,  <br/>
+                                3rd floor, 7/3A, LVR centre, Seshadri street, Venus colony, Alwarpet, chennai <br/>
+                                India. (600018).
                                 </p>
                             </div>
                         </Col>

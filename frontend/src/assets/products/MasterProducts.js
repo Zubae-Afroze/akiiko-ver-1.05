@@ -40,8 +40,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This bucket bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1170',
-        price: '1788',
+        mrpPrice: '1788',
+        price: '1170',
     },
     {
         productId: 'SS001',
@@ -282,7 +282,7 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '700',
-        price: '534'
+        price: '599'
     },
     {
         productId: 'OL002',
