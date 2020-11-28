@@ -301,7 +301,8 @@ const ProductDetails = (props) => {
                     <li className='product-details-texts addon-text'><span className='target-bold'>Product Name:</span> {product.addOn.productName}</li>
                     <li className='product-details-texts addon-text' ><span className='target-bold'>Description:</span> {product.addOn.description}</li>
                     {/* <li>Care Instruction: {product.washingCare}</li> */}
-                     <li className='product-details-texts addon-text'><span className='target-bold'>{product.productName}</span> &#x20B9;{product.price} +<span className='target-bold'> {product.addOn.productName} </span>&#x20B9;{product.addOn.mrpPrice} = &#x20B9;{parseInt(product.price) + parseInt(product.addOn.mrpPrice)}</li>
+                     <li className='product-details-texts addon-text'><span className='target-bold'>{product.productName}
+                        </span>&#x20B9;{product.mrpPrice} + <span className='target-bold'> {product.addOn.productName} </span>&#x20B9;{product.addOn.mrpPrice} = &#x20B9;{parseInt(product.mrpPrice) + parseInt(product.addOn.mrpPrice)}</li>
                     </ul>
                 
 
