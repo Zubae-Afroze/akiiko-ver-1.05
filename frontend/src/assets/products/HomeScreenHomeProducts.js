@@ -104,7 +104,7 @@ const HomeScreenHomeProducts = [
     },
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET (Pack of 3)',
+        productName: 'BREAD BASKET (Set of 2)',
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg',
         images: 

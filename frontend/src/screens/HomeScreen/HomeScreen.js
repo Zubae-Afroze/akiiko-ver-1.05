@@ -18,7 +18,7 @@ const HomeScreen = () => {
                         </div>
                         <div className='hero-text'>
                             eco-friendly<br/>
-                            utilitarian<br />
+                            utilitarian<br/>
                             vegan
                         </div>
                         <div className='hero-sub-text'>
