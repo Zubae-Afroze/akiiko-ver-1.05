@@ -206,13 +206,8 @@ const ProductDetails = (props) => {
             </Col>
             <Col lg={6} className='product-det'> {/* cls name added and xs=6 is changed to lg-6*/}
                 <div className='products-details-head'>{product.group}</div>
-<<<<<<< HEAD
-                <div className='products-details-label'> {product.productName}                {product.price !== undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
- </div>
-=======
                 <div className='products-details-label'>{product.productName}</div>
                 {product.price !==  undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
->>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
             <Row className='cart-det'>
             <Col className='material-det'>
                 <Dropdown>
@@ -293,7 +288,6 @@ const ProductDetails = (props) => {
         For products with Add ons
             {product.addOn !== undefined ? 
         <Row>
-<<<<<<< HEAD
             <Col sm={3}>
                 <div className='addon-img-container'>
                 <img style={{border: "1px solid #36353541"}} src={product.addOn.heroImage} alt='summa' />
@@ -316,10 +310,6 @@ const ProductDetails = (props) => {
             <Col sm={3}>
             <button className='product-purchase-button'>PURCHASE</button>
 
-=======
-            <Col>
-            
->>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
             </Col>
         </Row>
         : null}
