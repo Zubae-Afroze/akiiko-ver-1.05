@@ -14,11 +14,11 @@ const BagAllProducts = (props) => {
             <Row className='product-list-card-wrapper'>
                 {props.womenProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
-                        <div className='product-list-image'>
+                        <Link to={`/product/${product.productId}`}><div className='product-list-image'>
                             <img src={product.lifestyleImage} alt='home_1'/>
                             <div className='product-list-card-title'>{product.productName}</div>
-                            <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>
-                        </div>
+                            <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div>
+                        </div></Link>
                     </div>
                 ))}
             </Row>
@@ -29,11 +29,11 @@ const BagAllProducts = (props) => {
             <Row className='product-list-card-wrapper'>
                 {props.toteProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
-                        <div className='product-list-image'>
+                        <Link to={`/product/${product.productId}`}><div className='product-list-image'>
                             <img src={product.lifestyleImage} alt='home_1'/>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
-                        <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>
+                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div></Link>
                     </div>
                 ))}
             </Row>
@@ -44,11 +44,11 @@ const BagAllProducts = (props) => {
             <Row className='product-list-card-wrapper'>
                 {props.officeProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
-                        <div className='product-list-image'>
+                        <Link to={`/product/${product.productId}`}><div className='product-list-image'>
                             <img src={product.lifestyleImage} alt='home_1'/>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
-                        <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>
+                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div></Link>
                     </div>
                 ))}
             </Row>
@@ -59,11 +59,11 @@ const BagAllProducts = (props) => {
             <Row className='product-list-card-wrapper'>
                 {props.travelProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
-                        <div className='product-list-image'>
+                        <Link to={`/product/${product.productId}`}><div className='product-list-image'>
                             <img src={product.lifestyleImage} alt='home_1'/>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
-                        <div className='product-list-card-text'><Link to={`/product/${product.productId}`}>View Details - &#x20B9;{product.price}</Link></div>
+                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div></Link>
                     </div>
                 ))}
             </Row>
