@@ -160,7 +160,7 @@ export default class Menubar extends Component {
                                                 <Link to='/bags/travel'><img src='/images/nav_drop/home_drop/travel.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>TRAVEL</div></Link></li>
                                         </ul>
-                                        <Link to='/bags/all_products' className='navbar-drop-link' onClick={this.toggleHomeDropDiv}>VIEW ALL BAGS</Link>
+                                        <Link to='/bags/all_products' className='navbar-drop-link' onClick={this.toggleHomeDropDiv}>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/home_drop/bagsDropHeo.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
