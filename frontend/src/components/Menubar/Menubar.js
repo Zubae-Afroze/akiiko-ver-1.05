@@ -191,7 +191,7 @@ export default class Menubar extends Component {
                                                 <Link to='/home/garden'><img src='/images/nav_drop/office_drop/accessories.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>GARDEN</div></Link></li>
                                         </ul>
-                                        <Link to='/home/all_products' className='navbar-drop-link'>VIEW ALL BAGS</Link>
+                                        <Link to='/home/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/office_drop/officeDropHero.png' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -219,7 +219,7 @@ export default class Menubar extends Component {
                                                 <img src='/images/nav_drop/organisation_drop/baskets.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>    </div></li> */}
                                         </ul>
-                                        <Link to='/lifestyle/workout' className='navbar-drop-link' onClick={this.toggleWorkoutDiv}>VIEW ALL BAGS</Link>
+                                        <Link to='/lifestyle/workout' className='navbar-drop-link' onClick={this.toggleWorkoutDiv}>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/lifestyle_drop/lifestyle_hero.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -247,7 +247,7 @@ export default class Menubar extends Component {
                                                 <Link to='/gift/accessories'><img src='/images/nav_drop/organisation_drop/accessories.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>ACCESSORIES</div></Link></li>
                                         </ul>
-                                        <Link to='/gift/all_products' className='navbar-drop-link'>VIEW ALL BAGS</Link>
+                                        <Link to='/gift/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/organisation_drop/organisationDropHero.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -272,7 +272,7 @@ export default class Menubar extends Component {
                                                 <Link to='/storage/home'><img src='/images/nav_drop/travel_drop/backpack.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>HOME</div></Link></li>
                                         </ul>
-                                        <Link to='/storage/all_products' className='navbar-drop-link'>VIEW ALL BAGS</Link>
+                                        <Link to='/storage/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/travel_drop/travelDropHero.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -297,7 +297,7 @@ export default class Menubar extends Component {
                                                 <Link to='/accessories/wallet'><img src='/images/nav_drop/men_drop/wallet.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>WALLET</div></Link></li>
                                         </ul>
-                                        <Link to='/accessories/all_products' className='navbar-drop-link'>VIEW ALL BAGS</Link>
+                                        <Link to='/accessories/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/men_drop/accessoriesDrop.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -325,7 +325,7 @@ export default class Menubar extends Component {
                                                 <img src='/images/nav_drop/men_drop/bag.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>STORAGE</div></li>
                                         </ul>
-                                        <a href='/' className='navbar-drop-link'>VIEW ALL BAGS</a>
+                                        <a href='/' className='navbar-drop-link'>VIEW ALL PRODUCTS</a>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero'><img src='/images/nav_drop/men_drop/menDropHero.png' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -356,7 +356,7 @@ export default class Menubar extends Component {
                                                 <img src='/images/nav_drop/women_drop/accessories.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>ACCESSORIES</div></li>
                                         </ul>
-                                        <a href='/' className='navbar-drop-link'>VIEW ALL BAGS</a>
+                                        <a href='/' className='navbar-drop-link'>VIEW ALL PRODUCTS</a>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero'><img src='/images/nav_drop/women_drop/womenDropHero.png' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -384,7 +384,7 @@ export default class Menubar extends Component {
                                                 <img src='/images/nav_drop/gift_drop/gift_wrapper.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>POUCHES</div></li>
                                         </ul>
-                                        <a href='/' className='navbar-drop-link'>VIEW ALL BAGS</a>
+                                        <a href='/' className='navbar-drop-link'>VIEW ALL PRODUCTS</a>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero'><img src='/images/nav_drop/gift_drop/giftDropHero.png' alt='home_drop_hero'/></Col>
                                 </Row>

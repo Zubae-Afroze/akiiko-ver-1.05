@@ -45,7 +45,7 @@ export default class Footer extends Component {
                             <div className='footer-main-text'>
                                 <p>
                                 <strong>PRECISO FASHION</strong><br/>
-                                Corporate office<br/>
+                                Corporate Office<br/>
                                 3rd floor, 7/3A, LVR centre, Seshadri Road, Alwarpet <br/>
                                 Chennai 600018 <br/> 
                                 India.
