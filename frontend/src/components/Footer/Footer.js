@@ -64,9 +64,9 @@ export default class Footer extends Component {
                         <ul className='footer-social-icons'>
                             <li><a href='https://www.instagram.com/akiiko_india/' target='_blank' rel="noreferrer"><i className="lni lni-instagram-filled"></i></a></li> 
                             <li><a href='https://www.facebook.com/akiikoindia/' target='_blank' rel="noreferrer"><i className="lni lni-facebook-filled"></i></a></li>
-                            <li><a href='/'><i className="lni lni-linkedin-original"></i></a></li>
-                            <li><a href='/'><i className="lni lni-pinterest"></i></a></li>
-                            <li><a href='/'><i className="lni lni-twitter-original"></i></a></li>
+                            <li><a href='https://www.linkedin.com/company/akiiko-india/' target='_blank' rel='noreferrer'><i className="lni lni-linkedin-original"></i></a></li>
+                            <li><a href='https://in.pinterest.com/akiiko_india/' target='_blank' rel='noreferrer'><i className="lni lni-pinterest"></i></a></li>
+                            <li><a href='https://twitter.com/AkiikoIndia' target='_blank' rel='noreferrer'><i className="lni lni-twitter-original"></i></a></li>
                             <li><a href='/'><i className="lni lni-youtube"></i></a></li>
                         </ul>
                     </div> 

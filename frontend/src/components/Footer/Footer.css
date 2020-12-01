@@ -140,6 +140,11 @@
   margin-top: 0;
   font-size: 12px;
 }
+
+input.footer-main-form::placeholder {
+  color: #3a2f2d;
+}
+
 /* ----------------------LAPTOP 1024PX AND ABOVE------------------------------ */
 @media (max-width: 1226px) {
   .footer-main-label-2 {
