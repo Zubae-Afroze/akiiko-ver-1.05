@@ -156,7 +156,7 @@
   justify-content: flex-end;
   margin-right: 15px;
 }
-
+/* ------------------TAB 600PX TO 1024PX---------------- */
 @media (max-width: 1024px) {
   .w-100 {
     height: 600px;
@@ -250,6 +250,7 @@
     height: 40px;
   }
 }
+/* ------------------MOBILE 320PX TO 586PX---------------- */
 
 @media (max-width: 576px) {
   .hero-logo {

@@ -737,6 +737,12 @@
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 
 @media (max-width: 425px) {
+  .quantity-increase{
+    padding-left: 14px;
+  }
+  .quantity-decrease{
+    padding-right: 14px;
+  }
   .product-details-carousel {
     padding: 0px;
     margin-bottom: 60px;
@@ -792,6 +798,7 @@
   .color-pick {
     margin-bottom: 5px;
     margin-left: 10px;
+    margin-right: 33px;
   }
   .material-div {
     font-size: 12px;

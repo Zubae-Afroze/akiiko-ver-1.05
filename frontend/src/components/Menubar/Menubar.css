@@ -168,11 +168,7 @@
   }
 }
 
-@media (max-width: 550px) {
-  .nav {
-    display: none;
-  }
-}
+
 
 @media (max-width: 650px) {
   .navbar-drop-list li {
@@ -192,7 +188,11 @@
     animation: fadeIn 2300ms;
   }
 }
-
+@media (max-width: 550px) {
+  .nav {
+    display: none;
+  }
+}
 @keyframes growdown {
   from {
     height: 0px;
