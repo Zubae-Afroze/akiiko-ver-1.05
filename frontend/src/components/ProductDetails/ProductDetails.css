@@ -738,10 +738,10 @@
 
 @media (max-width: 425px) {
   .quantity-increase{
-    padding-left: 13px;
+    padding-left: 14px;
   }
   .quantity-decrease{
-    padding-right: 13px;
+    padding-right: 14px;
   }
   .product-details-carousel {
     padding: 0px;
@@ -798,7 +798,7 @@
   .color-pick {
     margin-bottom: 5px;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 33px;
   }
   .material-div {
     font-size: 12px;
