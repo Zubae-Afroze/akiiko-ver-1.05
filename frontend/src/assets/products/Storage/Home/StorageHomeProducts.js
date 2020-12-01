@@ -22,7 +22,7 @@ const StorageHomeProducts = [
     },
     {
         productId: 'HS002',
-        productName: 'Versatile Storage tray',
+        productName: 'Versatile Storage Tray (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS002/hero.jpg',
         images: 

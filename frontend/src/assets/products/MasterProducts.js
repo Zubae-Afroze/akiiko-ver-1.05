@@ -376,7 +376,7 @@ const MasterProducts = [
     },
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET (Set Of 2)',
+        productName: 'BREAD BASKET (Set Of 3)',
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg', 
         images: 
@@ -761,7 +761,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA004',
-        productName: 'Multi-purpose Pouches (Pack Of 3)',
+        productName: 'Multi-purpose Pouches (Set Of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg', 
         images: 
@@ -805,7 +805,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS002',
-        productName: 'Versatile Storage tray',
+        productName: 'Versatile Storage Tray (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS002/hero.jpg', 
         images: 
