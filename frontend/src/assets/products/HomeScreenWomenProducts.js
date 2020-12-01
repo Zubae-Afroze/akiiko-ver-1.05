@@ -16,8 +16,7 @@ const HomeScreenWomenProducts = [
         color: 'natural',
         bestSeller: 'Best Seller',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        mrpPrice: '999',
-        price:'808',
+        mrpPrice: '799',
     },
     {
         productId: 'SS002',
@@ -36,8 +35,7 @@ const HomeScreenWomenProducts = [
         color: 'natural',
         quickView: 'quick view',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        mrpPrice: '999',
-        price:'879',
+        mrpPrice: '899',
     },
     {
         productId: 'SS003',
@@ -57,8 +55,7 @@ const HomeScreenWomenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        mrpPrice: '799',
-        price:'762',
+        mrpPrice: '849',
     },
     {
         productId: 'BE002',
@@ -97,8 +94,7 @@ const HomeScreenWomenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This large beach tote is breathable, handy & light. The eco-friendly bag stores all your beach accessories with ease and convenience. Making the eco-friendly bag, an essential for carefree sunny days.',
-        mrpPrice: '700',
-        price:'534',
+        mrpPrice: '549',
     },
 ]
 

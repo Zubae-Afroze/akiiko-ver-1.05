@@ -18,8 +18,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This circular bag can be hand washed or machine washed in normal water with a gentle detergent',
-        mrpPrice: '869',
-        price: '775',
+        mrpPrice: '849',
     },
     {
         productId: 'WB003',
@@ -40,8 +39,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This bucket bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1788',
-        price: '1170',
+        mrpPrice: '1300',
+        price: '1169',
     },
     {
         productId: 'SS001',
@@ -63,8 +62,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This shopping bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '808'
+        mrpPrice: '799',
     },
     {
         productId: 'SS002',
@@ -85,8 +83,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This classic canvas shopper can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '879'
+        mrpPrice: '899',
     },
     {
         productId: 'SS003',
@@ -107,8 +104,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This classic canvas shopper can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '799',
-        price: '762'
+        mrpPrice: '849',
     },
     // {
     //     productId: 'SS004',
@@ -149,8 +145,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This large shopper bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '860',
-        price: '799'
+        mrpPrice: '799',
     },
     {
         productId: 'SS007',
@@ -170,8 +165,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Conventional Canvas Shopper  can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '749',
-        price: '624'
+        mrpPrice: '749'
     },
     {
         productId: 'SS008',
@@ -193,8 +187,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '899',
-        price: '752'
+        mrpPrice: '949',
+        price: '849'
     },
     {
         productId: 'WB001',
@@ -237,8 +231,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1199',
-        price: '1072'
+        mrpPrice: '849',
     },
     {
         productId: 'BE002',
@@ -260,8 +253,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This summer tote  can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '699',
-        price: '483'
+        mrpPrice: '499',
     },
     {
         productId: 'BE003',
@@ -281,8 +273,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '700',
-        price: '599'
+        mrpPrice: '549',
     },
     {
         productId: 'OL002',
@@ -304,8 +295,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: '"This office bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '889'
+        mrpPrice: '899',
+        price: '809'
     },
     {
         productId: 'TD001',
@@ -326,8 +317,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '872'
+        mrpPrice: '999'
     },
     {
         productId: 'TD002',
@@ -348,8 +338,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: ' This clasic duffel can be hand washed or machine washed in normal water with a gentle detergent',
-        mrpPrice: '1599',
-        price: '1487'
+        mrpPrice: '1449',
+        price: '1299'
     },
     {
         productId: 'TD003',
@@ -371,8 +361,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1399',
-        price: '1249'
+        mrpPrice: '1499',
     },
     {
         productId: 'HT002',
@@ -393,8 +382,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '605',
-        price: '536'
+        mrpPrice: '649',
     },
     {
         productId: 'HK002',
@@ -414,8 +402,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: ' The organic lunch bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '569',
-        price: '361'
+        mrpPrice: '399',
     },
     {
         productId: 'HK008',
@@ -435,8 +422,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '650',
-        price: '540'
+        mrpPrice: '649',
     },
     {
         productId: 'HL005',
@@ -458,7 +444,7 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '599',
-        price: '471'
+        price: '539'
     },
     {
         productId: 'HL006',
@@ -477,8 +463,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1099',
-        price:'968'
+        mrpPrice: '1199',
+        price: '1079',
     },
     {
         productId: 'HL008',
@@ -500,8 +486,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '799',
-        price: '626'
+        mrpPrice: '699',
     },
     {
         productId: 'PG004',
@@ -521,8 +506,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Planters can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '499',
-        price: '367'
+        mrpPrice: '999',
     },
     {
         productId: 'WY003',
@@ -563,7 +547,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1649',
+        mrpPrice: '1449',
         price: '1449'
     },
     {
@@ -584,8 +568,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This yoga tote can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1149'
+        mrpPrice: '999',
     },
     {
         productId: 'WY006',
@@ -606,8 +589,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1499',
-        price: '1349'
+        mrpPrice: '1299',
     },
     {
         productId: 'GB001',
@@ -628,8 +610,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '989',
-        price: '932'
+        mrpPrice: '999',
     },
     {
         productId: 'GB002',
@@ -650,7 +631,7 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '1135',
-        price: '1012'
+        price: '949',
     },
     {
         productId: 'GW006',
@@ -671,8 +652,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '769',
-        price: '608'
+        mrpPrice: '749',
+        price: '675',
     },
     {
         productId: 'GB003',
@@ -693,7 +674,7 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '989',
-        price: '914'
+        price: '849'
     },
     {
         productId: 'GG006',
@@ -713,8 +694,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This small bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '769',
-        price: '608'
+        mrpPrice: '299',
     },
     {
         productId: 'GW003',
@@ -734,7 +714,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: '"This message card can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '755'
+        mrpPrice: '249',
     },
     {
         productId: 'TA003',
@@ -756,8 +736,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'natural',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1140'
+        mrpPrice: '1249',
     },
     {
         productId: 'TA004',
@@ -779,8 +758,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '899',
-        price:'796'
+        mrpPrice: '999',
+        price:'899'
     },
     {
         productId: 'HS001',
@@ -800,8 +779,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Storage tray can be wiped with a wet cloth.',
-        mrpPrice: '899',
-        price: '675'
+        mrpPrice: '749',
     },
     {
         productId: 'HS002',
@@ -822,8 +800,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1999',
-        price: '1459'
+        mrpPrice: '1649',
+        price: '1499'
     },
     {
         productId: 'HS003',
@@ -843,8 +821,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Storage shelf bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1699',
-        price: '1260'
+        mrpPrice: '1499',
+        price: '1349'
     },
     {
         productId: 'HS007',
@@ -864,8 +842,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This broad storage bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1099'
+        mrpPrice: '1099',
     },
     {
         productId: 'HS008',
@@ -885,8 +862,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Hanging organiser can be hand washed or machine washed in normal water with a gentle detergent',
-        mrpPrice: '899',
-        price: '761'
+        mrpPrice: '849',
     },
     {
         productId: 'HS010',
@@ -906,8 +882,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This square Storage box can be wiped with a wet cloth.',
-        mrpPrice: '1099',
-        price:'850'
+        mrpPrice: '1049',
     },
     {
         productId: 'HS012',
@@ -927,8 +902,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '699',
-        price: '400'
+        mrpPrice: '399',
     },
     {
         productId: 'TA001',
@@ -948,8 +922,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel organisers can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '2999',
-        price: '2480'
+        mrpPrice: '2249',
+        price: '1999'
     },
     {
         productId: 'MW001',
@@ -969,7 +943,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Bi fold wallet can be hand wash',
-        mrpPrice: '511',
+        mrpPrice: '449',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
@@ -999,7 +973,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Bi fold wallet can be hand wash',
-        mrpPrice: '470',
+        mrpPrice: '349',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
@@ -1027,7 +1001,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This card holder can be hand wash',
-        mrpPrice: '79',
+        mrpPrice: '149',
     },
     {
         productId: 'MW004',
@@ -1046,8 +1020,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Passport can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '499',
-        price: '419'
+        mrpPrice: '399',
     },
 ]
 

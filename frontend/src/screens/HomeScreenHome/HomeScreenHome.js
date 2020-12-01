@@ -36,7 +36,7 @@ const HomeScreenHome = () => {
                                     {product.quickView !== undefined ? <span className='label-view label-view-workout'>{product.quickView}</span> : null}
                                     </div>
                                     <div className='home-card-title'>{product.productName}</div>
-                                <div className='home-card-text'>View Details - &#x20B9;{product.price}</div>
+                                <div className='home-card-text'>View Details - {product.price !== undefined ? product.price : product.mrpPrice}</div>
                                 </div></Link>
                                 
                             </Col>

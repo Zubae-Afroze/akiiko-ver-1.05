@@ -15,8 +15,7 @@ const HomeScreenHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: ' The organic lunch bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '569',
-        price: '361'
+        mrpPrice: '399',
     },
     {
         productId: 'HK008',
@@ -36,8 +35,7 @@ const HomeScreenHomeProducts = [
         quickView: 'quick view',
         bestSeller: 'Best Seller',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '650',
-        price: '540'
+        mrpPrice: '649',
     },
     {
         productId: 'HL005',
@@ -76,8 +74,8 @@ const HomeScreenHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1099',
-        price: '968'
+        mrpPrice: '1199',
+        price: '1079'
     },
     {
         productId: 'HL008',
@@ -99,8 +97,7 @@ const HomeScreenHomeProducts = [
         quickView: 'quick view',
         bestSeller: 'Best Seller',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '799',
-        price: '626'
+        mrpPrice: '699',
     },
     {
         productId: 'HT002',
@@ -120,8 +117,7 @@ const HomeScreenHomeProducts = [
         color: 'natural',
         bestSeller: 'New Arrival',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '549',
-        price: '536'
+        mrpPrice: '649',
     },
 ]
 

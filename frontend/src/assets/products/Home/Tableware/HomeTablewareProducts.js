@@ -19,8 +19,7 @@ const HomeTablewareProducts = [
         color: 'natural',
         bestSeller: 'New Arrival',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '605',
-        price: '536',
+        mrpPrice: '649',
     },
 ]
 
