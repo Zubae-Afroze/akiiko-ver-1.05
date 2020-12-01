@@ -14,7 +14,7 @@ export default class Footer extends Component {
                                 akiiko
                             </div>
                             <div className='footer-brand-text'>
-                            Akiiko is an eco-friendly brand. We curate a wide range of natural fabric utility products for everyday use. We value the power of functionality and design to find joy in simplicity. 
+                            Akiiko is an eco-friendly brand. We design a wide range of natural fabric utility products for everyday use. We value the power of functionality and design to find joy in simplicity. 
                             </div>
                             <div className='footer-brand-button'>
                                 <button className='footer-button'>
@@ -44,10 +44,11 @@ export default class Footer extends Component {
                             <div className='footer-main-label'>Available At</div>
                             <div className='footer-main-text'>
                                 <p>
-                                Preciso Fashion <br/>
-                                CORPORATE & DESIGN OFFICE,  <br/>
-                                3rd floor, 7/3A, LVR centre, Seshadri street, Venus colony, Alwarpet, chennai <br/>
-                                India. (600018).
+                                <strong>PRECISO FASHION</strong><br/>
+                                Corporate Office<br/>
+                                3rd floor, 7/3A, LVR centre, Seshadri Road, Alwarpet <br/>
+                                Chennai 600018 <br/> 
+                                India.
                                 </p>
                             </div>
                         </Col>
