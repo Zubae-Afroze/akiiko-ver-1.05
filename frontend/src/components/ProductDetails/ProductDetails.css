@@ -369,6 +369,14 @@
 .alt-img-hero-container {
   padding: 0px;
 }
+
+.strike-price {
+  text-decoration: line-through;
+  text-decoration-thickness: 1.8px;
+  text-decoration-color: rgba(0, 0, 0, 0.455);
+  color: rgba(0, 0, 0, 0.455);
+}
+
 /* -----------------------------------------LAPTOP  UPTO 1440PX------------------------------------------- */
 @media (max-width: 1290px) {
   .products-details-label {

@@ -16,8 +16,8 @@ const BagAllProducts = (props) => {
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <Link to={`/product/${product.productId}`}><div className='product-list-image'>
                             <div><img src={product.lifestyleImage} alt='home_1'/>
-                            {product.bestSeller !== undefined ? <span className='label-best'>{product.bestSeller}</span> : null}
-                            {product.quickView !== undefined ? <span className='label-view'>{product.quickView}</span> : null}
+                            {product.bestSeller !== undefined ? <span className='pl-label-best'>{product.bestSeller}</span> : null}
+                            {product.quickView !== undefined ? <span className='pl-label-view'>{product.quickView}</span> : null}
                             </div>
                             <div className='product-list-card-title'>{product.productName}</div>
                             <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div>
@@ -33,9 +33,9 @@ const BagAllProducts = (props) => {
                 {props.toteProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <Link to={`/product/${product.productId}`}><div className='product-list-image'>
-                            <img src={product.lifestyleImage} alt='home_1'/>
-                            {product.bestSeller !== undefined ? <span className='label-best'>{product.bestSeller}</span> : null}
-                            {product.quickView !== undefined ? <span className='label-view'>{product.quickView}</span> : null}
+                            <div><img src={product.lifestyleImage} alt='home_1'/>
+                            {product.bestSeller !== undefined ? <span className='pl-label-best'>{product.bestSeller}</span> : null}
+                            {product.quickView !== undefined ? <span className='pl-label-view'>{product.quickView}</span> : null}</div>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
                         <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div></Link>
