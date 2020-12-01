@@ -1,7 +1,7 @@
 const StorageHomeProducts = [
     {
         productId: 'HS001',
-        productName: 'Classic storage tray',
+        productName: 'Classic Storage Tray',
         lifestyleImage: '/images/p_images/Storage/Home/HS001/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS001/hero.jpg',
         images: 

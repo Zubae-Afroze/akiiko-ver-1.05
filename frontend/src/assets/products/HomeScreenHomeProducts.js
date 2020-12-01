@@ -56,7 +56,7 @@ const HomeScreenHomeProducts = [
         bestSeller: 'New Arrival',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '599',
-        price: '471'
+        price: '539'
     },
     {
         productId: 'HL006',

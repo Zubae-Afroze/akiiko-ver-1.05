@@ -23,7 +23,7 @@ const AccessoriesWalletProducts = [
             lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/lifestyle.jpg',
             heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
-            price: '79',
+            price: '149',
             combinedPrice: '590'
         },
     },
@@ -51,7 +51,7 @@ const AccessoriesWalletProducts = [
             lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/lifestyle.jpg',
             heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
             description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
-            price: '79',
+            price: '149',
             combinedPrice: '590'
         },
     },

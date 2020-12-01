@@ -75,8 +75,7 @@ const HomeScreenWomenProducts = [
         color: 'natural',
         quickView: 'quick view',
         washingCare: 'A spacious, convenient and effortlessly stylish tote bag designed especially for the beach. An essential for summer days, the beach bag is airy & light, accompanied with an attached pouch. The neutral colour tone compliments every look and is 100% eco-friendly.',
-        mrpPrice: '699',
-        price:'483',
+        mrpPrice: '499',
     },
     {
         productId: 'BE003',
