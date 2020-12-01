@@ -141,6 +141,10 @@
   font-size: 12px;
 }
 
+.footer-bind {
+  line-height: 20px;
+}
+
 input.footer-main-form::placeholder {
   color: #3a2f2d;
 }
