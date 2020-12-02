@@ -383,8 +383,52 @@
   text-transform: uppercase;
   font-family: 'rutanLight';
   letter-spacing: 4.48px;
+  margin-left: 20px;
 }
-
+.similar-products-image img{
+  width: 230px;
+  height: 230px;
+  border: 1px solid #36353541;
+}
+.similar-products-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fefaef;
+  width: 230px;
+  text-transform: uppercase;
+  font-family: 'rutan';
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  text-align: left;
+  text-decoration: none;
+}
+.similar-products-text{
+  text-align: left;
+  width: 230px;
+  padding: 15px;
+  padding-left: 6px;
+  font-size: 14px;
+  background-color: #f6f1ea;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.similar-products-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.similar-products-wrapper{
+  flex-basis: 230px;
+  margin: 5px;
+}
 /* -----------------------------------------LAPTOP  UPTO 1440PX------------------------------------------- */
 @media (max-width: 1290px) {
   .products-details-label {

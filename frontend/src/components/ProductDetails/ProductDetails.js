@@ -314,7 +314,7 @@ const ProductDetails = (props) => {
         </Row>
         : null} */}
         { product.similarProducts !== undefined ?
-        <Row>
+        <Row > 
             {/* Similar Products */}
             <div className='similar-products-wrapper'>
                 <div className='similar-products-head'>You may also like</div>
@@ -327,8 +327,8 @@ const ProductDetails = (props) => {
                                     {prod.bestSeller !== undefined ? <span className='label-best'>{prod.bestSeller}</span> : null}
                                     {prod.quickView !== undefined ? <span className='label-view'>{prod.quickView}</span> : null}
                                     </div>
-                                    <div>{prod.productName}</div>
-                                    <div>View Details - &#x20B9;{prod.price !== undefined ? prod.price : prod.mrpPrice}</div>
+                                    <div className='similar-products-title'>{prod.productName}</div>
+                                    <div className='similar-products-text'> View Details - &#x20B9;{prod.price !== undefined ? prod.price : prod.mrpPrice}</div>
                                 </div>
                             </Col>
                         </Link>
