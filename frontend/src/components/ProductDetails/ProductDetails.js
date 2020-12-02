@@ -314,21 +314,21 @@ const ProductDetails = (props) => {
         </Row>
         : null} */}
         { product.similarProducts !== undefined ?
-        <Row>
+        <Row > 
             {/* Similar Products */}
-            <div className='similar-products-wrapper'>
-                <div className='similar-products-head'><p>You may also like</p></div>
+            <div className='similar-products-head'><p>You may also like</p></div>
+            <div className='similar-products-container'>
                 {product.similarProducts.map(prod => (
-                    <div>
+                    <div className='similar-products-wrapper' >
                         <Link to={`/product/${prod.productId}`} onClick={() => setImageSrc(prod.lifestyleImage)}>
-                            <Col key={prod.productId}>
-                                <div>
-                                    <div className='women-card-image'><img src={prod.lifestyleImage} alt='img'></img>
+                            <Col lg={2.4} key={prod.productId} className='similar-products-wrapper'>
+                                <div  className='similar-products-wrapper'>
+                                    <div className='similar-products-image'><img src={prod.lifestyleImage} alt='img'></img>
                                     {prod.bestSeller !== undefined ? <span className='label-best'>{prod.bestSeller}</span> : null}
                                     {prod.quickView !== undefined ? <span className='label-view'>{prod.quickView}</span> : null}
                                     </div>
-                                    <div>{prod.productName}</div>
-                                    <div>View Details - &#x20B9;{prod.price !== undefined ? prod.price : prod.mrpPrice}</div>
+                                    <div className='similar-products-title'>{prod.productName}</div>
+                                    <div className='similar-products-text'> View Details - &#x20B9;{prod.price !== undefined ? prod.price : prod.mrpPrice}</div>
                                 </div>
                             </Col>
                         </Link>
