@@ -22,9 +22,9 @@ const HomeScreenWomen = () => {
             </Row>
             <Row className='women-card-wrapper '>
                 {HomeScreenWomenProducts.map(product => (
-                   <div className='women-shop-bag-container-root'>{/* class name added here*/} 
+                   <div className='women-shop-bag-container-root' key={product.productId}>{/* class name added here*/} 
                     <Link to={`/product/${product.productId}`}>
-                    <Col lg={2.6} className='women-shop-bag-container' key={product.productId} > {/*class name added */}
+                    <Col lg={2.6} className='women-shop-bag-container'> {/*class name added */}
                     <div>
                     <div className='women-card-image'>
                         <div className='women-img-wrap'>

@@ -317,11 +317,11 @@ const ProductDetails = (props) => {
         <Row>
             {/* Similar Products */}
             <div className='similar-products-wrapper'>
-                <div className='similar-products-head'><p>You may also like</p></div>
+                <div className='similar-products-head'>You may also like</div>
                 {product.similarProducts.map(prod => (
-                    <div>
+                    <div key={prod.productId}>
                         <Link to={`/product/${prod.productId}`} onClick={() => setImageSrc(prod.lifestyleImage)}>
-                            <Col key={prod.productId}>
+                            <Col>
                                 <div>
                                     <div className='women-card-image'><img src={prod.lifestyleImage} alt='img'></img>
                                     {prod.bestSeller !== undefined ? <span className='label-best'>{prod.bestSeller}</span> : null}

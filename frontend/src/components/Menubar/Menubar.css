@@ -166,6 +166,7 @@
     bottom: 0;
     left: 0;
     animation: fadeIn 2300ms;
+    width: 100%;
   }
 }
 
