@@ -16,8 +16,7 @@ const HomeGardenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This Planters  can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '499',
-        price: '367'
+        mrpPrice: '999',
     },
 ]
 

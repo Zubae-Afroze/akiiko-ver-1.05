@@ -14,12 +14,37 @@ const MasterProducts = [
         subGroup: 'Women',
         description: 'This natural Cotton Canvas circle bag is an essential for those looking for something eye catching yet practical. The light toned bag comes with long & wide straps, making it a convenient summer companion.',
         thickness: '9 Ounce',
-        measurement: 'D30cm x H6.1cm',
+        measurement: 'D30cm x H6cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This circular bag can be hand washed or machine washed in normal water with a gentle detergent',
-        mrpPrice: '869',
-        price: '775',
+        mrpPrice: '849',
+        similarProducts: [
+            {
+                productId: 'SS001',
+                productName: 'Original Shopping Bag',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+                price: '799',
+            },
+            {
+                productId: 'WB001',
+                productName: 'The Everyday Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
+                price: '749'
+            },
+            {
+                productId: 'BE003',
+                productName: 'Classic Wide Beach Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
+                price: '549',
+            },
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                price: '1499',
+            },
+        ]
     },
     {
         productId: 'WB003',
@@ -40,8 +65,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This bucket bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1788',
-        price: '1170',
+        mrpPrice: '1300',
+        price: '1169',
     },
     {
         productId: 'SS001',
@@ -59,12 +84,11 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: 'Use this spacious shopper for your groceries or on a daily basis,when you have a lot to haul around. A highly durable, versatile and practical bag. Two deep pockets on either side of the bag, along with broad fabric straps allow for a comfortable & easy shopping experience. The fabric of this eco-friendly bag is thick, secure & soft.',
         thickness: '9 Ounce',
-        measurement: 'L32.2cm x W36cm x H10.1cm',
+        measurement: 'L32cm x H36cm x W10cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This shopping bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '808'
+        mrpPrice: '799',
     },
     {
         productId: 'SS002',
@@ -85,8 +109,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This classic canvas shopper can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '879'
+        mrpPrice: '899',
     },
     {
         productId: 'SS003',
@@ -103,12 +126,11 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: 'A compact but efficient tote, this organic shopping bag is made of natural Cotton Canvas and is perfect to always keep handy. The broad fabric handles ensure that all your shopping is easy on your hands. Ideal for carrying all your miscellaneous belongings & essentials.',
         thickness: '9 Ounce',
-        measurement: 'L17.5cm x W10.2cm x H24cm',
+        measurement: 'L17.5cm x W10cm x H24cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This classic canvas shopper can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '799',
-        price: '762'
+        mrpPrice: '849',
     },
     // {
     //     productId: 'SS004',
@@ -145,12 +167,11 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: ' This large organic fabric tote is a must-have from the shopping collection. The wide and long fabric straps make shopping light and comfortable. The deep and spacious nature of the bag fits all your shopping efficiently and keeps is secure with a zip closure. Clean & minimal, this large eco-friendly tote bag can be used for a multitude of purposes beyond shopping too.',
         thickness: '9 Ounce',
-        measurement: 'L34cm x W9cm x H28cm',
+        measurement: 'L34cm x W9cm x H38cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This large shopper bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '860',
-        price: '799'
+        mrpPrice: '799',
     },
     {
         productId: 'SS007',
@@ -170,8 +191,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Conventional Canvas Shopper  can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '749',
-        price: '624'
+        mrpPrice: '749'
     },
     {
         productId: 'SS008',
@@ -189,12 +209,12 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: 'This long handled shopping bag, allows you to do more than just shop. Multipurpose & eco-friendly, the strap can be used to hang the bag from your shoulder or to wear it crossbody. Multiple pockets of various sizes, ensure that you will never run out of space. ',
         thickness: '9 Ounce',
-        measurement: 'L34.5cm x W10cm x H35.5cm',
+        measurement: 'L34.5cm x W10cm xH35.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '899',
-        price: '752'
+        mrpPrice: '949',
+        price: '849'
     },
     {
         productId: 'WB001',
@@ -211,12 +231,11 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: 'Simple but efficient, this organic fabric tote bag is a great fit for every practical user. The thick strapped design makes the eco-friendly bag easy to carry. Made from natural fibres, this bag will be perfect for running everyday errands & a useful companion for every hustler.',
         thickness: '9 Ounce',
-        measurement: 'L27cm x W4.4cm x H40.5cm  ',
+        measurement: 'L27cm x W4cm x H40.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        mrpPrice: '825',
-        price: '789'
+        mrpPrice: '749',
     },
     {
         productId: 'WB002',
@@ -237,8 +256,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1199',
-        price: '1072'
+        mrpPrice: '849',
     },
     {
         productId: 'BE002',
@@ -256,12 +274,11 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: 'A spacious, convenient and effortlessly stylish tote bag designed especially for the beach. An essential for summer days, the beach bag is airy & light, accompanied with an attached pouch. The neutral colour tone compliments every look and is 100% eco-friendly.',
         thickness: '9 Ounce',
-        measurement: 'L37.5cm x W35.5cm, Pouch-L15cm x W10cm',
+        measurement: 'L37.5cm x W35.5cm  , Pouch- L15cm x W10cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This summer tote  can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '699',
-        price: '483'
+        mrpPrice: '499',
     },
     {
         productId: 'BE003',
@@ -281,8 +298,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '700',
-        price: '599'
+        mrpPrice: '549',
     },
     {
         productId: 'OL002',
@@ -300,12 +316,12 @@ const MasterProducts = [
         subGroup: 'Office',
         description: 'Practical & light toned organic fabric laptop bag. An ideal companion in casual meetings and relaxed office settings. The vegan office bag is designed with a long adjustable strap, convenient handles and pockets for efficient organisation.',
         thickness: '9 Ounce',
-        measurement: 'L38.1cm xW8.9cm x H31.7cm ',
+        measurement: 'L38cm x W9cm x H32cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: '"This office bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '889'
+        mrpPrice: '899',
+        price: '809'
     },
     {
         productId: 'TD001',
@@ -322,12 +338,11 @@ const MasterProducts = [
         subGroup: 'Travel',
         description: ' Eco-friendly & stylish, this vegan fabric duffel bag makes for a perfect travel companion. Designed with both short handles and a long strap, you can carry the bag as you wish and with ease. This organic fabric duffel bag can also be used on a daily, for short trips, weekend getaways or to carry as a cabin bag when flying.',
         thickness: '9 Ounce',
-        measurement: 'L42 cm x W18.1 x H35.2cm',
+        measurement: 'L42 cm x W18 cm x H35 cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
-        price: '872'
+        mrpPrice: '999'
     },
     {
         productId: 'TD002',
@@ -344,12 +359,12 @@ const MasterProducts = [
         subGroup: 'Travel',
         description: ' Eco-friendly & stylish, this vegan fabric duffel bag makes for a perfect travel companion. Designed with both short handles and a long strap, you can carry the bag as you wish and with ease. This organic fabric duffel bag can also be used on a daily, for short trips, weekend getaways or to carry as a cabin bag when flying.',
         thickness: '9 Ounce',
-        measurement: 'L42 cm x W18.1 x H35.2cm',
+        measurement: 'L43cm x W10cm x H26.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: ' This clasic duffel can be hand washed or machine washed in normal water with a gentle detergent',
-        mrpPrice: '1599',
-        price: '1487'
+        mrpPrice: '1449',
+        price: '1299'
     },
     {
         productId: 'TD003',
@@ -367,16 +382,15 @@ const MasterProducts = [
         subGroup: 'Travel',
         description: 'Functional yet minimal, this vegan fabric small duffel bag makes for a perfect gym/travel companion. Designed with broad handles, spacious pockets, the eco-friendly duffel bag is structured to retain its shape. This organic fabric duffel bag can be used for short trips, weekend getaways or as a carry as a cabin bag when flying. ',
         thickness: '9 Ounce',
-        measurement: 'L40cm x W21.6cm x H24.7cm',
+        measurement: 'L40cm x W21.5cm x H24.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1399',
-        price: '1249'
+        mrpPrice: '1499',
     },
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET (Set Of 2)',
+        productName: 'BREAD BASKET (Set Of 3)',
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg', 
         images: 
@@ -389,12 +403,11 @@ const MasterProducts = [
         subGroup: 'Tableware',
         description: 'A set of 3 organic fabric bread baskets to adorn your tables. Use the beige toned natural fabric bags to serve bread, dried fruits, nuts, granola and more. Vegan & ethical, these utility bags will complement your table and allow your food to remain fresh.',
         thickness: '9 Ounce',
-        measurement: 'SMALL:L13cm x W11cm x H9.7cm , BIG:L15.5cm x W20.7cm x H9.7cm',
+        measurement: 'SMALL- L13cm x W11cm x H9.5cm , BIG-L15.5cm x W20.5cm x H9.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '605',
-        price: '536'
+        mrpPrice: '649',
     },
     {
         productId: 'HK002',
@@ -414,8 +427,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: ' The organic lunch bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '569',
-        price: '361'
+        mrpPrice: '399',
     },
     {
         productId: 'HK008',
@@ -435,8 +447,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '650',
-        price: '540'
+        mrpPrice: '649',
     },
     {
         productId: 'HL005',
@@ -453,12 +464,12 @@ const MasterProducts = [
         subGroup: 'Laundry',
         description: 'Stay organised and sustainable with the eco-friendly wall hanging laundry bags. A great fit for any laundry room, bathroom, wardrobe or a shared space. Sort your laundry effectively, with these cotton bags that are laminated from the inside, preserving quality and maintaining freshness.',
         thickness: '9 Ounce',
-        measurement: 'L37.2cm x W10cm x H46.5cm',
+        measurement: 'L37cm x W10cm x H46.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '599',
-        price: '471'
+        price: '539'
     },
     {
         productId: 'HL006',
@@ -473,12 +484,12 @@ const MasterProducts = [
         subGroup: 'Laundry',
         description: 'Eco-friendly and natural, the hanging laundry bag is as unique as it is functional. Use yours to hang behind any door and easily sort your laundry. Organise your laundry by when they need to washed or how they need to washed, in a truly ethical fashion.',
         thickness: '9 Ounce',
-        measurement: 'L46.4cm x W8cm x H89.3cm',
+        measurement: 'L46cm x W8cm x H89cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1099',
-        price:'968'
+        mrpPrice: '1199',
+        price: '1079',
     },
     {
         productId: 'HL008',
@@ -496,12 +507,11 @@ const MasterProducts = [
         subGroup: 'Laundry',
         description: 'This high quality natural fabric laundry bag suits every home. The square shape allows for easy placement and a  spacious nature. Attached to the eco-friendly bag are two sturdy handles, which can be used to conveniently carry and move the cotton laundry bag as much as you desire.',
         thickness: '9 Ounce',
-        measurement: 'L34.5cm x W24.7cm x H53cm',
+        measurement: 'L34.5cm x W24.5cm x H53cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '799',
-        price: '626'
+        mrpPrice: '699',
     },
     {
         productId: 'PG004',
@@ -517,12 +527,11 @@ const MasterProducts = [
         subGroup: 'Laundry',
         description: 'A set of mini natural fibre garden planters. The planters are made square shaped for efficient placement. The small garden planter is an essential for all your gardening experiments, grow micro-greens, herbs, flowers and more. The eco-friendly breathable fabric, makes sure you can enjoy your plants outdoors or indoors in the safety of your home. ',
         thickness: '9 Ounce',
-        measurement: 'L12.7cm x W11.5cm x H9cm',
+        measurement: 'L12.5cm x W11.5cm x H9cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Planters can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '499',
-        price: '367'
+        mrpPrice: '999',
     },
     {
         productId: 'WY003',
@@ -563,8 +572,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1649',
-        price: '1449'
+        mrpPrice: '1449',
     },
     {
         productId: 'WY005',
@@ -584,8 +592,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This yoga tote can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1149'
+        mrpPrice: '999',
     },
     {
         productId: 'WY006',
@@ -606,8 +613,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1499',
-        price: '1349'
+        mrpPrice: '1299',
     },
     {
         productId: 'GB001',
@@ -624,12 +630,11 @@ const MasterProducts = [
         subGroup: 'Giftbox',
         description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it a perfect to hold your gift & act as a gift in itself.  It has 2 strings made up of natural fabric and  tied up as a drawstring.',
         thickness: '9 Ounce',
-        measurement: 'L24.2cm x W20.5cm x H8.5cm',
+        measurement: 'L24cm x W20.5cm x H29.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '989',
-        price: '932'
+        mrpPrice: '999',
     },
     {
         productId: 'GB002',
@@ -645,12 +650,53 @@ const MasterProducts = [
         subGroup: 'Giftbox',
         description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable.  It a perfect to hold your gift & act as a gift in itself. ',
         thickness: '9 Ounce',
-        measurement: 'L24.2cm x W20.5cm x H8.5cm',
+        measurement: 'L24cm x W20.5cm x H8.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '1135',
-        price: '1012'
+        price: '949',
+    },
+    {
+        productId: 'GB003',
+        productName: 'Minimal Gift Box',
+        lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/lifestyle.jpg',
+        heroImage: '/images/p_images//Gift/Giftbox/GB003/hero.jpg', 
+        images: 
+            ['/images/p_images//Gift/Giftbox/GB003/hero.jpg', 
+            '/images/p_images/Gift/Giftbox/GB003/1.jpg',
+            '/images/p_images/Gift/Giftbox/GB003/2.jpg',
+            '/images/p_images/Gift/Giftbox/GB003/3.jpg',],
+        group: 'Gift',
+        subGroup: 'Giftbox',
+        description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it a perfect to hold your gift & act as a gift in itself. ',
+        thickness: '9 Ounce',
+        measurement: 'L24cm x W20.5cm x H8.5cm',
+        material: 'Cotton Canvas',
+        color: 'Raw White',
+        washingCare: 'This gift box can be wiped with a wet cloth.',
+        mrpPrice: '989',
+        price: '849'
+    },
+    {
+        productId: 'GG006',
+        productName: 'Mini Gift Bags (Pack of 3)',
+        lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
+        heroImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg', 
+        images: 
+            ['/images/p_images/Gift/Giftbag/GG006/hero.jpg', 
+            '/images/p_images/Gift/Giftbag/GG006/1.jpg',
+            '/images/p_images/Gift/Giftbag/GG006/2.jpg',
+            '/images/p_images/Gift/Giftbag/GG006/3.jpg',],  
+        group: 'Gift',
+        subGroup: 'Giftbag',
+        description: 'A smaller version of our ribboned organic fabric gift bag, this mini eco-friendly gift bag is ideal for giving precious trinkets like jewellery & charms. Adorned with fabric ribbons to secure your thoughtful gift. (Pair of 2)',
+        thickness: '9 Ounce',
+        measurement: 'L16cm x W16cm Medium: L13cm x W13 cm small:L11cm x W11cm',
+        material: 'Cotton Canvas',
+        color: 'Raw White',
+        washingCare: 'This small bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        mrpPrice: '299',
     },
     {
         productId: 'GW006',
@@ -671,50 +717,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '769',
-        price: '608'
-    },
-    {
-        productId: 'GB003',
-        productName: 'Minimal Gift Box',
-        lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/lifestyle.jpg',
-        heroImage: '/images/p_images//Gift/Giftbox/GB003/hero.jpg', 
-        images: 
-            ['/images/p_images//Gift/Giftbox/GB003/hero.jpg', 
-            '/images/p_images/Gift/Giftbox/GB003/1.jpg',
-            '/images/p_images/Gift/Giftbox/GB003/2.jpg',
-            '/images/p_images/Gift/Giftbox/GB003/3.jpg',],
-        group: 'Gift',
-        subGroup: 'Giftbox',
-        description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it a perfect to hold your gift & act as a gift in itself. ',
-        thickness: '9 Ounce',
-        measurement: 'L24.2cm x W20.5cm x H8.5cm',
-        material: 'Cotton Canvas',
-        color: 'Raw White',
-        washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '989',
-        price: '914'
-    },
-    {
-        productId: 'GG006',
-        productName: 'Mini Gift Bags (Pack of 3)',
-        lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
-        heroImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg', 
-        images: 
-            ['/images/p_images/Gift/Giftbag/GG006/hero.jpg', 
-            '/images/p_images/Gift/Giftbag/GG006/1.jpg',
-            '/images/p_images/Gift/Giftbag/GG006/2.jpg',
-            '/images/p_images/Gift/Giftbag/GG006/3.jpg',],  
-        group: 'Gift',
-        subGroup: 'Giftbag',
-        description: 'A smaller version of our ribboned organic fabric gift bag, this mini eco-friendly gift bag is ideal for giving precious trinkets like jewellery & charms. Adorned with fabric ribbons to secure your thoughtful gift. (Pair of 2)',
-        thickness: '9 Ounce',
-        measurement: 'Large:L16cm x W16cm Medium:L13.2cm x W13.2 cm Small:L11cm x W11cm',
-        material: 'Cotton Canvas',
-        color: 'Raw White',
-        washingCare: 'This small bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '769',
-        price: '608'
+        mrpPrice: '749',
+        price: '675',
     },
     {
         productId: 'GW003',
@@ -730,11 +734,11 @@ const MasterProducts = [
         subGroup: 'Accessories',
         description: 'The message card, along with the vegan fabric holder is perfect for adding a considered & personalised touch to every gift. Both ethical & usable, the eco-friendly message card holder is a step above the regular name tags. The vegan card holder can also be used to store gift cards, special notes & more',
         thickness: '9 Ounce',
-        measurement: 'SIZE L9.7cm x W6.2cm',
+        measurement: 'L9.5cm x W6cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: '"This message card can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '755'
+        mrpPrice: '249',
     },
     {
         productId: 'TA003',
@@ -752,16 +756,15 @@ const MasterProducts = [
         subGroup: 'Organiser',
         description: 'Eco-friendly wash bag made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bag is a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones. ',
         thickness: '9 Ounce',
-        measurement: 'LARGE - 16.5cm x W6cm x H19cm ,MEDIUM - L18cm x W10.7cm x H10.5cm , SMALL - L18.5cm x W6cm x H6cm',
+        measurement: 'LARGE- L16.5cm x W6cm x H19cm ,MEDIUM- L18cm x W10.5cm x H10.5cm , SMALL-L18.5cm x W6cm x H6cm',
         material: 'Cotton Canvas',
         color: 'natural',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1140'
+        mrpPrice: '1249',
     },
     {
         productId: 'TA004',
-        productName: 'Multi-purpose Pouches (Pack Of 3)',
+        productName: 'Multi-purpose Pouches (Set Of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg', 
         images: 
@@ -779,8 +782,8 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '899',
-        price:'796'
+        mrpPrice: '999',
+        price:'899'
     },
     {
         productId: 'HS001',
@@ -796,16 +799,15 @@ const MasterProducts = [
         subGroup: 'Home',
         description: 'Practical storage tray made with natural fabrics. Sturdy & durable, this eco storage tray can be used in office spaces, homes or even the kitchen. Use yours to arrange stationery, office supplies, cutlery, food & more. Equipped with handy fabric handles for ease when carrying or moving',
         thickness: '9 Ounce',
-        measurement: 'L37cm x W24.5cm x H10.2cm',
+        measurement: 'L37cm x W24.5cm x H10cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Storage tray can be wiped with a wet cloth.',
-        mrpPrice: '899',
-        price: '675'
+        mrpPrice: '749',
     },
     {
         productId: 'HS002',
-        productName: 'Versatile Storage tray',
+        productName: 'Versatile Storage Tray (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS002/hero.jpg', 
         images: 
@@ -818,12 +820,12 @@ const MasterProducts = [
         subGroup: 'Home',
         description: 'Practical storage trays made with natural fabrics. Pack of  3, this eco storage tray can be used in office spaces or homes. Use yours to easily arrange & store stationary, office supplies, books & more. The deep & spacious trays are also equipped with handy fabric handles for ease when carrying or moving.',
         thickness: '9 Ounce',
-        measurement: 'Large - L41cm x W32.2cm x H23cm  , Medium - L36cm x W26cm x H16.5cm , Small - L30cm x W20.5cm x H12.6cm',
+        measurement: 'Large- L41cm x W32cm x H23cm  , Medium- L36cm x W26cm x H16.5cm , Small- L30cm x W20.5cm x H12.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1999',
-        price: '1459'
+        mrpPrice: '1649',
+        price: '1499'
     },
     {
         productId: 'HS003',
@@ -839,12 +841,12 @@ const MasterProducts = [
         subGroup: 'Home',
         description: 'Box shaped fabric storage shelf made from natural & neutral toned fabrics. This eco-friendly storage shelf is spacious & practical. Store a wide range of items in this shelf, which is divided into 3 compartments. Ideal for home, office, studio spaces & more.',
         thickness: '9 Ounce',
-        measurement: 'L29cm x W29.5cm x H20.4cm',
+        measurement: 'L29cm x W29.5cm x H20.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Storage shelf bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1699',
-        price: '1260'
+        mrpPrice: '1499',
+        price: '1349'
     },
     {
         productId: 'HS007',
@@ -860,12 +862,11 @@ const MasterProducts = [
         subGroup: 'Home',
         description: 'Ideal to store out of season linen, quilts, pillows & clothes. Made from natural fabrics, this eco-friendly storage bag set is both practical & usable. Equipped with sturdy fabric handles for convenience.',
         thickness: '9 Ounce',
-        measurement: 'L30.1cm  x W20cm xH29cm',
+        measurement: 'L30cm  x W20cm xH29cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This broad storage bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1099'
+        mrpPrice: '1099',
     },
     {
         productId: 'HS008',
@@ -881,12 +882,11 @@ const MasterProducts = [
         subGroup: 'Home',
         description: 'Multi-purposed wall hanging fabric organiser. The neutral toned fabric organiser will easily compliment any colour way, equipped with 5 vertically long pockets of two different sizes, the eco-friendly organiser can be hung anywhere at home. You can use yours to store stationary above a study desk, supplies in the kitchen, keys near the entrance or products in your bathroom.',
         thickness: '9 Ounce',
-        measurement: 'L51.6cm XW40.2cm',
+        measurement: 'L51.5cm XW40cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Hanging organiser can be hand washed or machine washed in normal water with a gentle detergent',
-        mrpPrice: '899',
-        price: '761'
+        mrpPrice: '849',
     },
     {
         productId: 'HS010',
@@ -906,8 +906,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This square Storage box can be wiped with a wet cloth.',
-        mrpPrice: '1099',
-        price:'850'
+        mrpPrice: '1049',
     },
     {
         productId: 'HS012',
@@ -923,12 +922,11 @@ const MasterProducts = [
         subGroup: 'On The Go',
         description: 'Storage zip pouches made with organic fabric. Provided in a pack of 3 these eco bags are equipped with zips. Designed for multi-functionality, find usability in these bags wherever you are. Efficiently store medicines, jewellery, cosmetics, money, stationary, keys & more.',
         thickness: '9 Ounce',
-        measurement: 'L16cm x W23cm , Medium- L13.6cm x W20.8cm , Small- L11.1cm x w15.5cm',
+        measurement: 'Large-L16cm x W23cm , Medium- L13.5cm x W20.8cm , Small- L11cm x w15.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '699',
-        price: '400'
+        mrpPrice: '399',
     },
     {
         productId: 'TA001',
@@ -944,12 +942,12 @@ const MasterProducts = [
         subGroup: 'On The Go',
         description: 'Multi-sized eco-friendly storage bags made for easy organisation and practicality when travelling. Use your pack of 3 to store clothes, shoes & more. These organic fabric storage bags are also great for storing out-of-season clothes at home.',
         thickness: '9 Ounce',
-        measurement: 'S- L23cm x W18cm xH8.3cm , M- L31cm xW23cm x H8.3cm , L- L38.5 cm xW28cm x H9cm',
+        measurement: 'S- L23cm x W18cm xH8cm , M- L31cm xW23cm x H8.3cm , L- L38.5 cm xW28cm x H9cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel organisers can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '2999',
-        price: '2480'
+        mrpPrice: '2249',
+        price: '1999'
     },
     {
         productId: 'MW001',
@@ -965,11 +963,11 @@ const MasterProducts = [
         subGroup: 'Wallet',
         description: 'The Men’s wallet is clean, functional and easy on the eyes. The eco-friendly bill-fold wallet, is made from 100% natural fibres and accommodates all your essentials with ease. The sleek, durable & clean design along with universal colour scheme makes it a perfect neutral for every man. The wallet contains 9 card slots, 2 deep currency pockets and an id window slot also. ',
         thickness: '9 Ounce',
-        measurement: 'L23.5cm x W1.2cm x H9.5cm',
+        measurement: 'L23.5cm x W1.5cm x H9.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Bi fold wallet can be hand wash',
-        mrpPrice: '511',
+        mrpPrice: '449',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
@@ -995,11 +993,11 @@ const MasterProducts = [
         subGroup: 'Wallet',
         description: 'The Men’s wallet is functional yet minimal. The vegan men’s wallet, is made from 100% natural Cotton Canvas fabric. It has 6 card slots with 2 deep currency pockets, making the eco-friendly wallet soft, slim & durable. The wallet is both practical and ethical. The neutral tones and sleek design, makes the organic wallet a thoughtful gift as well. ',
         thickness: '9 Ounce',
-        measurement: 'L23.5cm x W1.2cm x H9.5cm',
+        measurement: 'L23.5cm x W1cm x H9.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Bi fold wallet can be hand wash',
-        mrpPrice: '470',
+        mrpPrice: '349',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
@@ -1023,11 +1021,11 @@ const MasterProducts = [
         subGroup: 'Wallet',
         description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
         thickness: '9 Ounce',
-        measurement: 'L23.5cm x W1.2cm x H9.5cm',
+        measurement: 'L10cm x W8cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This card holder can be hand wash',
-        mrpPrice: '79',
+        mrpPrice: '149',
     },
     {
         productId: 'MW004',
@@ -1046,8 +1044,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Passport can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '499',
-        price: '419'
+        mrpPrice: '399',
     },
 ]
 

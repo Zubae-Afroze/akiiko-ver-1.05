@@ -135,6 +135,20 @@
 .very-end-blyat-list li:first-child {
   padding-left: 0;
 }
+
+.footer-sub-sub {
+  margin-top: 0;
+  font-size: 11px;
+}
+
+.footer-bind {
+  line-height: 20px;
+}
+
+input.footer-main-form::placeholder {
+  color: #3a2f2d;
+}
+
 /* ----------------------LAPTOP 1024PX AND ABOVE------------------------------ */
 @media (max-width: 1226px) {
   .footer-main-label-2 {

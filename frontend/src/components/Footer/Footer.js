@@ -44,10 +44,10 @@ export default class Footer extends Component {
                             <div className='footer-main-label'>Available At</div>
                             <div className='footer-main-text'>
                                 <p>
-                                <strong>PRECISO FASHION</strong><br/>
-                                Corporate Office<br/>
-                                3rd floor, 7/3A, LVR centre, <br/> 
-                                Seshadri Road, Alwarpet, <br/>
+                                <div className='footer-bind'><strong>PRECISO FASHION</strong><br/>
+                                <span className='footer-sub-sub'>Corporate Office</span></div>
+                                3A, LVR centre, <br/> 
+                                7 Seshadri Road, Alwarpet, <br/>
                                 Chennai 600018 <br/> 
                                 India.
                                 </p>
@@ -64,10 +64,10 @@ export default class Footer extends Component {
                         <ul className='footer-social-icons'>
                             <li><a href='https://www.instagram.com/akiiko_india/' target='_blank' rel="noreferrer"><i className="lni lni-instagram-filled"></i></a></li> 
                             <li><a href='https://www.facebook.com/akiikoindia/' target='_blank' rel="noreferrer"><i className="lni lni-facebook-filled"></i></a></li>
-                            <li><a href='/'><i className="lni lni-linkedin-original"></i></a></li>
-                            <li><a href='/'><i className="lni lni-pinterest"></i></a></li>
-                            <li><a href='/'><i className="lni lni-twitter-original"></i></a></li>
-                            <li><a href='/'><i className="lni lni-youtube"></i></a></li>
+                            <li><a href='https://www.linkedin.com/company/akiiko-india/' target='_blank' rel='noreferrer'><i className="lni lni-linkedin-original"></i></a></li>
+                            <li><a href='https://in.pinterest.com/akiiko_india/' target='_blank' rel='noreferrer'><i className="lni lni-pinterest"></i></a></li>
+                            <li><a href='https://twitter.com/AkiikoIndia' target='_blank' rel='noreferrer'><i className="lni lni-twitter-original"></i></a></li>
+                            {/* <li><a href='/'><i className="lni lni-youtube"></i></a></li> */}
                         </ul>
                     </div> 
                     </Row>

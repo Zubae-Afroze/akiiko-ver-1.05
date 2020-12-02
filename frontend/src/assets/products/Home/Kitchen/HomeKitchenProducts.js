@@ -16,8 +16,7 @@ const HomeKitchenProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: ' The organic lunch bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '569',
-        price: '361'
+        mrpPrice: '399',
     },
     {
         productId: 'HK008',
@@ -40,8 +39,7 @@ const HomeKitchenProducts = [
         bestSeller: 'Best Seller',
         quickView: 'quick view',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '650',
-        price: '540'
+        mrpPrice: '649',
     },
 ]
 

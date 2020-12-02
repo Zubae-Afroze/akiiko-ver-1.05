@@ -177,7 +177,7 @@ export default class Menubar extends Component {
                             <Collapse in={true} onMouseLeave={this.toggleMenDropDiv}>
                                 <Row className='navbar-dropdown'>
                                     <Col className='navbar-drop-list' sm={8}>
-                                        <ul>
+                                        <ul onClick={this.toggleMenDropDiv}>
                                             <li>
                                                 <Link to='/home/tableware'><img src='/images/nav_drop/office_drop/bread_basket.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>TABLEWARE</div></Link></li>
@@ -191,9 +191,9 @@ export default class Menubar extends Component {
                                                 <Link to='/home/garden'><img src='/images/nav_drop/office_drop/accessories.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>GARDEN</div></Link></li>
                                         </ul>
-                                        <Link to='/home/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
+                                        <Link to='/home/all_products' className='navbar-drop-link' onClick={this.toggleMenDropDiv}>VIEW ALL PRODUCTS</Link>
                                     </Col>
-                                    <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/office_drop/officeDropHero.png' alt='home_drop_hero'/></Col>
+                                    <Col sm={4} className='navbar-drop-hero'><img src='/images/nav_drop/office_drop/officeDropHero.png' alt='home_drop_hero'/></Col>
                                 </Row>
                             </Collapse> : null
                         }
@@ -233,7 +233,7 @@ export default class Menubar extends Component {
                             <Collapse in={true} onMouseLeave={this.toggleOrganisersDropDiv}>
                                 <Row className='navbar-dropdown'>
                                     <Col className='navbar-drop-list' sm={8}>
-                                        <ul>
+                                        <ul onClick={this.toggleOrganisersDropDiv}>
                                             <li>
                                                 <Link to='/gift/giftbox'><img src='/images/nav_drop/organisation_drop/giftbag.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>GIFT BOX</div></Link></li>
@@ -247,7 +247,7 @@ export default class Menubar extends Component {
                                                 <Link to='/gift/accessories'><img src='/images/nav_drop/organisation_drop/accessories.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>ACCESSORIES</div></Link></li>
                                         </ul>
-                                        <Link to='/gift/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
+                                        <Link to='/gift/all_products' className='navbar-drop-link' onClick={this.toggleOrganisersDropDiv}>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/organisation_drop/organisationDropHero.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
@@ -261,7 +261,7 @@ export default class Menubar extends Component {
                             <Collapse in={true} onMouseLeave={this.toggleTravelDropDiv}>
                                 <Row className='navbar-dropdown'>
                                     <Col className='navbar-drop-list' sm={8}>
-                                        <ul>
+                                        <ul onClick={this.toggleTravelDropDiv}>
                                             {/* <li>
                                                 <img src='/images/nav_drop/travel_drop/duffel_bag.png' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>WORK</div></li> */}
@@ -272,9 +272,9 @@ export default class Menubar extends Component {
                                                 <Link to='/storage/home'><img src='/images/nav_drop/travel_drop/backpack.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>HOME</div></Link></li>
                                         </ul>
-                                        <Link to='/storage/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
+                                        <Link to='/storage/all_products' className='navbar-drop-link' onClick={this.toggleTravelDropDiv}>VIEW ALL PRODUCTS</Link>
                                     </Col>
-                                    <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/travel_drop/travelDropHero.jpg' alt='home_drop_hero'/></Col>
+                                    <Col sm={4} className='navbar-drop-hero'><img src='/images/nav_drop/travel_drop/travelDropHero.jpg' alt='home_drop_hero'/></Col>
                                 </Row>
                             </Collapse> : null
                         }
@@ -286,7 +286,7 @@ export default class Menubar extends Component {
                             <Collapse in={true} onMouseLeave={this.toggleShoppingDiv}>
                                 <Row className='navbar-dropdown'>
                                     <Col className='navbar-drop-list' sm={8}>
-                                        <ul>
+                                        <ul onClick={this.toggleShoppingDiv}>
                                             <li>
                                                 <Link to='/accessories/onthego'><img src='/images/nav_drop/men_drop/onthegodrop.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>ON THE GO</div></Link></li>
@@ -297,7 +297,7 @@ export default class Menubar extends Component {
                                                 <Link to='/accessories/wallet'><img src='/images/nav_drop/men_drop/wallet.jpg' alt='laundry_img'/>
                                                 <div className='navbar-drop-list-label'>WALLET</div></Link></li>
                                         </ul>
-                                        <Link to='/accessories/all_products' className='navbar-drop-link'>VIEW ALL PRODUCTS</Link>
+                                        <Link to='/accessories/all_products' className='navbar-drop-link' onClick={this.toggleShoppingDiv}>VIEW ALL PRODUCTS</Link>
                                     </Col>
                                     <Col sm={4} className='navbar-drop-hero' onClick={this.toggleWomenDropDiv}><img src='/images/nav_drop/men_drop/accessoriesDrop.jpg' alt='home_drop_hero'/></Col>
                                 </Row>

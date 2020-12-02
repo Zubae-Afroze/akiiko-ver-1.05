@@ -1,7 +1,7 @@
 const StorageHomeProducts = [
     {
         productId: 'HS001',
-        productName: 'Classic storage tray',
+        productName: 'Classic Storage Tray',
         lifestyleImage: '/images/p_images/Storage/Home/HS001/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS001/hero.jpg',
         images: 
@@ -17,12 +17,11 @@ const StorageHomeProducts = [
         color: 'natural',
         quickView: 'quick view',
         washingCare: 'This Storage tray can be wiped with a wet cloth.',
-        mrpPrice: '899',
-        price: '675'
+        mrpPrice: '749',
     },
     {
         productId: 'HS002',
-        productName: 'Versatile Storage tray',
+        productName: 'Versatile Storage Tray (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS002/hero.jpg',
         images: 
@@ -38,8 +37,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1999',
-        price: '1459'
+        mrpPrice: '1649',
+        price: '1499'
     },
     {
         productId: 'HS003',
@@ -58,8 +57,8 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1699',
-        price: '1260'
+        mrpPrice: '1499',
+        price: '1349'
     },
     {
         productId: 'HS007',
@@ -78,8 +77,7 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This broad storage bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1099'
+        mrpPrice: '1099',
     },
     {
         productId: 'HS008',
@@ -99,8 +97,7 @@ const StorageHomeProducts = [
         color: 'natural',
         quickView: 'quick View',
         washingCare: 'This Hanging organiser can be hand washed or machine washed in normal water with a gentle detergent',
-        mrpPrice: '899',
-        price: '761'
+        mrpPrice: '849',
     },
     {
         productId: 'HS010',
@@ -119,8 +116,7 @@ const StorageHomeProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This square Storage box can be wiped with a wet cloth.',
-        mrpPrice: '1099',
-        price: '850'
+        mrpPrice: '1049',
     },
 ]
 

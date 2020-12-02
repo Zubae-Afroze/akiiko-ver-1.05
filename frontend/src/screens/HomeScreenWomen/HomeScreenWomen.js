@@ -22,9 +22,9 @@ const HomeScreenWomen = () => {
             </Row>
             <Row className='women-card-wrapper '>
                 {HomeScreenWomenProducts.map(product => (
-                   <div className='women-shop-bag-container-root'>{/* class name added here*/} 
+                   <div className='women-shop-bag-container-root' key={product.productId}>{/* class name added here*/} 
                     <Link to={`/product/${product.productId}`}>
-                    <Col lg={2.6} className='women-shop-bag-container' key={product.productId} > {/*class name added */}
+                    <Col lg={2.6} className='women-shop-bag-container'> {/*class name added */}
                     <div>
                     <div className='women-card-image'>
                         <div className='women-img-wrap'>
@@ -33,7 +33,7 @@ const HomeScreenWomen = () => {
                         {product.quickView !== undefined ? <span className='label-view'>{product.quickView}</span> : null}
                         </div>
                         <div className='women-card-title'>{product.productName}</div>
-                    <div className='women-card-text'>View Details - &#x20B9;{product.price}</div>
+                        <div className='women-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>
                     </div>
                     </div>
                     </Col>

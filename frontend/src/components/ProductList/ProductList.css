@@ -130,6 +130,8 @@
 .product-list-wrapper a:hover {
   text-decoration: none;
 }
+/* ------------------TAB 600PX TO 1024PX---------------- */
+
 @media (max-width: 768px) {
   .product-list-text {
     width: 100%;
@@ -155,6 +157,8 @@
     flex-basis: 33.333%;
   }
 }
+/* ------------------MOBILE---------------- */
+
 @media (max-width: 478px) {
   .product-list-card-wrapper {
     flex-basis: 50%;

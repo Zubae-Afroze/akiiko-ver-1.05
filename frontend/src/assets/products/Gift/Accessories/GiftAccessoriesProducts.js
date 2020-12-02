@@ -1,7 +1,7 @@
 const GiftAccessoriesProducts = [
     {
         productId: 'GW003',
-        productName: 'Message Card Holder (Pack Of 5)',
+        productName: 'Message Card Holder (Pack Of 4)',
         lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
         images: 
@@ -15,7 +15,7 @@ const GiftAccessoriesProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: '"This message card can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '755',
+        mrpPrice: '249',
     },
 ]
 

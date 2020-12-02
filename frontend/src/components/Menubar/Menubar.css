@@ -18,6 +18,7 @@
   padding: 0;
   margin-top: 67px;
   margin-bottom: 20px;
+  background-color: #fff;
 }
 .nav-fill .nav-item {
   flex: none;
@@ -165,12 +166,7 @@
     bottom: 0;
     left: 0;
     animation: fadeIn 2300ms;
-  }
-}
-
-@media (max-width: 550px) {
-  .nav {
-    display: none;
+    width: 100%;
   }
 }
 
@@ -192,7 +188,11 @@
     animation: fadeIn 2300ms;
   }
 }
-
+@media (max-width: 550px) {
+  .nav {
+    display: none;
+  }
+}
 @keyframes growdown {
   from {
     height: 0px;

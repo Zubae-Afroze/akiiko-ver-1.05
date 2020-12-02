@@ -19,8 +19,7 @@ const StorageOrganiserProducts = [
         color: 'natural',
         bestSeller: 'New Arrival',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '1299',
-        price: '1140',
+        mrpPrice: '1249',
     },
     {
         productId: 'TA004',
@@ -41,8 +40,8 @@ const StorageOrganiserProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: '"This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '899',
-        price: '796',
+        mrpPrice: '999',
+        price: '899',
     },
 ]
 

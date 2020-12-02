@@ -15,8 +15,7 @@ const GiftGiftboxProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This small bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '769',
-        price: '608'
+        mrpPrice: '299',
     },
     {
         productId: 'GW006',
@@ -38,8 +37,8 @@ const GiftGiftboxProducts = [
         color: 'Raw White',
         bestSeller: 'Best Seller',
         washingCare: 'This gift pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '989',
-        price: '914'
+        mrpPrice: '749',
+        price: '675'
     },
 ]
 

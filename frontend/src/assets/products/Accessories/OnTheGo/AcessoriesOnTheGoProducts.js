@@ -17,8 +17,7 @@ const AccessoriesOnTheGoProduct = [
         color: 'natural',
         bestSeller: 'Best Seller',
         washingCare: 'This pouch can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '699',
-        price: '400'
+        mrpPrice: '399',
     },
     {
         productId: 'TA001',
@@ -38,8 +37,8 @@ const AccessoriesOnTheGoProduct = [
         color: 'natural',
         bestSeller: 'New Arrival',
         washingCare: 'This travel organiserbe can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '2999',
-        price: '2480'
+        mrpPrice: '2249',
+        price: '1999'
     },
 ]
 

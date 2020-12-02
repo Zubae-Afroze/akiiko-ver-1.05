@@ -206,7 +206,7 @@ const ProductDetails = (props) => {
             </Col>
             <Col lg={6} className='product-det'> {/* cls name added and xs=6 is changed to lg-6*/}
                 <div className='products-details-head'>{product.group}</div>
-                <div className='products-details-label'> {product.productName}{product.price !== undefined ? <div className='products-details-price'><s>&#x20B9; {product.mrpPrice}</s>  &#x20B9;{product.price}</div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
+                <div className='products-details-label'> {product.productName}{product.price !== undefined ? <div className='products-details-price'><span className='strike-price'>&#x20B9; {product.mrpPrice}</span>  <span className='nstrike-price'>&#x20B9;{product.price}</span></div> : <div className='products-details-price'>&#x20B9; {product.mrpPrice}</div>}
             </div>
             <Row className='cart-det'>
             <Col className='material-det'>
@@ -313,10 +313,30 @@ const ProductDetails = (props) => {
             </Col>
         </Row>
         : null} */}
-
+        { product.similarProducts !== undefined ?
         <Row>
             {/* Similar Products */}
-        </Row>
+            <div className='similar-products-wrapper'>
+                <div className='similar-products-head'>You may also like</div>
+                {product.similarProducts.map(prod => (
+                    <div key={prod.productId}>
+                        <Link to={`/product/${prod.productId}`} onClick={() => setImageSrc(prod.lifestyleImage)}>
+                            <Col>
+                                <div>
+                                    <div className='women-card-image'><img src={prod.lifestyleImage} alt='img'></img>
+                                    {prod.bestSeller !== undefined ? <span className='label-best'>{prod.bestSeller}</span> : null}
+                                    {prod.quickView !== undefined ? <span className='label-view'>{prod.quickView}</span> : null}
+                                    </div>
+                                    <div>{prod.productName}</div>
+                                    <div>View Details - &#x20B9;{prod.price !== undefined ? prod.price : prod.mrpPrice}</div>
+                                </div>
+                            </Col>
+                        </Link>
+                    </div>
+                ))}
+            </div>
+        </Row> : null
+        }
         </div>
         </Container>
     )

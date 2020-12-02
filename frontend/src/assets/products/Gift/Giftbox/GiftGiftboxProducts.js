@@ -17,8 +17,7 @@ const GiftGiftboxProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '989',
-        price: '932'
+        mrpPrice: '999',
     },
     {
         productId: 'GB002',
@@ -39,7 +38,7 @@ const GiftGiftboxProducts = [
         bestSeller: 'New Arrival',
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '1135',
-        price: '1012'
+        price: '949'
     },
     {
         productId: 'GB003',
@@ -60,8 +59,8 @@ const GiftGiftboxProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '299',
-        price: '151'
+        mrpPrice: '989',
+        price: '849'
     },
 ]
 

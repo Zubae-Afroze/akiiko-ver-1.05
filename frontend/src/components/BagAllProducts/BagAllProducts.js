@@ -20,7 +20,7 @@ const BagAllProducts = (props) => {
                             {product.quickView !== undefined ? <span className='pl-label-view'>{product.quickView}</span> : null}
                             </div>
                             <div className='product-list-card-title'>{product.productName}</div>
-                            <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div>
+                            <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>
                         </div></Link>
                     </div>
                 ))}
@@ -38,7 +38,7 @@ const BagAllProducts = (props) => {
                             {product.quickView !== undefined ? <span className='pl-label-view'>{product.quickView}</span> : null}</div>
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
-                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div></Link>
+                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div></Link>
                     </div>
                 ))}
             </Row>
@@ -55,7 +55,7 @@ const BagAllProducts = (props) => {
                             {product.quickView !== undefined ? <span className='label-view'>{product.quickView}</span> : null}
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
-                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div></Link>
+                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div></Link>
                     </div>
                 ))}
             </Row>
@@ -72,7 +72,7 @@ const BagAllProducts = (props) => {
                             {product.quickView !== undefined ? <span className='label-view'>{product.quickView}</span> : null}
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
-                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price}</div></Link>
+                        <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div></Link>
                     </div>
                 ))}
             </Row>

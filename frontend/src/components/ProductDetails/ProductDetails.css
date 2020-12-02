@@ -345,14 +345,6 @@
   box-shadow: 4px 4px 10px #c5c5c58a;
 }
 
-<<<<<<< HEAD
-.mag-img {
-  width: 522px;
-  height: 522px;
-}
-
-=======
->>>>>>> 61fc43ed23ccf571a44bcc46455173f0d0ec8210
 .modal-price {
   margin-left: 10px;
 }
@@ -377,6 +369,22 @@
 .alt-img-hero-container {
   padding: 0px;
 }
+
+.strike-price {
+  text-decoration: line-through;
+  text-decoration-thickness: 1.8px;
+  text-decoration-color: rgba(0, 0, 0, 0.455);
+  color: rgba(0, 0, 0, 0.455);
+}
+
+.similar-products-head {
+  margin-top: 20px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'rutanLight';
+  letter-spacing: 4.48px;
+}
+
 /* -----------------------------------------LAPTOP  UPTO 1440PX------------------------------------------- */
 @media (max-width: 1290px) {
   .products-details-label {
@@ -737,6 +745,12 @@
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 
 @media (max-width: 425px) {
+  .quantity-increase {
+    padding-left: 14px;
+  }
+  .quantity-decrease {
+    padding-right: 14px;
+  }
   .product-details-carousel {
     padding: 0px;
     margin-bottom: 60px;
@@ -792,6 +806,7 @@
   .color-pick {
     margin-bottom: 5px;
     margin-left: 10px;
+    margin-right: 33px;
   }
   .material-div {
     font-size: 12px;

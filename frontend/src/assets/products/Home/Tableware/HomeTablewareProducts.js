@@ -1,7 +1,7 @@
 const HomeTablewareProducts = [
     {
         productId: 'HT002',
-        productName: 'BREAD BASKET (Set Of 2)',
+        productName: 'BREAD BASKET (Set Of 3)',
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg',
         images: 
@@ -19,8 +19,7 @@ const HomeTablewareProducts = [
         color: 'natural',
         bestSeller: 'New Arrival',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '605',
-        price: '536',
+        mrpPrice: '649',
     },
 ]
 
