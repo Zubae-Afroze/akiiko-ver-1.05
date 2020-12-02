@@ -19,6 +19,32 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This circular bag can be hand washed or machine washed in normal water with a gentle detergent',
         mrpPrice: '849',
+        similarProducts: [
+            {
+                productId: 'SS001',
+                productName: 'Original Shopping Bag',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+                price: '799',
+            },
+            {
+                productId: 'WB001',
+                productName: 'The Everyday Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
+                price: '749'
+            },
+            {
+                productId: 'BE003',
+                productName: 'Classic Wide Beach Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
+                price: '549',
+            },
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                price: '1499',
+            },
+        ]
     },
     {
         productId: 'WB003',

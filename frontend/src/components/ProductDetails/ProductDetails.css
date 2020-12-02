@@ -377,6 +377,14 @@
   color: rgba(0, 0, 0, 0.455);
 }
 
+.similar-products-head {
+  margin-top: 20px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'rutanLight';
+  letter-spacing: 4.48px;
+}
+
 /* -----------------------------------------LAPTOP  UPTO 1440PX------------------------------------------- */
 @media (max-width: 1290px) {
   .products-details-label {
@@ -737,10 +745,10 @@
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 
 @media (max-width: 425px) {
-  .quantity-increase{
+  .quantity-increase {
     padding-left: 14px;
   }
-  .quantity-decrease{
+  .quantity-decrease {
     padding-right: 14px;
   }
   .product-details-carousel {

@@ -11,22 +11,22 @@ const HomeScreenHome = () => {
                 <Col sm={3} className='home-button-placement'>
                     <Link to='/home/all_products'><button className='home-button'>SHOP ALL</button></Link>
                 </Col>
-                <Col sm={9} className='home-wrapper'>  {/*CLASS NAME*/  }
+                <Col sm={9} className='home-wrapper'>  {/* CLASS NAME */}
                     <div className='home-title'>HOME</div>
                     <div className='home-text'>A simple yet inviting collection of 
                     natural fabric kitchen accessories that will blend harmoniously 
                     with every home’s mood & feel. Multi-purpose & vegan lunch bags, 
-                    aprons & more.</div>
+                    aprons & more</div>
                 </Col>
             </Row>
             <Row>
-                <Col sm={5} className='hero-image-workout' > {/*    class was added here* / */}
+                <Col sm={5} className='hero-image-workout' > {/*class was added here*/}
                     <div className='workout-hero-image '>
                         <img src={'/images/home_screen_home_products/HomeScreenHomeHero.jpg'} alt='home_hero_img'/>
                     </div>
                 </Col>
                 <Col sm={7} className='workout-container'> {/*new class name changed*/}
-                    <Row className='workout-card-wrapper'> {/*   class name changed - homecard name changed to workout*/}
+                    <Row className='workout-card-wrapper'> {/*class name changed - homecard name changed to workout*/}
                         {HomeScreenHomeProducts.map(product => (
                             <Col className='home-card-items' key={product.productId}>
                                 <Link to={`/product/${product.productId}`}><div>
@@ -38,7 +38,6 @@ const HomeScreenHome = () => {
                                     <div className='home-card-title'>{product.productName}</div>
                                 <div className='home-card-text'>View Details - {product.price !== undefined ? product.price : product.mrpPrice}</div>
                                 </div></Link>
-                                
                             </Col>
                         ))}
                     </Row>
