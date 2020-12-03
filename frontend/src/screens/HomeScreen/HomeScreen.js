@@ -6,7 +6,7 @@ import HomeScreenHome from '../HomeScreenHome/HomeScreenHome';
 import './HomeScreen.css';
 import HomeScreenWorkout from '../HomeScreenWorkout/HomeScreenWorkout';
 
-import UseSpinner from '../../components/Spinner/UseSpinner';
+// import UseSpinner from '../../components/Spinner/UseSpinner';
 
 class HomeScreen extends React.Component {
     constructor(props) {
@@ -20,26 +20,26 @@ class HomeScreen extends React.Component {
         // componentDidUpdate
         // ComponentWillUnmount -- Important
 
-    ifFontsLoaded = () => {
-        document.fonts.ready.then(() => {
-            this.setState({
-                loading: false,
-            })
-          });
-    }
+    // ifFontsLoaded = () => {
+    //     document.fonts.ready.then(() => {
+    //         this.setState({
+    //             loading: false,
+    //         })
+    //       });
+    // }
 
-    componentDidMount() {
-        this.setState({
-            loading: true,
-        }, () => {
-            this.ifFontsLoaded();
-        })
-    }
+    // componentDidMount() {
+    //     this.setState({
+    //         loading: true,
+    //     }, () => {
+    //         this.ifFontsLoaded();
+    //     })
+    // }
 
     render () {
         return (
             <React.Fragment>
-                <UseSpinner loading={this.state.loading} />
+                {/* <UseSpinner loading={this.state.loading} /> */}
             <Container>
                 <Row className='home-screen-container'> {/* class name added here */}
                     <Col sm={4}>
