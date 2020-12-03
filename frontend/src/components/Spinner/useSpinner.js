@@ -1,14 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import  Spinner  from './Spinner';
 
-const useSpinner = (props) => {
-    const [visible, setVisible] = useState(false);
+const UseSpinner = (props) => {
+        
+    const retrunValue = props.loading ? <Spinner/> : null;
 
-    const showSpinner = () => setVisible(true); 
-    const hideSpinner = () => setVisible(false);
-    const spinner = visible ? <Spinner /> : null;
-
-    return [spinner, showSpinner, hideSpinner];
+    return retrunValue;
 };
 
-export default useSpinner
+export default UseSpinner
