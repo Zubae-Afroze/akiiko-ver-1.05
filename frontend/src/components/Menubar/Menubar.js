@@ -4,16 +4,29 @@ import { Link } from 'react-router-dom';
 import './Menubar.css';
 
 export default class Menubar extends Component {
-    state = {
-        dropWomenDiv: false,
-        dropMenDiv: false,
-        dropHomeDiv: false,
-        dropOfficeDiv: false,
-        dropOrganisersDiv: false,
-        dropTravelDiv: false,
-        dropGiftDiv: false,
-        dropWorkoutDiv: false,
-        dropShoppingDiv: false,
+    constructor(props) {
+        super(props);
+        this.state = {
+            dropWomenDiv: false,
+            dropMenDiv: false,
+            dropHomeDiv: false,
+            dropOfficeDiv: false,
+            dropOrganisersDiv: false,
+            dropTravelDiv: false,
+            dropGiftDiv: false,
+            dropWorkoutDiv: false,
+            dropShoppingDiv: false,
+        }
+
+        this.navBar = React.createRef();
+    }
+
+    hideNavbar = (scrollPos) => {
+        if (scrollPos >= 70){
+            this.navBar.current.classList.add('hide-nav-bar');
+        } else {
+            this.navBar.current.classList.remove('hide-nav-bar');
+        }
     }
 
     toggleHomeDropDiv = () => {
@@ -133,10 +146,18 @@ export default class Menubar extends Component {
         this.setState({dropShoppingDiv: !dropper})
     }
 
+    componentDidMount() {
+        window.addEventListener('scrollY', this.hideNavbar())
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scrollY', this.hideNavbar())
+    }
+
     render() {
         return (
             <>
-            <Container className='navbar-wrapper'>
+            <Container className='navbar-wrapper' ref={this.navBar}>
                 <div className='navbar-wrapper'>
                 <Nav fill as="ul" className='navbar-ul'>
                     <Nav.Item as="li" className='nav-test'>
