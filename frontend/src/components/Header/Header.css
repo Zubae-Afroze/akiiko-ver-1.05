@@ -45,3 +45,7 @@
   height: 20px;
   z-index: 1000;
 }
+
+.padding-class {
+  height: 30px;
+}

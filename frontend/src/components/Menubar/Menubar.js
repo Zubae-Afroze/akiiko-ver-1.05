@@ -21,13 +21,13 @@ export default class Menubar extends Component {
         this.navBar = React.createRef();
     }
 
-    hideNavbar = (scrollPos) => {
-        if (scrollPos >= 70){
-            this.navBar.current.classList.add('hide-nav-bar');
-        } else {
-            this.navBar.current.classList.remove('hide-nav-bar');
-        }
-    }
+    // hideNavbar = (scrollPos) => {
+    //     if (scrollPos >= 70){
+    //         this.navBar.current.classList.add('hide-nav-bar');
+    //     } else {
+    //         this.navBar.current.classList.remove('hide-nav-bar');
+    //     }
+    // }
 
     toggleHomeDropDiv = () => {
         const dropper = this.state.dropHomeDiv;
@@ -146,19 +146,19 @@ export default class Menubar extends Component {
         this.setState({dropShoppingDiv: !dropper})
     }
 
-    componentDidMount() {
-        window.addEventListener('scrollY', this.hideNavbar())
-    }
+    // componentDidMount() {
+    //     window.addEventListener('scrollY', this.hideNavbar())
+    // }
 
-    componentWillUnmount() {
-        window.removeEventListener('scrollY', this.hideNavbar())
-    }
+    // componentWillUnmount() {
+    //     window.removeEventListener('scrollY', this.hideNavbar())
+    // }
 
     render() {
         return (
             <>
-            <Container className='navbar-wrapper' ref={this.navBar}>
-                <div className='navbar-wrapper'>
+            <Container className='navbar-wrapper'>
+                <div className='navbar-wrapper sticky-navbar' ref={this.navBar}>
                 <Nav fill as="ul" className='navbar-ul'>
                     <Nav.Item as="li" className='nav-test'>
                         <Nav className='navbar-li'><div onMouseEnter={this.toggleWomenDropDiv} onClick={this.toggleWomenDropDiv}>BAGS</div></Nav>

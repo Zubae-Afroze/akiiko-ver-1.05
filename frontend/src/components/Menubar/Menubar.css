@@ -137,6 +137,14 @@
   font-family: 'rutanBold';
 }
 
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  margin-top: 60px;
+  width: 1266px;
+}
+
 @keyframes grow {
   from {
     height: 0px;
@@ -155,6 +163,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .sticky-navbar {
+    width: 1024px;
+  }
+}
+
 @media (max-width: 940px) {
   .navbar-drop-hero img {
     display: none;
@@ -167,6 +181,15 @@
     left: 0;
     animation: fadeIn 2300ms;
     width: 100%;
+  }
+  .sticky-navbar {
+    width: 940px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sticky-navbar {
+    width: 768px;
   }
 }
 

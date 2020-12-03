@@ -341,7 +341,7 @@
 }
 
 .mag-img-cont {
-  z-index: 5000;
+  z-index: 50;
   box-shadow: 4px 4px 10px #c5c5c58a;
 }
 
@@ -385,12 +385,12 @@
   letter-spacing: 4.48px;
   margin-left: 20px;
 }
-.similar-products-image img{
+.similar-products-image img {
   width: 230px;
   height: 230px;
   border: 1px solid #36353541;
 }
-.similar-products-title{
+.similar-products-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -405,7 +405,7 @@
   text-align: left;
   text-decoration: none;
 }
-.similar-products-text{
+.similar-products-text {
   text-align: left;
   width: 230px;
   padding: 15px;
@@ -418,14 +418,14 @@
   justify-content: center;
   text-decoration: none;
 }
-.similar-products-container{
+.similar-products-container {
   display: flex;
   flex-direction: row;
   margin-bottom: 25px;
   justify-content: space-between;
   padding: 0px 15px;
 }
-.similar-products-wrapper{
+.similar-products-wrapper {
   flex-basis: 230px;
   margin: 5px;
 }

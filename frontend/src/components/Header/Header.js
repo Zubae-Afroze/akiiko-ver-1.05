@@ -20,6 +20,7 @@ export default class Header extends Component {
         return (
         <>
             <Container>
+            <div className='padding-class'></div>
             <Navbar fixed="top">
                 <span className='hamburger-wrapper' onClick={this.toggleSidebarDiv}>
                     <img src='/images/font_images/hamburger.svg' alt='ham_img' className='hamburger-menu'></img>
