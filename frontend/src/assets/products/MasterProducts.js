@@ -24,25 +24,25 @@ const MasterProducts = [
                 productId: 'SS001',
                 productName: 'Original Shopping Bag',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
-                price: '799',
+                mrpPrice: '999',
             },
             {
                 productId: 'WB001',
                 productName: 'The Everyday Tote',
                 lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
-                price: '749'
+                mrpPrice: '749'
             },
             {
                 productId: 'BE003',
                 productName: 'Classic Wide Beach Tote',
                 lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
-                price: '549',
+                mrpPrice: '549',
             },
             {
                 productId: 'TD003',
                 productName: 'Workout Duffel',
                 lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
-                price: '1499',
+                mrpPrice: '1499',
             },
         ]
     },
@@ -67,6 +67,33 @@ const MasterProducts = [
         washingCare: 'This bucket bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1300',
         price: '1169',
+        similarProducts: [
+            {
+                productId: 'SS006',
+                productName: 'The Large Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS006/lifestyle.jpg',
+                mrpPrice: '799',
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'TD002',
+                productName: 'Classic Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
+                mrpPrice: '1299'
+            },
+            {
+                productId: 'BE002',
+                productName: 'Summer Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE002/lifestyle.jpg',
+                mrpPrice: '499',
+            }
+
+        ]
     },
     {
         productId: 'SS001',
@@ -88,7 +115,34 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This shopping bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '799',
+        mrpPrice: '999',
+        similarProducts: [
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
+            {
+                productId: 'WB002',
+                productName: 'Conventional Handbag',
+                lifestyleImage: '/images/p_images/Bags/Tote/WB002/lifestyle.jpg',
+                mrpPrice: '849',
+            },
+            {
+                productId: 'HS007',
+                productName: 'Broad Storage Bags',
+                lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
+                mrpPrice: '1099',
+            }
+        ]
     },
     {
         productId: 'SS002',
@@ -110,6 +164,26 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This classic canvas shopper can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '899',
+        similarProducts: [
+            {
+                productId: 'BE002',
+                productName: 'Summer Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE002/lifestyle.jpg',
+                mrpPrice: '499'
+            },
+            {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'MW002',
+                productName: 'Slim Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
+                mrpPrice: '349'
+            },
+        ]
     },
     {
         productId: 'SS003',
@@ -131,6 +205,26 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This classic canvas shopper can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '849',
+        similarProducts: [
+            {
+                productId: 'SS001',
+                productName: 'Original Shopping Bag',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+            {
+                productId: 'SS007',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+                mrpPrice: '749',
+            },
+            {
+                productId: 'BE003',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+                mrpPrice: '749'
+            },
+        ]
     },
     // {
     //     productId: 'SS004',
@@ -172,6 +266,33 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This large shopper bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '799',
+        similarProducts: [
+            {
+                productId: 'WB003',
+                productName: 'Bucket Bag with Drawstring',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                mrpPrice: '1300',
+                price: '1169'
+            },
+            {
+                productId: 'SS001',
+                productName: 'Original Shopping Bag',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+                mrpPrice: '999',
+            },
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                mrpPrice: '1499',
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+        ]
     },
     {
         productId: 'SS007',
@@ -191,7 +312,27 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This Conventional Canvas Shopper  can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '749'
+        mrpPrice: '749',
+        similarProducts: [
+            {
+                productId: 'BE003',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+                mrpPrice: '749'
+            },
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899'
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+        ]
     },
     {
         productId: 'SS008',
@@ -214,7 +355,28 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '949',
-        price: '849'
+        price: '849',
+        similarProducts: [
+            {
+                productId: 'BE001',
+                productName: 'Circle Bag',
+                lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'MW001',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW001/lifestyle.jpg',
+                mrpPrice: '449'
+            },
+            
+        ]
     },
     {
         productId: 'WB001',
@@ -236,6 +398,34 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
         mrpPrice: '749',
+        similarProducts: [
+            {
+                productId: 'SS008',
+                productName: 'Large Shopping Bag with Sling',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS008/hero.jpg',
+                mrpPrice: '949',
+                price: '849'
+            },
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899',
+            },
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                mrpPrice: '1499',
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            
+        ]
     },
     {
         productId: 'WB002',
@@ -257,6 +447,27 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '849',
+        similarProducts: [
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
+            {
+                productId: 'SS007',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+                mrpPrice: '749',
+            },
+        ]
     },
     {
         productId: 'BE002',
@@ -279,6 +490,33 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This summer tote  can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '499',
+        similarProducts: [
+            {
+                productId: 'WB003',
+                productName: 'Bucket Bag with Drawstring',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                mrpPrice: '1300',
+                price: '1169'
+            },
+            {
+                productId: 'BE001',
+                productName: 'Circle Bag',
+                lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'BE003',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE003/hero.jpg',
+                mrpPrice: '749'
+            },
+        ]
     },
     {
         productId: 'BE003',
@@ -299,10 +537,30 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This tote bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '549',
+        similarProducts: [
+            {
+                productId: 'BE001',
+                productName: 'Circle Bag',
+                lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'SS001',
+                productName: 'Original Shopping Bag',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+                mrpPrice: '999',
+            },
+        ]
     },
     {
         productId: 'OL002',
-        productName: 'Daily Laptop bag',
+        productName: 'Daily Laptop Bag',
         lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Office/OL002/hero.jpg', 
         images: 
@@ -321,7 +579,27 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: '"This office bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '899',
-        price: '809'
+        price: '809',
+        similarProducts: [
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                mrpPrice: '1499',
+            },
+            {
+                productId: 'MW004',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'MW001',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW001/lifestyle.jpg',
+                mrpPrice: '449'
+            },
+        ]
     },
     {
         productId: 'TD001',
@@ -342,7 +620,40 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999'
+        mrpPrice: '999',
+        similarProducts: [
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899',
+            },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'GG006',
+                productName: 'Mini Gift Bags (Pack of 3)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
+                mrpPrice: '299'
+            },
+            {
+                productId: 'GW006',
+                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
+                mrpPrice: '749',
+                price: '675'
+            }
+        ]
     },
     {
         productId: 'TD002',
@@ -364,7 +675,35 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: ' This clasic duffel can be hand washed or machine washed in normal water with a gentle detergent',
         mrpPrice: '1449',
-        price: '1299'
+        price: '1299',
+        similarProducts: [
+            {
+                productId: 'TA001',
+                productName: 'Travel Organisers',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
+                mrpPrice: '2249',
+                price: '1999'
+            },
+            {
+                productId: 'TA004',
+                productName: 'Multi-purpose Pouches (Set Of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
+                mrpPrice: '999',
+                price: '899'
+            },
+            {
+                productId: 'WB001',
+                productName: 'The Everyday Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
+                mrpPrice: '749'
+            },
+            {
+                productId: 'BE001',
+                productName: 'Circle Bag',
+                lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+                mrpPrice: '849'
+            },
+        ]
     },
     {
         productId: 'TD003',
@@ -387,6 +726,39 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This travel bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1499',
+        similarProducts: [
+            {
+                productId: 'TA003',
+                productName: 'Accessory Pouches (Pack of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
+                mrpPrice: '1249'
+            },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
+            {
+                productId: 'HS007',
+                productName: 'Broad Storage Bags',
+                lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
+                mrpPrice: '1099',
+            },
+            {
+                productId: 'MW002',
+                productName: 'Slim Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
+                mrpPrice: '349'
+            },
+            {
+                productId: 'MW004',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+        ]
     },
     {
         productId: 'HT002',
@@ -408,6 +780,39 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '649',
+        similarProducts: [
+            {
+                productId: 'HK008',
+                productName: 'Original Cutlery Case (Pack Of 6)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
+                mrpPrice: '649',
+            },
+            {
+                productId: 'HL008',
+                productName: 'Original Laundry Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL008/lifestyle.jpg',
+                mrpPrice: '699'
+            },
+            {
+                productId: 'HS010',
+                productName: 'Original Storage boxes (Pair Of 2)',
+                lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
+                mrpPrice: '1049'
+            },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'GW006',
+                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
+                mrpPrice: '749',
+                price: '675'
+            }
+        ]
     },
     {
         productId: 'HK002',
@@ -428,6 +833,20 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: ' The organic lunch bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '399',
+        similarProducts: [
+            {
+                productId: 'HK008',
+                productName: 'Original Cutlery Case (Pack Of 6)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
+                mrpPrice: '649',
+            },
+            {
+                productId: 'PG004',
+                productName: 'Small Planters (Pack of 3)',
+                lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+        ]
     },
     {
         productId: 'HK008',
@@ -448,6 +867,34 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: ' The cutlery case can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '649',
+        similarProducts: [
+            {
+                productId: 'HT002',
+                productName: 'BREAD BASKET (Set Of 3)',
+                lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
+                mrpPrice: '649'
+            },
+            {
+                productId: 'TA004',
+                productName: 'Multi-purpose Pouches (Set Of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
+                mrpPrice: '999',
+                price: '899'
+            },
+            {
+                productId: 'HS003',
+                productName: '3 level Storage shelf',
+                lifestyleImage: '/images/p_images/Storage/Home/HS003/lifestyle.jpg',
+                mrpPrice: '1499',
+                price: '1349'
+            },
+            {
+                productId: 'HS008',
+                productName: 'All Purpose Hanging Organiser',
+                lifestyleImage: '/images/p_images/Storage/Home/HS008/lifestyle.jpg',
+                price: '849'
+            },
+        ]
     },
     {
         productId: 'HL005',
@@ -469,7 +916,34 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '599',
-        price: '539'
+        price: '539',
+        similarProducts: [
+            {
+                productId: 'HL008',
+                productName: 'Original Laundry Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL008/lifestyle.jpg',
+                mrpPrice: '699'
+            },
+            {
+                productId: 'GW006',
+                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
+                mrpPrice: '749',
+                price: '675'
+            },
+            {
+                productId: 'TA003',
+                productName: 'Accessory Pouches (Pack of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
+                mrpPrice: '1249'
+            },
+            {
+                productId: 'HS001',
+                productName: 'Classic storage tray',
+                lifestyleImage: '/images/p_images/Storage/Home/HS001/lifestyle.jpg',
+                mrpPrice: '749'
+            }
+        ]
     },
     {
         productId: 'HL006',
@@ -490,6 +964,33 @@ const MasterProducts = [
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1199',
         price: '1079',
+        similarProducts: [
+            {
+                productId: 'PG004',
+                productName: 'Small Planters (Pack of 3)',
+                lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+            {
+                productId: 'HK002',
+                productName: 'Original Sandwich Bag (Pack Of 3)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
+                mrpPrice: '399',
+            },
+            {
+                productId: 'TA001',
+                productName: 'Travel Organisers',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
+                mrpPrice: '2249',
+                price: '1999'
+            },
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899',
+            },
+        ]
     },
     {
         productId: 'HL008',
@@ -512,6 +1013,27 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '699',
+        similarProducts: [
+            {
+                productId: 'WY004',
+                productName: 'Handy Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY004/lifestyle.jpg',
+                mrpPrice: '1449'
+            },
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
+            {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
+        ]
     },
     {
         productId: 'PG004',
@@ -532,6 +1054,27 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This Planters can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '999',
+        similarProducts: [
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
+            {
+                productId: 'HT002',
+                productName: 'BREAD BASKET (Set Of 3)',
+                lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
+                mrpPrice: '649'
+            },
+            {
+                productId: 'HK002',
+                productName: 'Original Sandwich Bag (Pack Of 3)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
+                mrpPrice: '399',
+            },
+        ]
     },
     {
         productId: 'WY003',
@@ -551,11 +1094,37 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1799',
-        price: '1599'
+        price: '1599',
+        similarProducts: [
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                mrpPrice: '1499',
+            },
+            {
+                productId: 'TA003',
+                productName: 'Accessory Pouches (Pack of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
+                mrpPrice: '1249'
+            },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'HS010',
+                productName: 'Original Storage boxes (Pair Of 2)',
+                lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
+                mrpPrice: '1049'
+            },
+        ]
     },
     {
         productId: 'WY004',
-        productName: 'Handy Yoga bag',
+        productName: 'Handy Yoga Bag',
         lifestyleImage: '/images/p_images/Lifestyle/Workout/WY004/lifestyle.jpg',
         heroImage: '/images/p_images/Lifestyle/Workout/WY004/hero.jpg', 
         images: 
@@ -573,6 +1142,33 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1449',
+        similarProducts: [
+            {
+                productId: 'WY006',
+                productName: 'Original Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY006/lifestyle.jpg',
+                mrpPrice: '1299'
+            },
+            {
+                productId: 'HS001',
+                productName: 'Classic storage tray',
+                lifestyleImage: '/images/p_images/Storage/Home/HS001/lifestyle.jpg',
+                mrpPrice: '749'
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'TA004',
+                productName: 'Multi-purpose Pouches (Set Of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
+                mrpPrice: '999',
+                price: '899'
+            },
+        ]
     },
     {
         productId: 'WY005',
@@ -593,6 +1189,34 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This yoga tote can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '999',
+        similarProducts: [
+            {
+                productId: 'WY003',
+                productName: 'Conventional Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY003/lifestyle.jpg',
+                mrpPrice: '1799',
+                price: '1599'
+            },
+            {
+                productId: 'HS002',
+                productName: 'Versatile Storage Tray (Set of 3)',
+                lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
+                mrpPrice: '1649',
+            },
+            {
+                productId: 'TA001',
+                productName: 'Travel Organisers',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
+                mrpPrice: '2249',
+                price: '1999'
+            },
+            {
+                productId: 'TD002',
+                productName: 'Classic Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
+                mrpPrice: '1299'
+            },
+        ]
     },
     {
         productId: 'WY006',
@@ -614,6 +1238,33 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This yoga bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1299',
+        similarProducts: [
+            {
+                productId: 'HK008',
+                productName: 'Original Cutlery Case (Pack Of 6)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
+                mrpPrice: '649',
+            },
+            {
+                productId: 'HS007',
+                productName: 'Broad Storage Bags',
+                lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
+                mrpPrice: '1099',
+            },
+            {
+                productId: 'HK002',
+                productName: 'Original Sandwich Bag (Pack Of 3)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
+                mrpPrice: '399',
+            },
+            {
+                productId: 'WB003',
+                productName: 'Bucket Bag with Drawstring',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                mrpPrice: '1300',
+                price: '1169'
+            },
+        ]
     },
     {
         productId: 'GB001',
@@ -635,6 +1286,33 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '999',
+        similarProducts: [
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'GW006',
+                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
+                mrpPrice: '749',
+                price: '675'
+            },
+            {
+                productId: 'HK002',
+                productName: 'Original Sandwich Bag (Pack Of 3)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
+                mrpPrice: '399',
+            },
+        ]
     },
     {
         productId: 'GB002',
@@ -656,6 +1334,33 @@ const MasterProducts = [
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '1135',
         price: '949',
+        similarProducts: [
+            {
+                productId: 'TA004',
+                productName: 'Multi-purpose Pouches (Set Of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
+                mrpPrice: '999',
+                price: '899'
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'MW001',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW001/lifestyle.jpg',
+                mrpPrice: '449'
+            },
+            {
+                productId: 'MW004',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+        ]
     },
     {
         productId: 'GB003',
@@ -676,7 +1381,33 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
         mrpPrice: '989',
-        price: '849'
+        price: '849',
+        similarProducts: [
+            {
+                productId: 'HT002',
+                productName: 'BREAD BASKET (Set Of 3)',
+                lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
+                mrpPrice: '649'
+            },
+            {
+                productId: 'BE002',
+                productName: 'Summer Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE002/lifestyle.jpg',
+                mrpPrice: '499',
+            },
+            {
+                productId: 'HK002',
+                productName: 'Original Sandwich Bag (Pack Of 3)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
+                mrpPrice: '399',
+            },
+            {
+                productId: 'HK008',
+                productName: 'Original Cutlery Case (Pack Of 6)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
+                mrpPrice: '649',
+            },
+        ]
     },
     {
         productId: 'GG006',
@@ -697,6 +1428,26 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This small bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '299',
+        similarProducts: [
+            {
+                productId: 'GB001',
+                productName: 'Drawstring Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB001/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+            {
+                productId: 'PG004',
+                productName: 'Small Planters (Pack of 3)',
+                lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+            {
+                productId: 'BE003',
+                productName: 'Classic Wide Beach Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
+                mrpPrice: '549',
+            },
+        ]
     },
     {
         productId: 'GW006',
@@ -719,6 +1470,20 @@ const MasterProducts = [
         washingCare: 'This gift pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '749',
         price: '675',
+        similarProducts: [
+            {
+                productId: 'MW002',
+                productName: 'Slim Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
+                mrpPrice: '349'
+            },
+            {
+                productId: 'MW004',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+        ]
     },
     {
         productId: 'GW003',
@@ -739,6 +1504,32 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: '"This message card can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '249',
+        similarProducts: [
+            {
+                productId: 'GB001',
+                productName: 'Drawstring Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB001/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+            {
+                productId: 'WY006',
+                productName: 'Original Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY006/lifestyle.jpg',
+                mrpPrice: '1299'
+            },
+            {
+                productId: 'TD002',
+                productName: 'Classic Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
+                mrpPrice: '1299'
+            },
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                mrpPrice: '1499',
+            },
+        ]
     },
     {
         productId: 'TA003',
@@ -761,6 +1552,33 @@ const MasterProducts = [
         color: 'natural',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1249',
+        similarProducts: [
+            {
+                productId: 'MW004',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'MW002',
+                productName: 'Slim Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
+                mrpPrice: '349'
+            },
+            {
+                productId: 'HL006',
+                productName: '3 Part Laundry Organiser',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL006/lifestyle.jpg',
+                mrpPrice: '1199',
+                price: '1079'
+            },
+            {
+                productId: 'PG004',
+                productName: 'Small Planters (Pack of 3)',
+                lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+        ]
     },
     {
         productId: 'TA004',
@@ -783,7 +1601,27 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '999',
-        price:'899'
+        price:'899',
+        similarProducts: [
+            {
+                productId: 'MW001',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW001/lifestyle.jpg',
+                mrpPrice: '449'
+            },
+            {
+                productId: 'MW004',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'TD001',
+                productName: 'Original Travel Carry On',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD001/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+        ]
     },
     {
         productId: 'HS001',
@@ -804,6 +1642,28 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This Storage tray can be wiped with a wet cloth.',
         mrpPrice: '749',
+        similarProducts: [
+            {
+                productId: 'WY005',
+                productName: 'Yoga Tote',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY005/lifestyle.jpg',
+                price: '999',
+            },
+            {
+                productId: 'WY003',
+                productName: 'Conventional Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY003/lifestyle.jpg',
+                mrpPrice: '1799',
+                price: '1599'
+            },
+            {
+                productId: 'HS003',
+                productName: '3 level Storage shelf',
+                lifestyleImage: '/images/p_images/Storage/Home/HS003/lifestyle.jpg',
+                mrpPrice: '1499',
+                price: '1349'
+            },
+        ]
     },
     {
         productId: 'HS002',
@@ -825,7 +1685,34 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1649',
-        price: '1499'
+        price: '1499',
+        similarProducts: [
+            {
+                productId: 'WY006',
+                productName: 'Original Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY006/lifestyle.jpg',
+                mrpPrice: '1299'
+            },
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
+            {
+                productId: 'WB001',
+                productName: 'The Everyday Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
+                mrpPrice: '749'
+            },
+            {
+                productId: 'BE001',
+                productName: 'Circle Bag',
+                lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+                mrpPrice: '849'
+            },
+        ]
     },
     {
         productId: 'HS003',
@@ -846,7 +1733,22 @@ const MasterProducts = [
         color: 'Raw White',
         washingCare: 'This Storage shelf bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1499',
-        price: '1349'
+        price: '1349',
+        similarProducts: [
+            {
+                productId: 'GW006',
+                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
+                mrpPrice: '749',
+                price: '675'
+            },
+            {
+                productId: 'GB002',
+                productName: 'Multi-use Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/lifestyle.jpg',
+                price: '949'
+            }
+        ]
     },
     {
         productId: 'HS007',
@@ -981,7 +1883,7 @@ const MasterProducts = [
     },
     {
         productId: 'MW002',
-        productName: 'Slim Wallet ',
+        productName: 'Slim Wallet',
         lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
         heroImage: '/images/p_images/Accessories/Wallet/MW002/hero.jpg', 
         images: 
@@ -1013,7 +1915,7 @@ const MasterProducts = [
         productId: 'MW003',
         productName: 'Classic Card Holder',
         lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
-        heroImage: '/images/p_images/Bags/Women/BE001/hero_522.jpg', 
+        heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg', 
         images: 
             ['/images/p_images/Accessories/Wallet/MW003/1.jpg',
             '/images/p_images/Accessories/Wallet/MW003/2.jpg',],
