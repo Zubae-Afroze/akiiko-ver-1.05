@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Nav, Collapse, Row, Col} from 'react-bootstrap';
+import classnames from 'classnames';
 import { Link } from 'react-router-dom';
 import './Menubar.css';
 
@@ -16,9 +17,25 @@ export default class Menubar extends Component {
             dropGiftDiv: false,
             dropWorkoutDiv: false,
             dropShoppingDiv: false,
+            prevScrollPos: window.pageYOffset,
+            navFixed: false
         }
+    }
 
-        this.navBar = React.createRef();
+    handleScroll = () => {
+        const  prevScrollPos  = this.state.prevScrollPos;
+
+        const currentScrollPos = window.pageYOffset;
+        const navFixed = prevScrollPos < currentScrollPos;
+
+        this.setState({
+            prevScrollPos: currentScrollPos,
+            navFixed
+        })
+    }
+
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
     }
 
     // hideNavbar = (scrollPos) => {
@@ -158,7 +175,8 @@ export default class Menubar extends Component {
         return (
             <>
             <Container className='navbar-wrapper'>
-                <div className='navbar-wrapper sticky-navbar' ref={this.navBar}>
+                {/*<div className= 'navbar-wrapper sticky-navbar'>*/}
+                <div className={classnames("navabar-wrapper", {'sticky-navbar': !this.state.navFixed})}>
                 <Nav fill as="ul" className='navbar-ul'>
                     <Nav.Item as="li" className='nav-test'>
                         <Nav className='navbar-li'><div onMouseEnter={this.toggleWomenDropDiv} onClick={this.toggleWomenDropDiv}>BAGS</div></Nav>

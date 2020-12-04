@@ -162,7 +162,7 @@ const BagToteProducts = [
         material: 'cotton canvas',
         color: 'natural',
         washingCare: 'The tote bag can be hand washed or machine washed in normal water with a gentle detergent. The precise color of the items may vary depending on monitor, light and conditions. Colors as shown on these images should only be used as a reference.',
-        mrpPrice: '759',
+        mrpPrice: '749',
     },
     {
         productId: 'WB002',
