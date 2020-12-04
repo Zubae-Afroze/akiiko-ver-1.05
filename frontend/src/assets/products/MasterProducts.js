@@ -1947,7 +1947,31 @@ const MasterProducts = [
         mrpPrice: '2249',
         price: '1999',
         similarProducts: [
-
+            {
+                productId: 'MW002',
+                productName: 'Slim Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
+                mrpPrice: '349'
+            },
+            {
+                productId: 'MW004',
+                productName: 'Bi Fold Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
+                mrpPrice: '399'
+            },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'GW006',
+                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
+                mrpPrice: '749',
+                price: '675'
+            }
         ]
     },
     {
@@ -1981,30 +2005,23 @@ const MasterProducts = [
         },
         similarProducts: [
             {
-                productId: 'MW002',
-                productName: 'Slim Wallet',
-                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
-                mrpPrice: '349'
+                productId: 'TD002',
+                productName: 'Classic Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
+                mrpPrice: '1299'
             },
             {
-                productId: 'MW004',
-                productName: 'Bi Fold Wallet',
-                lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
-                mrpPrice: '399'
+                productId: 'GB002',
+                productName: 'Multi-use Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/lifestyle.jpg',
+                price: '949'
             },
             {
-                productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
-                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
-                mrpPrice: '249',
+                productId: 'WB001',
+                productName: 'The Everyday Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
+                mrpPrice: '749'
             },
-            {
-                productId: 'GW006',
-                productName: 'Drawstring Gift Pouches (Pair of 2)',
-                lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
-                mrpPrice: '749',
-                price: '675'
-            }
         ]
     },
     {
@@ -2038,23 +2055,12 @@ const MasterProducts = [
         },
         similarProducts: [
             {
-                productId: 'TD002',
-                productName: 'Classic Duffel',
-                lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
-                mrpPrice: '1299'
-            },
-            {
-                productId: 'GB002',
-                productName: 'Multi-use Gift Box',
-                lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/lifestyle.jpg',
-                price: '949'
-            },
-            {
-                productId: 'WB001',
-                productName: 'The Everyday Tote',
-                lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
-                mrpPrice: '749'
-            },
+                productId: 'GB003',
+                productName: 'Minimal Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/lifestyle.jpg',
+                mrpPrice: '989',
+                price: '849',
+            }
         ]
     },
     {
