@@ -256,11 +256,13 @@ const ProductDetails = (props) => {
                 </Col>
                 </Row>
                 <button className='product-purchase-button' onClick={() => setModalShow(true)}>PURCHASE</button>
-                <div className='product-description-label'>PRODUCT DESCRIPTION</div>
+                
+                <div className='product-details-second-wrapper'>
+                <div className='product-description-label '>PRODUCT DESCRIPTION</div>
                 <div className='product-description-text'>{product.description}</div>
 
                 <div>
-                    <div className='product-details-label'>Details</div>
+                    <div className='product-details-label '>Details</div>
                     <ul className='product-details-text'>
                     <li className='product-details-texts'><span className='target-bold'>Item Code: </span> {product.productId}</li>
                     <li className='product-details-texts'><span className='target-bold'>Size:</span> {product.measurement}</li>
@@ -270,11 +272,12 @@ const ProductDetails = (props) => {
                 </div>
 
                 <div>
-                    <div className='product-details-label'>Care Instruction</div>
+                    <div className='product-details-label '>Care Instruction</div>
                     <div className='product-details-text'>{product.washingCare}</div>
-                </div>
+                </div></div>
                 
             </Col>
+        
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
@@ -319,9 +322,9 @@ const ProductDetails = (props) => {
          <Row className='similar-products-wrapper'> 
             {/* Similar Products */}
                 {product.similarProducts.map(prod => (
-                    <div key={prod.productId}>
+                    <div key={prod.productId} className='similar-products-container'>
                         <Link to={`/product/${prod.productId}`} onClick={() => setImageSrc(prod.lifestyleImage)}>
-                            <Col lg={2.4} className='similar-products-container'>
+                            <Col lg={2.4} >
                                 <div>
                                     <div className='similar-products-image'><img src={prod.lifestyleImage} alt='img'></img>
                                     {prod.bestSeller !== undefined ? <span className='label-best'>{prod.bestSeller}</span> : null}

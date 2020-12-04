@@ -385,8 +385,8 @@
   letter-spacing: 4.48px;
 }
 .similar-products-image img {
-  width: 230px;
-  height: 230px;
+  width: 100%;
+  height: 100%;
   border: 1px solid #36353541;
 }
 .similar-products-title {
@@ -394,7 +394,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: #fefaef;
-  width: 230px;
+  width: 100%;
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'rutan';
@@ -407,7 +407,7 @@
 }
 .similar-products-text {
   text-align: left;
-  width: 230px;
+  width: 100%;
   padding: 15px;
   padding-left: 6px;
   font-size: 14px;
@@ -420,13 +420,13 @@
 }
 .similar-products-container {
   display:inline-flex;
+  flex-basis: 20%;
   flex-direction: row;
-  margin-bottom: 25px;
-  justify-content: space-between;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 .similar-products-wrapper {
   margin: 5px;
-  justify-content: space-between;
 }
 /* -----------------------------------------LAPTOP  UPTO 1440PX------------------------------------------- */
 @media (max-width: 1290px) {
@@ -449,16 +449,7 @@
 }
 
 @media (max-width: 1200px) {
-  .similar-products-image img{
-    width: 200px;
-    height: 200px;
-  }
-  .similar-products-title{
-    width: 200px;
-  }
-  .similar-products-text{
-    width: 200px;
-  }
+ 
   .testing {
     right: 0px;
   }
@@ -486,15 +477,12 @@
 }
 
 @media (max-width: 1024px) {
-  .similar-products-image img{
-    width: 180px;
-    height: 180px;
-  }
-  .similar-products-title{
-    width: 180px;
-  }
-  .similar-products-text{
-    width: 180px;
+  .similar-products-container {
+    display:inline-flex;
+    flex-basis: 195px;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-bottom: 15px;
   }
   .products-details-label {
     height: 145px;
@@ -544,7 +532,14 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) { 
+  .similar-products-container {
+    display:inline-flex;
+    flex-basis: 190px;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
   .products-details-label {
     height: auto;
   }
@@ -582,17 +577,12 @@
   }
 }
 @media(max-width:900px){
-  .similar-products-image img{
-    width: 160px;
-    height: 160px;
-  }
+  
   .similar-products-title{
-    width: 160px;
     height: 45px;
     font-size: 12px;
   }
   .similar-products-text{
-    width: 160px;
     font-size: 12px;
   }
 }
@@ -649,6 +639,16 @@
 /* ----------------------------------------TAB 768px and below ---------------------------------------------- */
 
 @media (max-width: 768px) {
+  .product-details-second-wrapper{
+    width: 100%;
+  }
+  .similar-products-container {
+    display:inline-flex;
+    flex-basis: 25%;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
   .product-det {
     margin-top: -50px;
   }
@@ -799,6 +799,9 @@
 }
 
 @media (max-width: 505px) {
+  .similar-products-container{
+    flex-basis: 50%;
+  }
   .material-dum {
     font-size: 12px;
     margin-top: 3px;
@@ -824,16 +827,7 @@
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 
 @media (max-width: 425px) {
-  .similar-products-image img{
-    width: 180px;
-    height: 180px;
-  }
-  .similar-products-title{
-    width: 180px;
-  }
-  .similar-products-text{
-    width: 180px;
-  }
+  
   .quantity-increase {
     padding-left: 14px;
   }
@@ -991,16 +985,9 @@
   }
 }
 @media (max-width: 375px) {
-  .similar-products-image img{
-    width: 150px;
-    height: 150px;
-  }
-  .similar-products-title{
-    width: 150px;
-  }
+ 
   .similar-products-text{
     padding: 6px;
-    width: 150px;
   }.product-details-carousel {
     margin-bottom: 0px;
   }
@@ -1057,16 +1044,12 @@
   }
 }
 @media (max-width: 320px) {
-  .similar-products-image img{
-    width: 135px;
-    height: 135px;
-  }
-  .similar-products-title{
-    width: 135px;
-  }
-  .similar-products-text{
-    width: 135px;
-  }
+.similar-products-text{
+  font-size: 10px;
+}
+.similar-products-title{
+  font-size: 10px;
+}
   .dropdown-menu.show {
     min-width: 120px;
     max-width: 120px;
