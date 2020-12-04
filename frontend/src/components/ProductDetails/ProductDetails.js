@@ -314,16 +314,16 @@ const ProductDetails = (props) => {
         </Row>
         : null} */}
         { product.similarProducts !== undefined ?
-        <Row > 
+        <div>
+            <div className='similar-products-head'>You may also like</div>
+         <Row className='similar-products-wrapper'> 
             {/* Similar Products */}
-            <div className='similar-products-wrapper'>
-                <div className='similar-products-head'>You may also like</div>
                 {product.similarProducts.map(prod => (
                     <div key={prod.productId}>
                         <Link to={`/product/${prod.productId}`} onClick={() => setImageSrc(prod.lifestyleImage)}>
-                            <Col>
+                            <Col lg={2.4} className='similar-products-container'>
                                 <div>
-                                    <div className='women-card-image'><img src={prod.lifestyleImage} alt='img'></img>
+                                    <div className='similar-products-image'><img src={prod.lifestyleImage} alt='img'></img>
                                     {prod.bestSeller !== undefined ? <span className='label-best'>{prod.bestSeller}</span> : null}
                                     {prod.quickView !== undefined ? <span className='label-view'>{prod.quickView}</span> : null}
                                     </div>
@@ -333,10 +333,9 @@ const ProductDetails = (props) => {
                             </Col>
                         </Link>
                     </div>
-                ))}
-            </div>
-        </Row> : null
-        }
+                ))}            
+          </Row> </div>: null
+          }
         </div>
         </Container>
     )

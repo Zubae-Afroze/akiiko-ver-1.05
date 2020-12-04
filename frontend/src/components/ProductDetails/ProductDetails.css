@@ -419,11 +419,11 @@
   text-decoration: none;
 }
 .similar-products-container {
-  display: flex;
+  display:inline-flex;
   flex-direction: row;
   margin-bottom: 25px;
   justify-content: space-between;
-  padding: 0px 15px;
+  padding: 0px ;
 }
 .similar-products-wrapper {
   flex-basis: 230px;
@@ -988,8 +988,9 @@
   }
   .alt-img-list ul li img {
     height: 50px;
-    width: 50px;
+    width: 50px;    
   }
+
   .alt-img-hero img {
     width: 230px;
     height: 310px;
