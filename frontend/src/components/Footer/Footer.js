@@ -18,7 +18,7 @@ export default class Footer extends Component {
                             </div>
                             <div className='footer-brand-button'>
                                 <button className='footer-button'>
-                                    Discover more
+                                    Read more
                                 </button>
                             </div>
                         </Col>

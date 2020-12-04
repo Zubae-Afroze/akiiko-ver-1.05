@@ -1,5 +1,7 @@
 .mobile-nav-cont {
   display: none;
+  background: #fff;
+  z-index: 500;
 }
 
 .mobile-nav-wrapper {
@@ -41,6 +43,10 @@
 @media (max-width: 550px) {
   .mobile-nav-cont {
     display: block;
-    position: relative;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 30px;
+    width: 100%;
   }
 }
