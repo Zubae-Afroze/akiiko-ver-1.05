@@ -50,6 +50,12 @@
   height: 60px;
 }
 
+@media (max-width: 800px) {
+  .padding-class {
+    height: 45px;
+  }
+}
+
 @media (max-width: 500px) {
   .padding-class {
     height: 55px;
