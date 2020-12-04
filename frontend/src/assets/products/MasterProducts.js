@@ -1786,7 +1786,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/hero.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },

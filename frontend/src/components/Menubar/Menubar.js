@@ -38,6 +38,10 @@ export default class Menubar extends Component {
         window.addEventListener("scroll", this.handleScroll);
     }
 
+    componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+    }
+
     // hideNavbar = (scrollPos) => {
     //     if (scrollPos >= 70){
     //         this.navBar.current.classList.add('hide-nav-bar');
