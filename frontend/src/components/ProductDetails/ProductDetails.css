@@ -533,6 +533,9 @@
 }
 
 @media (max-width: 991px) { 
+  .product-details-second-wrapper{
+    margin: 0 -10%;
+  }
   .similar-products-container {
     display:inline-flex;
     flex-basis: 190px;
@@ -639,9 +642,7 @@
 /* ----------------------------------------TAB 768px and below ---------------------------------------------- */
 
 @media (max-width: 768px) {
-  .product-details-second-wrapper{
-    width: 100%;
-  }
+  
   .similar-products-container {
     display:inline-flex;
     flex-basis: 25%;
@@ -701,7 +702,11 @@
     margin-bottom: 0px;
   }
 }
+
 @media (max-width: 720px) {
+  .product-details-second-wrapper{
+    margin: 0%;
+  }
   .product-det.col-lg-6 {
     padding: 0px 15px;
   }
