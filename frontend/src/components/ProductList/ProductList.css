@@ -1,6 +1,7 @@
 .product-list-wrapper {
   padding: 0;
   margin-left: 15px;
+  margin-top: 70px;
 }
 
 .product-list-back-button {
@@ -9,7 +10,6 @@
   font-size: 13px;
   font-family: 'rutanLight';
   letter-spacing: 2.08px;
-  margin-top: 80px;
 }
 
 .product-list-back-button:hover {

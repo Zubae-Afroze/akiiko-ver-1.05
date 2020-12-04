@@ -47,5 +47,11 @@
 }
 
 .padding-class {
-  height: 30px;
+  height: 60px;
+}
+
+@media (max-width: 500px) {
+  .padding-class {
+    height: 20px;
+  }
 }

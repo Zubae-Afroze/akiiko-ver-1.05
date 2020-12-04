@@ -4,54 +4,39 @@ import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 export default class Sidebar extends Component {
-    state = {
-        growBagsDiv: false,
-        growHomeDiv: false,
-        growLifestyleDiv: false,
-        growGiftDiv: false,
-        growStorageDiv: false,
-        growAccessoriesDiv: false,
+    constructor(props) {
+        super(props);
+        this.state = {
+            prevSideScrollPos: window.pageYOffset,
+            sideNavFixed: false 
+         } 
     }
 
-    toggleGrowBagsDiv = () => {
-        const grows = this.state.growBagsDiv;
-        this.setState({growHomeDiv: false});
-        this.setState({growLifestyleDiv: false});
-        this.setState({growGiftDiv: false});
-        this.setState({growStorageDiv: false});
-        this.setState({growAccessoriesDiv: false});
-        this.setState({growBagsDiv: !grows});
+    handleSideScroll = () => {
+        const prevSideScrollPos = this.state.prevSideScrollPos;
+
+        const currentSideScrollPos = window.pageYOffset;
+        const sideNavFixed = prevSideScrollPos < currentSideScrollPos;
+
+        this.setState({
+            prevSideScrollPos: currentSideScrollPos,
+            sideNavFixed
+        })
     }
 
-    
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleSideScroll);
+    }
 
     render() {
         return (
             <>
                 <Container className='sidebar-wrapper'>
                     <div className='sidebar-main'>
+                    {/* <div className={classnames('sidebar-main', {'sticky-sidebar' : !this.state.sideNavFixed})}> */}
                         <ul>
                             <li>
                                 <Link to='/bags/all_products'>Bags</Link></li>
-                                {/* {
-                                    this.state.growBagsDiv ?
-                                    <div>
-                                    <ul>
-                                        <li>
-                                        <a href='root'><img src='/images/nav_drop/home_drop/laundry.png' alt='img_alt'/>
-                                        Women</a></li>
-                                        <li>
-                                        <a href='root'><img src='/images/nav_drop/home_drop/mat.png' alt='img_alt'/>
-                                        TOTE</a></li>
-                                        <li>
-                                        <a href='root'><img src='/images/nav_drop/home_drop/mat.png' alt='img_alt'/>
-                                        OFFICE</a></li>
-                                        <li>
-                                        <a href='root'><img src='/images/nav_drop/home_drop/mat.png' alt='img_alt'/>
-                                        TRAVEL</a></li>
-                                    </ul>
-                                    </div> : null
-                                } */}
                             <li>
                                 <Link to='/home/all_products'>Home</Link></li>
                             <li>
