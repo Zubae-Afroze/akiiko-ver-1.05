@@ -1049,7 +1049,10 @@
   }
 }
 @media (max-width: 320px) {
-.similar-products-text{
+.similar-products-head{
+  font-size: 20px;
+}
+  .similar-products-text{
   font-size: 10px;
 }
 .similar-products-title{
