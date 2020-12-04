@@ -166,7 +166,10 @@
 @media (max-width: 1024px) {
   .sticky-navbar {
     width: 1024px;
-  }
+  } 
+.navbar-drop-hero{
+  display: none;
+}
 }
 
 @media (max-width: 940px) {
