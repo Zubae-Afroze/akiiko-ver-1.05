@@ -832,7 +832,10 @@
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 
 @media (max-width: 425px) {
-  .similar-products-container{
+  .product-details-wrapper{
+    margin-bottom: 0px;
+  }
+ .similar-products-container{
     padding-right: 0px;
   }
   .similar-products-wrapper{
