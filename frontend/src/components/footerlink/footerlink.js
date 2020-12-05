@@ -20,6 +20,20 @@ render(){
                 </Col>
             </div>
         </Row>
+        <Row>
+            <div>
+                <Col lg={8}>
+                    <div>
+
+                    </div>
+                </Col>
+                <Col lg={4}>
+                    <div>
+                        
+                    </div>
+                </Col>
+            </div>
+        </Row>
         </Container>
     )
 }
