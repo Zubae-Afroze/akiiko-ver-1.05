@@ -805,7 +805,7 @@
 
 @media (max-width: 505px) {
   .similar-products-container{
-    flex-basis: 50%;
+    flex-basis: 48%;
   }
   .material-dum {
     font-size: 12px;
@@ -832,7 +832,12 @@
 /* ----------------------------------------mobile 425px and below ---------------------------------------------- */
 
 @media (max-width: 425px) {
-  
+  .similar-products-container{
+    padding-right: 0px;
+  }
+  .similar-products-wrapper{
+    justify-content: space-between;
+  }
   .quantity-increase {
     padding-left: 14px;
   }
