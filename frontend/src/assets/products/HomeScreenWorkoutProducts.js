@@ -92,7 +92,7 @@ const HomeScreenWorkoutProducts = [
     },
     {
         productId: 'HS010',
-        productName: 'Original Storage Boxes (Pair Of 2)',
+        productName: 'Original Storage Boxes \u00A0 (Pair Of 2)',
         heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg',
         images: 
             ['/images/home_screen_workout_products/HS010/1.jpg',

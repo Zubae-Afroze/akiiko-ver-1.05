@@ -1,7 +1,7 @@
 const HomeScreenHomeProducts = [
     {
         productId: 'HK002',
-        productName: 'Original Sandwich Bag (Pack Of 3)',
+        productName: 'Original Sandwich Bag \u00A0 (Pack Of 3)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg',
         images: 
@@ -19,7 +19,7 @@ const HomeScreenHomeProducts = [
     },
     {
         productId: 'HK008',
-        productName: 'Original Cutlery Case (Pack of 6)',
+        productName: 'Original Cutlery Case \u00A0 (Pack of 6)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK008/hero.jpg',
         images: 
