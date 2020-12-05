@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Form} from 'react-bootstrap';
+
+import { Link } from 'react-router-dom';
+
 import './Footer.css';
 
 export default class Footer extends Component {
@@ -24,7 +27,7 @@ export default class Footer extends Component {
                         </Col>
                         <Col sm={7} className='font-wrapper footer-brand-section-two'>  {/* class name is given to adjust the width of the container*/}
                         <Row className='footer-image-row'>
-                            <Col className='footer-image-col-1 col-sm-4 footer-icons' sm><div><img src={'/images/font_images/nature.svg'} alt='natural'/></div>NATURAL</Col>
+                            <Col className='footer-image-col-1 col-sm-4 footer-icons' sm><Link to='/footer/footerlink/'><div><img src={'/images/font_images/nature.svg'} alt='natural'/></div></Link>NATURAL</Col>
                             <Col className='footer-image-col-4 col-sm-4 footer-icons' sm><div><img src={'/images/font_images/organic.svg'} alt='natural'/></div>ORGANIC</Col>
                             <Col className='footer-image-col-3 col-sm-4 footer-icons' sm><div><img src={'/images/font_images/sustainable.svg'} alt='natural'/></div>SUSTAINABLE</Col>
                         </Row >

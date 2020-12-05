@@ -157,12 +157,11 @@ const ProductDetails = (props) => {
         <div className='product-details-wrapper'>
         <Col sm={12} className='carousel-wrapper product-details-carousel'>
                 <Carousel controls={false}>
-                {product.images.map((prod, index) => (  <Carousel.Item interval={null}>
+                {product.images.map((prod, index) => (  <Carousel.Item interval={null} key = {index}>
                         <img
                         className="d-block w-100"
                         src={prod}
                         alt="First slide"
-                        key = {index}
                         /> 
                         {/* <Carousel.Caption>
                             <h3 className='carousel-slide-1'>Introducing Akiiko</h3>

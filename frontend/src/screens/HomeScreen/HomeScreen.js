@@ -41,12 +41,12 @@ class HomeScreen extends React.Component {
         return (
             <React.Fragment>
                 {/* <UseSpinner loading={this.state.loading} /> */}
-                {/* <MyComponent 
+                <MyComponent 
                     sentences={' '}
                     wrapperBackgroundColor={'rgba(255,255,255, 0.8)'}
                     color={'#6e4e37'}
                     loaderType={'ball-spin-clockwise'}
-                /> */}
+                />
             <Container>
                 <Row className='home-screen-container' > {/* class name added here */}
                     <Col sm={4}>
