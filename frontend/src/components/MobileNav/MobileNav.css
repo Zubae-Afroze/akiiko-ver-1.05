@@ -21,7 +21,7 @@
 
 .mobile-nav-test {
   padding-bottom: 10px;
-  margin-right: 15px;
+  margin-right: 8px;
 }
 
 .mobile-nav-test:first-child {
@@ -49,5 +49,11 @@
     left: 0;
     height: 30px;
     width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .mobile-nav-test {
+    margin-right: 14px;
   }
 }
