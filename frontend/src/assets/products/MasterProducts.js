@@ -220,9 +220,9 @@ const MasterProducts = [
             },
             {
                 productId: 'BE003',
-                productName: 'Conventional Canvas Shopper',
-                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
-                mrpPrice: '749'
+                productName: 'Classic Wide Beach Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
+                mrpPrice: '549',
             },
         ]
     },
