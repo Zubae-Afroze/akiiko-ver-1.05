@@ -6,7 +6,7 @@ import HomeScreenHome from '../HomeScreenHome/HomeScreenHome';
 import './HomeScreen.css';
 import HomeScreenWorkout from '../HomeScreenWorkout/HomeScreenWorkout';
 import MyComponent from 'react-fullpage-custom-loader';
-import SpinnerIcon from '../../components/Spinner/SpinnerIcon';
+//import SpinnerIcon from '../../components/Spinner/SpinnerIcon';
 
 // import UseSpinner from '../../components/Spinner/UseSpinner';
 
