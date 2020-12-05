@@ -13,7 +13,7 @@ class HomeScreen extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            loading: null,
+            showLoader: true,
         }
     }
         // componentDidMount
@@ -37,16 +37,29 @@ class HomeScreen extends React.Component {
     //     })
     // }
 
+    componentDidMount() {
+        const timer = setTimeout(() => {
+            this.togglePageLoader()
+        }, 1000);
+        return () => clearTimeout(timer);
+    }
+
+
+    togglePageLoader = () => {
+        this.setState({showLoader: !this.state.showLoader});
+    }
+
     render () {
+        console.log('Render')
         return (
             <React.Fragment>
                 {/* <UseSpinner loading={this.state.loading} /> */}
-                <MyComponent 
+                {this.state.showLoader ? <MyComponent 
                     sentences={' '}
-                    wrapperBackgroundColor={'rgba(255,255,255, 0.8)'}
+                    wrapperBackgroundColor={'rgba(255,255,255)'}
                     color={'#6e4e37'}
                     loaderType={'ball-spin-clockwise'}
-                />
+                /> : null}
             <Container>
                 <Row className='home-screen-container' > {/* class name added here */}
                     <Col sm={4}>

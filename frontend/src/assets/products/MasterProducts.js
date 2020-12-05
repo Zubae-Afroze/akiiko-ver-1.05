@@ -24,7 +24,7 @@ const MasterProducts = [
                 productId: 'SS001',
                 productName: 'Original Shopping Bag',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
-                mrpPrice: '999',
+                mrpPrice: '799',
             },
             {
                 productId: 'WB001',
@@ -115,7 +115,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This shopping bag can be hand washed or machine washed in normal water with a gentle detergent.',
-        mrpPrice: '999',
+        mrpPrice: '799',
         similarProducts: [
             {
                 productId: 'HS012',
@@ -210,7 +210,7 @@ const MasterProducts = [
                 productId: 'SS001',
                 productName: 'Original Shopping Bag',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
-                mrpPrice: '999'
+                mrpPrice: '799'
             },
             {
                 productId: 'SS007',
@@ -278,7 +278,7 @@ const MasterProducts = [
                 productId: 'SS001',
                 productName: 'Original Shopping Bag',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
-                mrpPrice: '999',
+                mrpPrice: '799',
             },
             {
                 productId: 'TD003',
@@ -554,7 +554,7 @@ const MasterProducts = [
                 productId: 'SS001',
                 productName: 'Original Shopping Bag',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
-                mrpPrice: '999',
+                mrpPrice: '799',
             },
         ]
     },
@@ -1881,7 +1881,7 @@ const MasterProducts = [
                 productId: 'SS001',
                 productName: 'Original Shopping Bag',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
-                mrpPrice: '999',
+                mrpPrice: '799',
             },
         ]
     },
