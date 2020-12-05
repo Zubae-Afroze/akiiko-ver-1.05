@@ -227,6 +227,8 @@ export default class App extends Component {
               {/* All Products */}
               <Route path='/product/:id' render={(props) => (<ProductDetails {...props} 
               productInfo={MasterProducts}/>)}/>
+
+              {/* <Route path='/footer/footerlink' render={() => (<footerlink) } */}
           </Switch>
           <Footer/>
       </HashRouter>
