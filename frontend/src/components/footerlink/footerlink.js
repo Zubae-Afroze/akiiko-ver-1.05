@@ -52,7 +52,7 @@ export default class FooterLink extends Component
                         </Col>
                         <Col lg={8} className='footer-link-text'>
                             <div className='footer-link-text'>
-                            It is vital to consume in a manner which preserves for the future generations. Our hemp collection was designed with this aim in mind. Hemp is the most sustainable fabric in the world, making our hemp creations both beautiful 
+                            It is vital to consume in a manner which preserves for the future generations. Our hemp collection was designed with this aim in mind. Hemp is the most sustainable fabric in the world, making our hemp creations both beautiful and ethical.
                             </div>
                         </Col>
                     </div>
@@ -81,7 +81,7 @@ export default class FooterLink extends Component
                         <Col lg={4}>
                             <div className='footer-link-image'>
                             <img src={'/images/font_images/eco.svg'} alt='eco'/>
-                            ECO
+                            ECO FRIENDLY
                             </div>
                         </Col>
                         <Col lg={8} className='footer-link-text'>
