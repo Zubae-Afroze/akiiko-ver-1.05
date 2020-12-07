@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom';
 import './HomeScreenHome.css';
 
 const HomeScreenHome = () => {
+
+    const handleMouseEnter = (event) => {
+        console.log('Hovered On Quick View');
+    }
+
     return (
         <div className='home-screen-component'>{/*container changed into div*/}
                <Row className='home-wrapper workout-cont'> {/*CLASS NAME*/}
@@ -33,7 +38,7 @@ const HomeScreenHome = () => {
                                     <div className='home-img-wrap'>
                                     <img className='home-card-image' src={product.images[0]} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best label-best-workout'>{product.bestSeller}</span> : null}
-                                    {product.quickView !== undefined ? <span className='label-view label-view-workout'>{product.quickView}</span> : null}
+                                    {product.quickView !== undefined ? <span className='label-view label-view-workout' onMouseEnter={handleMouseEnter}>{product.quickView}</span> : null}
                                     </div>
                                     <div className='home-card-title'>{product.productName}</div>
                                 <div className='home-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>

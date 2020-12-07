@@ -228,7 +228,7 @@ export default class App extends Component {
               <Route path='/product/:id' render={(props) => (<ProductDetails {...props} 
               productInfo={MasterProducts}/>)}/>
 
-              <Route path='/FooterLink' render={() => (<FooterLink />) } />
+              <Route path='/FooterLink/' render={() => (<FooterLink />) } />
           </Switch>
           <Footer/>
       </HashRouter>

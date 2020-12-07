@@ -26,7 +26,7 @@ export default class Footer extends Component {
                         <Col sm={7} className='font-wrapper footer-brand-section-two'>  {/* class name is given to adjust the width of the container*/}
                         <Row className='footer-image-row'>
                             <Col className='footer-image-col-1 col-sm-4 footer-icons' sm><Link to={'/FooterLink/#natural'}><div><img src={'/images/font_images/nature.svg'} alt='natural'/></div></Link>NATURAL</Col>
-                            <Col className='footer-image-col-4 col-sm-4 footer-icons' sm><Link to={'/FooterLink/organic'}><div><img src={'/images/font_images/organic.svg'} alt='natural'/></div></Link>ORGANIC</Col>
+                            <Col className='footer-image-col-4 col-sm-4 footer-icons' sm><Link to={'/FooterLink/#organic'}><div><img src={'/images/font_images/organic.svg'} alt='natural'/></div></Link>ORGANIC</Col>
                             <Col className='footer-image-col-3 col-sm-4 footer-icons' sm><div><Link to={'/FooterLink/#sustainable'}><img src={'/images/font_images/sustainable.svg'} alt='natural'/></Link></div>SUSTAINABLE</Col>
                         </Row >
                         <Row className='footer-image-row'>
