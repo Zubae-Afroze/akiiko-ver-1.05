@@ -1,10 +1,12 @@
 import React from 'react';
-import { div, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import HomeScreenHomeProducts from '../../assets/products/HomeScreenHomeProducts';
 import { Link } from 'react-router-dom';
 import './HomeScreenHome.css';
 
-const HomeScreenHome = () => { 
+import { HoverSlideshow } from "react-hover-slideshow";
+
+const HomeScreenHome = () => {
     return (
         <div className='home-screen-component'>{/*container changed into div*/}
                <Row className='home-wrapper workout-cont'> {/*CLASS NAME*/}
@@ -31,7 +33,7 @@ const HomeScreenHome = () => {
                             <Col className='home-card-items' key={product.productId}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='home-img-wrap'>
-                                    <img className='home-card-image' src={product.lifestyleImage} alt='home_1'/>
+                                    <img className='home-card-image' src={product.images[0]} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best label-best-workout'>{product.bestSeller}</span> : null}
                                     {product.quickView !== undefined ? <span className='label-view label-view-workout'>{product.quickView}</span> : null}
                                     </div>
