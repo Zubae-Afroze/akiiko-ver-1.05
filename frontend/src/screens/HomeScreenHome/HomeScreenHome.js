@@ -6,7 +6,7 @@ import './HomeScreenHome.css';
 
 const HomeScreenHome = () => {
 
-    const handleMouseEnter = (event) => {
+    const handleMouseEnter = () => {
         console.log('Hovered On Quick View');
     }
 
