@@ -56,7 +56,7 @@ const MasterProducts = [
     {
         productId: 'WB003',
         productName: 'Bucket Bag with Drawstring',
-        lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+        lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Women/WB003/hero.jpg', 
         images:
         ['/images/p_images/Bags/Women/WB003/hero.jpg',
@@ -267,7 +267,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -317,7 +317,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -589,7 +589,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -660,7 +660,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -723,7 +723,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -983,7 +983,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -1477,7 +1477,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
