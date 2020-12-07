@@ -4,8 +4,6 @@ import HomeScreenHomeProducts from '../../assets/products/HomeScreenHomeProducts
 import { Link } from 'react-router-dom';
 import './HomeScreenHome.css';
 
-import { HoverSlideshow } from "react-hover-slideshow";
-
 const HomeScreenHome = () => {
     return (
         <div className='home-screen-component'>{/*container changed into div*/}
@@ -29,8 +27,8 @@ const HomeScreenHome = () => {
                 </Col>
                 <Col sm={7} className='workout-container'> {/*new class name changed*/}
                     <Row className='workout-card-wrapper'> {/*class name changed - homecard name changed to workout*/}
-                        {HomeScreenHomeProducts.map(product => (
-                            <Col className='home-card-items' key={product.productId}>
+                        {HomeScreenHomeProducts.map((product, index) => (
+                            <Col className='home-card-items' key={index}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='home-img-wrap'>
                                     <img className='home-card-image' src={product.images[0]} alt='home_1'/>
