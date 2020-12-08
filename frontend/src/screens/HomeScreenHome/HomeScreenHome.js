@@ -1,10 +1,15 @@
 import React from 'react';
-import { div, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import HomeScreenHomeProducts from '../../assets/products/HomeScreenHomeProducts';
 import { Link } from 'react-router-dom';
 import './HomeScreenHome.css';
 
-const HomeScreenHome = () => { 
+const HomeScreenHome = () => {
+
+    const handleMouseEnter = () => {
+        console.log('Hovered On Quick View');
+    }
+
     return (
         <div className='home-screen-component'>{/*container changed into div*/}
                <Row className='home-wrapper workout-cont'> {/*CLASS NAME*/}
@@ -27,13 +32,13 @@ const HomeScreenHome = () => {
                 </Col>
                 <Col sm={7} className='workout-container'> {/*new class name changed*/}
                     <Row className='workout-card-wrapper'> {/*class name changed - homecard name changed to workout*/}
-                        {HomeScreenHomeProducts.map(product => (
-                            <Col className='home-card-items' key={product.productId}>
+                        {HomeScreenHomeProducts.map((product, index) => (
+                            <Col className='home-card-items' key={index}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='home-img-wrap'>
-                                    <img className='home-card-image' src={product.lifestyleImage} alt='home_1'/>
+                                    <img className='home-card-image' src={product.images[0]} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best label-best-workout'>{product.bestSeller}</span> : null}
-                                    {product.quickView !== undefined ? <span className='label-view label-view-workout'>{product.quickView}</span> : null}
+                                    {product.quickView !== undefined ? <span className='label-view label-view-workout' onMouseEnter={handleMouseEnter}>{product.quickView}</span> : null}
                                     </div>
                                     <div className='home-card-title'>{product.productName}</div>
                                 <div className='home-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>

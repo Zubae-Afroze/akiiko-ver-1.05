@@ -39,6 +39,13 @@ const MasterProducts = [
                 mrpPrice: '549',
             },
             {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
+            {
                 productId: 'TD003',
                 productName: 'Workout Duffel',
                 lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
@@ -49,7 +56,7 @@ const MasterProducts = [
     {
         productId: 'WB003',
         productName: 'Bucket Bag with Drawstring',
-        lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+        lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Women/WB003/hero.jpg', 
         images:
         ['/images/p_images/Bags/Women/WB003/hero.jpg',
@@ -91,7 +98,14 @@ const MasterProducts = [
                 productName: 'Summer Tote',
                 lifestyleImage: '/images/p_images/Bags/Tote/BE002/lifestyle.jpg',
                 mrpPrice: '499',
-            }
+            },
+            {
+                productId: 'TA001',
+                productName: 'Travel Organisers',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
+                mrpPrice: '2249',
+                price: '1999'
+            },
 
         ]
     },
@@ -141,7 +155,13 @@ const MasterProducts = [
                 productName: 'Broad Storage Bags',
                 lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
                 mrpPrice: '1099',
-            }
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
+            },
         ]
     },
     {
@@ -183,6 +203,19 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
                 mrpPrice: '349'
             },
+            {
+                productId: 'BE001',
+                productName: 'Circle Bag',
+                lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
         ]
     },
     {
@@ -223,6 +256,20 @@ const MasterProducts = [
                 productName: 'Classic Wide Beach Tote',
                 lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
                 mrpPrice: '549',
+            },
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
+            {
+                productId: 'WB003',
+                productName: 'Bucket Bag with Drawstring',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
+                mrpPrice: '1300',
+                price: '1169'
             },
         ]
     },
@@ -270,7 +317,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -291,6 +338,12 @@ const MasterProducts = [
                 productName: 'Original Storage pouch',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
+            },
+            {
+                productId: 'WY005',
+                productName: 'Yoga Tote',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY005/lifestyle.jpg',
+                price: '999',
             },
         ]
     },
@@ -331,6 +384,19 @@ const MasterProducts = [
                 productName: 'Original Storage pouch',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
+            },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
+            {
+                productId: 'BE002',
+                productName: 'Summer Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE002/lifestyle.jpg',
+                mrpPrice: '499'
             },
         ]
     },
@@ -375,7 +441,18 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW001/lifestyle.jpg',
                 mrpPrice: '449'
             },
-            
+            {
+                productId: 'BE003',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+                mrpPrice: '749'
+            },
+            {
+                productId: 'SS001',
+                productName: 'Original Shopping Bag',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+                mrpPrice: '799',
+            },
         ]
     },
     {
@@ -424,6 +501,12 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
+            {
+                productId: 'SS001',
+                productName: 'Original Shopping Bag',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
+                mrpPrice: '799',
+            },
             
         ]
     },
@@ -455,6 +538,12 @@ const MasterProducts = [
                 mrpPrice: '249',
             },
             {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
+            {
                 productId: 'OL002',
                 productName: 'Daily Laptop Bag',
                 lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
@@ -466,6 +555,12 @@ const MasterProducts = [
                 productName: 'Conventional Canvas Shopper',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
                 mrpPrice: '749',
+            },
+            {
+                productId: 'SS006',
+                productName: 'The Large Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS006/lifestyle.jpg',
+                mrpPrice: '799',
             },
         ]
     },
@@ -494,7 +589,7 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
             },
@@ -515,6 +610,12 @@ const MasterProducts = [
                 productName: 'Conventional Canvas Shopper',
                 lifestyleImage: '/images/p_images/Bags/Tote/BE003/hero.jpg',
                 mrpPrice: '749'
+            },
+            {
+                productId: 'HS012',
+                productName: 'Original Storage pouch',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
+                mrpPrice: '399'
             },
         ]
     },
@@ -555,6 +656,19 @@ const MasterProducts = [
                 productName: 'Original Shopping Bag',
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
                 mrpPrice: '799',
+            },
+            {
+                productId: 'WB003',
+                productName: 'Bucket Bag with Drawstring',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
+                mrpPrice: '1300',
+                price: '1169'
+            },
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899',
             },
         ]
     },
@@ -598,6 +712,20 @@ const MasterProducts = [
                 productName: 'Bi Fold Wallet',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW001/lifestyle.jpg',
                 mrpPrice: '449'
+            },
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
+            {
+                productId: 'WB003',
+                productName: 'Bucket Bag with Drawstring',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
+                mrpPrice: '1300',
+                price: '1169'
             },
         ]
     },
@@ -702,6 +830,12 @@ const MasterProducts = [
                 productName: 'Circle Bag',
                 lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
                 mrpPrice: '849'
+            },
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899',
             },
         ]
     },
@@ -846,6 +980,25 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
                 mrpPrice: '999'
             },
+            {
+                productId: 'WB003',
+                productName: 'Bucket Bag with Drawstring',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
+                mrpPrice: '1300',
+                price: '1169'
+            },
+            {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
+            {
+                productId: 'WY004',
+                productName: 'Handy Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY004/lifestyle.jpg',
+                mrpPrice: '1449'
+            },
         ]
     },
     {
@@ -893,6 +1046,13 @@ const MasterProducts = [
                 productName: 'All Purpose Hanging Organiser',
                 lifestyleImage: '/images/p_images/Storage/Home/HS008/lifestyle.jpg',
                 price: '849'
+            },
+            {
+                productId: 'TA001',
+                productName: 'Travel Organisers',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
+                mrpPrice: '2249',
+                price: '1999'
             },
         ]
     },
@@ -942,7 +1102,13 @@ const MasterProducts = [
                 productName: 'Classic storage tray',
                 lifestyleImage: '/images/p_images/Storage/Home/HS001/lifestyle.jpg',
                 mrpPrice: '749'
-            }
+            },
+            {
+                productId: 'WY004',
+                productName: 'Handy Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY004/lifestyle.jpg',
+                mrpPrice: '1449'
+            },
         ]
     },
     {
@@ -990,6 +1156,13 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
                 mrpPrice: '899',
             },
+            {
+                productId: 'WY003',
+                productName: 'Conventional Yoga Bag',
+                lifestyleImage: '/images/p_images/Lifestyle/Workout/WY003/lifestyle.jpg',
+                mrpPrice: '1799',
+                price: '1599'
+            },
         ]
     },
     {
@@ -1033,6 +1206,18 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
                 mrpPrice: '849'
             },
+            {
+                productId: 'SS007',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+                mrpPrice: '749',
+            },
+            {
+                productId: 'HK002',
+                productName: 'Original Sandwich Bag (Pack Of 3)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
+                mrpPrice: '399',
+            },
         ]
     },
     {
@@ -1073,6 +1258,18 @@ const MasterProducts = [
                 productName: 'Original Sandwich Bag (Pack Of 3)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
+            },
+            {
+                productId: 'GB002',
+                productName: 'Multi-use Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/lifestyle.jpg',
+                price: '949'
+            },
+            {
+                productId: 'HK008',
+                productName: 'Original Cutlery Case (Pack Of 6)',
+                lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
+                mrpPrice: '649',
             },
         ]
     },
@@ -1119,6 +1316,13 @@ const MasterProducts = [
                 productName: 'Original Storage boxes (Pair Of 2)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
                 mrpPrice: '1049'
+            },
+            {
+                productId: 'TA004',
+                productName: 'Multi-purpose Pouches (Set Of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
+                mrpPrice: '999',
+                price: '899'
             },
         ]
     },
@@ -1168,6 +1372,13 @@ const MasterProducts = [
                 mrpPrice: '999',
                 price: '899'
             },
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
         ]
     },
     {
@@ -1216,6 +1427,12 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
                 mrpPrice: '1299'
             },
+            {
+                productId: 'HL008',
+                productName: 'Original Laundry Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL008/lifestyle.jpg',
+                mrpPrice: '699'
+            },
         ]
     },
     {
@@ -1260,9 +1477,15 @@ const MasterProducts = [
             {
                 productId: 'WB003',
                 productName: 'Bucket Bag with Drawstring',
-                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestlye.jpg',
+                lifestyleImage: '/images/p_images/Bags/Women/WB003/lifestyle.jpg',
                 mrpPrice: '1300',
                 price: '1169'
+            },
+            {
+                productId: 'MW002',
+                productName: 'Slim Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
+                mrpPrice: '349'
             },
         ]
     },
@@ -1312,6 +1535,12 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
             },
+            {
+                productId: 'HS002',
+                productName: 'Versatile Storage Tray (Set of 3)',
+                lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
+                mrpPrice: '1649',
+            },
         ]
     },
     {
@@ -1360,6 +1589,13 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
+            {
+                productId: 'GB003',
+                productName: 'Minimal Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/lifestyle.jpg',
+                mrpPrice: '989',
+                price: '849',
+            }
         ]
     },
     {
@@ -1407,6 +1643,13 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
                 mrpPrice: '649',
             },
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
         ]
     },
     {
@@ -1447,6 +1690,18 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
                 mrpPrice: '549',
             },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899',
+            },
         ]
     },
     {
@@ -1478,10 +1733,28 @@ const MasterProducts = [
                 mrpPrice: '349'
             },
             {
+                productId: 'HS002',
+                productName: 'Versatile Storage Tray (Set of 3)',
+                lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
+                mrpPrice: '1649',
+            },
+            {
                 productId: 'MW004',
                 productName: 'Bi Fold Wallet',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
+            },
+            {
+                productId: 'GG006',
+                productName: 'Mini Gift Bags (Pack of 3)',
+                lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
+                mrpPrice: '299'
+            },
+            {
+                productId: 'BE001',
+                productName: 'Circle Bag',
+                lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
+                mrpPrice: '849'
             },
         ]
     },
@@ -1528,6 +1801,12 @@ const MasterProducts = [
                 productName: 'Workout Duffel',
                 lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
                 mrpPrice: '1499',
+            },
+            {
+                productId: 'WB001',
+                productName: 'The Everyday Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
+                mrpPrice: '749'
             },
         ]
     },
@@ -1578,6 +1857,12 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
                 mrpPrice: '999'
             },
+            {
+                productId: 'HS002',
+                productName: 'Versatile Storage Tray (Set of 3)',
+                lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
+                mrpPrice: '1649',
+            },
         ]
     },
     {
@@ -1621,6 +1906,18 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Travel/TD001/lifestyle.jpg',
                 mrpPrice: '999'
             },
+            {
+                productId: 'HS002',
+                productName: 'Versatile Storage Tray (Set of 3)',
+                lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
+                mrpPrice: '1649',
+            },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
         ]
     },
     {
@@ -1662,6 +1959,18 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Storage/Home/HS003/lifestyle.jpg',
                 mrpPrice: '1499',
                 price: '1349'
+            },
+            {
+                productId: 'HS007',
+                productName: 'Broad Storage Bags',
+                lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
+                mrpPrice: '1099',
+            },
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                mrpPrice: '1499',
             },
         ]
     },
@@ -1712,6 +2021,12 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Women/BE001/lifestyle.jpg',
                 mrpPrice: '849'
             },
+            {
+                productId: 'PG004',
+                productName: 'Small Planters (Pack of 3)',
+                lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
+                mrpPrice: '999'
+            },
         ]
     },
     {
@@ -1747,7 +2062,25 @@ const MasterProducts = [
                 productName: 'Multi-use Gift Box',
                 lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/lifestyle.jpg',
                 price: '949'
-            }
+            },
+            {
+                productId: 'GB001',
+                productName: 'Drawstring Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB001/lifestyle.jpg',
+                mrpPrice: '999'
+            },
+            {
+                productId: 'HS001',
+                productName: 'Classic storage tray',
+                lifestyleImage: '/images/p_images/Storage/Home/HS001/lifestyle.jpg',
+                mrpPrice: '749'
+            },
+            {
+                productId: 'HS007',
+                productName: 'Broad Storage Bags',
+                lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
+                mrpPrice: '1099',
+            },
         ]
     },
     {
@@ -1796,6 +2129,13 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
                 mrpPrice: '899',
             },
+            {
+                productId: 'HL005',
+                productName: 'Laundry Hang Bag',
+                lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
+                mrpPrice: '599',
+                price: '539'
+            },
         ]
     },
     {
@@ -1836,6 +2176,20 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
                 mrpPrice: '349'
             },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
+            {
+                productId: 'SS006',
+                productName: 'The Large Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS006/lifestyle.jpg',
+                mrpPrice: '799',
+            },
+
         ]
     },
     {
@@ -1883,6 +2237,13 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Tote/SS001/lifestyle.jpg',
                 mrpPrice: '799',
             },
+            {
+                productId: 'GB003',
+                productName: 'Minimal Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/lifestyle.jpg',
+                mrpPrice: '989',
+                price: '849',
+            }
         ]
     },
     {
@@ -1924,6 +2285,19 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
                 mrpPrice: '999'
             },
+            {
+                productId: 'GW003',
+                productName: 'Message Card Holder (Pack Of 5)',
+                lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
+                mrpPrice: '249',
+            },
+            {
+                productId: 'SS007',
+                productName: 'Conventional Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
+                mrpPrice: '749',
+            },
+
         ]
     },
     {
@@ -1971,7 +2345,13 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
                 mrpPrice: '749',
                 price: '675'
-            }
+            },
+            {
+                productId: 'MW002',
+                productName: 'Slim Wallet',
+                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
+                mrpPrice: '349'
+            },
         ]
     },
     {
@@ -2022,6 +2402,19 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Bags/Tote/WB001/lifestyle.jpg',
                 mrpPrice: '749'
             },
+            {
+                productId: 'TA004',
+                productName: 'Multi-purpose Pouches (Set Of 3)',
+                lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
+                mrpPrice: '999',
+                price: '899'
+            },
+            {
+                productId: 'GB002',
+                productName: 'Multi-use Gift Box',
+                lifestyleImage: '/images/p_images/Gift/Giftbox/GB002/lifestyle.jpg',
+                price: '949'
+            },
         ]
     },
     {
@@ -2060,7 +2453,32 @@ const MasterProducts = [
                 lifestyleImage: '/images/p_images/Gift/Giftbox/GB003/lifestyle.jpg',
                 mrpPrice: '989',
                 price: '849',
-            }
+            },
+            {
+                productId: 'BE002',
+                productName: 'Summer Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE002/lifestyle.jpg',
+                mrpPrice: '499',
+            },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
+            {
+                productId: 'TD003',
+                productName: 'Workout Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
+                mrpPrice: '1499',
+            },
+            {
+                productId: 'SS003',
+                productName: 'Mini Classic Canvas Shopper (Pack of 3)',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS003/hero.jpg',
+                mrpPrice: '849'
+            },
         ]
     },
     {
@@ -2117,6 +2535,19 @@ const MasterProducts = [
                 productName: 'Workout Duffel',
                 lifestyleImage: '/images/p_images/Bags/Travel/TD003/lifestyle.jpg',
                 mrpPrice: '1499',
+            },
+            {
+                productId: 'OL002',
+                productName: 'Daily Laptop Bag',
+                lifestyleImage: '/images/p_images/Bags/Office/OL002/lifestyle.jpg',
+                mrpPrice: '899',
+                price:'809'
+            },
+            {
+                productId: 'SS002',
+                productName: 'Classic Canvas Shopper',
+                lifestyleImage: '/images/p_images/Bags/Tote/SS002/lifestyle.jpg',
+                mrpPrice: '899',
             },
         ]
     },
