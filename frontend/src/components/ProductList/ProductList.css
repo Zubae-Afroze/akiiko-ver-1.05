@@ -80,6 +80,9 @@
   text-transform: uppercase;
   word-wrap: break-word;
   font-family: 'rutan';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .product-list-card-text {
