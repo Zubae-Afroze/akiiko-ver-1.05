@@ -24,7 +24,7 @@
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  border-color: #563b2e;
+  border: solid #563b2e 1px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -52,7 +52,7 @@
   margin-top: 50px;
   color: #3a2f2d;
   font-family: 'rutan';
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer-main-text {
@@ -72,7 +72,7 @@
   margin-left: 180px;
   color: #3a2f2d;
   font-family: 'rutan';
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer-main-form {
@@ -504,8 +504,12 @@ input.footer-main-form::placeholder {
     display: none;
   }
 }
+.very-end-blyat{
+  font-size: 12px;
+  height: 7vh;
+}
 @media (max-width: 320px) {
   .very-end-blyat-list li {
-    font-size: 13px;
+    font-size: 12px;
   }
 }

@@ -1,7 +1,7 @@
 .mobile-nav-cont {
   display: none;
   background: #fff;
-  z-index: 500;
+  z-index: 90;
 }
 
 .mobile-nav-wrapper {
@@ -21,6 +21,7 @@
 
 .mobile-nav-test {
   padding-bottom: 10px;
+  margin-right: 8px;
 }
 
 .mobile-nav-test:first-child {
@@ -48,5 +49,11 @@
     left: 0;
     height: 30px;
     width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .mobile-nav-test {
+    margin-right: 14px;
   }
 }

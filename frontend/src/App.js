@@ -39,7 +39,7 @@ import MasterProducts from './assets/products/MasterProducts';
 import GiftAllProducts from './components/GiftAllProducts/GiftAllProducts';
 import StorageAllProducts from './components/StorageAllProducts/StorageAllProducts';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-
+import FooterLink from './components/FooterLink/FooterLink';
 export default class App extends Component {
   // constructor(props){
   //   super(props);
@@ -227,6 +227,8 @@ export default class App extends Component {
               {/* All Products */}
               <Route path='/product/:id' render={(props) => (<ProductDetails {...props} 
               productInfo={MasterProducts}/>)}/>
+
+              <Route path='/FooterLink/' render={() => (<FooterLink />) } />
           </Switch>
           <Footer/>
       </HashRouter>

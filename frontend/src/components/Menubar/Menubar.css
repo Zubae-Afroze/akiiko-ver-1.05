@@ -140,7 +140,7 @@
 .sticky-navbar {
   position: fixed;
   top: 0;
-  z-index: 200;
+  z-index: 91;
   margin-top: 60px;
   width: 1266px;
   background: #fff;
@@ -178,10 +178,10 @@
 @media (max-width: 1024px) {
   .sticky-navbar {
     width: 1024px;
-  } 
-.navbar-drop-hero{
-  display: none;
-}
+  }
+  .navbar-drop-hero {
+    display: none;
+  }
 }
 
 @media (max-width: 940px) {

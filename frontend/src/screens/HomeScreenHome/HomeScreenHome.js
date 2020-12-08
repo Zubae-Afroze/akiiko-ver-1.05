@@ -1,10 +1,18 @@
-import React from 'react';
-import { div, Row, Col } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import HomeScreenHomeProducts from '../../assets/products/HomeScreenHomeProducts';
 import { Link } from 'react-router-dom';
 import './HomeScreenHome.css';
 
-const HomeScreenHome = () => { 
+const HomeScreenHome = () => {
+
+    let [imageCounter, setImageCounter] = useState(0);
+    
+    const handleMouseEnter = () => {
+        console.log('Hovered On Quick View');
+        setImageCounter(imageCounter + 1)
+    }
+
     return (
         <div className='home-screen-component'>{/*container changed into div*/}
                <Row className='home-wrapper workout-cont'> {/*CLASS NAME*/}
@@ -31,12 +39,12 @@ const HomeScreenHome = () => {
                             <Col className='home-card-items' key={product.productId}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='home-img-wrap'>
-                                    <img className='home-card-image' src={product.lifestyleImage} alt='home_1'/>
+                                    <img className='home-card-image' src={/*product.quickView !== undefined ? product.images[imageCounter] : product.images[0]*/product.images[0]} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best label-best-workout'>{product.bestSeller}</span> : null}
-                                    {product.quickView !== undefined ? <span className='label-view label-view-workout'>{product.quickView}</span> : null}
+                                    {product.quickView !== undefined ? <span className='label-view label-view-workout' onMouseEnter={handleMouseEnter}>{product.quickView}</span> : null}
                                     </div>
                                     <div className='home-card-title'>{product.productName}</div>
-                                <div className='home-card-text'>View Details - {product.price !== undefined ? product.price : product.mrpPrice}</div>
+                                <div className='home-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>
                                 </div></Link>
                             </Col>
                         ))}

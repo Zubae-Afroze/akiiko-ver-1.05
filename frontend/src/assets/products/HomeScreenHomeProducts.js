@@ -1,11 +1,12 @@
 const HomeScreenHomeProducts = [
     {
         productId: 'HK002',
-        productName: 'Original Sandwich Bag (Pack Of 3)',
+        productName: 'Original Sandwich Bag \u00A0 (Pack Of 3)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK002/hero.jpg',
         images: 
-            ['/images/home_screen_home_products/HK002/1.jpg',
+            ['/images/p_images/Home/Kitchen/HK002/hero.jpg',
+            '/images/home_screen_home_products/HK002/1.jpg',
             '/images/home_screen_home_products/HK002/2.jpg',
             '/images/home_screen_home_products/HK002/3.jpg',],
         group: 'Home',
@@ -19,11 +20,12 @@ const HomeScreenHomeProducts = [
     },
     {
         productId: 'HK008',
-        productName: 'Original Cutlery Case (Pack of 6)',
+        productName: 'Original Cutlery Case \u00A0 (Pack of 6)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Kitchen/HK008/hero.jpg',
         images: 
-            ['/images/p_images/Home/Kitchen/HK008/1.jpg',
+            ['/images/p_images/Home/Kitchen/HK008/hero.jpg',
+            '/images/p_images/Home/Kitchen/HK008/1.jpg',
             '/images/p_images/Home/Kitchen/HK008/2.jpg',
             '/images/p_images/Home/Kitchen/HK008/3.jpg',],
         group: 'Home',
@@ -41,9 +43,10 @@ const HomeScreenHomeProducts = [
         productId: 'HL005',
         productName: 'Laundry Hang Bag',
         lifestyleImage: '/images/p_images/Home/Laundry/HL005/lifestyle.jpg',
-        heroImage: '/images/p_images/Home/Kitchen/HL005/hero.jpg',
+        heroImage: '/images/p_images/Home/Laundry/HL005/hero.jpg',
         images: 
-            ['/images/p_images/Home/Laundry/HL005/1.jpg',
+            ['/images/p_images/Home/Laundry/HL005/hero.jpg',
+            '/images/p_images/Home/Laundry/HL005/1.jpg',
             '/images/p_images/Home/Laundry/HL005/2.jpg',
             '/images/p_images/Home/Laundry/HL005/3.jpg',
             '/images/p_images/Home/Laundry/HL005/4.jpg',],
@@ -62,9 +65,10 @@ const HomeScreenHomeProducts = [
         productId: 'HL006',
         productName: '3 part Laundry Organiser',
         lifestyleImage: '/images/p_images/Home/Laundry/HL006/lifestyle.jpg',
-        heroImage: '/images/p_images/Home/Kitchen/HL006/hero.jpg',
+        heroImage: '/images/p_images/Home/Laundry/HL006/hero.jpg',
         images: 
-            ['/images/p_images/Home/Laundry/HL006/1.jpg',
+            ['/images/p_images/Home/Laundry/HL006/hero.jpg',
+            '/images/p_images/Home/Laundry/HL006/1.jpg',
             '/images/p_images/Home/Laundry/HL006/2.jpg',
             '/images/p_images/Home/Laundry/HL006/3.jpg',],
         group: 'Home',
@@ -83,7 +87,8 @@ const HomeScreenHomeProducts = [
         lifestyleImage: '/images/p_images/Home/Laundry/HL008/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Laundry/HL008/hero.jpg',
         images: 
-            ['/images/p_images/Home/Laundry/HL008/1.jpg',
+            ['/images/p_images/Home/Laundry/HL008/hero.jpg',
+            '/images/p_images/Home/Laundry/HL008/1.jpg',
             '/images/p_images/Home/Laundry/HL008/2.jpg',
             '/images/p_images/Home/Laundry/HL008/3.jpg',
             '/images/p_images/Home/Laundry/HL008/4.jpg',
@@ -105,7 +110,8 @@ const HomeScreenHomeProducts = [
         lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Tableware/HT002/hero.jpg',
         images: 
-            ['/images/p_images/Home/Tableware/HT002/1.jpg',
+            ['/images/p_images/Home/Tableware/HT002/hero.jpg',
+            '/images/p_images/Home/Tableware/HT002/1.jpg',
             '/images/p_images/Home/Tableware/HT002/2.jpg',
             '/images/p_images/Home/Tableware/HT002/3.jpg',
             '/images/p_images/Home/Tableware/HT002/4.jpg',],

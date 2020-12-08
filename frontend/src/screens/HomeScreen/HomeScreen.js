@@ -5,6 +5,8 @@ import HomeScreenWomen from '../HomeScreenWomen/HomeScreenWomen';
 import HomeScreenHome from '../HomeScreenHome/HomeScreenHome';
 import './HomeScreen.css';
 import HomeScreenWorkout from '../HomeScreenWorkout/HomeScreenWorkout';
+import MyComponent from 'react-fullpage-custom-loader';
+import SpinnerIcon from '../../components/Spinner/SpinnerIcon';
 
 // import UseSpinner from '../../components/Spinner/UseSpinner';
 
@@ -12,7 +14,7 @@ class HomeScreen extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            loading: null,
+            showLoader: true,
         }
     }
         // componentDidMount
@@ -36,12 +38,31 @@ class HomeScreen extends React.Component {
     //     })
     // }
 
+    componentDidMount() {
+        const timer = setTimeout(() => {
+            this.togglePageLoader()
+        }, 2000);
+        return () => clearTimeout(timer);
+    }
+
+
+    togglePageLoader = () => {
+        this.setState({showLoader: !this.state.showLoader});
+    }
+
     render () {
         return (
             <React.Fragment>
                 {/* <UseSpinner loading={this.state.loading} /> */}
+                {this.state.showLoader ? <MyComponent 
+                    sentences={[]}
+                    wrapperBackgroundColor={'rgba(255,255,255)'}
+                    color={'#6e4e37'}
+                    loaderType={'ball-spin-clockwise'}
+                    customLoader={<SpinnerIcon />}
+                /> : null}
             <Container>
-                <Row className='home-screen-container'> {/* class name added here */}
+                <Row className='home-screen-container' > {/* class name added here */}
                     <Col sm={4}>
                         <div className='hero-container'>
                             <div className='empty-div'></div>
