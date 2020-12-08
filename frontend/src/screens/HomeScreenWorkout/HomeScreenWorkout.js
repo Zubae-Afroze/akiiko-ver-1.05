@@ -16,7 +16,6 @@ const HomeScreenWorkout = () => {
                     <div className='home-text'>A thoughtful range of organisers and storage bags to compliment and increase the functionality of your home. 
                     Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy declaring. </div>
                 </Col>
-                
             </Row>
             <Row>
                 <Col sm={5}  className='hero-image-workout'>               {/* changes                      added class name*/}
@@ -38,13 +37,11 @@ const HomeScreenWorkout = () => {
                                     <div className='home-card-title'>{product.productName}</div>
                                 <div className='home-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>
                                 </div></Link>
-                                
                             </Col>
                         ))}
                     </Row>
                 </Col>
             </Row>
-
              {/* <Row className='workout-wrapper'>
                 <Col sm={3} className='workout-button-placement'>
                     <button className='workout-button'>SHOP ALL</button>
@@ -80,9 +77,7 @@ const HomeScreenWorkout = () => {
                             Shop Now
                         </button></Link>
                         </div>
-
         </div>
     )
 }
-
 export default HomeScreenWorkout
