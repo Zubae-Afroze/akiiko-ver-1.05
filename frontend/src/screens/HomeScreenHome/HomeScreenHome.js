@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import HomeScreenHomeProducts from '../../assets/products/HomeScreenHomeProducts';
 import { Link } from 'react-router-dom';
@@ -6,8 +6,11 @@ import './HomeScreenHome.css';
 
 const HomeScreenHome = () => {
 
+    let [imageCounter, setImageCounter] = useState(0);
+    
     const handleMouseEnter = () => {
         console.log('Hovered On Quick View');
+        setImageCounter(imageCounter + 1)
     }
 
     return (
@@ -32,11 +35,11 @@ const HomeScreenHome = () => {
                 </Col>
                 <Col sm={7} className='workout-container'> {/*new class name changed*/}
                     <Row className='workout-card-wrapper'> {/*class name changed - homecard name changed to workout*/}
-                        {HomeScreenHomeProducts.map((product, index) => (
-                            <Col className='home-card-items' key={index}>
+                        {HomeScreenHomeProducts.map(product => (
+                            <Col className='home-card-items' key={product.productId}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='home-img-wrap'>
-                                    <img className='home-card-image' src={product.images[0]} alt='home_1'/>
+                                    <img className='home-card-image' src={product.quickView !== undefined ? product.images[imageCounter] : product.images[0]/*product.images[0]*/} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best label-best-workout'>{product.bestSeller}</span> : null}
                                     {product.quickView !== undefined ? <span className='label-view label-view-workout' onMouseEnter={handleMouseEnter}>{product.quickView}</span> : null}
                                     </div>
