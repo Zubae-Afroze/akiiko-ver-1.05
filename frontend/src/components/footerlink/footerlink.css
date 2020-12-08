@@ -12,7 +12,7 @@
     justify-content: flex-end;
     padding-bottom: 15px;
 }
-.footer-link-image{
+.footer-link-image{ 
     display: grid;
     justify-content: center;
     text-align: center;
@@ -21,6 +21,9 @@
     width: 150px;
 }
 @media (max-width:768px){
+    .footer-link-image img{
+        margin-bottom: -15px;
+    }
     .footer-link-text{
         font-size: 14px;
         padding-bottom: 0px;

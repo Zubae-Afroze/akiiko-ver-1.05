@@ -504,8 +504,12 @@ input.footer-main-form::placeholder {
     display: none;
   }
 }
+.very-end-blyat{
+  font-size: 12px;
+  height: 7vh;
+}
 @media (max-width: 320px) {
   .very-end-blyat-list li {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
