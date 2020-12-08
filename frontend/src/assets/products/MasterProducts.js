@@ -157,10 +157,11 @@ const MasterProducts = [
                 mrpPrice: '1099',
             },
             {
-                productId: 'HS012',
-                productName: 'Original Storage pouch',
-                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
-                mrpPrice: '399'
+                productId: 'TA001',
+                productName: 'Travel Organisers',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
+                mrpPrice: '2249',
+                price: '1999'
             },
         ]
     },
