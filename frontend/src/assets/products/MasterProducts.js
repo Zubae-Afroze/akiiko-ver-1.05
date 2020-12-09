@@ -174,8 +174,7 @@ const MasterProducts = [
             ['/images/p_images/Bags/Tote/SS002/hero.jpg',
             '/images/p_images/Bags/Tote/SS002/1.jpg',
             '/images/p_images/Bags/Tote/SS002/2.jpg',
-            '/images/p_images/Bags/Tote/SS002/3.jpg',
-            '/images/p_images/Bags/Tote/SS002/4.jpg',],
+            '/images/p_images/Bags/Tote/SS002/3.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'This eco-friendly tote is wider in shape, accompanied with thin handles. This organic bag effectively holds all your shopping, and also helps segregate your shopping in an organised manner using the various sized pockets on the inside of the vegan shopping bag.',
@@ -1562,7 +1561,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '1135',
+        mrpPrice: '1049',
         price: '949',
         similarProducts: [
             {
@@ -1617,7 +1616,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '989',
+        mrpPrice: '949',
         price: '849',
         similarProducts: [
             {
@@ -2348,10 +2347,10 @@ const MasterProducts = [
                 price: '675'
             },
             {
-                productId: 'MW002',
-                productName: 'Slim Wallet',
-                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
-                mrpPrice: '349'
+                productId: 'TD002',
+                productName: 'Classic Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
+                mrpPrice: '1299'
             },
         ]
     },
