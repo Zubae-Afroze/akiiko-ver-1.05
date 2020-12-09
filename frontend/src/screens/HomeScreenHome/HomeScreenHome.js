@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import HomeScreenHomeProducts from '../../assets/products/HomeScreenHomeProducts';
 import { Link } from 'react-router-dom';

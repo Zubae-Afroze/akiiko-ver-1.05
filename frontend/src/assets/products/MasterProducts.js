@@ -1664,7 +1664,7 @@ const MasterProducts = [
             '/images/p_images/Gift/Giftbag/GG006/3.jpg',],  
         group: 'Gift',
         subGroup: 'Giftbag',
-        description: 'A smaller version of our ribboned organic fabric gift bag, this mini eco-friendly gift bag is ideal for giving precious trinkets like jewellery & charms. Adorned with fabric ribbons to secure your thoughtful gift. (Pair of 2)',
+        description: 'A smaller version of our ribboned organic fabric gift bag, this mini eco-friendly gift bag is ideal for giving precious trinkets like jewellery & charms. Adorned with fabric ribbons to secure your thoughtful gift. (Pack of 3)',
         thickness: '9 Ounce',
         measurement: 'L16cm x W16cm Medium: L13cm x W13 cm small:L11cm x W11cm',
         material: 'Cotton Canvas',
