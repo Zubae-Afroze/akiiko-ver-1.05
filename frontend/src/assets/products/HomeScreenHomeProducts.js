@@ -96,7 +96,7 @@ const HomeScreenHomeProducts = [
             '/images/p_images/Home/Laundry/HL008/3.jpg',
             '/images/p_images/Home/Laundry/HL008/4.jpg',
             '/images/p_images/Home/Laundry/HL008/5.jpg',],
-        hoverImage: '/images/hover_images/1.gif',
+        hoverImage: '/images/hover_images/3.gif',
         group: 'Home',
         subGroup: 'Laundry',
         description: 'This high quality natural fabric laundry bag suits every home. The square shape allows for easy placement and a  spacious nature. Attached to the eco-friendly bag are two sturdy handles, which can be used to conveniently carry and move the cotton laundry bag as much as you desire.',
