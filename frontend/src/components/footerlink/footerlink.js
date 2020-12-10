@@ -3,6 +3,7 @@ import { Row, Col, Container} from 'react-bootstrap';
 import './FooterLink.css';
 
 
+
 export default class FooterLink extends Component 
       {
         render()
@@ -78,7 +79,6 @@ export default class FooterLink extends Component
 
                 <Row>
                     <div className='footer-link-wrap py-4' id='eco'>
-                        <div>
                         <Col lg={4}>
                             <div className='footer-link-image'>
                             <img src={'/images/font_images/eco.svg'} alt='eco'/>
@@ -92,7 +92,6 @@ export default class FooterLink extends Component
                                 harmful to the environment.  Our eco-conscious mindset has enabled us to embed multi-utility and reusability in our designs. 
                             </div>
                         </Col>
-                        </div>  
                     </div>
                 </Row>
 
