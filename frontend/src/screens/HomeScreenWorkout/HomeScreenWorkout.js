@@ -5,6 +5,15 @@ import { Link } from 'react-router-dom';
 import './HomeScreenWorkout.css';
 
 const HomeScreenWorkout = () => {
+
+    const handleMouseEnter = (product) => {
+        document.getElementById(product.productId).src=product.hoverImage
+    }
+
+    const handleMouseOut = (product) => {
+        document.getElementById(product.productId).src=product.images[0];
+    }
+
     return (
         <div className='home-screen-component'>{/**container class changed as div*/}
             <Row className='home-wrapper workout-cont'> {/* workout cls name changes as home*/}
@@ -31,9 +40,9 @@ const HomeScreenWorkout = () => {
                             <Col className='home-card-items ' key={product.productId}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='women-img-wrap'>
-                                    <img className='home-card-image' src={product.heroImage} alt='home_1'/>
+                                    <img id={product.productId} className='home-card-image' src={product.heroImage} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best label-best-workout'>{product.bestSeller}</span> : null}
-                                    {product.quickView !== undefined ? <span className='label-view label-view-workout'>{product.quickView}</span> : null}
+                                    {product.quickView !== undefined ? <span className='label-view label-view-workout' onMouseEnter={() => {handleMouseEnter(product)}} onMouseOut={() => {handleMouseOut(product)}}>{product.quickView}</span> : null}
                                     </div>
                                     <div className='home-card-title'>{product.productName}</div>
                                 <div className='home-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>

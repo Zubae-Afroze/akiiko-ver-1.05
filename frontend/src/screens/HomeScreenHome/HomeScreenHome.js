@@ -24,8 +24,6 @@ const HomeScreenHome = () => {
     // }
 
     const handleMouseEnter = (product) => {
-        console.log(product.productId);
-
         document.getElementById(product.productId).src=product.hoverImage
 
         // if (product.productId === document.getElementById(product.productId)) {
