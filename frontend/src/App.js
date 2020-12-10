@@ -40,6 +40,8 @@ import GiftAllProducts from './components/GiftAllProducts/GiftAllProducts';
 import StorageAllProducts from './components/StorageAllProducts/StorageAllProducts';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import FooterLink from './components/FooterLink/FooterLink';
+import AboutUs from './components/AboutUs/AboutUs';
+import Careers from './components/Careers/Careers';
 export default class App extends Component {
   // constructor(props){
   //   super(props);
@@ -229,6 +231,10 @@ export default class App extends Component {
               productInfo={MasterProducts}/>)}/>
 
               <Route path='/FooterLink/' render={() => (<FooterLink />) } />
+              <Route path='/AboutUs/' render={() => (<AboutUs />) } />
+              <Route path='/Careers/' render={() => (<Careers />) } />
+
+
           </Switch>
           <Footer/>
       </HashRouter>

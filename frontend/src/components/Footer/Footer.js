@@ -74,8 +74,8 @@ export default class Footer extends Component {
                     </Row>
                     <div className='very-end-blyat'>
                         <ul className='very-end-blyat-list'>
-                            <li>ABOUT US</li>
-                            <li>CAREERS</li>
+                            <li><Link to={'/AboutUs'} >ABOUT US</Link></li>
+                            <li><Link to={'/Careers'} >CAREERS</Link></li>
                             <li>HELP</li>
                             <li>FAQs</li>
                             <li>TERMS</li>
