@@ -20,8 +20,7 @@ export default class AboutUs extends Component
                               <div className='about-description py-2'>
                                 Akiiko is an eco-friendly brand by Preciso Fashion, a company founded by Brajesh Gutgutia in 2018. With a background in 
                                 designing home decor products, he envisaged a world with a range of products that were beautiful, usable and ethical whilst 
-                                remaining true to his precise and clean designs. This is the foundation of our aesthetic and we remain
-                                 <span className='about-highlight'><Link to={'/FooterLink'}>committed to this mindset</Link></span>. You can look forward to cherishing, reusing and 
+                                remaining true to his precise and clean designs. This is the foundation of our aesthetic and we remain  <span className='about-highlight'><Link to={'/FooterLink'}>committed to this mindset</Link></span>. You can look forward to cherishing, reusing and 
                                  finding purpose in all your akiiko products.
                               </div>
                     </div>
