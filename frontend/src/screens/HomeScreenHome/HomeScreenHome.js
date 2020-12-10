@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import HomeScreenHomeProducts from '../../assets/products/HomeScreenHomeProducts';
 import { Link } from 'react-router-dom';
@@ -6,9 +6,39 @@ import './HomeScreenHome.css';
 
 const HomeScreenHome = () => {
 
-    const handleMouseEnter = () => {
-        console.log('Hovered On Quick View');
+    // let [imageCounter, setImageCounter] = useState(0);
+
+    // let interval;
+
+    // let counter = 0;
+
+    //let HomeScreenProducts = HomeScreenHomeProducts;
+    
+    // const handleMouseEnter = (product) => {
+    //     setImageCounter(1);
+    //     interval = setInterval(() => {
+    //         product.defaultImageSrc = product.images[counter % product.images.length];
+    //         console.log(HomeScreenHomeProducts)
+    //         counter++
+    //     }, 1000)
+    // }
+
+    const handleMouseEnter = (product) => {
+        document.getElementById(product.productId).src=product.hoverImage
+
+        // if (product.productId === document.getElementById(product.productId)) {
+        //     console.log('same')
+        //     document.getElementById(product.productId).attr('src', product.hoverImage)
+        // }
     }
+
+    const handleMouseOut = (product) => {
+        document.getElementById(product.productId).src=product.images[0];
+    }
+
+    useEffect(() => {
+
+    })
 
     return (
         <div className='home-screen-component'>{/*container changed into div*/}
@@ -32,13 +62,13 @@ const HomeScreenHome = () => {
                 </Col>
                 <Col sm={7} className='workout-container'> {/*new class name changed*/}
                     <Row className='workout-card-wrapper'> {/*class name changed - homecard name changed to workout*/}
-                        {HomeScreenHomeProducts.map((product, index) => (
-                            <Col className='home-card-items' key={index}>
+                        {HomeScreenHomeProducts.map(product => (
+                            <Col className='home-card-items' key={product.productId}>
                                 <Link to={`/product/${product.productId}`}><div>
                                     <div className='home-img-wrap'>
-                                    <img className='home-card-image' src={product.images[0]} alt='home_1'/>
+                                    <img id={product.productId} className='home-card-image' src={product.images[0]} alt='home_1'/>
                                     {product.bestSeller !== undefined ? <span className='label-best label-best-workout'>{product.bestSeller}</span> : null}
-                                    {product.quickView !== undefined ? <span className='label-view label-view-workout' onMouseEnter={handleMouseEnter}>{product.quickView}</span> : null}
+                                    {product.quickView !== undefined ? <span className='label-view label-view-workout' onMouseEnter={() => {handleMouseEnter(product)}} onMouseOut={() => {handleMouseOut(product)}}>{product.quickView}</span> : null}
                                     </div>
                                     <div className='home-card-title'>{product.productName}</div>
                                 <div className='home-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>

@@ -157,10 +157,11 @@ const MasterProducts = [
                 mrpPrice: '1099',
             },
             {
-                productId: 'HS012',
-                productName: 'Original Storage pouch',
-                lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
-                mrpPrice: '399'
+                productId: 'TA001',
+                productName: 'Travel Organisers',
+                lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
+                mrpPrice: '2249',
+                price: '1999'
             },
         ]
     },
@@ -173,8 +174,7 @@ const MasterProducts = [
             ['/images/p_images/Bags/Tote/SS002/hero.jpg',
             '/images/p_images/Bags/Tote/SS002/1.jpg',
             '/images/p_images/Bags/Tote/SS002/2.jpg',
-            '/images/p_images/Bags/Tote/SS002/3.jpg',
-            '/images/p_images/Bags/Tote/SS002/4.jpg',],
+            '/images/p_images/Bags/Tote/SS002/3.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
         description: 'This eco-friendly tote is wider in shape, accompanied with thin handles. This organic bag effectively holds all your shopping, and also helps segregate your shopping in an organised manner using the various sized pockets on the inside of the vegan shopping bag.',
@@ -1561,7 +1561,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '1135',
+        mrpPrice: '1049',
         price: '949',
         similarProducts: [
             {
@@ -1616,7 +1616,7 @@ const MasterProducts = [
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift box can be wiped with a wet cloth.',
-        mrpPrice: '989',
+        mrpPrice: '949',
         price: '849',
         similarProducts: [
             {
@@ -1664,7 +1664,7 @@ const MasterProducts = [
             '/images/p_images/Gift/Giftbag/GG006/3.jpg',],  
         group: 'Gift',
         subGroup: 'Giftbag',
-        description: 'A smaller version of our ribboned organic fabric gift bag, this mini eco-friendly gift bag is ideal for giving precious trinkets like jewellery & charms. Adorned with fabric ribbons to secure your thoughtful gift. (Pair of 2)',
+        description: 'A smaller version of our ribboned organic fabric gift bag, this mini eco-friendly gift bag is ideal for giving precious trinkets like jewellery & charms. Adorned with fabric ribbons to secure your thoughtful gift. (Pack of 3)',
         thickness: '9 Ounce',
         measurement: 'L16cm x W16cm Medium: L13cm x W13 cm small:L11cm x W11cm',
         material: 'Cotton Canvas',
@@ -2347,10 +2347,10 @@ const MasterProducts = [
                 price: '675'
             },
             {
-                productId: 'MW002',
-                productName: 'Slim Wallet',
-                lifestyleImage: '/images/p_images/Accessories/Wallet/MW002/lifestyle.jpg',
-                mrpPrice: '349'
+                productId: 'TD002',
+                productName: 'Classic Duffel',
+                lifestyleImage: '/images/p_images/Bags/Travel/TD002/lifestyle.jpg',
+                mrpPrice: '1299'
             },
         ]
     },

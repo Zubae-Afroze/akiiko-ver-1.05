@@ -6,7 +6,7 @@ import HomeScreenHome from '../HomeScreenHome/HomeScreenHome';
 import './HomeScreen.css';
 import HomeScreenWorkout from '../HomeScreenWorkout/HomeScreenWorkout';
 import MyComponent from 'react-fullpage-custom-loader';
-//import SpinnerIcon from '../../components/Spinner/SpinnerIcon';
+import SpinnerIcon from '../../components/Spinner/SpinnerIcon';
 
 // import UseSpinner from '../../components/Spinner/UseSpinner';
 
@@ -41,7 +41,7 @@ class HomeScreen extends React.Component {
     componentDidMount() {
         const timer = setTimeout(() => {
             this.togglePageLoader()
-        }, 1500);
+        }, 2000);
         return () => clearTimeout(timer);
     }
 
@@ -59,7 +59,7 @@ class HomeScreen extends React.Component {
                     wrapperBackgroundColor={'rgba(255,255,255)'}
                     color={'#6e4e37'}
                     loaderType={'ball-spin-clockwise'}
-                    //customLoader={<SpinnerIcon />}
+                    customLoader={<SpinnerIcon />}
                 /> : null}
             <Container>
                 <Row className='home-screen-container' > {/* class name added here */}

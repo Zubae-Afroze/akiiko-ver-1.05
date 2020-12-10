@@ -4,6 +4,15 @@ import { Link } from 'react-router-dom';
 import '../ProductList/ProductList.css';
 
 const HomeAllProducts = (props) => {
+
+    const handleMouseEnter = (product) => {
+        document.getElementById(product.productId).src=product.hoverImage
+    }
+
+    const handleMouseOut = (product) => {
+        document.getElementById(product.productId).src=product.images[0];
+    }
+
     return (
     <Container>
         <div className='product-list-wrapper'>
@@ -17,9 +26,9 @@ const HomeAllProducts = (props) => {
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <div className='product-list-image'>
                             <div>
-                            <img src={product.lifestyleImage} alt='home_1'/>
+                            <img id={product.productId} src={product.lifestyleImage} alt='home_1'/>
                             {product.bestSeller !== undefined ? <span className='pl-label-best'>{product.bestSeller}</span> : null}
-                            {product.quickView !== undefined ? <span className='pl-label-view'>{product.quickView}</span> : null}
+                            {product.quickView !== undefined ? <span className='pl-label-view' onMouseEnter={() => {handleMouseEnter(product)}} onMouseOut={() => {handleMouseOut(product)}}>{product.quickView}</span> : null}
                             </div>
                             <div className='product-list-card-title'>{product.productName}</div>
                             <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>
@@ -36,7 +45,9 @@ const HomeAllProducts = (props) => {
                 {props.kitchenProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <Link to={`/product/${product.productId}`}><div className='product-list-image'>
-                            <img src={product.lifestyleImage} alt='home_1'/>
+                            <img id={product.productId} src={product.lifestyleImage} alt='home_1'/>
+                            {product.bestSeller !== undefined ? <span className='pl-label-best'>{product.bestSeller}</span> : null}
+                            {product.quickView !== undefined ? <span className='pl-label-view' onMouseEnter={() => {handleMouseEnter(product)}} onMouseOut={() => {handleMouseOut(product)}}>{product.quickView}</span> : null}
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
                         <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div></Link>
@@ -51,7 +62,9 @@ const HomeAllProducts = (props) => {
                 {props.laundryProductDetails.map(product => (
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <Link to={`/product/${product.productId}`}><div className='product-list-image'>
-                            <img src={product.lifestyleImage} alt='home_1'/>
+                            <img id={product.productId} src={product.lifestyleImage} alt='home_1'/>
+                            {product.bestSeller !== undefined ? <span className='pl-label-best'>{product.bestSeller}</span> : null}
+                            {product.quickView !== undefined ? <span className='pl-label-view' onMouseEnter={() => {handleMouseEnter(product)}} onMouseOut={() => {handleMouseOut(product)}}>{product.quickView}</span> : null}
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
                         <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div></Link>
@@ -68,6 +81,8 @@ const HomeAllProducts = (props) => {
                     <div className='product-list-card-wrapper' key={product.productId}>
                         <div className='product-list-image'>
                             <img src={product.lifestyleImage} alt='home_1'/>
+                            {product.bestSeller !== undefined ? <span className='pl-label-best'>{product.bestSeller}</span> : null}
+                            {product.quickView !== undefined ? <span className='pl-label-view' onMouseEnter={() => {handleMouseEnter(product)}} onMouseOut={() => {handleMouseOut(product)}}>{product.quickView}</span> : null}
                         </div>
                         <div className='product-list-card-title'>{product.productName}</div>
                         <div className='product-list-card-text'>View Details - &#x20B9;{product.price !== undefined ? product.price : product.mrpPrice}</div>
