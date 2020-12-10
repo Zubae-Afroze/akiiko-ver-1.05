@@ -20,7 +20,7 @@ const HomeKitchenProducts = [
     },
     {
         productId: 'HK008',
-        productName: 'Original Cutlery Case',
+        productName: 'Original Cutlery Case (Pack of 6)',
         lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
         heroImage:'/images/p_images/Home/Kitchen/HK008/hero.jpg',
         images: 
@@ -33,7 +33,7 @@ const HomeKitchenProducts = [
         hoverImage: '/images/hover_images/HK008/1.gif',
         group: 'Home',
         subGroup: 'Kitchen',
-        description: 'Usable & handy, the elegant vegan fabric cutlery case is ideal to always keep handy. Use yours to always have in your bag or when packing lunch. Protected with a button, the simple fabric cutlery case will ensure that you can enjoy your food anywhere and anytime.',
+        description: 'Usable & convenient, the elegant vegan fabric cutlery case is ideal to always keep handy. Use yours to always have in your bag or when packing lunch. Protected with a button, the simple fabric cutlery case will ensure that you can enjoy your food anywhere and anytime.',
         mesurement: 'L7cm x W26cm',
         material: 'cotton canvas',
         color: 'natural',

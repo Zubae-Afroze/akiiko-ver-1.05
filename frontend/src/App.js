@@ -55,13 +55,13 @@ export default class App extends Component {
             {/* Home */}
             <Route path='/bags/women' render={(props) => (<ProductList {...props} 
               productListLabel={'Women'}
-              productListText={'A versatile range of  bags that are designed to for everyday functionality and effortless style. Minimal, yet classic silhouettes to compliment just about every look, this range of handbags is both purposeful and experimental.'}
+              productListText={'A versatile range of  bags that are designed for everyday functionality and effortless style. Minimal, yet classic silhouettes to compliment just about every look, this range of handbags is both purposeful and experimental.'}
               productDetails={BagWomenProducts}/>)}/>
 
             {/* Tote */}
             <Route path='/bags/tote' render={(props) => (<ProductList {...props} 
               productListLabel={'Tote Bags'}
-              productListText={'Rooted in the concept of re-purpose & re-usability, the tote is a classic silhouette that represents a bag that can do it all. Comfortable & convenient, the tote bag is an essential.'}
+              productListText={'Rooted in the concept of minimalism & re-usability, the tote is a classic silhouette that represents a bag that can do it all. Comfortable & convenient, the tote bag is an essential.'}
               productDetails={BagToteProducts}/>)}/>
 
             {/* Office */}
@@ -79,11 +79,11 @@ export default class App extends Component {
             {/* Bags View All */}
             <Route path='/bags/all_products' render={(props) => (<BagAllProducts {...props} 
               womenProductListLabel={'Women'}
-              womenProductListText={'A practical range of organic cotton laundry bags that are designed to be functional yet easy on the eyes. The fresh range of eco-friendly laundry bags are available in various shapes and sizes, additionally with handles, stands or to hang behind your door - making them an essential for every home.'}
+              womenProductListText={'A versatile range of  bags that are designed for everyday functionality and effortless style. Minimal, yet classic silhouettes to compliment just about every look, this range of handbags is both purposeful and experimental.'}
               womenProductDetails={BagWomenProducts}
 
               toteProductListLabel={'Tote Bags'}
-              toteProductListText={'Rooted in the concept of re-purpose & re-usability, the tote is a classic silhouette that represents a bag that can do it all. Comfortable & convenient, the tote bag is an essential.'}
+              toteProductListText={'Rooted in the concept of minimalism & re-usability, the tote is a classic silhouette that represents a bag that can do it all. Comfortable & convenient, the tote bag is an essential.'}
               toteProductDetails={BagToteProducts}
               
               officeProductListLabel={'Office Bags'}
@@ -117,7 +117,7 @@ export default class App extends Component {
               {/* Garden */}
               <Route path='/home/garden' render={(props) => (<ProductList {...props} 
               productListLabel={'Garden'}
-              productListText={'Like the saying, ‘Life begins the moment you start a Garden’. Our range of  plant bags & pot holders are made with fabric that is natural and plant based. The soft, breathable quality of the eco bags makes them great indoor or outdoor. They promise to be great companions for the plants you nurture with love. '}
+              productListText={'Like the saying, ‘Life begins the moment you start a garden’. Our range of plant bags & pot holders are made with fabric that is natural and plant based. The soft, breathable quality of the eco bags makes them great indoors or outdoors. They promise to be great companions for the plants you nurture with love. '}
               productDetails={HomeGardenProducts}/>)}/>
 
               {/* Home View All */}
@@ -135,7 +135,7 @@ export default class App extends Component {
               laundryProductDetails={HomeLaundryProducts}
 
               gardenProductListLabel={'Garden'}
-              gardenProductListText={'Like the saying, ‘Life begins the moment you start a Garden’. Our range of  plant bags & pot holders are made with fabric that is natural and plant based. The soft, breathable quality of the eco bags makes them great indoor or outdoor. They promise to be great companions for the plants you nurture with love.'}
+              gardenProductListText={'Like the saying, ‘Life begins the moment you start a garden’. Our range of plant bags & pot holders are made with fabric that is natural and plant based. The soft, breathable quality of the eco bags makes them great indoors or outdoors. They promise to be great companions for the plants you nurture with love.'}
               gardenProductDetails={HomeGardenProducts}
               />)}/>
 

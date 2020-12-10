@@ -101,7 +101,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA001',
-                productName: 'Travel Organisers',
+                productName: 'Travel Organisers (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
                 mrpPrice: '2249',
                 price: '1999'
@@ -123,7 +123,7 @@ const MasterProducts = [
             '/images/p_images/Bags/Tote/SS001/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
-        description: 'Use this spacious shopper for your groceries or on a daily basis,when you have a lot to haul around. A highly durable, versatile and practical bag. Two deep pockets on either side of the bag, along with broad fabric straps allow for a comfortable & easy shopping experience. The fabric of this eco-friendly bag is thick, secure & soft.',
+        description: 'Use this spacious shopper for your groceries or on a daily basis, when you have a lot to haul around. A highly durable, versatile and practical bag. Two deep pockets on either side of the bag, along with broad fabric straps allow for a comfortable & easy shopping experience. The fabric of this eco-friendly bag is thick, secure & soft.',
         thickness: '9 Ounce',
         measurement: 'L32cm x H36cm x W10cm',
         material: 'Cotton Canvas',
@@ -158,7 +158,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA001',
-                productName: 'Travel Organisers',
+                productName: 'Travel Organisers (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
                 mrpPrice: '2249',
                 price: '1999'
@@ -306,7 +306,7 @@ const MasterProducts = [
             '/images/p_images/Bags/Tote/SS006/4.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
-        description: ' This large organic fabric tote is a must-have from the shopping collection. The wide and long fabric straps make shopping light and comfortable. The deep and spacious nature of the bag fits all your shopping efficiently and keeps is secure with a zip closure. Clean & minimal, this large eco-friendly tote bag can be used for a multitude of purposes beyond shopping too.',
+        description: ' This large organic fabric tote is a must-have from the shopping collection. The wide and long fabric straps make shopping light and comfortable. The deep and spacious nature of the bag fits all your shopping efficiently and keeps it secure with a zip closure. Clean & minimal, this large eco-friendly tote bag can be used for a multitude of purposes beyond shopping too.',
         thickness: '9 Ounce',
         measurement: 'L34cm x W9cm x H38cm',
         material: 'Cotton Canvas',
@@ -364,14 +364,14 @@ const MasterProducts = [
         measurement: 'L38.5cm x W9cm x H39.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Conventional Canvas Shopper  can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This canvas shopper can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '749',
         similarProducts: [
             {
                 productId: 'BE003',
-                productName: 'Conventional Canvas Shopper',
-                lifestyleImage: '/images/p_images/Bags/Tote/SS007/hero.jpg',
-                mrpPrice: '749'
+                productName: 'Classic Wide Beach Tote',
+                lifestyleImage: '/images/p_images/Bags/Tote/BE003/lifestyle.jpg',
+                mrpPrice: '549',
             },
             {
                 productId: 'SS002',
@@ -414,7 +414,7 @@ const MasterProducts = [
             '/images/p_images/Bags/Tote/SS008/5.jpg',],
         group: 'Bag',
         subGroup: 'Tote',
-        description: 'This long handled shopping bag, allows you to do more than just shop. Multipurpose & eco-friendly, the strap can be used to hang the bag from your shoulder or to wear it crossbody. Multiple pockets of various sizes, ensure that you will never run out of space. ',
+        description: 'This long handled shopping bag, allows you to do more than just shop. Multipurpose & eco-friendly, the strap can be used to hang the bag from your shoulder or to wear it crossbody. Multiple pockets of various sizes ensure that you will never run out of space. ',
         thickness: '9 Ounce',
         measurement: 'L34.5cm x W10cm xH35.5cm',
         material: 'Cotton Canvas',
@@ -533,7 +533,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
@@ -580,7 +580,7 @@ const MasterProducts = [
         subGroup: 'Tote',
         description: 'A spacious, convenient and effortlessly stylish tote bag designed especially for the beach. An essential for summer days, the beach bag is airy & light, accompanied with an attached pouch. The neutral colour tone compliments every look and is 100% eco-friendly.',
         thickness: '9 Ounce',
-        measurement: 'L37.5cm x W35.5cm  , Pouch- L15cm x W10cm',
+        measurement: 'L37.5cm x W35.5cm, Pouch- L15cm x W10cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This summer tote  can be hand washed or machine washed in normal water with a gentle detergent.',
@@ -691,7 +691,7 @@ const MasterProducts = [
         measurement: 'L38cm x W9cm x H32cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: '"This office bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This office bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '899',
         price: '809',
         similarProducts: [
@@ -703,7 +703,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Bi Fold Wallet',
+                productName: 'Passport Cover (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -742,7 +742,7 @@ const MasterProducts = [
             '/images/p_images/Bags/Travel/TD001/4.jpg',],
         group: 'Bag',
         subGroup: 'Travel',
-        description: ' Eco-friendly & stylish, this vegan fabric duffel bag makes for a perfect travel companion. Designed with both short handles and a long strap, you can carry the bag as you wish and with ease. This organic fabric duffel bag can also be used on a daily, for short trips, weekend getaways or to carry as a cabin bag when flying.',
+        description: 'Eco-friendly & functional, this vegan fabric duffel bag makes for a perfect travel companion. Designed with both broad handles and a back strap, this bag can be carried easily and also conveniently placed on your suitcase trolly. This organic duffel bag makes for an easy, light & comfortable journey',
         thickness: '9 Ounce',
         measurement: 'L42 cm x W18 cm x H35 cm',
         material: 'Cotton Canvas',
@@ -758,7 +758,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
@@ -801,20 +801,20 @@ const MasterProducts = [
         measurement: 'L43cm x W10cm x H26.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: ' This clasic duffel can be hand washed or machine washed in normal water with a gentle detergent',
+        washingCare: ' This classic duffel can be hand washed or machine washed in normal water with a gentle detergent',
         mrpPrice: '1449',
         price: '1299',
         similarProducts: [
             {
                 productId: 'TA001',
-                productName: 'Travel Organisers',
+                productName: 'Travel Organisers (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
                 mrpPrice: '2249',
                 price: '1999'
             },
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
@@ -853,7 +853,7 @@ const MasterProducts = [
             '/images/p_images/Bags/Travel/TD003/5.jpg',],
         group: 'Bag',
         subGroup: 'Travel',
-        description: 'Functional yet minimal, this vegan fabric small duffel bag makes for a perfect gym/travel companion. Designed with broad handles, spacious pockets, the eco-friendly duffel bag is structured to retain its shape. This organic fabric duffel bag can be used for short trips, weekend getaways or as a carry as a cabin bag when flying. ',
+        description: 'Functional yet minimal, this vegan fabric small duffel bag makes for a perfect gym/travel companion. Designed with broad handles, spacious pockets, the eco-friendly duffel bag is structured to retain its shape. This organic fabric duffel bag can be used for short trips, weekend getaways or to carry as a cabin bag when flying. ',
         thickness: '9 Ounce',
         measurement: 'L40cm x W21.5cm x H24.5cm',
         material: 'Cotton Canvas',
@@ -863,7 +863,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'TA003',
-                productName: 'Accessory Pouches (Pack of 3)',
+                productName: 'Accessory Pouches \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
                 mrpPrice: '1249'
             },
@@ -888,7 +888,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Bi Fold Wallet',
+                productName: 'Passport Cover (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -909,7 +909,7 @@ const MasterProducts = [
         subGroup: 'Tableware',
         description: 'A set of 3 organic fabric bread baskets to adorn your tables. Use the beige toned natural fabric bags to serve bread, dried fruits, nuts, granola and more. Vegan & ethical, these utility bags will complement your table and allow your food to remain fresh.',
         thickness: '9 Ounce',
-        measurement: 'SMALL- L13cm x W11cm x H9.5cm , BIG-L15.5cm x W20.5cm x H9.5cm',
+        measurement: 'Small- L13cm x W11cm x H9.5cm , Large- L15.5cm x W20.5cm x H9.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'The organic bread baskets can be hand washed or machine washed in normal water with a gentle detergent.',
@@ -917,7 +917,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'HK008',
-                productName: 'Original Cutlery Case (Pack Of 6)',
+                productName: 'Original Cutlery Case \u00A0\u00A0 (Pack Of 6)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
                 mrpPrice: '649',
             },
@@ -929,13 +929,13 @@ const MasterProducts = [
             },
             {
                 productId: 'HS010',
-                productName: 'Original Storage boxes (Pair Of 2)',
+                productName: 'Original Storage boxes \u00A0\u00A0 (Set Of 2)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
                 mrpPrice: '1049'
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
@@ -960,7 +960,7 @@ const MasterProducts = [
             '/images/p_images/Home/Kitchen/HK002/3.jpg',],
         group: 'Home',
         subGroup: 'Kitchen',
-        description: 'Minimal & elegant mini square shaped lunch bag. Ideal for sandwiches, breads & flatbreads. The square shaped organic fabric sandwich bag is eye-catching & practical. The breathable eco bag promises freshness.',
+        description: 'Minimal & elegant mini square shaped lunch bags. Ideal for sandwiches, breads & flatbreads. The square shaped organic fabric sandwich bags are eye-catching & practical. The breathable eco bags promise freshness.',
         thickness: '9 Ounce',
         measurement: 'L18cm x W20cm',
         material: 'Cotton Canvas',
@@ -970,7 +970,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'HK008',
-                productName: 'Original Cutlery Case (Pack Of 6)',
+                productName: 'Original Cutlery Case \u00A0\u00A0 (Pack Of 6)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
                 mrpPrice: '649',
             },
@@ -1013,7 +1013,7 @@ const MasterProducts = [
             '/images/p_images/Home/Kitchen/HK008/3.jpg',],
         group: 'Home',
         subGroup: 'Kitchen',
-        description: 'Usable & handy, the elegant vegan fabric cutlery case is ideal to always keep handy. Use yours to always have in your bag or when packing lunch. Protected with a button, the simple fabric cutlery case will ensure that you can enjoy your food anywhere and anytime.',
+        description: 'Usable & convenient, the elegant vegan fabric cutlery case is ideal to always keep handy. Use yours to always have in your bag or when packing lunch. Protected with a button, the simple fabric cutlery case will ensure that you can enjoy your food anywhere and anytime.',
         thickness: '9 Ounce',
         measurement: 'L26cm x W7cm',
         material: 'Cotton Canvas',
@@ -1029,7 +1029,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
@@ -1049,7 +1049,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA001',
-                productName: 'Travel Organisers',
+                productName: 'Travel Organisers (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
                 mrpPrice: '2249',
                 price: '1999'
@@ -1069,12 +1069,12 @@ const MasterProducts = [
             '/images/p_images/Home/Laundry/HL005/4.jpg',],
         group: 'Home',
         subGroup: 'Laundry',
-        description: 'Stay organised and sustainable with the eco-friendly wall hanging laundry bags. A great fit for any laundry room, bathroom, wardrobe or a shared space. Sort your laundry effectively, with these cotton bags that are laminated from the inside, preserving quality and maintaining freshness.',
+        description: 'Stay organised and sustainable with the eco-friendly wall hanging laundry bag. A great fit for any laundry room, bathroom, wardrobe or a shared space. Sort your laundry effectively, with these cotton bags that are laminated from the inside, preserving quality and maintaining freshness.',
         thickness: '9 Ounce',
         measurement: 'L37cm x W10cm x H46.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This laundry bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '599',
         price: '539',
         similarProducts: [
@@ -1093,7 +1093,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA003',
-                productName: 'Accessory Pouches (Pack of 3)',
+                productName: 'Accessory Pouches \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
                 mrpPrice: '1249'
             },
@@ -1122,12 +1122,12 @@ const MasterProducts = [
             '/images/p_images/Home/Laundry/HL006/2.jpg',],
         group: 'Home',
         subGroup: 'Laundry',
-        description: 'Eco-friendly and natural, the hanging laundry bag is as unique as it is functional. Use yours to hang behind any door and easily sort your laundry. Organise your laundry by when they need to washed or how they need to washed, in a truly ethical fashion.',
+        description: 'Eco-friendly and natural, the hanging laundry bag is as unique as it is functional. Use yours to hang behind any door and easily sort your laundry. Organise your laundry by when it needs to be washed or how it needs to be washed, in a truly ethical fashion.',
         thickness: '9 Ounce',
         measurement: 'L46cm x W8cm x H89cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This laundry bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1199',
         price: '1079',
         similarProducts: [
@@ -1139,13 +1139,13 @@ const MasterProducts = [
             },
             {
                 productId: 'HK002',
-                productName: 'Original Sandwich Bag (Pack Of 3)',
+                productName: 'Original Sandwich Bag \u00A0 (Pack Of 3)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
             },
             {
                 productId: 'TA001',
-                productName: 'Travel Organisers',
+                productName: 'Travel Organisers (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
                 mrpPrice: '2249',
                 price: '1999'
@@ -1184,7 +1184,7 @@ const MasterProducts = [
         measurement: 'L34.5cm x W24.5cm x H53cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This laundary can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This laundry bag can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '699',
         similarProducts: [
             {
@@ -1214,7 +1214,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HK002',
-                productName: 'Original Sandwich Bag (Pack Of 3)',
+                productName: 'Original Sandwich Bag \u00A0 (Pack Of 3)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
             },
@@ -1222,7 +1222,7 @@ const MasterProducts = [
     },
     {
         productId: 'PG004',
-        productName: 'Small Planters (Pack of 3)',
+        productName: 'Small Planters \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 (Pack of 3)',
         lifestyleImage: '/images/p_images/Home/Garden/PG004/lifestyle.jpg',
         heroImage: '/images/p_images/Home/Garden/PG004/hero.jpg', 
         images: 
@@ -1237,7 +1237,7 @@ const MasterProducts = [
         measurement: 'L12.5cm x W11.5cm x H9cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Planters can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'These planters can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '999',
         similarProducts: [
             {
@@ -1255,7 +1255,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HK002',
-                productName: 'Original Sandwich Bag (Pack Of 3)',
+                productName: 'Original Sandwich Bag \u00A0\u00A0 (Pack Of 3)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
             },
@@ -1267,7 +1267,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HK008',
-                productName: 'Original Cutlery Case (Pack Of 6)',
+                productName: 'Original Cutlery Case \u00A0\u00A0 (Pack Of 6)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
                 mrpPrice: '649',
             },
@@ -1301,7 +1301,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA003',
-                productName: 'Accessory Pouches (Pack of 3)',
+                productName: 'Accessory Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
                 mrpPrice: '1249'
             },
@@ -1313,7 +1313,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS010',
-                productName: 'Original Storage boxes (Pair Of 2)',
+                productName: 'Original Storage boxes (Set Of 2)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
                 mrpPrice: '1049'
             },
@@ -1416,7 +1416,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA001',
-                productName: 'Travel Organisers',
+                productName: 'Travel Organisers (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
                 mrpPrice: '2249',
                 price: '1999'
@@ -1585,7 +1585,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Bi Fold Wallet',
+                productName: 'Passport Cover (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1740,7 +1740,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Bi Fold Wallet',
+                productName: 'Passport Cover (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1812,7 +1812,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA003',
-        productName: 'Accessory Pouches (Pack of 3)',
+        productName: 'Accessory Pouches (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA003/hero.jpg', 
         images: 
@@ -1834,7 +1834,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'MW004',
-                productName: 'Bi Fold Wallet',
+                productName: 'Passport Cover (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1896,7 +1896,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Bi Fold Wallet',
+                productName: 'Passport Cover (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -2112,7 +2112,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA003',
-                productName: 'Accessory Pouches (Pack of 3)',
+                productName: 'Accessory Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
                 mrpPrice: '1249'
             },
@@ -2194,7 +2194,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS010',
-        productName: 'Original Storage boxes (Pair Of 2)',
+        productName: 'Original Storage boxes (Set Of 2)',
         lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg', 
         images: 
@@ -2302,7 +2302,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA001',
-        productName: 'Travel Organisers',
+        productName: 'Travel Organisers (Set of 3)',
         lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
         heroImage: '/images/p_images/Accessories/OnTheGo/TA001/hero.jpg', 
         images: 
@@ -2329,7 +2329,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Bi Fold Wallet',
+                productName: 'Passport Cover (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -2501,7 +2501,7 @@ const MasterProducts = [
     },
     {
         productId: 'MW004',
-        productName: 'Passport Cover',
+        productName: 'Passport Cover (Pack of 2)',
         lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
         heroImage: '/images/p_images/Accessories/Wallet/MW004/hero.jpg', 
         images: 
