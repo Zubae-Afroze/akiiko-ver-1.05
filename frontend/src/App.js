@@ -41,8 +41,7 @@ import StorageAllProducts from './components/StorageAllProducts/StorageAllProduc
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import AboutUs from './components/AboutUs/AboutUs';
 import Careers from './components/Careers/Careers';
-
-import FooterLink from './components/FooterLink/footerlink'
+import FooterLinks from './components/FooterLinks/FooterLinks'
 export default class App extends Component {
   // constructor(props){
   //   super(props);  
@@ -231,7 +230,7 @@ export default class App extends Component {
               <Route path='/product/:id' render={(props) => (<ProductDetails {...props} 
               productInfo={MasterProducts}/>)}/>
 
-              <Route path='/FooterLink/' render={() => (<FooterLink />) } />
+              <Route path='/FooterLinks' render={() => (<FooterLinks/>)} />
               <Route path='/AboutUs/' render={() => (<AboutUs />) } />
               <Route path='/Careers/' render={() => (<Careers />) } />
 
