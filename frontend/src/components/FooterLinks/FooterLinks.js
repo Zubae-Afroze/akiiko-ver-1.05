@@ -61,7 +61,7 @@ export default class FooterLinks extends Component
                     <Row>
                         <div className='footer-link-wrap footer-link-wrap-two py-4' id='no_plastic'>
                             <Col lg={8} className='footer-link-text'>
-                            <div className='footer-link-text'>
+                            <div className='footer-link-text' id={'no_plastic'}>
                             Plastic is a material that cannot biodegrade. We stay true to our 
                                 green living mindset by avoiding the use of plastic in all our products 
                                 and packaging.
