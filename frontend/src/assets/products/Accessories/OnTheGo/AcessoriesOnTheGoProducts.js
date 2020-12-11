@@ -21,7 +21,7 @@ const AccessoriesOnTheGoProduct = [
     },
     {
         productId: 'TA001',
-        productName: 'Travel Organisers (Pack of 3)',
+        productName: 'Travel Organisers (Set of 3)',
         lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
         heroImage:'/images/p_images/Accessories/OnTheGo/TA001/hero.jpg',
         images: 

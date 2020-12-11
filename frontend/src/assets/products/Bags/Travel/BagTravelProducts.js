@@ -1,7 +1,7 @@
 const BagTravelProducts = [
     {
         productId: 'TD001',
-        productName: 'Orignal Travel Carry On',
+        productName: 'Original Travel Carry On',
         lifestyleImage: '/images/p_images/Bags/Travel/TD001/lifestyle.jpg',
         heroImage: '/images/p_images/Bags/Travel/TD001/hero.jpg',
         images: 
