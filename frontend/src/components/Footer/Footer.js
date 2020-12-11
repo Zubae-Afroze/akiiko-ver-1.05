@@ -18,9 +18,9 @@ export default class Footer extends Component {
                             Akiiko is an eco-friendly brand. We design a wide range of natural fabric utility products for everyday use. We value the power of functionality and design to find joy in simplicity. 
                             </div>
                             <div className='footer-brand-button'>
-                                <button className='footer-button'>
+                               <Link to={'/AboutUs'} ><button className='footer-button' >
                                     Read more
-                                </button>
+                                </button></Link>
                             </div>
                         </Col>
                         <Col sm={7} className='font-wrapper footer-brand-section-two'>  {/* class name is given to adjust the width of the container*/}
@@ -31,7 +31,7 @@ export default class Footer extends Component {
                         </Row >
                         <Row className='footer-image-row'>
                             <Col className='footer-image-col-4 col-sm-4 footer-icons' sm><div><Link to={'/FooterLinks/#eco'}><img src={'/images/font_images/eco.svg'} alt='natural'/></Link></div>ECO FRIENDLY</Col>
-                            <Col className='footer-image-col-5 col-sm-4 footer-icons' sm><div><Link to={'/FooterLinks/#noanimal'}><img src={'/images/font_images/no_animal.svg'} alt='natural'/></Link></div>NO ANIMAL SKIN</Col>
+                            <Col className='footer-image-col-5 col-sm-4 footer-icons' sm><div><Link to={'/FooterLinks/#no_animal'}><img src={'/images/font_images/no_animal.svg'} alt='natural'/></Link></div>NO ANIMAL SKIN</Col>
                             <Col className='footer-image-col-6 col-sm-4 footer-icons' sm><div><Link to={'/FooterLinks/#no_plastic'}><img src={'/images/font_images/no_plastic.svg'} alt='natural'/></Link></div>NO PLASTIC</Col>
                         </Row>
                         </Col>
