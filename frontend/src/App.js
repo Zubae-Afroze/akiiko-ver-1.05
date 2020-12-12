@@ -150,7 +150,7 @@ export default class App extends Component {
               {/* Gift Box */}
               <Route path='/gift/giftbox' render={(props) => (<ProductList {...props} 
               productListLabel={'Gift Box'}
-              productListText={'Inspired by the classic shape of the gift box, are range of eco-friendly gift boxes are unique in their simplicity. Do away with wasteful practises as you gift your loved ones with reusable gift boxes that will carry your gift but are also gifts in themselves.'}
+              productListText={'Inspired by the classic shape of the gift box, our range of eco-friendly gift boxes are unique in their simplicity. Do away with wasteful practises as you gift your loved ones with reusable gift boxes that will carry your gift but are also gifts in themselves.'}
               productDetails={GiftGiftBox}/>)}/>
 
               {/* Giftbag */}
@@ -168,7 +168,7 @@ export default class App extends Component {
               {/* Gift View All */}
               <Route path='/gift/all_products' render={(props) => (<GiftAllProducts {...props} 
               giftboxProductListLabel={'Gift Box'}
-              giftboxProductListText={'Inspired by the classic shape of the gift box, are range of eco-friendly gift boxes are unique in their simplicity. Do away with wasteful practises as you gift your loved ones with reusable gift boxes that will carry your gift but are also gifts in themselves.'}
+              giftboxProductListText={'Inspired by the classic shape of the gift box, our range of eco-friendly gift boxes are unique in their simplicity. Do away with wasteful practises as you gift your loved ones with reusable gift boxes that will carry your gift but are also gifts in themselves.'}
               giftboxProductDetails={GiftGiftBox}
 
               giftbagProductListLabel={'Gift Bag'}

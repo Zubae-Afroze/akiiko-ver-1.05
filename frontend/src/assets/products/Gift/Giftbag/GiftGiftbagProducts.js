@@ -1,7 +1,7 @@
 const GiftGiftboxProducts = [
     {
         productId: 'GG006',
-        productName: 'Mini Gift Bags (Pack of 3)',
+        productName: 'Mini Gift Bags \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 (Set of 3)',
         lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg',
         images: 
@@ -19,7 +19,7 @@ const GiftGiftboxProducts = [
     },
     {
         productId: 'GW006',
-        productName: 'Drawstring Gift Pouches (Pair of 2)',
+        productName: 'Drawstring Gift Pouches (Set of 2)',
         lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbag/GW006/hero.jpg', 
         images: 

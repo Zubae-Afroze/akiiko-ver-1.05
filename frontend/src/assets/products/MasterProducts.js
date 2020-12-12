@@ -770,13 +770,13 @@ const MasterProducts = [
             },
             {
                 productId: 'GG006',
-                productName: 'Mini Gift Bags (Pack of 3)',
+                productName: 'Mini Gift Bags (Set of 3)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
                 mrpPrice: '299'
             },
             {
                 productId: 'GW006',
-                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                productName: 'Drawstring Gift Pouches (Set of 2)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
                 mrpPrice: '749',
                 price: '675'
@@ -941,7 +941,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GW006',
-                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                productName: 'Drawstring Gift Pouches (Set of 2)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
                 mrpPrice: '749',
                 price: '675'
@@ -1086,7 +1086,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GW006',
-                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                productName: 'Drawstring Gift Pouches (Set of 2)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
                 mrpPrice: '749',
                 price: '675'
@@ -1284,7 +1284,7 @@ const MasterProducts = [
             '/images/p_images/Lifestyle/Workout/WY003/2.jpg',],
         group: 'Lifestyle',
         subGroup: 'Workout',
-        description: 'Natural fabric Yoga Bag made from 100% natural & eco-friendly fibres. The ethical fabric yoga bag allows for breathability, efficiency & style. The neutral tones of the natural fabric yoga bag help it blend easily in any space.',
+        description: 'This natural fabric yoga bag is made from 100% natural & eco-friendly fibres. The ethical fabric yoga bag allows for breathability, efficiency & style. The neutral tones of the natural fabric yoga bag help it blend easily in any space.',
         thickness: '9 Ounce',
         measurement: 'D15.5cm x H70cm',
         material: 'Cotton Canvas',
@@ -1301,25 +1301,25 @@ const MasterProducts = [
             },
             {
                 productId: 'TA003',
-                productName: 'Accessory Pouches (Set of 3)',
+                productName: 'Accessory Pouches \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
                 mrpPrice: '1249'
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
             {
                 productId: 'HS010',
-                productName: 'Original Storage boxes (Set Of 2)',
+                productName: 'Original Storage boxes \u00A0\u00A0 (Set Of 2)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
                 mrpPrice: '1049'
             },
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
@@ -1339,7 +1339,7 @@ const MasterProducts = [
             '/images/p_images/Lifestyle/Workout/WY004/4.jpg',],
         group: 'Lifestyle',
         subGroup: 'Workout',
-        description: 'Usable & high quality Yoga Bag made from 100% natural eco-friendly fibres. This organic Yoga bag has 2 pockets on the outside, protected by a zip. Increasing the functionality of the yoga bag, as you can comfortably store all your workout essentials. Handy with a broad fabric strap, the cotton yoga bag can be carried with ease & convenience.',
+        description: 'Usable & high quality yoga bag made from 100% natural eco-friendly fibres. This organic yoga bag has 2 pockets on the outside, protected by a zip, thus increasing the functionality of the yoga bag as you can comfortably store all your workout essentials. Handy with a broad fabric strap, the cotton yoga bag can be carried with ease & convenience.',
         thickness: '9 Ounce',
         measurement: 'D15.5cm x H77.5cm',
         material: 'Cotton Canvas',
@@ -1367,7 +1367,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0\u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
@@ -1410,7 +1410,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS002',
-                productName: 'Versatile Storage Tray (Set of 3)',
+                productName: 'Versatile Storage Tray \u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
                 mrpPrice: '1649',
             },
@@ -1458,7 +1458,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'HK008',
-                productName: 'Original Cutlery Case (Pack Of 6)',
+                productName: 'Original Cutlery Case \u00A0\u00A0 (Pack Of 6)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
                 mrpPrice: '649',
             },
@@ -1470,7 +1470,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HK002',
-                productName: 'Original Sandwich Bag (Pack Of 3)',
+                productName: 'Original Sandwich Bag \u00A0\u00A0\u00A0 (Pack Of 3)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
             },
@@ -1502,7 +1502,7 @@ const MasterProducts = [
             '/images/p_images/Gift/Giftbox/GB001/4.jpg',],
         group: 'Gift',
         subGroup: 'Giftbox',
-        description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it a perfect to hold your gift & act as a gift in itself.  It has 2 strings made up of natural fabric and  tied up as a drawstring.',
+        description: 'This elegant eco-friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it perfect to hold your gift & act as a gift in itself.  It has 2 strings made up of natural fabric and  tied up as a drawstring.',
         thickness: '9 Ounce',
         measurement: 'L24cm x W20.5cm x H29.5cm',
         material: 'Cotton Canvas',
@@ -1518,26 +1518,26 @@ const MasterProducts = [
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
             {
                 productId: 'GW006',
-                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                productName: 'Drawstring Gift Pouches (Set of 2)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
                 mrpPrice: '749',
                 price: '675'
             },
             {
                 productId: 'HK002',
-                productName: 'Original Sandwich Bag (Pack Of 3)',
+                productName: 'Original Sandwich Bag \u00A0\u00A0\u00A0 (Pack Of 3)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
             },
             {
                 productId: 'HS002',
-                productName: 'Versatile Storage Tray (Set of 3)',
+                productName: 'Versatile Storage Tray \u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
                 mrpPrice: '1649',
             },
@@ -1555,7 +1555,7 @@ const MasterProducts = [
             '/images/p_images/Gift/Giftbox/GB002/3.jpg',],
         group: 'Gift',
         subGroup: 'Giftbox',
-        description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable.  It a perfect to hold your gift & act as a gift in itself. ',
+        description: 'This elegant eco-friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable. It is perfect to hold your gift & acts as a gift in itself. ',
         thickness: '9 Ounce',
         measurement: 'L24cm x W20.5cm x H8.5cm',
         material: 'Cotton Canvas',
@@ -1566,7 +1566,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
@@ -1610,7 +1610,7 @@ const MasterProducts = [
             '/images/p_images/Gift/Giftbox/GB003/3.jpg',],
         group: 'Gift',
         subGroup: 'Giftbox',
-        description: 'This elegant eco- friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it a perfect to hold your gift & act as a gift in itself. ',
+        description: 'This elegant eco-friendly gift box is made of organic cotton. Designed in the shape & style of a classic gift box, the structured fabric gift box is reusable and zero waste making it perfect to hold your gift & act as a gift in itself. ',
         thickness: '9 Ounce',
         measurement: 'L24cm x W20.5cm x H8.5cm',
         material: 'Cotton Canvas',
@@ -1633,13 +1633,13 @@ const MasterProducts = [
             },
             {
                 productId: 'HK002',
-                productName: 'Original Sandwich Bag (Pack Of 3)',
+                productName: 'Original Sandwich Bag \u00A0\u00A0\u00A0 (Pack Of 3)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK002/lifestyle.jpg',
                 mrpPrice: '399',
             },
             {
                 productId: 'HK008',
-                productName: 'Original Cutlery Case (Pack Of 6)',
+                productName: 'Original Cutlery Case \u00A0\u00A0\u00A0 (Pack Of 6)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
                 mrpPrice: '649',
             },
@@ -1654,7 +1654,7 @@ const MasterProducts = [
     },
     {
         productId: 'GG006',
-        productName: 'Mini Gift Bags (Pack of 3)',
+        productName: 'Mini Gift Bags (Set of 3)',
         lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbag/GG006/hero.jpg', 
         images: 
@@ -1664,12 +1664,12 @@ const MasterProducts = [
             '/images/p_images/Gift/Giftbag/GG006/3.jpg',],  
         group: 'Gift',
         subGroup: 'Giftbag',
-        description: 'A smaller version of our ribboned organic fabric gift bag, this mini eco-friendly gift bag is ideal for giving precious trinkets like jewellery & charms. Adorned with fabric ribbons to secure your thoughtful gift. (Pack of 3)',
+        description: 'A smaller version of our ribboned organic fabric gift bag, these mini eco-friendly gift bags are ideal for giving precious trinkets like jewelery & charms. Adorned with fabric ribbons to secure your thoughtful gift.',
         thickness: '9 Ounce',
-        measurement: 'L16cm x W16cm Medium: L13cm x W13 cm small:L11cm x W11cm',
+        measurement: 'Large: L16cm x W16cm, Medium: L13cm x W13 cm, Small:L11cm x W11cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This small bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'These small bags can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '299',
         similarProducts: [
             {
@@ -1692,7 +1692,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
@@ -1706,7 +1706,7 @@ const MasterProducts = [
     },
     {
         productId: 'GW006',
-        productName: 'Drawstring Gift Pouches (Pair of 2)',
+        productName: 'Drawstring Gift Pouches (Set of 2)',
         lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
         heroImage: '/images/p_images/Gift/Giftbag/GW006/hero.jpg', 
         images: 
@@ -1717,9 +1717,9 @@ const MasterProducts = [
             '/images/p_images/Gift/Giftbag/GW006/4.jpg',],
         group: 'Gift',
         subGroup: 'Giftbag',
-        description: '100% eco friendly fabric drawstring gift bag, especially designed to hold circular objects. The organic gift bag comes with an eco-friendly fibre drawstring. Available in a Pair of 2, to suit every gift.',
+        description: '100% eco-friendly fabric drawstring gift bags, especially designed to hold circular objects. The organic gift bags come with an eco-friendly fibre drawstring. Available in a set of 2, to suit every gift.',
         thickness: '9 Ounce',
-        measurement: 'BIG-L30cm x D15.5 cm SMALL-L21.5cm x D15.5cm',
+        measurement: 'Large: L30cm x D15.5cm, Small: 21.5cm x D15.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This gift pouch can be hand washed or machine washed in normal water with a gentle detergent.',
@@ -1734,7 +1734,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS002',
-                productName: 'Versatile Storage Tray (Set of 3)',
+                productName: 'Versatile Storage Tray \u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
                 mrpPrice: '1649',
             },
@@ -1746,7 +1746,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GG006',
-                productName: 'Mini Gift Bags (Pack of 3)',
+                productName: 'Mini Gift Bags (Set of 3)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
                 mrpPrice: '299'
             },
@@ -2052,7 +2052,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'GW006',
-                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                productName: 'Drawstring Gift Pouches (Set of 2)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
                 mrpPrice: '749',
                 price: '675'
@@ -2160,7 +2160,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'GG006',
-                productName: 'Mini Gift Bags (Pack of 3)',
+                productName: 'Mini Gift Bags (Set of 3)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
                 mrpPrice: '299'
             },
@@ -2341,7 +2341,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GW006',
-                productName: 'Drawstring Gift Pouches (Pair of 2)',
+                productName: 'Drawstring Gift Pouches (Set of 2)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GW006/lifestyle.jpg',
                 mrpPrice: '749',
                 price: '675'
@@ -2526,7 +2526,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GG006',
-                productName: 'Mini Gift Bags (Pack of 3)',
+                productName: 'Mini Gift Bags (Set of 3)',
                 lifestyleImage: '/images/p_images/Gift/Giftbag/GG006/lifestyle.jpg',
                 mrpPrice: '299'
             },
