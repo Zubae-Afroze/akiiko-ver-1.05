@@ -20,6 +20,8 @@
   .footer-link-image img {
     width: 150px;
   }
+  
+  /* ------------------------------MEDIA QUERIES---------------------------- */
   @media (max-width: 768px) {
     .footer-link-image img {
       margin-bottom: -15px;
