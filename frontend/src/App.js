@@ -162,7 +162,7 @@ export default class App extends Component {
               {/* Accessories */}
               <Route path='/gift/accessories' render={(props) => (<ProductList {...props} 
               productListLabel={'Accessories'}
-              productListText={'The manner of giving, is often more important than the gift itself. Present your loved ones, with thoughtful gifts that are adorned with meaningful and charming accessories to carry your message.'}
+              productListText={'The manner of giving, is often more important than the gift itself. Present your loved ones with thoughtful gifts that are adorned with meaningful and charming accessories to carry your message.'}
               productDetails={GiftAccessories}/>)}/>
 
               {/* Gift View All */}
@@ -176,30 +176,30 @@ export default class App extends Component {
               giftbagProductDetails={GiftGiftBag}
               
               accessoriesProductListLabel={'Accessories'}
-              accessoriesProductListText={'The manner of giving, is often more important than the gift itself. Present your loved ones, with thoughtful gifts that are adorned with meaningful and charming accessories to carry your message.'}
+              accessoriesProductListText={'The manner of giving, is often more important than the gift itself. Present your loved ones with thoughtful gifts that are adorned with meaningful and charming accessories to carry your message.'}
               accessoriesProductDetails={GiftAccessories}
               />)}/>
 
               {/* Organiser */}
               <Route path='/storage/organisers' render={(props) => (<ProductList {...props} 
               productListLabel={'Organiser'}
-              productListText={'Decluttering allows for a stress-free, controlled and peaceful mindset. Stock up on our wide range of utilitarian and functional eco organisers to restore order in to your life. '}
+              productListText={'Decluttering allows for a stress-free, controlled and peaceful mindset. Stock up on our wide range of utilitarian and functional eco organisers to restore order into your life. '}
               productDetails={StorageOrganiserProduct}/>)}/>
               
               {/* Home */}
               <Route path='/storage/home' render={(props) => (<ProductList {...props} 
               productListLabel={'Home'}
-              productListText={'A thoughtful range of organisers and storage bags to compliment and increase the functionality of your home. Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy decluttering.'}
+              productListText={'A thoughtful range of organisers and storage bags to complement and increase the functionality of your home. Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy decluttering.'}
               productDetails={StorageHomeProduct}/>)}/>
 
               {/* Storage View All */}
               <Route path='/storage/all_products' render={(props) => (<StorageAllProducts {...props} 
               organisersProductListLabel={'Organiser'}
-              organisersboxProductListText={'Decluttering allows for a stress-free, controlled and peaceful mindset. Stock up on our wide range of utilitarian and functional eco organisers to restore order in to your life. '}
+              organisersboxProductListText={'Decluttering allows for a stress-free, controlled and peaceful mindset. Stock up on our wide range of utilitarian and functional eco organisers to restore order into your life. '}
               organisersProductDetails={StorageOrganiserProduct}
 
               homeProductListLabel={'Home'}
-              homeProductListText={'A thoughtful range of organisers and storage bags to compliment and increase the functionality of your home. Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy decluttering.'}
+              homeProductListText={'A thoughtful range of organisers and storage bags to complement and increase the functionality of your home. Simplistic and warm, the colour tones and minimal design elevate the mood of your personal spaces and allow for easy decluttering.'}
               homeProductDetails={StorageHomeProduct}
               />)}/>
 

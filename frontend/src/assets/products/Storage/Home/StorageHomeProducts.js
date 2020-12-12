@@ -63,7 +63,7 @@ const StorageHomeProducts = [
     },
     {
         productId: 'HS007',
-        productName: 'Broad Storage Bags',
+        productName: 'Broad Storage Bag',
         lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS007/hero.jpg',
         images: 
@@ -82,7 +82,7 @@ const StorageHomeProducts = [
     },
     {
         productId: 'HS008',
-        productName: 'All Purpose Hanging Organisers',
+        productName: 'All Purpose Hanging Organiser',
         lifestyleImage: '/images/p_images/Storage/Home/HS008/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS008/hero.jpg',
         images: 
@@ -93,7 +93,7 @@ const StorageHomeProducts = [
         hoverImage: '/images/hover_images/HS008/1.gif',
         group: 'Storage',
         subGroup: 'Home',
-        description: 'Multi-purposed wall hanging fabric organiser. The neutral toned fabric organiser will easily compliment any colour way, equipped with 5 vertically long pockets of two different sizes, the eco-friendly organiser can be hung anywhere at home. You can use yours to store stationary above a study desk, supplies in the kitchen, keys near the entrance or products in your bathroom.',
+        description: 'Multi-purpose wall hanging fabric organiser. The neutral toned fabric organiser will easily compliment any colour way, equipped with 5 vertically long pockets of two different sizes, the eco-friendly organiser can be hung anywhere at home. You can use yours to store stationary above a study desk, supplies in the kitchen, keys near the entrance or products in your bathroom.',
         mesurement: 'L51.6cm XW40.2cm',
         material: 'cotton canvas',
         color: 'natural',
@@ -103,7 +103,7 @@ const StorageHomeProducts = [
     },
     {
         productId: 'HS010',
-        productName: 'Original Storage Boxes (Pair Of 2)',
+        productName: 'Original Storage Boxes (Set Of 2)',
         lifestyleImage: '/images/p_images/Storage/Home/HS010/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS010/hero.jpg',
         images: 

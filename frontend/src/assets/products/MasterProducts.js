@@ -83,7 +83,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -133,7 +133,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -152,7 +152,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS007',
-                productName: 'Broad Storage Bags',
+                productName: 'Broad Storage Bag',
                 lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
                 mrpPrice: '1099',
             },
@@ -335,7 +335,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -381,7 +381,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -497,7 +497,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -613,7 +613,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -703,7 +703,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Passport Cover (Pack of 2)',
+                productName: 'Passport Holder (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -764,7 +764,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -876,7 +876,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS007',
-                productName: 'Broad Storage Bags',
+                productName: 'Broad Storage Bag',
                 lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
                 mrpPrice: '1099',
             },
@@ -888,7 +888,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Passport Cover (Pack of 2)',
+                productName: 'Passport Holder (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1361,7 +1361,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1464,7 +1464,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS007',
-                productName: 'Broad Storage Bags',
+                productName: 'Broad Storage Bag',
                 lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
                 mrpPrice: '1099',
             },
@@ -1512,7 +1512,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1573,7 +1573,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS012',
-                productName: 'Original Storage pouch',
+                productName: 'Original Storage Pouches (Set of 3)',
                 lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1585,7 +1585,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Passport Cover (Pack of 2)',
+                productName: 'Passport Holder (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1740,7 +1740,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Passport Cover (Pack of 2)',
+                productName: 'Passport Holder (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1770,12 +1770,12 @@ const MasterProducts = [
             '/images/p_images/Gift/Accessories/GW003/3.jpg',],
         group: 'Gift',
         subGroup: 'Accessories',
-        description: 'The message card, along with the vegan fabric holder is perfect for adding a considered & personalised touch to every gift. Both ethical & usable, the eco-friendly message card holder is a step above the regular name tags. The vegan card holder can also be used to store gift cards, special notes & more',
+        description: 'The message cards, along with the vegan fabric holders are perfect for adding a considerate & personalised touch to every gift. Both ethical & usable, the eco-friendly message card holders are a step above the regular name tags. The vegan card holders can also be used to store gift cards, special notes & more',
         thickness: '9 Ounce',
         measurement: 'L9.5cm x W6cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: '"This message card can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This message card holder can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '249',
         similarProducts: [
             {
@@ -1812,7 +1812,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA003',
-        productName: 'Accessory Pouches (Set of 3)',
+        productName: 'Accessory Pouches \u00A0\u00A0 (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA003/hero.jpg', 
         images: 
@@ -1824,9 +1824,9 @@ const MasterProducts = [
             '/images/p_images/Storage/Organisers/TA003/5.jpg',],
         group: 'Storage',
         subGroup: 'Organiser',
-        description: 'Eco-friendly wash bag made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bag is a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones. ',
+        description: 'A set of accessory pouches made from organic cotton. The vegan fabric pouches are available in a set of 3. Secured with a long lasting zip, the handy pouches are essentials for organising miscellaneous items at home, work, your car, in your favourite bag or even your suitcase. The eco-friendly pouches are sturdy and provide easy access to your belongings and can be used to store just about anything.',
         thickness: '9 Ounce',
-        measurement: 'LARGE- L16.5cm x W6cm x H19cm ,MEDIUM- L18cm x W10.5cm x H10.5cm , SMALL-L18.5cm x W6cm x H6cm',
+        measurement: 'Large: L16.5cm x W6cm x H19cm, Medium: L18cm x W10.5cm x H10.5cm, Small: L18.5cm x W6cm x H6cm',
         material: 'Cotton Canvas',
         color: 'natural',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
@@ -1834,7 +1834,7 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'MW004',
-                productName: 'Passport Cover (Pack of 2)',
+                productName: 'Passport Holder (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1859,7 +1859,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS002',
-                productName: 'Versatile Storage Tray (Set of 3)',
+                productName: 'Versatile Storage Tray \u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
                 mrpPrice: '1649',
             },
@@ -1879,9 +1879,9 @@ const MasterProducts = [
             '/images/p_images/Storage/Organisers/TA004/5.jpg',],
         group: 'Storage',
         subGroup: 'Organiser',
-        description: 'Eco-friendly wash bag made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bag is a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones.',
+        description: 'Eco-friendly wash bags made with vegan fabric to ensure a neutral look & easily fit all your essentials. Secure with a zip closure, the smart bags are a handy companion for business trips, short holidays, weekend getaways or even on a daily basis. It also makes for an organic and thoughtful gift for your loved ones.',
         thickness: '9 Ounce',
-        measurement: 'Large: L19cm x W13cm x H8.5 cm, Medium: L19cm x W13cm x H5cm, Small:L19cm x W8.5cm x H6.5cm',
+        measurement: 'Large: L19cm x W13cm x H8.5 cm, Medium: L19cm x W13cm x H5cm, Small: L19cm x W8.5cm x H6.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This travel pouch can be hand washed or machine washed in normal water with a gentle detergent.',
@@ -1896,7 +1896,7 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Passport Cover (Pack of 2)',
+                productName: 'Passport Holder (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
@@ -1908,13 +1908,13 @@ const MasterProducts = [
             },
             {
                 productId: 'HS002',
-                productName: 'Versatile Storage Tray (Set of 3)',
+                productName: 'Versatile Storage Tray \u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Home/HS002/lifestyle.jpg',
                 mrpPrice: '1649',
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
@@ -1922,7 +1922,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS001',
-        productName: 'Classic storage tray',
+        productName: 'Classic Storage Tray',
         lifestyleImage: '/images/p_images/Storage/Home/HS001/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS001/hero.jpg', 
         images: 
@@ -1932,12 +1932,12 @@ const MasterProducts = [
             '/images/p_images/Storage/Home/HS001/3.jpg',],
         group: 'Storage',
         subGroup: 'Home',
-        description: 'Practical storage tray made with natural fabrics. Sturdy & durable, this eco storage tray can be used in office spaces, homes or even the kitchen. Use yours to arrange stationery, office supplies, cutlery, food & more. Equipped with handy fabric handles for ease when carrying or moving',
+        description: 'Practical storage tray made with natural fabrics. Sturdy & durable, this eco storage tray can be used in office spaces, homes or even the kitchen. Use yours to arrange stationery, office supplies, cutlery, food & more. Equipped with handy fabric handles for ease when carrying or moving your personal belongings.',
         thickness: '9 Ounce',
         measurement: 'L37cm x W24.5cm x H10cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Storage tray can be wiped with a wet cloth.',
+        washingCare: 'This storage tray can be wiped with a wet cloth.',
         mrpPrice: '749',
         similarProducts: [
             {
@@ -1962,7 +1962,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS007',
-                productName: 'Broad Storage Bags',
+                productName: 'Broad Storage Bag',
                 lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
                 mrpPrice: '1099',
             },
@@ -1987,9 +1987,9 @@ const MasterProducts = [
             '/images/p_images/Storage/Home/HS002/4.jpg',],
         group: 'Storage',
         subGroup: 'Home',
-        description: 'Practical storage trays made with natural fabrics. Pack of  3, this eco storage tray can be used in office spaces or homes. Use yours to easily arrange & store stationary, office supplies, books & more. The deep & spacious trays are also equipped with handy fabric handles for ease when carrying or moving.',
+        description: 'Practical storage trays made with natural fabrics. Set of 3, these eco storage trays can be used in office spaces or homes. Use yours to easily arrange & store stationery, office supplies, books & more. The deep & spacious trays are also equipped with handy fabric handles for ease when carrying or moving your personal belongings.',
         thickness: '9 Ounce',
-        measurement: 'Large- L41cm x W32cm x H23cm  , Medium- L36cm x W26cm x H16.5cm , Small- L30cm x W20.5cm x H12.5cm',
+        measurement: 'Large: L41cm x W32cm x H23cm, Medium: L36cm x W26cm x H16.5cm , Small: L30cm x W20.5cm x H12.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This storage tray can be hand washed or machine washed in normal water with a gentle detergent.',
@@ -2031,7 +2031,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS003',
-        productName: '3 level Storage shelf',
+        productName: '3 level Storage Shelf',
         lifestyleImage: '/images/p_images/Storage/Home/HS003/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS003/hero.jpg', 
         images: 
@@ -2046,7 +2046,7 @@ const MasterProducts = [
         measurement: 'L29cm x W29.5cm x H20.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Storage shelf bag can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This storage shelf can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '1499',
         price: '1349',
         similarProducts: [
@@ -2077,7 +2077,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HS007',
-                productName: 'Broad Storage Bags',
+                productName: 'Broad Storage Bag',
                 lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
                 mrpPrice: '1099',
             },
@@ -2085,7 +2085,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS007',
-        productName: 'Broad Storage Bags',
+        productName: 'Broad Storage Bag',
         lifestyleImage: '/images/p_images/Storage/Home/HS007/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Home/HS007/hero.jpg', 
         images: 
@@ -2095,7 +2095,7 @@ const MasterProducts = [
             '/images/p_images/Storage/Home/HS007/4.jpg',],
         group: 'Storage',
         subGroup: 'Home',
-        description: 'Ideal to store out of season linen, quilts, pillows & clothes. Made from natural fabrics, this eco-friendly storage bag set is both practical & usable. Equipped with sturdy fabric handles for convenience.',
+        description: 'Ideal to store out of season linen, quilts, pillows & clothes. Made from natural fabrics, this eco-friendly storage bag is both practical & usable. Equipped with sturdy fabric handles for convenience.',
         thickness: '9 Ounce',
         measurement: 'L30cm  x W20cm xH29cm',
         material: 'Cotton Canvas',
@@ -2105,14 +2105,14 @@ const MasterProducts = [
         similarProducts: [
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
             },
             {
                 productId: 'TA003',
-                productName: 'Accessory Pouches (Set of 3)',
+                productName: 'Accessory Pouches \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 (Set of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
                 mrpPrice: '1249'
             },
@@ -2150,12 +2150,12 @@ const MasterProducts = [
             '/images/p_images/Storage/Home/HS008/3.jpg',],
         group: 'Storage',
         subGroup: 'Home',
-        description: 'Multi-purposed wall hanging fabric organiser. The neutral toned fabric organiser will easily compliment any colour way, equipped with 5 vertically long pockets of two different sizes, the eco-friendly organiser can be hung anywhere at home. You can use yours to store stationary above a study desk, supplies in the kitchen, keys near the entrance or products in your bathroom.',
+        description: 'Multi-purpose wall hanging fabric organiser. The neutral toned fabric organiser will easily compliment any colour way, equipped with 5 vertically long pockets of two different sizes, the eco-friendly organiser can be hung anywhere at home. You can use yours to store stationery above a study desk, supplies in the kitchen, keys near the entrance or products in your bathroom.',
         thickness: '9 Ounce',
-        measurement: 'L51.5cm XW40cm',
+        measurement: 'L51.5cm x W40cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Hanging organiser can be hand washed or machine washed in normal water with a gentle detergent',
+        washingCare: 'This hanging organiser can be hand washed or machine washed in normal water with a gentle detergent',
         mrpPrice: '849',
         similarProducts: [
             {
@@ -2166,7 +2166,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HK008',
-                productName: 'Original Cutlery Case (Pack Of 6)',
+                productName: 'Original Cutlery Case \u00A0\u00A0 (Pack Of 6)',
                 lifestyleImage: '/images/p_images/Home/Kitchen/HK008/lifestyle.jpg',
                 mrpPrice: '649',
             },
@@ -2204,17 +2204,17 @@ const MasterProducts = [
             '/images/p_images/Storage/Home/HS010/3.jpg',],
         group: 'Storage',
         subGroup: 'Home',
-        description: 'Practical storage boxes made with natural fabrics. A Pairt of 2, these sturdy organic fabric storage box can be used in office spaces or homes. Use yours to easily arrange & store stationary, office supplies, chargers & more. The deep & spacious boxes are also equipped with handy natural fibre handles for ease when carrying or moving.',
+        description: 'Practical storage boxes made with natural fabrics. A set of 2, these sturdy organic fabric storage boxes can be used in office spaces or homes. Use yours to easily arrange & store stationery, office supplies, chargers & more. The deep & spacious boxes are also equipped with handy natural fibre handles for ease when carrying or moving your personal belongings.',
         thickness: '9 Ounce',
         measurement: 'L18cm x W18cm x H18cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This square Storage box can be wiped with a wet cloth.',
+        washingCare: 'This square storage box can be wiped with a wet cloth.',
         mrpPrice: '1049',
         similarProducts: [
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
@@ -2248,7 +2248,7 @@ const MasterProducts = [
     },
     {
         productId: 'HS012',
-        productName: 'Original Storage pouch',
+        productName: 'Original Storage Pouches (Set of 3)',
         lifestyleImage: '/images/p_images/Accessories/OnTheGo/HS012/lifestyle.jpg',
         heroImage: '/images/p_images/Accessories/OnTheGo/HS012/hero.jpg', 
         images: 
@@ -2258,9 +2258,9 @@ const MasterProducts = [
             '/images/p_images/Accessories/OnTheGo/HS012/3.jpg',],
         group: 'Accessories',
         subGroup: 'On The Go',
-        description: 'Storage zip pouches made with organic fabric. Provided in a pack of 3 these eco bags are equipped with zips. Designed for multi-functionality, find usability in these bags wherever you are. Efficiently store medicines, jewellery, cosmetics, money, stationary, keys & more.',
+        description: 'Storage zip pouches made with organic fabric. Provided in a set of 3, these eco bags are equipped with zips. Designed for multi-functionality, find usability in these bags wherever you are. Efficiently store medicines, jewellery, cosmetics, money, stationery, keys & more.',
         thickness: '9 Ounce',
-        measurement: 'Large-L16cm x W23cm , Medium- L13.5cm x W20.8cm , Small- L11cm x w15.5cm',
+        measurement: 'Large: L16cm x W23cm , Medium: L13.5cm x W20.8cm , Small: L11cm x w15.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
         washingCare: 'This pouch can be hand washed or machine washed in normal water with a gentle detergent.',
@@ -2287,7 +2287,7 @@ const MasterProducts = [
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
@@ -2302,7 +2302,7 @@ const MasterProducts = [
     },
     {
         productId: 'TA001',
-        productName: 'Travel Organisers (Set of 3)',
+        productName: 'Travel Organisers \u00A0\u00A0\u00A0\u00A0\u00A0 (Set of 3)',
         lifestyleImage: '/images/p_images/Accessories/OnTheGo/TA001/lifestyle.jpg',
         heroImage: '/images/p_images/Accessories/OnTheGo/TA001/hero.jpg', 
         images: 
@@ -2312,12 +2312,12 @@ const MasterProducts = [
             '/images/p_images/Accessories/OnTheGo/TA001/3.jpg',],
         group: 'Accessories',
         subGroup: 'On The Go',
-        description: 'Multi-sized eco-friendly storage bags made for easy organisation and practicality when travelling. Use your pack of 3 to store clothes, shoes & more. These organic fabric storage bags are also great for storing out-of-season clothes at home.',
+        description: 'Multi-sized eco-friendly storage bags made for easy organisation and practicality when travelling. Use your set of 3 to store clothes, shoes & more. These organic fabric storage bags are also great for storing out-of-season clothes at home.',
         thickness: '9 Ounce',
-        measurement: 'S- L23cm x W18cm xH8cm , M- L31cm xW23cm x H8.3cm , L- L38.5 cm xW28cm x H9cm',
+        measurement: 'Small: L23cm x W18cm x H8cm, Medium: L31cm x W23cm x H8.3cm, Large: L38.5 cm x W28cm x H9cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This travel organisers can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'These travel organisers can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '2249',
         price: '1999',
         similarProducts: [
@@ -2329,13 +2329,13 @@ const MasterProducts = [
             },
             {
                 productId: 'MW004',
-                productName: 'Passport Cover (Pack of 2)',
+                productName: 'Passport Holder (Pack of 2)',
                 lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
                 mrpPrice: '399'
             },
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },
@@ -2366,22 +2366,22 @@ const MasterProducts = [
             '/images/p_images/Accessories/Wallet/MW001/3.jpg',],
         group: 'Accessories',
         subGroup: 'Wallet',
-        description: 'The Men’s wallet is clean, functional and easy on the eyes. The eco-friendly bill-fold wallet, is made from 100% natural fibres and accommodates all your essentials with ease. The sleek, durable & clean design along with universal colour scheme makes it a perfect neutral for every man. The wallet contains 9 card slots, 2 deep currency pockets and an id window slot also. ',
+        description: 'The men’s wallet is clean, functional and easy on the eyes. The eco-friendly bi-fold wallet, is made from 100% natural fibres and accommodates all your essentials with ease. The sleek, durable & clean design along with universal colour scheme makes it a perfectly neutral accessory for every man. The wallet contains 9 card slots, 2 deep currency pockets and an ID window slot also.',
         thickness: '9 Ounce',
         measurement: 'L23.5cm x W1.5cm x H9.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Bi fold wallet can be hand wash',
+        washingCare: 'This wallet can be hand washed.',
         mrpPrice: '449',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
             lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
             heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg', 
-            description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
+            description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly card holder both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             mrpPrice: '79',
             combinedPrice: '590',
-            washingCare: 'This card holder can be hand wash'
+            washingCare: 'This card holder can be hand washed.'
         },
         similarProducts: [
             {
@@ -2404,7 +2404,7 @@ const MasterProducts = [
             },
             {
                 productId: 'TA004',
-                productName: 'Multi-purpose Pouches (Set Of 3)',
+                productName: 'Multi-purpose Pouches \u00A0\u00A0\u00A0 (Set Of 3)',
                 lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
                 mrpPrice: '999',
                 price: '899'
@@ -2429,22 +2429,22 @@ const MasterProducts = [
             '/images/p_images/Accessories/Wallet/MW002/3.jpg',],
         group: 'Accessories',
         subGroup: 'Wallet',
-        description: 'The Men’s wallet is functional yet minimal. The vegan men’s wallet, is made from 100% natural Cotton Canvas fabric. It has 6 card slots with 2 deep currency pockets, making the eco-friendly wallet soft, slim & durable. The wallet is both practical and ethical. The neutral tones and sleek design, makes the organic wallet a thoughtful gift as well. ',
+        description: 'The men’s wallet is functional yet minimal. The vegan men’s wallet is made from 100% natural cotton canvas fabric. It has 6 card slots with 2 deep currency pockets making the eco-friendly wallet soft, slim & durable. The wallet is both practical and ethical. The neutral tones and sleek design make the organic wallet a thoughtful gift as well.',
         thickness: '9 Ounce',
         measurement: 'L23.5cm x W1cm x H9.5cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Bi fold wallet can be hand wash',
+        washingCare: 'This wallet can be hand washed.',
         mrpPrice: '349',
         addOn: {
             productId: 'MW003',
             productName: 'Classic Card Holder',
             lifestyleImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg',
             heroImage: '/images/p_images/Accessories/Wallet/MW003/hero.jpg', 
-            description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly wallet both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
+            description: 'A natural and user friendly card holder with 3 card slots on either side, making the eco-friendly card holder both practical and ethical, made from 100% natural fabric. Easy to carry around, the card holder is a must-have in an increasingly digitised world.',
             mrpPrice: '79',
             combinedPrice: '590',
-            washingCare: 'This card holder can be hand wash'
+            washingCare: 'This card holder can be hand washed.'
         },
         similarProducts: [
             {
@@ -2501,7 +2501,7 @@ const MasterProducts = [
     },
     {
         productId: 'MW004',
-        productName: 'Passport Cover (Pack of 2)',
+        productName: 'Passport Holder \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 (Pack of 2)',
         lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
         heroImage: '/images/p_images/Accessories/Wallet/MW004/hero.jpg', 
         images: 
@@ -2510,17 +2510,17 @@ const MasterProducts = [
             '/images/p_images/Accessories/Wallet/MW004/2.jpg',],
         group: 'Accessories',
         subGroup: 'Wallet',
-        description: 'A perfect neutral and eco-friendly companion on your next adventure. The vegan canvas, passport holder is designed to protect with 3 spacious slots. One set to hold the passport and the other to effectively store other business documents, from residency cards to boarding passes (Pair of 2)',
+        description: 'A perfectly neutral and eco-friendly companion on your next adventure. The vegan canvas passport holders are designed to protect with 3 spacious slots. One set to hold the passport and the other to effectively store other business documents, from residency cards to boarding passes.',
         thickness: '9 Ounce',
         measurement: 'L22.5cm x W0.5cm x H14cm',
         material: 'Cotton Canvas',
         color: 'Raw White',
-        washingCare: 'This Passport can be hand washed or machine washed in normal water with a gentle detergent.',
+        washingCare: 'This passport holder can be hand washed or machine washed in normal water with a gentle detergent.',
         mrpPrice: '399',
         similarProducts: [
             {
                 productId: 'GW003',
-                productName: 'Message Card Holder (Pack Of 5)',
+                productName: 'Message Card Holder \u00A0\u00A0\u00A0 (Pack Of 5)',
                 lifestyleImage: '/images/p_images/Gift/Accessories/GW003/lifestyle.jpg',
                 mrpPrice: '249',
             },

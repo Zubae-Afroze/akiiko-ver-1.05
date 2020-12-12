@@ -1,7 +1,7 @@
 const StorageOrganiserProducts = [
     {
         productId: 'TA003',
-        productName: 'Accessory Pouches (Pack of 3)',
+        productName: 'Accessory Pouches (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA003/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA003/hero.jpg',
         images: 
@@ -23,7 +23,7 @@ const StorageOrganiserProducts = [
     },
     {
         productId: 'TA004',
-        productName: 'Multi-purpose Pouches (Pack of 3)',
+        productName: 'Multi-purpose Pouches (Set of 3)',
         lifestyleImage: '/images/p_images/Storage/Organisers/TA004/lifestyle.jpg',
         heroImage: '/images/p_images/Storage/Organisers/TA004/hero.jpg',
         images: 

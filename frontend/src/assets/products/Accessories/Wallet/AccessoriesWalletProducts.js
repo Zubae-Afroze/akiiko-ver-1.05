@@ -77,7 +77,7 @@ const AccessoriesWalletProducts = [
     // },
     {
         productId: 'MW004',
-        productName: 'Passport Cover',
+        productName: 'Passport Holder (Pack of 2)',
         lifestyleImage: '/images/p_images/Accessories/Wallet/MW004/lifestyle.jpg',
         heroImage:'/images/p_images/Accessories/Wallet/MW004/hero.jpg',
         images: 
