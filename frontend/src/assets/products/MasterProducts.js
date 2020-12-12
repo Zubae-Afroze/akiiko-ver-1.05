@@ -1249,7 +1249,7 @@ const MasterProducts = [
             },
             {
                 productId: 'HT002',
-                productName: 'BREAD BASKET (Set Of 3)',
+                productName: 'Bread Basket (Set Of 3)',
                 lifestyleImage: '/images/p_images/Home/Tableware/HT002/lifestyle.jpg',
                 mrpPrice: '649'
             },
