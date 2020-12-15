@@ -7,7 +7,7 @@ export default class Footer extends Component {
     render() {
         //  const goTo = () => {
         //      window.scrollTo( { top: 1000});
-        //  }
+        //  } 
         return (
             <>
             <div className='footer-brand-wrapper'> 
