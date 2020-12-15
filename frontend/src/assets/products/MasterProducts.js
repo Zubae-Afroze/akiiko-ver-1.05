@@ -1770,7 +1770,7 @@ const MasterProducts = [
             '/images/p_images/Gift/Accessories/GW003/3.jpg',],
         group: 'Gift',
         subGroup: 'Accessories',
-        description: 'The message cards, along with the vegan fabric holders are perfect for adding a considerate & personalised touch to every gift. Both ethical & usable, the eco-friendly message card holders are a step above the regular name tags. The vegan card holders can also be used to store gift cards, special notes & more',
+        description: 'The message cards, along with the vegan fabric holders are perfect for adding a considerate & personalizeds touch to every gift. Both ethical & usable, the eco-friendly message card holders are a step above the regular name tags. The vegan card holders can also be used to store gift cards, special notes & more.',
         thickness: '9 Ounce',
         measurement: 'L9.5cm x W6cm',
         material: 'Cotton Canvas',
